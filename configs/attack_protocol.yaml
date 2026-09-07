@@ -1,0 +1,15 @@
+{
+  "seed":9417,
+  "alpha":[0.0,0.05,0.1,0.2],
+  "strength":0.2,
+  "random_noise_sigma":0.15,
+  "raw_strata_per_role_segment":10,
+  "fraction_rounding":"floor(alpha * stratum_length); log actual mask counts and retain zero fraction at alpha=0",
+  "burst":"user-approved contiguous short burst within each raw stratum",
+  "bias_sign":"same seeded sign across update and verification in each center-stage",
+  "replay_source":"time-order-aligned warmup telemetry ending before the lifecycle; source timestamps recorded in mask digest",
+  "locations":["update_only","verification_only","both"],
+  "main_condition":{"type":"mixed","alpha":0.1,"location":"both"},
+  "mixed_assignment":"independent seeded permutation of the four types in every four-stage cycle per center",
+  "service":"immutable original legitimate observations and targets; never attacked"
+}

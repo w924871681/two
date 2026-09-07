@@ -1,0 +1,11 @@
+{
+  "status":"pending_implementation_audit",
+  "heldout_may_start":false,
+  "remaining":[
+    "Complete development and calibration and verify all selected configuration hashes",
+    "Independently audit calibration candidate-cache equivalence and policy-dependent trajectories",
+    "Verify baseline fidelity and complete matrix-level output coverage",
+    "Complete nonlinear metric confidence intervals, clean-to-attack deltas and recovery reporting",
+    "Complete final-code freeze audit before any heldout evaluation"
+  ]
+}

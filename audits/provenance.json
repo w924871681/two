@@ -1,0 +1,19 @@
+{
+  "source_repository": "https://github.com/w924871681/paper-code-DT-Twin",
+  "release": "v1.2.7",
+  "commit": "b679181b3133ab9c3058afcde421d36380001f14",
+  "files": {
+    "core/data/sim.py": {
+      "destination": "vendor\\sim.py",
+      "sha256": "930fa8ebe34a442d53af16a054955580f2d0c41ef2514a3cfd125b0e6905883d"
+    },
+    "configs/main_cfg.py": {
+      "destination": "vendor\\main_cfg.py",
+      "sha256": "fea128a2649301017a2a8ad6cab3db30392e180c2f3aa1216e9a83fefcd5d005"
+    },
+    "LICENSE": {
+      "destination": "vendor\\LICENSE",
+      "sha256": "a244d1878fecba7d8b4b63c13ca695762b6b407f91f6f6bfb18435850d2adb47"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "python": "C:\\Users\\92487\\anaconda3\\envs\\rcf-dti-py311\\python.exe",
+  "python_version": "3.11.15",
+  "torch": "2.5.1+cu121",
+  "cuda": true,
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "platform": "Windows-10-10.0.26200-SP0"
+}

@@ -1,0 +1,25 @@
+{
+  "confirmed_by_user": "2026-09-07",
+  "burst_definition_confirmed_by_user": "Per-block short contiguous bursts under strict blockwise fraction caps; not one global contiguous burst. Ten fixed raw-observation strata per role segment give paired masks across candidate B choices.",
+  "block_definition": "Generate windows independently within each raw role segment, then partition by prediction timestamps. Input contexts may overlap across blocks; prediction timestamps do not. No window crosses raw role segment boundaries.",
+  "H4_block_definition": "Partition forecast origins; exclude boundary windows if multi-step targets overlap the next block.",
+  "history": "Store block raw context and target span, capacity counts blocks. Report actual bytes including repeated context.",
+  "source_pretraining_segment": [
+    0,
+    1000
+  ],
+  "source_epochs": 50,
+  "source_batch_size": 64,
+  "source_optimizer": "Adam",
+  "source_lr": 0.001,
+  "development_objective": "mean lifecycle MSE across clean and mixed attacks, centers and seeds; tie break smaller B then beta",
+  "calibration_constraints": "stage-unconditional harmful_commit rate <= 0.05 and mean downside <= epsilon, both conditions separately",
+  "threshold_scale_multipliers": [
+    0,
+    0.001,
+    0.005,
+    0.01,
+    0.05
+  ],
+  "epsilon_multiplier": 0.01
+}
