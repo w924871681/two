@@ -1,0 +1,19 @@
+{
+  "candidate_l1_hits": 0,
+  "candidate_l2_hits": 851,
+  "candidate_trainings": 0,
+  "candidate_l2_writes": 0,
+  "evidence_l1_hits": 0,
+  "evidence_l2_hits": 1702,
+  "evidence_computations": 0,
+  "evidence_l2_writes": 0,
+  "verification_forward_calls_physical": 0,
+  "service_forward_calls_physical": 3404,
+  "wall_s": 16.294225400000073,
+  "cpu_time_s": 15.4375,
+  "policy_trajectories": 400,
+  "trajectories_per_hour": 88374.86684086213,
+  "unique_complete_causal_states": 851,
+  "disk_read_bytes": 0,
+  "disk_write_bytes": 0
+}

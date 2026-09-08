@@ -1,10 +1,10 @@
 # 实验执行报告（进行中，非最终科学结论）
 
-更新时间：2026-09-08T20:13:00（本机时间）。
+更新时间：2026-09-08T22:35:00（本机时间）。
 
 ## 当前状态
 
-已开展实际实验。P0–P5 已完成：开发池的 1,560 条完整生命周期全部完成，候选配置冻结为 `B=5, beta=0.1`，基线配置也已冻结。P6 首次单进程校准运行到 23,039/48,600 条轨迹后，在可恢复边界主动停止并封存；加速实现已通过等价性与并发碰撞审计，双进程正式 P6 已从空结果目录重新启动。完整 Q1–Q6 结果尚未产生。
+已开展实际实验。P0–P5 已完成并冻结。旧单进程 P6 的 23,039 条轨迹和后续双进程 P6 的 795 条完整轨迹均已分别封存；当前正式 P6 已停止，`results/calibration/` 为空，未进入 heldout。Joint-policy DAG 的诊断、实现、严格缓存迁移、全生命周期科学等价性和 benchmark 已完成，正式 runner 尚未切换，等待人工确认。
 
 - 独立项目：`D:/dt-trustworthy-maintenance`
 - 实现提交：`6b685453b1c36b4dfa5ca91ecee71c4cd971f909`
@@ -12,7 +12,7 @@
 - Python：`C:\Users\92487\anaconda3\envs\rcf-dti-py311\python.exe`
 - PyTorch：`2.5.1+cu121`
 - GPU：`NVIDIA GeForce RTX 3060 Laptop GPU`
-- 当前正式队列 PID：`6848`；两个校准工作进程 PID：`33536`、`20868`
+- 正式队列：已停止；原 PID `6848`、worker PID `33536/20868` 均不再运行
 - 执行日志：`logs/full_console.log`；错误日志：`logs/full_stderr.log`
 - 机器可读进度：`logs/execution_status.json`（每条生命周期完成后更新）
 
@@ -31,6 +31,8 @@
 旧的部分校准结果、候选缓存和日志完整保存在 `archive/pre_acceleration_20260908_194751/`，不参与新一轮结果汇总。加速只改变物理执行：校准证据按父模型、候选模型、预测窗口和 horizon 的完整哈希复用；两个独立进程处理互斥的策略区间；每条生命周期内部仍保持 24 stages 串行。候选权重、证据缓存和攻击掩码均使用进程独立临时文件后原子替换，避免并发半写文件。
 
 `audits/acceleration_equivalence.json` 对旧归档、无缓存、冷缓存和热缓存执行进行了比较。两个 24-stage 代表性轨迹的 45 个科学字段全部一致；旧 CSV 仅有不超过 `1e-14` 的十进制回读尾差，缓存与无缓存的内存结果逐位一致。`audits/cache_concurrency.json` 进一步验证两个进程同时发布同一缓存键时输出相同。代表性热缓存速度为原无缓存的约 2.67–11.71 倍。正式总耗时仍以重新启动后的实测吞吐动态估计。
+
+后续 joint-policy DAG 审计覆盖 5 policies、20 policies、all 400 policies、abrupt/recurring 与 clean/mixed，10,680 行结果的 50 个科学字段全部逐位一致，最大浮点差为 0。首次 all-400 workload 从 622.73 秒降至 133.17 秒；完整报告见 `JOINT_DAG_ACCELERATION_REPORT.md`。按用户要求，报告完成后没有自行启动完整 P6。
 
 ## 用户确认的协议解释
 

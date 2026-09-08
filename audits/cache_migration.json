@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "archives_scanned": [
+    "D:\\dt-trustworthy-maintenance\\archive\\pre_acceleration_20260908_194751",
+    "D:\\dt-trustworthy-maintenance\\archive\\pre_joint_dag_20260908_210552"
+  ],
+  "result_files_scanned": 23834,
+  "valid_provenance_rows": 572016,
+  "scanned": {
+    "candidate_artifacts": 65323,
+    "evidence_artifacts": 19262,
+    "total": 84585
+  },
+  "accepted": {
+    "candidate_artifacts": 57397,
+    "evidence_artifacts": 19262,
+    "total": 76659
+  },
+  "rejected": {
+    "total": 7926,
+    "reasons": {
+      "duplicate_candidate_artifact": 7926
+    }
+  },
+  "reused_bytes": 1494218797,
+  "avoided_candidate_computations": 57397,
+  "avoided_verification_evidence_computations": 19262,
+  "validation": [
+    "reference row provenance",
+    "recomputed immutable data hash",
+    "recomputed attack identity and mask hash",
+    "parent/config/seed/stage/horizon key",
+    "candidate state hash",
+    "cache schema and science source hashes"
+  ],
+  "p0_p5_touched": false,
+  "source_artifacts_modified": false
+}

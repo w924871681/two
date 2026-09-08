@@ -1,0 +1,229 @@
+{
+  "status": "complete",
+  "scientific_code_modified": false,
+  "archives": {
+    "old_trajectories": 23039,
+    "dual_trajectories": 795
+  },
+  "dual_executor_timing": {
+    "median_candidate_s_per_trajectory": 4.091669099987484,
+    "median_verification_s_per_trajectory": 2.4974482999823513,
+    "median_maintenance_s_per_trajectory": 6.679354300023987,
+    "median_python_inside_maintenance_s": 0.09023690005415208,
+    "candidate_percent_of_maintenance": 61.258452781473046,
+    "verification_percent_of_maintenance": 37.39056483309146,
+    "other_percent_of_maintenance": 1.3509823854354908,
+    "observed_file_interval_s": 2686.371936559677,
+    "complete_trajectory_files": 795
+  },
+  "candidate_cache_structure": {
+    "stage_requests": 19080,
+    "unique_keys": 9622,
+    "theoretical_hit_rate": 0.4957023060796646,
+    "keys_requested_by_both_workers": 840,
+    "worker0_unique_keys": 5149,
+    "worker1_unique_keys": 5313,
+    "cross_worker_overlap_fraction": 0.16313847348999805
+  },
+  "representative_workload": {
+    "center": 12002,
+    "drift_regime": "abrupt",
+    "condition": "clean",
+    "seed": 7311,
+    "complete_policies_observed": 192,
+    "stage_state_counts": [
+      {
+        "stage": 1,
+        "observed_policies": 192,
+        "unique_parent_states": 1,
+        "unique_deployed_states": 2,
+        "unique_candidate_computations": 1,
+        "unique_verification_evidence_states": 1
+      },
+      {
+        "stage": 2,
+        "observed_policies": 192,
+        "unique_parent_states": 2,
+        "unique_deployed_states": 2,
+        "unique_candidate_computations": 2,
+        "unique_verification_evidence_states": 2
+      },
+      {
+        "stage": 3,
+        "observed_policies": 192,
+        "unique_parent_states": 2,
+        "unique_deployed_states": 3,
+        "unique_candidate_computations": 2,
+        "unique_verification_evidence_states": 2
+      },
+      {
+        "stage": 4,
+        "observed_policies": 192,
+        "unique_parent_states": 3,
+        "unique_deployed_states": 3,
+        "unique_candidate_computations": 3,
+        "unique_verification_evidence_states": 3
+      },
+      {
+        "stage": 5,
+        "observed_policies": 192,
+        "unique_parent_states": 3,
+        "unique_deployed_states": 6,
+        "unique_candidate_computations": 3,
+        "unique_verification_evidence_states": 3
+      },
+      {
+        "stage": 6,
+        "observed_policies": 192,
+        "unique_parent_states": 6,
+        "unique_deployed_states": 6,
+        "unique_candidate_computations": 6,
+        "unique_verification_evidence_states": 6
+      },
+      {
+        "stage": 7,
+        "observed_policies": 192,
+        "unique_parent_states": 6,
+        "unique_deployed_states": 6,
+        "unique_candidate_computations": 6,
+        "unique_verification_evidence_states": 6
+      },
+      {
+        "stage": 8,
+        "observed_policies": 192,
+        "unique_parent_states": 6,
+        "unique_deployed_states": 6,
+        "unique_candidate_computations": 6,
+        "unique_verification_evidence_states": 6
+      },
+      {
+        "stage": 9,
+        "observed_policies": 192,
+        "unique_parent_states": 6,
+        "unique_deployed_states": 6,
+        "unique_candidate_computations": 6,
+        "unique_verification_evidence_states": 6
+      },
+      {
+        "stage": 10,
+        "observed_policies": 192,
+        "unique_parent_states": 6,
+        "unique_deployed_states": 6,
+        "unique_candidate_computations": 6,
+        "unique_verification_evidence_states": 6
+      },
+      {
+        "stage": 11,
+        "observed_policies": 192,
+        "unique_parent_states": 6,
+        "unique_deployed_states": 12,
+        "unique_candidate_computations": 6,
+        "unique_verification_evidence_states": 6
+      },
+      {
+        "stage": 12,
+        "observed_policies": 192,
+        "unique_parent_states": 12,
+        "unique_deployed_states": 17,
+        "unique_candidate_computations": 12,
+        "unique_verification_evidence_states": 12
+      },
+      {
+        "stage": 13,
+        "observed_policies": 192,
+        "unique_parent_states": 17,
+        "unique_deployed_states": 24,
+        "unique_candidate_computations": 17,
+        "unique_verification_evidence_states": 17
+      },
+      {
+        "stage": 14,
+        "observed_policies": 192,
+        "unique_parent_states": 24,
+        "unique_deployed_states": 30,
+        "unique_candidate_computations": 24,
+        "unique_verification_evidence_states": 24
+      },
+      {
+        "stage": 15,
+        "observed_policies": 192,
+        "unique_parent_states": 30,
+        "unique_deployed_states": 40,
+        "unique_candidate_computations": 30,
+        "unique_verification_evidence_states": 30
+      },
+      {
+        "stage": 16,
+        "observed_policies": 192,
+        "unique_parent_states": 40,
+        "unique_deployed_states": 40,
+        "unique_candidate_computations": 40,
+        "unique_verification_evidence_states": 40
+      },
+      {
+        "stage": 17,
+        "observed_policies": 192,
+        "unique_parent_states": 40,
+        "unique_deployed_states": 44,
+        "unique_candidate_computations": 40,
+        "unique_verification_evidence_states": 40
+      },
+      {
+        "stage": 18,
+        "observed_policies": 192,
+        "unique_parent_states": 44,
+        "unique_deployed_states": 47,
+        "unique_candidate_computations": 44,
+        "unique_verification_evidence_states": 44
+      },
+      {
+        "stage": 19,
+        "observed_policies": 192,
+        "unique_parent_states": 47,
+        "unique_deployed_states": 48,
+        "unique_candidate_computations": 47,
+        "unique_verification_evidence_states": 47
+      },
+      {
+        "stage": 20,
+        "observed_policies": 192,
+        "unique_parent_states": 48,
+        "unique_deployed_states": 51,
+        "unique_candidate_computations": 48,
+        "unique_verification_evidence_states": 48
+      },
+      {
+        "stage": 21,
+        "observed_policies": 192,
+        "unique_parent_states": 51,
+        "unique_deployed_states": 51,
+        "unique_candidate_computations": 51,
+        "unique_verification_evidence_states": 51
+      },
+      {
+        "stage": 22,
+        "observed_policies": 192,
+        "unique_parent_states": 51,
+        "unique_deployed_states": 52,
+        "unique_candidate_computations": 51,
+        "unique_verification_evidence_states": 51
+      },
+      {
+        "stage": 23,
+        "observed_policies": 192,
+        "unique_parent_states": 52,
+        "unique_deployed_states": 52,
+        "unique_candidate_computations": 52,
+        "unique_verification_evidence_states": 52
+      },
+      {
+        "stage": 24,
+        "observed_policies": 192,
+        "unique_parent_states": 52,
+        "unique_deployed_states": 52,
+        "unique_candidate_computations": 52,
+        "unique_verification_evidence_states": 52
+      }
+    ]
+  }
+}

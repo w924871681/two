@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "validation_basis": "audits/cache_migration.json",
+  "hard_links_created": {
+    "calibration_candidates": 57373,
+    "calibration_evidence": 19214
+  },
+  "already_present_or_duplicate": {
+    "calibration_candidates": 7950,
+    "calibration_evidence": 48
+  },
+  "source_modified": false
+}

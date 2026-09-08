@@ -1,0 +1,21 @@
+{
+  "source": "first all400_recurring_mixed equivalence execution before persistent DAG cache was complete",
+  "center": 12003,
+  "condition": "mixed",
+  "seed": 7311,
+  "policies": 400,
+  "stages": 24,
+  "reference_wall_s": 622.7339636999823,
+  "dag_wall_s": 133.1681341000076,
+  "reference_trajectories_per_hour": 2312.3839134198183,
+  "dag_trajectories_per_hour": 10813.397737619258,
+  "unique_complete_causal_states": 851,
+  "candidate_l2_hits": 728,
+  "candidate_trainings": 123,
+  "evidence_l2_hits": 196,
+  "evidence_computations": 1506,
+  "verification_forward_calls_physical": 45144,
+  "service_forward_calls_physical": 3404,
+  "scientific_equivalence": "bitwise_equal",
+  "max_abs_diff": 0.0
+}

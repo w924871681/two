@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "checks": {
+    "protocol_tests": 14,
+    "frozen_candidate_config.yaml": "hash_verified",
+    "frozen_baseline_config.yaml": "hash_verified",
+    "calibration_protocol.yaml": "hash_verified",
+    "p0_p5_development_trajectories_preserved": 1560,
+    "formal_p6_rows_after_archive": 0,
+    "heldout_accessed": false,
+    "joint_dag_equivalence_cases": [
+      "five_abrupt_clean",
+      "twenty_abrupt_mixed",
+      "twenty_recurring_clean",
+      "all400_recurring_mixed"
+    ],
+    "cache_migration": "strict_pass",
+    "cache_keys_exclude_service_data": true,
+    "causal_fingerprint_includes_historical_buffer": true,
+    "formal_runner_not_switched": true,
+    "full_p6_started": false,
+    "p0_p5_recomputed": false
+  },
+  "scope": "staged executor only; no formal P6 or heldout run"
+}
