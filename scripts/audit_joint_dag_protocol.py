@@ -23,7 +23,7 @@ def main():
     metas=list((ROOT/'checkpoints/joint_dag_candidates').glob('*.json'));assert metas
     payload=json.loads(metas[0].read_text())['key_payload'];assert payload['science_version']==SCIENCE_VERSION and 'service_data_hash' not in payload
     evidence=list((ROOT/'checkpoints/joint_dag_evidence').glob('*.npz'));assert evidence
-    source=(ROOT/'scripts/run_all_final.py').read_text();formal=(ROOT/'scripts/run_calibration_joint_dag_parallel.py').read_text()
+    source=(ROOT/'scripts/run_all_final.py').read_text(encoding='utf-8');formal=(ROOT/'scripts/run_calibration_joint_dag_parallel.py').read_text(encoding='utf-8')
     assert 'run_calibration_joint_dag_parallel' in source and "calibration('synthetic',2)" in source
     assert "'--output-name','calibration','--formal'" in formal
     checks.update({'cache_keys_exclude_service_data':True,'causal_fingerprint_includes_historical_buffer':True,
