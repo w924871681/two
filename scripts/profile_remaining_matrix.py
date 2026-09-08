@@ -5,6 +5,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 import datetime,json,statistics,subprocess
 import pandas as pd
 from core.protocol import ROOT,save_json
+from scripts.pretrain import pretrain
 
 def development_timings():
     values={}
@@ -16,6 +17,10 @@ def development_timings():
 def main():
     assert json.loads((ROOT/'audits/heldout_readiness.json').read_text())['status']=='approved_by_implementation_audit'
     assert not (ROOT/'results/heldout').exists(),'remaining-matrix profile must precede heldout access'
+    # The Alibaba equivalence gate needs the preregistered source-only models.
+    # Training them here uses only machines 20000--20019 and occurs before any
+    # Alibaba calibration or heldout/direct-transfer state is opened.
+    for seed in [7311,7312,7313]:pretrain(seed,domain='alibaba')
     subprocess.run([sys.executable,str(ROOT/'scripts/audit_alibaba_joint_dag_equivalence.py')],cwd=ROOT,check=True)
     dev=development_timings();p6=json.loads((ROOT/'logs/execution_status.json').read_text());bench=json.loads((ROOT/'audits/joint_dag_benchmark.json').read_text())
     ali=json.loads((ROOT/'audits/alibaba_joint_dag_equivalence.json').read_text());counts={
