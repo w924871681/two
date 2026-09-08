@@ -37,13 +37,13 @@ def aggregate_and_freeze(domain='synthetic'):
     return status,config_hash
 
 def main(domain='synthetic',workers=2):
-    assert domain=='synthetic';assert int(workers)==2,'formal P6 is approved for exactly two workload workers'
+    assert domain in ['synthetic','alibaba'];assert int(workers)==2,'formal calibration is approved for exactly two workload workers'
     _,_,prefix,centers,jobs=calibration_definition(domain);out=ROOT/'results'/f'{prefix}calibration';out.mkdir(parents=True,exist_ok=True)
     assert not list(out.iterdir()),'formal calibration directory must be empty at initial launch'
-    assert not (ROOT/'results/heldout').exists(),'heldout must not exist before P6/P7 audits'
+    if domain=='synthetic':assert not (ROOT/'results/heldout').exists(),'heldout must not exist before P6/P7 audits'
     processes=[];started=time.time()
     for i in range(workers):
-        cmd=[sys.executable,str(ROOT/'scripts/run_calibration_joint_dag.py'),'--domain',domain,'--worker-index',str(i),'--num-workers',str(workers),'--output-name','calibration','--formal']
+        cmd=[sys.executable,str(ROOT/'scripts/run_calibration_joint_dag.py'),'--domain',domain,'--worker-index',str(i),'--num-workers',str(workers),'--output-name',f'{prefix}calibration','--formal']
         processes.append(subprocess.Popen(cmd,cwd=ROOT))
     total=len(jobs)*len(SEEDS)*len(centers)*len(CONDITIONS)
     try:

@@ -6,7 +6,7 @@ from core.protocol import ROOT
 from core.freeze import require_frozen
 from scripts.pretrain import pretrain
 from scripts.run_heldout import case,METHODS
-from scripts.run_calibration_parallel import main as calibrate
+from scripts.run_calibration_joint_dag_parallel import main as calibrate
 
 def main():
     require_frozen();manifest=json.loads((ROOT/'alibaba_pool_manifest.json').read_text())

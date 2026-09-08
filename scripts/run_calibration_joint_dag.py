@@ -19,8 +19,8 @@ def workload_definitions(domain):
     proposed=[{'policy':i,**jobs[i][1]} for i in range(400)]
     return candidate,protocol,prefix,jobs,work,proposed
 
-def implementation_identity():
-    p=ROOT/'audits/formal_p6_implementation.json'
+def implementation_identity(domain):
+    p=ROOT/'audits'/('formal_p6_implementation.json' if domain=='synthetic' else 'alibaba_joint_dag_implementation.json')
     obj=json.loads(p.read_text())
     assert obj['status']=='approved_for_formal_p6'
     return obj['git_sha'],obj['joint_dag_sha256']
@@ -32,9 +32,9 @@ def add_provenance(frame,git_sha,implementation_hash):
 def worker(domain,worker_index,num_workers,output_name,formal=False):
     candidate,_,prefix,jobs,workloads,policies=workload_definitions(domain);assigned=np.array_split(np.arange(len(workloads)),num_workers)[worker_index].tolist()
     if formal:
-        assert domain=='synthetic' and output_name=='calibration'
+        expected='calibration' if domain=='synthetic' else 'alibaba_calibration';assert output_name==expected
         assert not (ROOT/'results/heldout').exists(),'heldout must not exist before formal P6'
-        git_sha,implementation_hash=implementation_identity()
+        git_sha,implementation_hash=implementation_identity(domain)
     else:git_sha=implementation_hash=None
     out=ROOT/'results'/output_name;out.mkdir(parents=True,exist_ok=True);cache=CacheBundle();start=time.time();completed=0
     totals={k:0 for k in ['candidate_l1_hits','candidate_l2_hits','candidate_trainings','candidate_l2_writes','evidence_l1_hits','evidence_l2_hits','evidence_computations','evidence_l2_writes','verification_forward_calls_physical','service_forward_calls_physical']}
@@ -66,7 +66,7 @@ def worker(domain,worker_index,num_workers,output_name,formal=False):
 def main():
     p=argparse.ArgumentParser();p.add_argument('--domain',choices=['synthetic','alibaba'],default='synthetic');p.add_argument('--worker-index',type=int,required=True)
     p.add_argument('--num-workers',type=int,default=1);p.add_argument('--output-name',default='joint_dag_staging');p.add_argument('--formal',action='store_true');a=p.parse_args()
-    assert (a.output_name=='calibration')==a.formal,'formal calibration output requires --formal and staged output must remain separate'
+    assert (a.output_name in {'calibration','alibaba_calibration'})==a.formal,'formal calibration output requires --formal and staged output must remain separate'
     worker(a.domain,a.worker_index,a.num_workers,a.output_name,a.formal)
 
 if __name__=='__main__':main()
