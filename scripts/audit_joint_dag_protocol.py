@@ -1,4 +1,4 @@
-"""Fail-closed protocol/leakage audit for the staged joint-DAG executor."""
+"""Fail-closed protocol/leakage audit for formal joint-DAG P6 preflight."""
 import sys
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
@@ -23,10 +23,12 @@ def main():
     metas=list((ROOT/'checkpoints/joint_dag_candidates').glob('*.json'));assert metas
     payload=json.loads(metas[0].read_text())['key_payload'];assert payload['science_version']==SCIENCE_VERSION and 'service_data_hash' not in payload
     evidence=list((ROOT/'checkpoints/joint_dag_evidence').glob('*.npz'));assert evidence
-    source=(ROOT/'scripts/run_all_final.py').read_text();assert 'run_calibration_parallel' in source and 'run_calibration_joint_dag' not in source
+    source=(ROOT/'scripts/run_all_final.py').read_text();formal=(ROOT/'scripts/run_calibration_joint_dag_parallel.py').read_text()
+    assert 'run_calibration_joint_dag_parallel' in source and "calibration('synthetic',2)" in source
+    assert "'--output-name','calibration','--formal'" in formal
     checks.update({'cache_keys_exclude_service_data':True,'causal_fingerprint_includes_historical_buffer':True,
-        'formal_runner_not_switched':True,'full_p6_started':False,'p0_p5_recomputed':False})
-    save_json(ROOT/'audits/joint_dag_protocol.json',{'status':'passed','checks':checks,'scope':'staged executor only; no formal P6 or heldout run'})
+        'formal_runner_switched_to_joint_dag':True,'formal_workers':2,'partition':'complete workload','full_p6_started':False,'p0_p5_recomputed':False})
+    save_json(ROOT/'audits/joint_dag_protocol.json',{'status':'passed','checks':checks,'scope':'formal P6 preflight; no formal P6 rows or heldout access'})
     print(json.dumps(checks,indent=2))
 
 if __name__=='__main__':main()

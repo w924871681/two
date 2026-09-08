@@ -1,10 +1,10 @@
 # 实验执行报告（进行中，非最终科学结论）
 
-更新时间：2026-09-08T22:35:00（本机时间）。
+更新时间：2026-09-08T23:05:00（本机时间）。
 
 ## 当前状态
 
-已开展实际实验。P0–P5 已完成并冻结。旧单进程 P6 的 23,039 条轨迹和后续双进程 P6 的 795 条完整轨迹均已分别封存；当前正式 P6 已停止，`results/calibration/` 为空，未进入 heldout。Joint-policy DAG 的诊断、实现、严格缓存迁移、全生命周期科学等价性和 benchmark 已完成，正式 runner 尚未切换，等待人工确认。
+已开展实际实验。P0–P5 已完成并冻结。旧单进程 P6 的 23,039 条轨迹和后续双进程 P6 的 795 条完整轨迹均已分别封存，只作 reference/cache asset；`results/calibration/` 为空，未进入 heldout。Joint-policy DAG 已获得人工批准并正式接入 P6 runner，当前正在执行提交前检查，随后重跑 mandatory scientific audits 并启动两个完整 workload worker。P0–P5 只作完整性与冻结哈希核验，不重新运行。
 
 - 独立项目：`D:/dt-trustworthy-maintenance`
 - 实现提交：`6b685453b1c36b4dfa5ca91ecee71c4cd971f909`
@@ -12,7 +12,7 @@
 - Python：`C:\Users\92487\anaconda3\envs\rcf-dti-py311\python.exe`
 - PyTorch：`2.5.1+cu121`
 - GPU：`NVIDIA GeForce RTX 3060 Laptop GPU`
-- 正式队列：已停止；原 PID `6848`、worker PID `33536/20868` 均不再运行
+- 正式队列：joint-policy DAG 正式接入完成，启动前审计中；原 PID `6848`、worker PID `33536/20868` 均不再运行
 - 执行日志：`logs/full_console.log`；错误日志：`logs/full_stderr.log`
 - 机器可读进度：`logs/execution_status.json`（每条生命周期完成后更新）
 
