@@ -128,6 +128,9 @@ def attack(seg,center,stage,kind,alpha,location,seed=9417):
         with tmp.open('wb') as f:
             np.savez_compressed(f,mask=mask,source_timestamps=source_ts,target_timestamps=seg.ts,
                                 center=center,stage=stage,role=seg.role,kind=kind,alpha=alpha,location=location)
-        try:os.replace(tmp,path)
+        try:
+            if not path.exists():os.replace(tmp,path)
+        except PermissionError:
+            if not path.exists():raise
         finally:tmp.unlink(missing_ok=True)
     return out,mask,source_ts,kind

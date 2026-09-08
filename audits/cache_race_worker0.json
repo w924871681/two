@@ -1,0 +1,26 @@
+[
+  {
+    "parent_state_hash": "a501902372dfc983e2eaefab4db30447a8e0972047ffa8fc8f65b4ebf221846a",
+    "candidate_state_hash": "d67b65122ab7e74eb181fbbbfe43bc17779ca43f927bf2eed39fb4f823619a65",
+    "commit": 0,
+    "U_rec": 2.889053757826332e-05,
+    "U_hist": 5.879076752535184e-06,
+    "deployed_service_mse": 0.0009091339888982475,
+    "service_data_hash": "e20e45a8fee2332b5aa5a0cb7281ab775fba7766a103b93633307476af853b98",
+    "attack_mask_hash": "c0d0dc277b5ab1b6804569f23244b9898b41de2df4740bf4c461f62397658358",
+    "number_of_forward_passes": 74,
+    "number_of_backward_updates": 50
+  },
+  {
+    "parent_state_hash": "a501902372dfc983e2eaefab4db30447a8e0972047ffa8fc8f65b4ebf221846a",
+    "candidate_state_hash": "c5c8aefbbcebb4d48745eccf2fdeaad21384d75055b06f9cdbcf7b886d418ee0",
+    "commit": 0,
+    "U_rec": 1.1210721226007081e-05,
+    "U_hist": -3.0368684747372754e-05,
+    "deployed_service_mse": 0.0008547927718609571,
+    "service_data_hash": "ae77feca1320ea6436e3f496e05cfc40fde97071bd4cf05e41c1908564db3173",
+    "attack_mask_hash": "c0d0dc277b5ab1b6804569f23244b9898b41de2df4740bf4c461f62397658358",
+    "number_of_forward_passes": 86,
+    "number_of_backward_updates": 50
+  }
+]

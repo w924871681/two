@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "processes": 2,
+  "stages": 2,
+  "scientific_fields_compared": [
+    "parent_state_hash",
+    "candidate_state_hash",
+    "commit",
+    "U_rec",
+    "U_hist",
+    "deployed_service_mse",
+    "service_data_hash",
+    "attack_mask_hash",
+    "number_of_forward_passes",
+    "number_of_backward_updates"
+  ],
+  "outputs_identical": true
+}

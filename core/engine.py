@@ -17,7 +17,10 @@ def evidence_blocks(seg,H=1,B=6):
 def _atomic_torch_save(obj,path):
     tmp=path.with_name(f'{path.name}.{os.getpid()}.tmp')
     torch.save(obj,tmp)
-    try:os.replace(tmp,path)
+    try:
+        if not path.exists():os.replace(tmp,path)
+    except PermissionError:
+        if not path.exists():raise
     finally:tmp.unlink(missing_ok=True)
 
 def score(candidate,parent,blocks,H,kappa,mean=False,cache=False):
@@ -37,7 +40,10 @@ def score(candidate,parent,blocks,H,kappa,mean=False,cache=False):
             tmp=cache_path.with_name(f'{cache_path.name}.{os.getpid()}.tmp')
             with tmp.open('wb') as f:
                 np.savez_compressed(f,vals=np.asarray(vals,dtype=np.float64),weights=np.asarray(weights,dtype=np.int64),calls=np.int64(calls))
-            try:os.replace(tmp,cache_path)
+            try:
+                if not cache_path.exists():os.replace(tmp,cache_path)
+            except PermissionError:
+                if not cache_path.exists():raise
             finally:tmp.unlink(missing_ok=True)
     if not vals:return float('inf'),float('nan'),float('nan'),calls
     median=float(np.median(vals));mad=float(np.median(np.abs(np.array(vals)-median)))
