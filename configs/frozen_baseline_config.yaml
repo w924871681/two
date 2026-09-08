@@ -1,0 +1,9 @@
+{
+  "ewc_lambda": 10.0,
+  "huber_delta": 0.1,
+  "ewc_gamma": 0.9,
+  "ewc_fisher_examples": 32,
+  "clear_factor": 0.75,
+  "clear_capacity": 128,
+  "clear_ewc_lambda": 200.0
+}

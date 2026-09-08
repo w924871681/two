@@ -24,8 +24,8 @@ def main():
         command('audit_legacy_pools.py')
         from scripts.run_development import main as development
         development()
-        from scripts.run_calibration import main as calibration
-        calibration()
+        from scripts.run_calibration_parallel import main as calibration
+        calibration('synthetic',2)
         command('verify_repository.py')
         command('audit_preheldout.py')
         # A formal freeze may only be created after the complete preregistration and audits.

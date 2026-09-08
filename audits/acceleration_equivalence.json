@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "archive": "D:\\dt-trustworthy-maintenance\\archive\\pre_acceleration_20260908_194751",
+  "cases": [
+    {
+      "policy": 0,
+      "condition": "clean",
+      "stages": 24,
+      "scientific_columns_checked": 45,
+      "archive_vs_uncached": "equal_within_1e-14_csv_roundtrip_tolerance",
+      "uncached_vs_cold_cache": "bit_exact",
+      "uncached_vs_warm_cache": "bit_exact",
+      "elapsed_s": {
+        "uncached": 8.705501999997068,
+        "cold_cache": 0.6479599000012968,
+        "warm_cache": 0.7433040000032634
+      },
+      "warm_cache_speedup": 11.711899841732116
+    },
+    {
+      "policy": 189,
+      "condition": "mixed",
+      "stages": 24,
+      "scientific_columns_checked": 45,
+      "archive_vs_uncached": "equal_within_1e-14_csv_roundtrip_tolerance",
+      "uncached_vs_cold_cache": "bit_exact",
+      "uncached_vs_warm_cache": "bit_exact",
+      "elapsed_s": {
+        "uncached": 5.918949799990514,
+        "cold_cache": 6.743828599981498,
+        "warm_cache": 2.2154363000008743
+      },
+      "warm_cache_speedup": 2.6716858435461126
+    }
+  ],
+  "excluded_non_scientific_columns": [
+    "candidate_update_time_s",
+    "maintenance_time_s",
+    "peak_gpu_memory_bytes",
+    "run_id",
+    "verification_time_s"
+  ],
+  "cache_paths_bit_exact": true,
+  "archive_comparison_tolerance": 1e-14
+}

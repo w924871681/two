@@ -1,0 +1,994 @@
+{
+  "machines": [
+    {
+      "center_id": 20000,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "source",
+      "domain": "alibaba",
+      "machine_id_hash": "0dcb64f0afb5e56ccd830da3d42947263c76553079c054aa890f51675cf964ce",
+      "clean_hash": "e55cf23cbc31d01bf427de838be7e091dfae15ea91645bc5d234d04145a342e9"
+    },
+    {
+      "center_id": 20001,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "source",
+      "domain": "alibaba",
+      "machine_id_hash": "923975993bb2b8d4833f2e70bd3abd1df84b779b4aceffa8c044aecdfdf73b94",
+      "clean_hash": "0dbafb9ecb48e989f57c67d256c8c7798512d5f4a7b354b7c674419688681354"
+    },
+    {
+      "center_id": 20002,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "source",
+      "domain": "alibaba",
+      "machine_id_hash": "49ed7fc8304480fce5eacd8726cf6f4bbd3b7f105812d16fb869a71d6c2f73a7",
+      "clean_hash": "ccbc900925e67e6dc150c427c3341aeca8d079d8db98d97026b21440f2ad0e15"
+    },
+    {
+      "center_id": 20003,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "source",
+      "domain": "alibaba",
+      "machine_id_hash": "8813a536136a18f3e19b6f26e371769973ec06805d6913c3f6f1031ca155e8d9",
+      "clean_hash": "8fde7694f28d54e23dfa2128fcf4ff2727a3ba080f9b3a5573213477fe8b2fea"
+    },
+    {
+      "center_id": 20004,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "source",
+      "domain": "alibaba",
+      "machine_id_hash": "4b6111acfc7644abd3049bdca9e4b676ecabeb4de3340821c5b67c19bad8f46a",
+      "clean_hash": "7a1bfb044b4da433c9e27f8838d39c67a08c4e0a2be81377cba6f50284f76300"
+    },
+    {
+      "center_id": 20005,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "source",
+      "domain": "alibaba",
+      "machine_id_hash": "430012bac98d2b0188b4e3bb96c3420c8033377f61f433f9902a7a389a5179e5",
+      "clean_hash": "acfcd102b56000744782f64fbf06aecf8f8ec9f0857ef2349c11ccbd6283ce69"
+    },
+    {
+      "center_id": 20006,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "source",
+      "domain": "alibaba",
+      "machine_id_hash": "5b82e95267bb749ef4dd93b9941ca533bb2be1274f8ad68e8c02c2489bc34700",
+      "clean_hash": "c1d58f1657fdbd4f497da015db898fa0306ffb104b9d11508fd8ca1d531e1e24"
+    },
+    {
+      "center_id": 20007,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "source",
+      "domain": "alibaba",
+      "machine_id_hash": "a954299def1cdb0ce7e6de045f32b90f6246c5fe2a1618326f061f7046f226df",
+      "clean_hash": "5cc7308c5fc9410f5af8e3ad45a63a3353fc9ada8b81a1aa65b105ab0d8fc007"
+    },
+    {
+      "center_id": 20008,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "source",
+      "domain": "alibaba",
+      "machine_id_hash": "963b371f6e12fd8367b6cb00a8b3265bbae1508e69b9d65197cc96e13028160b",
+      "clean_hash": "feffc6db5e5262509629e279fee99c3df2237e623f15859d24d65f4e667e8531"
+    },
+    {
+      "center_id": 20009,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "source",
+      "domain": "alibaba",
+      "machine_id_hash": "d75c734c3ebe57e7644bf1309d5d4e76ebd7fbfdd0f8f633343b41f32fdc385a",
+      "clean_hash": "3e210ea689bebd9d73381f06b89ff0f8e896a28f100e8cb96b5ca7cc7bcc23da"
+    },
+    {
+      "center_id": 20010,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "source",
+      "domain": "alibaba",
+      "machine_id_hash": "c339506a919ac03618a04ce8638be6943e79f7f3ae90d5bf1b134448762b9ba9",
+      "clean_hash": "48ac796b93ea596297debcae58e17de9de3adacbb66a06d3f20eaa4ad828b2bf"
+    },
+    {
+      "center_id": 20011,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "source",
+      "domain": "alibaba",
+      "machine_id_hash": "d14dc944fb3d332e9860f683af3b72988d94b53eb583ee511ff0151d7adecd95",
+      "clean_hash": "316df0d30938994a352185b3d82a097bf8b8906442bc4dce38440b2a18147493"
+    },
+    {
+      "center_id": 20012,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "source",
+      "domain": "alibaba",
+      "machine_id_hash": "662564619f9ab7ba68f6f912e56936c7bd92a9645a3e5a23faeb2f6edc354cb6",
+      "clean_hash": "d0bc9ded7f3cc05a15f3dbbaeeb161711a9fdfe7767db60adadfc81a82aaa583"
+    },
+    {
+      "center_id": 20013,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "source",
+      "domain": "alibaba",
+      "machine_id_hash": "7377d447f527f0f8db934b3e0ad475da9f3aea06063ad0d9070cb1167d98099a",
+      "clean_hash": "e88fa74a3cf45d1391ee465ee8caf0b02141c1b9e85fd1a9421b11595328c23a"
+    },
+    {
+      "center_id": 20014,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "source",
+      "domain": "alibaba",
+      "machine_id_hash": "9f9ac4306ff969bd360be017340806f89c89dea2dfc8d7b893e5754f84cdde73",
+      "clean_hash": "fcac2bdbd6801ae196fe8a89a83d76f98cabd07ccb5f8b2e6a0729c947f02d57"
+    },
+    {
+      "center_id": 20015,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "source",
+      "domain": "alibaba",
+      "machine_id_hash": "f53026b7e1ee00c4f136790294dd70262c1a6d615f17a12a1235820e222e13ff",
+      "clean_hash": "7c141d09e7eaf26dbf4af0482d6446dbca7061f8d7f7db7966384f9a32202548"
+    },
+    {
+      "center_id": 20016,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "source",
+      "domain": "alibaba",
+      "machine_id_hash": "f484045b09d54ba529b71dd8a03aba4664d94b1eeada51be0c982bcd5e146ddd",
+      "clean_hash": "aa4e3bf1dc82cdc21568398d391bbb379e601620ee21fbcb05dc55117330a957"
+    },
+    {
+      "center_id": 20017,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "source",
+      "domain": "alibaba",
+      "machine_id_hash": "3c6a96172c114f49c392112a5d7ac45ecf7fda2209e4b144ec42c5f606d69476",
+      "clean_hash": "7d8adee56b0bfffbd5a491fdd366691748a7cd07363aa4e0932c09cae633f771"
+    },
+    {
+      "center_id": 20018,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "source",
+      "domain": "alibaba",
+      "machine_id_hash": "60d9f9e065f6f0a1157194ad93c0e484ad359469ccb86bfb89944a092cba52b5",
+      "clean_hash": "a2ae7718e37a275cb2bdb9a53abfa70874601d90b7dd00f1c254ffacbab10f14"
+    },
+    {
+      "center_id": 20019,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "source",
+      "domain": "alibaba",
+      "machine_id_hash": "7e53d60d482978c0f57888316c0399fa2380c5a3017ff3203eb2746e31e8c732",
+      "clean_hash": "6bf70eb62a67b0fca032124bada1ffa4b92c36743dfaec0dba19aea755270d36"
+    },
+    {
+      "center_id": 20020,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "development",
+      "domain": "alibaba",
+      "machine_id_hash": "f9cfa8caf539fcdb23c11fb2f650b99b35a919948b93ac676ed4946e281e5856",
+      "clean_hash": "eb66868f1c74b087feb500e0fd2978c21729fc01b8a7e4b47e303161eca56521"
+    },
+    {
+      "center_id": 20021,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "development",
+      "domain": "alibaba",
+      "machine_id_hash": "aa377f877a8e9c37006e6f89ae55feda298315889be39bc0a4947738fa6e1c21",
+      "clean_hash": "c524c4277ca4fd21b7733f3adcfdf1f5fe980c2226d39311bedff2d4a3487177"
+    },
+    {
+      "center_id": 20022,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "development",
+      "domain": "alibaba",
+      "machine_id_hash": "908daed4d43949b77195bd2b52181f72a4eb1394db5c3175d30e7f3463e743b1",
+      "clean_hash": "6e4a4c2a308176c094864bec94c04710a7ea00c616613d066851f59e1540a586"
+    },
+    {
+      "center_id": 20023,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "development",
+      "domain": "alibaba",
+      "machine_id_hash": "90b002c047514e84cd04b8362c8f0efb7e1faada51f9656dd7e1b5d400c8a5a6",
+      "clean_hash": "f4ad11f009944da16251b056059fc2226c4d2f05c2fa4588721061cd12965ed2"
+    },
+    {
+      "center_id": 20024,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "development",
+      "domain": "alibaba",
+      "machine_id_hash": "623dd8fb0247bf5666baa6890bd4348dc6a81087bbdf927f9d2303f5228a7804",
+      "clean_hash": "b0084c161e07e534487e539475eb39d25bd32ffafc0d4b8ff0bfa4e4b9b008af"
+    },
+    {
+      "center_id": 20025,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "development",
+      "domain": "alibaba",
+      "machine_id_hash": "0f0c4c20d9ae930f2295ca458344044a084635c5d11e0b838303e6a198bc7c91",
+      "clean_hash": "c223831afbe54e656c7e3f4a9d549b7537c36cc4df793ac443f8f082edc815f2"
+    },
+    {
+      "center_id": 20026,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "development",
+      "domain": "alibaba",
+      "machine_id_hash": "fbc203c141a505a77a17c254a3b82ac643accc8d7a9ac268fe25e55ccc8a79f2",
+      "clean_hash": "c5ea36f768d69d2016b4dcda78e1618aceae659ac1eff6d0c654b3eb92c9f689"
+    },
+    {
+      "center_id": 20027,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "development",
+      "domain": "alibaba",
+      "machine_id_hash": "555eb70643ef8a992034a864c04b67296add0d22b0c077ea8c2c8e21123d9172",
+      "clean_hash": "271c8e5b0d936d2505b2b9116c94f1466729bc9a8c331eca2709c4845203f9e4"
+    },
+    {
+      "center_id": 20028,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "development",
+      "domain": "alibaba",
+      "machine_id_hash": "efaa8b9f70aacae3e62108fd5da37139a420fa33cf214352d9ab954e5fe0622f",
+      "clean_hash": "1a330b56b58c54ef08d574a61125c4f05a29f99b3a685f87098ef8386ef9f675"
+    },
+    {
+      "center_id": 20029,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "development",
+      "domain": "alibaba",
+      "machine_id_hash": "bb87bcf2703f236bdc0028dc53c3df2901c91571097838a2e827faeb2045b152",
+      "clean_hash": "cbf5a8a38c79e6d2f4b3b3f04c4408437442c78d1db0580cb2b810c482d0d17a"
+    },
+    {
+      "center_id": 20030,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "development",
+      "domain": "alibaba",
+      "machine_id_hash": "28cee54db71587a7b74081081fa8d05c0d435c4d01ccc76ec5e0eb2ce7e7c4d0",
+      "clean_hash": "9bc4b17164cdb6d7d8ad131c8c40aad66ff3b9b1767c3477074a6b91c76a0dcd"
+    },
+    {
+      "center_id": 20031,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "development",
+      "domain": "alibaba",
+      "machine_id_hash": "bb6407862f3c94d951354dccbe1ce5fc451321508e51a3d0ffdcec06b2fa7c77",
+      "clean_hash": "bd58ff8616dc134ec5a09689bd1b87d4ba290b61335e7ef02853b30b48056795"
+    },
+    {
+      "center_id": 20032,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "development",
+      "domain": "alibaba",
+      "machine_id_hash": "9af927fe8e36bdec5dda060d451269d6ece4b5d6047a427080bba594da28e8bf",
+      "clean_hash": "3a2ade5bdb1e18ae303285988aa764edd48275f6a0648a93abd1c6a75ebdba55"
+    },
+    {
+      "center_id": 20033,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "development",
+      "domain": "alibaba",
+      "machine_id_hash": "5c7250643aee5be6fee372eea0fc449f1e9700376c666674afe7e7380b932d9a",
+      "clean_hash": "5c12074dd6a2095cb5bf228ee72d527226535897826eebfc36ef94e0e0b90824"
+    },
+    {
+      "center_id": 20034,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "development",
+      "domain": "alibaba",
+      "machine_id_hash": "69660402abeddde40ca6f6352906ad844a94717d9fe7fa4038b81a74070225ef",
+      "clean_hash": "c054492f57aa0c4e8a58f875e40cc8802011c9fe8bc92c6955b32ac0da9e57c0"
+    },
+    {
+      "center_id": 20035,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "development",
+      "domain": "alibaba",
+      "machine_id_hash": "b56c28d6dd2b14187cf4c007e4cf682d3ea2fbc481d35954614021894f36a35d",
+      "clean_hash": "aa0f54589a225778bbfc8ec4acec06feb5686d79d84787ef48be8cdffaf3fdb0"
+    },
+    {
+      "center_id": 20036,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "development",
+      "domain": "alibaba",
+      "machine_id_hash": "0b10c08feea6da6e63a9b8c9cb1e8cfd6dbab4a0294a176b8bdaaaacdb37eb87",
+      "clean_hash": "1a2b5ca92389e0c6e3a533521f65fc5f81764b63c83f80d37506fa9a8510ea3a"
+    },
+    {
+      "center_id": 20037,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "development",
+      "domain": "alibaba",
+      "machine_id_hash": "97c2dce2a8d83b8dfbcd74946f4d12869938046f7cc47b1b0a1a16cdf0a37e9b",
+      "clean_hash": "5430cd5fde6a948a1eea437c6ba27c1351e7ffcfd21fcfaab312e4b70d956bbf"
+    },
+    {
+      "center_id": 20038,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "development",
+      "domain": "alibaba",
+      "machine_id_hash": "8153317b93497eeaf90ed52fc76a1899e69fc8fed03145a48a65fc1b7de820c2",
+      "clean_hash": "5922530c05e51eeb0a3994de3da4e8102427da1a24ad06d75572486bd601abac"
+    },
+    {
+      "center_id": 20039,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "development",
+      "domain": "alibaba",
+      "machine_id_hash": "1decde11258b1b5bf98ee413e0a2e1a777286041a5d1845b37ac157602b657d1",
+      "clean_hash": "7ef2bcc5686b0d56581f89a3fdd502ae7efd4ce4e444103c716d822f7919307b"
+    },
+    {
+      "center_id": 20040,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "calibration",
+      "domain": "alibaba",
+      "machine_id_hash": "c5735f284759a0ee491b9459e4a73ee9898eae645816428c73aab0b02ef986b8",
+      "clean_hash": "9650fa8cf1a931ccedb49363c06bb02c63c5909f4edd320a812da74789dcad3c"
+    },
+    {
+      "center_id": 20041,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "calibration",
+      "domain": "alibaba",
+      "machine_id_hash": "7b6bf2e987c39f5f33bacb455e1d304dfc821a5f39d705aac7c4a470037cfa0f",
+      "clean_hash": "d18a3c629c251a4638ba0d3f3cd670c4bce25a6f69d33924f8c5b102490e44b6"
+    },
+    {
+      "center_id": 20042,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "calibration",
+      "domain": "alibaba",
+      "machine_id_hash": "1261ba4803e35fcae3d3ee5054d76b7536b60b75009b698e187a2a480c4922e6",
+      "clean_hash": "bb976ceabed3c69ff867f1b6ab2f7a20f8e216f54c430890fbae2236ec9a61fc"
+    },
+    {
+      "center_id": 20043,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "calibration",
+      "domain": "alibaba",
+      "machine_id_hash": "077c765a2d66e90912da392bca8c9db40028a4751e3b02f473b3b05ad204234e",
+      "clean_hash": "6a20f58abc516c9b6f127144a860e1004a4d8b265acea8d23d9551149610c483"
+    },
+    {
+      "center_id": 20044,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "calibration",
+      "domain": "alibaba",
+      "machine_id_hash": "8f609421e558b1e112166032192c058dcf5ec7f9dadfc8f6dda0b7e01e5808e8",
+      "clean_hash": "f50c914456ace4439a8c66b3beebb889489daaddd34f7b287808cc736ed9364c"
+    },
+    {
+      "center_id": 20045,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "calibration",
+      "domain": "alibaba",
+      "machine_id_hash": "c68639b1ba02ecb1ac6f0414742adc019cc7fb3015e4dc6c5c2b9cef5ce593a5",
+      "clean_hash": "704d1f3ba9033ef48bf1eb7e661f7a7cbecfbae5245142bc19f83bd59e19120c"
+    },
+    {
+      "center_id": 20046,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "calibration",
+      "domain": "alibaba",
+      "machine_id_hash": "2dd0383a5c0265d6f306dfd28a28e680767d796c17ffc96fcc48e561fcbe383f",
+      "clean_hash": "a9bf376df03859127de0fa709f1fbf2d37a6e929c31de558d934de3980f43199"
+    },
+    {
+      "center_id": 20047,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "calibration",
+      "domain": "alibaba",
+      "machine_id_hash": "42a01787b87b2c95a741d75b30f8f0a5ceb33d8ab255c982d8966987c41a54ca",
+      "clean_hash": "835d4d9e59e963acc30ba79dad104689c95bbc3b11a936e86745243dda59edb9"
+    },
+    {
+      "center_id": 20048,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "calibration",
+      "domain": "alibaba",
+      "machine_id_hash": "f15e4185ef7a74a1bd64a016cf0571dbf6356c523e59dc2c45ad57b4b9233654",
+      "clean_hash": "c4865307ed3da921b9f0fda49eb323bd101fb12b86c5ab83a396e97874ba934f"
+    },
+    {
+      "center_id": 20049,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "calibration",
+      "domain": "alibaba",
+      "machine_id_hash": "f66e352817c4c6a35f11354046ee1c9f03a5c3fbb31bbfb44246deb2dc7514f1",
+      "clean_hash": "b34f1a0572dae155e7bfca17d52b1aae589a93545e926504fa9b3a8929347c28"
+    },
+    {
+      "center_id": 20050,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "calibration",
+      "domain": "alibaba",
+      "machine_id_hash": "b8278a5a84e66670587e2527aa3cb7ef55df598ae2436d9db3b13e5e306c02f6",
+      "clean_hash": "e68a93f56cae745cb526fd50d76880c1ca4ebe91707579af44f71e68b805a6a5"
+    },
+    {
+      "center_id": 20051,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "calibration",
+      "domain": "alibaba",
+      "machine_id_hash": "51617512d1281979bb0570cf3c6aab541aa84d5cfb525ac82df4f5b00b27bdb1",
+      "clean_hash": "19fe0ae4b7fe612d194bf769170fa8c1f35e47c958e891083011f217707bbdcf"
+    },
+    {
+      "center_id": 20052,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "calibration",
+      "domain": "alibaba",
+      "machine_id_hash": "3fd0fa982c1324ac73fe6ad76b3f180985dcc91976a84704f057d0a57b61e8bd",
+      "clean_hash": "e959546a4adb6d044c21b20439c5f6ab922d6e602512c96189c4a05c557da62c"
+    },
+    {
+      "center_id": 20053,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "calibration",
+      "domain": "alibaba",
+      "machine_id_hash": "530f1d380df6e16c6bef0f269d1084f26bd2f3edf95798f17fb99ee5e3ec5096",
+      "clean_hash": "6baa6e13dfe52a5156d3fbfe134ac1265f3a2fccdc6ad573b795b2adf96cc389"
+    },
+    {
+      "center_id": 20054,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "calibration",
+      "domain": "alibaba",
+      "machine_id_hash": "e996b7553448cb27eb74d54eecc4de7ca41a42c00297a5df85c75c13e95f6ff1",
+      "clean_hash": "3123bfb72bc986270eb2ef6e94aacae2c27c75fe5dee2ebf5f61669bb9182a7c"
+    },
+    {
+      "center_id": 20055,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "calibration",
+      "domain": "alibaba",
+      "machine_id_hash": "e4af4e3d61f2075f40dfe52f539d5b737620d35e152bce0e8740ecdc9b304d2d",
+      "clean_hash": "9657d7034a1868d7e1a4f1a75bd1448a443f8f29ebdd4ea26f22297b92ef6e8d"
+    },
+    {
+      "center_id": 20056,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "calibration",
+      "domain": "alibaba",
+      "machine_id_hash": "95fda85a5797d9ad1c9c7bdc03b25e18dcf32a565f85b4c7e1ee525d756c2de1",
+      "clean_hash": "322b7ce7217d767d30e93bb66c5b6d11c68ab88b3459a26df544a00877fbaa7f"
+    },
+    {
+      "center_id": 20057,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "calibration",
+      "domain": "alibaba",
+      "machine_id_hash": "873deb8ba738322b302365251a9253816dd517c1ae0f99d8eb1cc0222e054006",
+      "clean_hash": "72bfcbf9f2f7525cdce851e7308b6803e40d6867188e9fe4745a0a459fdf04d2"
+    },
+    {
+      "center_id": 20058,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "calibration",
+      "domain": "alibaba",
+      "machine_id_hash": "0dac31e5ed665571c1c01fb82e50a23d2365a32d2044233a0cc00a6ca9046505",
+      "clean_hash": "51f0f4d2714a32888c72ec16b1675ab922da4b414bf2cc019680eb6de953c7de"
+    },
+    {
+      "center_id": 20059,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "calibration",
+      "domain": "alibaba",
+      "machine_id_hash": "e5262c9a3c79b016cb4da0ae9a78dee2a8a12eeeeccf047ebf645ef7d2d158ff",
+      "clean_hash": "1f232c9a2adcfeb6218d4ffd7a0dd176397be31084cc3f17b27522c634da4d79"
+    },
+    {
+      "center_id": 20060,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "bb0e6ddda0f18939b304327b815c4e5f735e811f7f49c1334f327c75e14b5c7e",
+      "clean_hash": "aef80890320c97a434bdd15bb1932d229bce4a744dcb42586718d9abb4c35c9a"
+    },
+    {
+      "center_id": 20061,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "40597e51e861abb978480a7efe48740a362049b7c756baeee39d8c875172f0cb",
+      "clean_hash": "15c15b62852e1ff8efb23e384ccf3b654c00ef2c84f2ad338d8d881117820cf3"
+    },
+    {
+      "center_id": 20062,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "320ad35072145b239fa9e164d261f301475f74158cf2369bf21a7821f1928de2",
+      "clean_hash": "ec878d19e983bfd81859419a49568682663e3c0e802f73e0e891c28c9cc3b99d"
+    },
+    {
+      "center_id": 20063,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "fc03fbf378b2f72c250e54bd24e2fe4403505c90167acc330eceb690f48ceb88",
+      "clean_hash": "082b2c9f5fb1e085692b6e9e0fdc39d6980c4603ea0635ad168f245052b3df78"
+    },
+    {
+      "center_id": 20064,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "9b2ca2d183f740c2abbdfe2e74b694f4923b4e4dec199da1dff4472ab0b17c62",
+      "clean_hash": "7b7780c0007f7e3bba1c258748b7c872b5f25c20cc25327e73ddcc5caa20414a"
+    },
+    {
+      "center_id": 20065,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "e5e2da4e5034976ef35805d4f2f17995d3d6cc0fc61e085969c2ab288c3244d4",
+      "clean_hash": "85a14942236206f62a26f5c2a7956faaf0003f77f89683a31c88d2ce07e09687"
+    },
+    {
+      "center_id": 20066,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "0f8acbfd1518c448fa1c9ee117e449312def688f12c269eb8502201faf3a0054",
+      "clean_hash": "3e6fdd1cfdea7981f08c69790104126425c914d9fd6581c2a24ce8ba0feaf699"
+    },
+    {
+      "center_id": 20067,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "be79ffcdaab708e159cc684bc9e443bdab8e01fd679a6cb695b94d0b37febc83",
+      "clean_hash": "7a3a778e31c3dc9960cf523ac4be15c6e196ffe6968e9291dd386c40910212ca"
+    },
+    {
+      "center_id": 20068,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "245ba88728b98e5981c84a563a84f234b951fb027e94e8736903182abcc1b526",
+      "clean_hash": "737bb3b11ce514c6c635bc35c3a7012d50625b191e0c6e650d0ce39d531cd18e"
+    },
+    {
+      "center_id": 20069,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "7aaf6994f78a9c15ecef8184e166dd64c8b6c3e288e5e8fd77fb8b09a01bcdc0",
+      "clean_hash": "64ced4605521a60f81c6b5704625f87bdb0cfad85f193f192dafffcfa46fa93b"
+    },
+    {
+      "center_id": 20070,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "d249b7ff602ea600cf172cb5d93e2a04efdfd2266e45ceceba5482bb9a03d054",
+      "clean_hash": "bbc2ca47b53e0f85c744760d7c8565b85fa38a0eb0c23dd1a2f279ce9a8a8d79"
+    },
+    {
+      "center_id": 20071,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "f849a7ce4fef7fbd6f1fb0fb77e793af4e64683f2257c2e07d878c1d27978d09",
+      "clean_hash": "d1ebdbdcf954bc37a8d3051a887c790d030da6c42b7fa335c80f449d5197ff8c"
+    },
+    {
+      "center_id": 20072,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "cedc7c2049fa052883c81be7763b48d7ef564de7742018b0777fe66e8f7af15d",
+      "clean_hash": "bc5a848dc4ccebe5443269867f74b242ace0576b6a8027188135ac231ee87e6a"
+    },
+    {
+      "center_id": 20073,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "7a030e7f533fed7454f7b7ee573e2d3e378806954433355a68b2fd9a69f53bff",
+      "clean_hash": "b6169aae5cf3f6718aef45df4c14c4bd2c48a4c5b7b380241c51b7b1c2100ecc"
+    },
+    {
+      "center_id": 20074,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "3ce018c0be0ffdc80edb85276d5befe716e60527e5ef6cc520cf9f9e94d8e5f5",
+      "clean_hash": "07f576b4720e06399bc2ecf9f9c210e697fdb933d4403b6b6eea6f62f073ed97"
+    },
+    {
+      "center_id": 20075,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "68f2a353128cd499bb0edc45678009295b7a0f76221ce2baf9d0fe9988b4d66c",
+      "clean_hash": "ac820923b6862504b3d2d9ef7f4cb1a5758a330cbce3adb1b972a5e442c1b77d"
+    },
+    {
+      "center_id": 20076,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "d6609bddf78d7fe7a68fa2813f10dbe7e5d046c52051f2ce1874e6027b2fae29",
+      "clean_hash": "9e6caec756b28fa3b19fc5cd702ba1bbefc554fbdcda9de39a21482481b4d074"
+    },
+    {
+      "center_id": 20077,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "2c9c266b96e92268cb41602eee4547c1555b803cb11a9e713f331992ee4b2908",
+      "clean_hash": "689d352fe66572bd7194162f203ab964caa41901243b398e9d2fc912b6acaf72"
+    },
+    {
+      "center_id": 20078,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "83274c148951596f2407fa225ea9c609d13b2cecbd898b85ddbf47feda2393e9",
+      "clean_hash": "43a0cf9bdaf4d8b17c87e828ab9a266fa4d2a0e0f3bd5077718460ce819f5ec8"
+    },
+    {
+      "center_id": 20079,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "ad47e97388967272cdc77c4167fd33675dccaaa0859865c196240fb2f50c2101",
+      "clean_hash": "2a511b1be879d19459c51148977259e58deeee8032495592d9485c53e5d3b3a7"
+    },
+    {
+      "center_id": 20080,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "fea2d97ef977c4fb11e86140edf5e3b0f70aec2b61c0e96c4f1e11a40d102ef8",
+      "clean_hash": "0f94bbe9b5d97dadb9c27bb4a375b86145a825f0dc7c7fa81a6b042acd5c4c43"
+    },
+    {
+      "center_id": 20081,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "2a8351fa0470db4e2cc427336a5ba9db5c70e4827142b4ee38dbc6ff13e4ee52",
+      "clean_hash": "805fdf328bc4bf4f5f7b061dd3aad065c903e8119b9ba6770b647bdd9d5a0bd0"
+    },
+    {
+      "center_id": 20082,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "96f2cd9300ba9b3afa25ba22e11d1cf8ffe73838a397bfb358848b06ec9df9f1",
+      "clean_hash": "277797fe7a2d598d655c244d2c7a9bb4e6099dfd58c616ba43510fd812668b4b"
+    },
+    {
+      "center_id": 20083,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "9a10b0e4f4c7e7097b1c9bbcfe1e403a9f074edd4df58903e6bc3c2aa7fba45a",
+      "clean_hash": "ad3361367db7ae63bd1f000850c9d8d1fbd407f7439fc83a7790a74da1301b04"
+    },
+    {
+      "center_id": 20084,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "82a06d5da2bcf499cb3ace6fa47d2ea586b8fdffa6c99c7d809f3180772d2bae",
+      "clean_hash": "1051c92ba935acd8649b90ff0fe0e7c61c6797c3c433fc14d4504e8bf75240b6"
+    },
+    {
+      "center_id": 20085,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "e81a7e4897cbc0fe5bf8066c2de26c474a93213695c8f7aaf6e44f559493dcea",
+      "clean_hash": "489815dbd59f27fe564d721d24607d0721c47a788dea63dce0cefdc79a5650ac"
+    },
+    {
+      "center_id": 20086,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "f739f8e37dced8c65f8f9ea7ef56f591f16760e88d8b63f6cd3d4de4109dba2d",
+      "clean_hash": "eec648f5b4f9eaf50f4b06cde2a7458c9c1179a9796a63ce0b773cdcef997a61"
+    },
+    {
+      "center_id": 20087,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "a35b566f94df49a7f18c3b4d62d3a8be3e9311a074595ccd30958281ee436a55",
+      "clean_hash": "11a6ee1ca6f1039cfee8518d375e2ecd176d51c26410898e1836b9513556f294"
+    },
+    {
+      "center_id": 20088,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "eac9eaf519d00c5742c2db4367d5aa7caa1b8509f6a3b804c9d0c43f2325aa1d",
+      "clean_hash": "5724f365a99bf5db20e631cdb5bcbb714b5306fad29e56190785df2194a17ae1"
+    },
+    {
+      "center_id": 20089,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "fd57e78959ff29cfe17e1c096fc61e1965edfde99c40b6f09d324acc186a781a",
+      "clean_hash": "0c88cfc49e6d3cc7e13da0fc7a2ffb0a5531af29d491625f7360427f0f54af65"
+    },
+    {
+      "center_id": 20090,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "1262e25bef1a440028a9fd92aae5b002e1ab205041db2bd93797c34b8d809c21",
+      "clean_hash": "1481ca2563c28e2baf9cd4f84eeb4380ff066fec39748cd3ba029fe412a35450"
+    },
+    {
+      "center_id": 20091,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "3deb9511a31c684e8d52d35f05285f1cc9668f763df440d3d12ea3613a3e74cf",
+      "clean_hash": "c12fe1a5bf23a94979b379f00ea33ca097601f1fd5c0d12a9a5fdd0b23a8074b"
+    },
+    {
+      "center_id": 20092,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "599fbb09a70c3e30c2e1e3f78709b4fd07a9ff7d7546c483327c384228cb90ee",
+      "clean_hash": "5fc209208f4383648c07dd48c0b92efbaaf18be0775f3e40751442c5bd8b2371"
+    },
+    {
+      "center_id": 20093,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "56577576a7ec44f176f3a7ddb8b5bcde54de7d4a097519bb4a18c09db25f9b49",
+      "clean_hash": "7765d4f96a31d3eb5057018a82311db6e5eb22291f809b6d63c00330c3db4583"
+    },
+    {
+      "center_id": 20094,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "e48e9210cd707adb15155a4b13872db230d0b1025faf61e903d129f38f9b93d7",
+      "clean_hash": "d431d0ed05afbfedd9934704367e8044f2a1612a805dc0a125f833aea53f23d9"
+    },
+    {
+      "center_id": 20095,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "1d1ef1746f265dca18ae4172d02dae5cbdc51f9ff01abef86942ccd8a9d3fc62",
+      "clean_hash": "8c2ede5984d033c62cca59fb73559e448c9ea3f60860ec3c761c06703cf30f9f"
+    },
+    {
+      "center_id": 20096,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "16819d1c8133f87d342ae4b3924ccb0fc0abdb08a12b938ac8340c49d51c6807",
+      "clean_hash": "c62ebef65205c1252b6a394658ff620706794b6b855f2c736e080880af4f8a1b"
+    },
+    {
+      "center_id": 20097,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "3cff43a912c1dc729dc198be9b4f56966061329f38a62380bbb753cba7a2ff99",
+      "clean_hash": "67241842b04e3d9bfeba6ee8a49f957004713ccb5ecd9007a8df75f5d0d529c8"
+    },
+    {
+      "center_id": 20098,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "751713b30030f81629beeafa74a59ca54edb30cec236a188f310c7cceb4acb33",
+      "clean_hash": "573f0ea73ddc9be74ca4affe65dd8011d787ab5e345b3748f8a5b6c9b7703313"
+    },
+    {
+      "center_id": 20099,
+      "center_type": "external",
+      "drift_regime": "production",
+      "pool": "heldout",
+      "domain": "alibaba",
+      "machine_id_hash": "cdef4a4b547f87c43c077d4b944d4bab491e4be6cf928022bf727e823b7c545f",
+      "clean_hash": "a89dbdf02c9571066fa672c8318628265df11cf0ac62cc764c0131e55632953f"
+    }
+  ],
+  "excluded_hashes": [
+    "000baf45ad9fef64e35fe7f9c72a580ecb07990914f2c68d1c36910756423928",
+    "002f66ebf18f9421e83ead0931487415d495586745d71d89f85d524bb8b847af",
+    "003492f7f589e5238ffda92e187f07ec550c1cdfa151599a9932dd5da49d346b",
+    "0045af29e4f66d9ce44f9462ad07a09115e90e05389cac04b07e43aa1ca9c976",
+    "0069c67710ceca781d1ea7e0e6ea840ac9f0008d52dc5b9794f7036de7de7c7f",
+    "006a4ebe13bafc61e75061e4936fc5b3bd1af0119b54c94f530aad1d18e04fa3",
+    "007bc651ff0fc32c6381ba7633742365908c5eaeff5af75c0d2536cd6141bac3",
+    "00a45199fefdeb0e4a94c9978f636cb65648e5ad652177b8f66b394567d3f1f1",
+    "00c32a4b23b29592a505998a2ec6de93c1109421a9ca7a10ea88ce48e95ef6da",
+    "00c97468cc6278b122da67d6a6ea5e634a6b387b6cff2d3db1cd24c34e6ba77d",
+    "00c9ceacb7243474357cb6bcd709b9785a3a080a051edbbdf35d929f6d5b2d31",
+    "00d237e71e2aacc47b29533cd5f1687aec7ad7d79e82ec01210b0d3723fe0be1",
+    "00d313ae253410f29bd5f32f4bf8789e1ef49af6c0950e779682b03e2ab87b5e",
+    "00e562ec3036b115a66d39f6c8bde3aac340cdb2ea349d7a7aeceb465b254f1e",
+    "00ee50a6752d15991c32f503a26d4fe5ea1c7bb99a6e62d245122588d009419d",
+    "00fda6a82709a82d801dd20cadb3aa048f146ac9bb1dfa7e9038fb85eb1ae6a0",
+    "00fee2538318d9c9c8cc80c4f4ea2fbf35838a2df1b4438084d34911fe9b91d9",
+    "010234652cbb8b7d55c2c80281840663f374261dd14849e7b85c179e1309cc1f",
+    "0103edfd6f8f6a329119a556b5e98a7a6470b76a7fb94509ff76d3706223b07a",
+    "0105601599c2645d8f96599df0df082df5ff2f72fd498d57a14ecef678132aad",
+    "0110442c6a0890328c6c4b879dec554cd2fda9749dce9f6550b15eba9553a137",
+    "012fdbf21bd664c03878401f60b17cf199a71ecf92c4e40b929308442cc06819",
+    "014754e355434c00ffd97e74f31810bb13100105b7f3d3e55258a801d920fcfe",
+    "014f2d10249e555e40f00359e742e1e2d64c32405ae114515dab68edd836ea5e",
+    "0168f9f3fd763f75382f917bedf1a94ca737bedda0713e15445f5ad1d64d3510",
+    "0178da6db5f022f74002a4984b4f59a14fe8a168b1f26ab6af0b626e6a32a599",
+    "0181e89aa1c26e7800ec9fefe8454a271aadfd53fe207d095a53397b057a5fa1",
+    "019f3c6e0b53d7695f9694c9421739fa4bfb3210e96d0e6cacfac7eb752e402a",
+    "01acfe8a0ebbf8c2232f1695d1f098dfa7d53311524c4f2d0e721ccfa4ad8713",
+    "01d08e405a8a6fa3d53b4d2c13a3531c08fae4ada8c4ea8b353215b8abaf8cb9",
+    "0205cc0f18ec1b8c25b3e33a17b5ccb2e6fb291d1c405da72f486aec0de68ecf",
+    "02207d2ef92a95b3920904a27e3a774f882d6c82654f65c08d4c3f537c4f3042",
+    "023e64b560a82e49222ffe4d5f09801b2300b2048581ecf145b325245086ecd8",
+    "025f88de7d4566f0b3e93a6e85616b4e88f696c38f796f14a7edb18b1016e878",
+    "02645f57f25f0fb525baeaf1bc922b14e6e416d40647d5807b4b25f6a2543931",
+    "02667af1dce0cdedaac7d8d16c76460e855b20d3aebbb77df38ef523ec0a03dd",
+    "0269e4c02fa44dd2b479422f8143eec2fa004745281607d25a9386368cd05144",
+    "0275fbd62e762321a41fb5011f5ffaab5cfcf57351ce2fa7c12edaed532058ea",
+    "027ddf692d006546c6917ca67956378f424fc68138a6ade24f5f222b441dbd86",
+    "0282e056b728723a5c5bae56ecaced89ab841eb1d992957e209c71d8bcabf026",
+    "0293c46f904492eb76ce893399bbbd9370526190f4f8b8e06592b07454ed6019",
+    "029b08860617387cefc468db7b202dcfebc8190ba4c8a868cee8ee5daca3b8b2",
+    "02a606beff4be77b9a0348832ac5a9038a25e1b1575243cf377e4b95d9f845e9",
+    "02ab99dd6c18701a1a0c7fe89d5af8973269f6b07f37971108d5e52ad691bccc",
+    "02c636f499417d2887dc85785c3f5d1355c3939f46d7021b2db3c243878038ad",
+    "02cc3af4e277a38ec110e4db94b11ad68213028443d2c475ce504a9d3da94ef8",
+    "02dc2f67e49eb0a656beba77c8cb0438f09d95251e9520eb796a731a832f60e0",
+    "02e3fbf27919e3a2bdc9ad676dd5e44e65a9a876f195c3616e052f51fdb8c83c",
+    "02fc23faaaf481c25ba46ff4bb7806a0c3c225d5bd9a385011cbb75990e4da54",
+    "02fd36ba974d5c3679ac713c4718b10ce6be60afabbdc0a01631dee6c8940854",
+    "0303c3a184ad91ec026d4e9ce0f0257742bd6f935378bfee5403735f2b22a1e3",
+    "03125411ad4b699e350ab4c0791369e83ad166bc7d28a52ecf6fab74167efb01",
+    "03141ae05695f42cd5e9ea43ade98b59ec2d0a547a1306382e7a985a92524473",
+    "0329222b5b1643df373717ca3dbef7dd06a8be89edb3a961afb5e4261fddcc28",
+    "038aaf2c434317524c432ae97f8e617488199ca952139588bfde3fd10c7843b0",
+    "03afa7534ce37ec15ac4e93e0f8fb81b80d004aab6544ca31bf936a3168be6dd",
+    "03ca73436e2dd02c9ab44095328e92238be7cbc5cc6fd01db1d451b44ff3f71e",
+    "03d7db6af50af631983a787e08321402558fb2fb772343cd571a9fe9d2406475",
+    "04024519cb5e4a34b678fb18bcf45447a1bd44995963ae8a3feec1a2a8f20efe",
+    "0408d28c8bee1250c56a9f4f5f761d1c16ab4ea4ef1114acbf70b96ed2b6df81",
+    "041b400959485da798d026001f39a3f31228fbb218a5b957a6a5e06137547af8",
+    "0420632506c4b67c75c43fdb990d420efc8c0b2be5777589e97f64eb996c1eb0",
+    "042163eec0a0f9f2bf5832a449191e8cb8caab304ae37bd240702629092f0871",
+    "042924f710ce8e8224a183fe34680142017f1b56e9ff5417274bf385c756e10a",
+    "04295e74473ba7f5467ca54ba4a2946bd875fb3957e6663b3e4c835893ed78d7",
+    "044102baf528f617ab91ca5e06d9ee52fa90d4bc75a98acc075e368427e7f522",
+    "0452d23ca019ed7631a6827ac1a8e35f65405abfa40185ea13a26071f917fa93",
+    "04640d15e0f8a0e702f303f446aa7638ec396e652f0ea50b0713a2f4afb599fe",
+    "0468b61c95eab87620c0dce0c5727080ae6b9fad754419803e47fb2cf6280ddd",
+    "046c8aace2d4ffc3a2997ecc388764bfcd478fa284607c826802d1b0d6b029cf",
+    "047a0fdf20e568e24d89380973db94ce1b50eac2f75155b27e7a91a18664c84c",
+    "047b9d9210fb6b5a1a882406026e423843028a314484f5c018f478f81f3de313",
+    "048357bde73c426bf15d2145c138be9a23cda509c8470fefc16d02cd37f8ce9f",
+    "048d350cc09e97f2627f16ec6a3f6326db996aa5489859db632fec7c89d81ab3",
+    "04b91219d34e28f1eefc502ed28f1d9df53c208d07afa707bc76fb51cd4b1430",
+    "04bfcc727deb8e1c6ffcc2e702dbbaad5a98d6a3e645cd33cf0ee385d8899ce6",
+    "04d0c665e4f957957cbe14620bc73ddcda81a64c716020aef28c6304de45561a",
+    "04ef4662986526a6b446a8e4f01a505cfbb1e8b9ca76daa712fafb92acbbc80a",
+    "04efc3d619934774df8ae9e2324b8e89a64aff5a1672738db75a0e2e4af953b6",
+    "04f7adf73805538c7701c9121fa557ee41f02d52f46b9b8c80d32ff24d8c1a84",
+    "05044317941d541933b6ca2c4e12c5be050823381751803070f3d03cf231d792",
+    "050dfc3665039b941720c3c71d197a2f57a2de114f6ec31ec79c3eff6531c4ef",
+    "0514f32c5fe84d477aafc57b4b7d08b7495c260bb369041df8978e4ff8ed0024",
+    "05177cf5e4f6f55c595422bf2065c59c6d8a56e057fa9265a6a4fa73daf39c2a"
+  ],
+  "archive_sha256": "3e6ee87fd204bb85b9e234c5c75a5096580fdabc8f085b224033080090753a7a",
+  "stages": 24,
+  "normalization": "known percent metrics /100; mkpi unavailable; zero-fill missing with mask",
+  "time_handling": "sorted original unique valid-target observations, no interpolation, irregular timestamps retained"
+}

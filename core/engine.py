@@ -1,4 +1,4 @@
-import copy,time,json,hashlib
+import copy,time,json,hashlib,os
 import numpy as np
 import torch
 from core.protocol import ROOT,Timeline,Segment,windows,block_indices,attack,digest,save_json
@@ -14,11 +14,31 @@ def evidence_blocks(seg,H=1,B=6):
             result.append(Segment(seg.x[a:b].copy(),seg.y[a:b].copy(),seg.ts[a:b].copy(),'verification'))
     return result
 
-def score(candidate,parent,blocks,H,kappa,mean=False):
-    vals=[];weights=[];calls=0
-    for block in blocks:
-        xy=tensors(windows(block,H=H));a,_=errors(candidate,xy);b,_=errors(parent,xy)
-        vals.append(float((a-b).mean()));weights.append(len(a));calls+=2*((len(a)+255)//256)
+def _atomic_torch_save(obj,path):
+    tmp=path.with_name(f'{path.name}.{os.getpid()}.tmp')
+    torch.save(obj,tmp)
+    try:os.replace(tmp,path)
+    finally:tmp.unlink(missing_ok=True)
+
+def score(candidate,parent,blocks,H,kappa,mean=False,cache=False):
+    vals=[];weights=[];calls=0;cache_path=None
+    if cache:
+        key=json.dumps([state_hash(candidate),state_hash(parent),H,[b.hash for b in blocks]],separators=(',',':'))
+        cache_dir=ROOT/'checkpoints/calibration_evidence';cache_dir.mkdir(parents=True,exist_ok=True)
+        cache_path=cache_dir/(hashlib.sha256(key.encode()).hexdigest()+'.npz')
+    if cache_path is not None and cache_path.exists():
+        with np.load(cache_path,allow_pickle=False) as z:
+            vals=z['vals'].astype(np.float64).tolist();weights=z['weights'].astype(np.int64).tolist();calls=int(z['calls'])
+    else:
+        for block in blocks:
+            xy=tensors(windows(block,H=H));a,_=errors(candidate,xy);b,_=errors(parent,xy)
+            vals.append(float((a-b).mean()));weights.append(len(a));calls+=2*((len(a)+255)//256)
+        if cache_path is not None:
+            tmp=cache_path.with_name(f'{cache_path.name}.{os.getpid()}.tmp')
+            with tmp.open('wb') as f:
+                np.savez_compressed(f,vals=np.asarray(vals,dtype=np.float64),weights=np.asarray(weights,dtype=np.int64),calls=np.int64(calls))
+            try:os.replace(tmp,cache_path)
+            finally:tmp.unlink(missing_ok=True)
     if not vals:return float('inf'),float('nan'),float('nan'),calls
     median=float(np.median(vals));mad=float(np.median(np.abs(np.array(vals)-median)))
     return (float(np.average(vals,weights=weights)) if mean else median+kappa*mad),median,mad,calls
@@ -83,14 +103,14 @@ def run(center,seed,method,kind='clean',alpha=0.,location='both',cfg=None,stages
                 train_xy=Batch(torch.cat([xy[0]]+[o[0] for o in old]),torch.cat([xy[1]]+[o[1] for o in old]),'replay_training')
             candidate=adapt(parent,train_xy,seed=seed+center+t*100,loss='huber' if method=='Huber-FT' else 'mse',ewc=(anchor,fisher) if method=='EWC' else None,lam=cfg['ewc_lambda']);updates=50
         if cache_path is not None and not cache_hit:
-            torch.save(candidate.state_dict(),cache_path.with_suffix('.tmp'));cache_path.with_suffix('.tmp').replace(cache_path)
+            _atomic_torch_save(candidate.state_dict(),cache_path)
         sync();update_time=time.perf_counter()-cand_start
         assert state_hash(parent)==before,'candidate modified deployed parent'
         ver_start=time.perf_counter();recent=evidence_blocks(v,H)
         ur=uh=mr=mh=rr=rh=float('nan');vf=0
         if method in ['Proposed','SinglePath','MeanDelta','RecentOnly','MeanVerification']:
-            ur,mr,rr,n=score(candidate,parent,recent,H,cfg['kappa_rec'],method=='MeanVerification');vf+=n
-            if method!='RecentOnly':uh,mh,rh,n=score(candidate,parent,history,H,cfg['kappa_hist'],method=='MeanVerification');vf+=n
+            ur,mr,rr,n=score(candidate,parent,recent,H,cfg['kappa_rec'],method=='MeanVerification',cfg.get('calibration_evidence_cache',False));vf+=n
+            if method!='RecentOnly':uh,mh,rh,n=score(candidate,parent,history,H,cfg['kappa_hist'],method=='MeanVerification',cfg.get('calibration_evidence_cache',False));vf+=n
             commit=(ur<=-cfg['delta_imp'] and (method=='RecentOnly' or uh<=cfg['delta_ret'])) and not cfg['retain_all']
         elif method=='ValidationCommit':
             verxy=tensors(windows(v,H=H));a,_=errors(candidate,verxy);b,_=errors(parent,verxy)

@@ -1,0 +1,27 @@
+{
+  "kappas": [
+    0.0,
+    0.5,
+    1.0,
+    1.5
+  ],
+  "delta_imp_grid": [
+    0.0,
+    5.60364755324872e-06,
+    2.8018237766243602e-05,
+    5.6036475532487204e-05,
+    0.000280182377662436
+  ],
+  "delta_ret_grid": [
+    0.0,
+    5.60364755324872e-06,
+    2.8018237766243602e-05,
+    5.6036475532487204e-05,
+    0.000280182377662436
+  ],
+  "epsilon": 5.6036475532487204e-05,
+  "rho": 0.05,
+  "reference_lifecycle_MSE_dev": 0.00560364755324872,
+  "eligibility": "Both clean and mixed condition individually satisfy unconditional harmful-commit rate <= rho and mean downside <= epsilon",
+  "fallback": "retain_all"
+}

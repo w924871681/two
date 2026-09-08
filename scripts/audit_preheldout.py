@@ -14,6 +14,8 @@ def main():
     for name in ['protocol_tests.json','legacy_pool_scan.json']:
         obj=json.loads((ROOT/'audits'/name).read_text());assert obj['status']=='passed'
         if name=='protocol_tests.json':assert not obj['skipped'] and obj['tests_run']>=14
+    acceleration=json.loads((ROOT/'audits/acceleration_equivalence.json').read_text())
+    assert acceleration['status']=='passed' and acceleration['cache_paths_bit_exact']
     grid=pd.read_csv(ROOT/'calibration_grid.csv');assert len(grid)==405
     assert set(grid.policy)==set(range(405))
     summary=json.loads((ROOT/'calibration_summary.json').read_text())
@@ -34,12 +36,12 @@ def main():
     assert count==405*20*3*2
     # Independent execution comparison of cached/uncached candidate transitions.
     from core.engine import run
-    a=pd.DataFrame(run(11000,7311,'Proposed','mixed',.1,cfg={'calibration_candidate_cache':False},stages=2,smoke=True))
-    b=pd.DataFrame(run(11000,7311,'Proposed','mixed',.1,cfg={'calibration_candidate_cache':True},stages=2,smoke=True))
-    c=pd.DataFrame(run(11000,7311,'Proposed','mixed',.1,cfg={'calibration_candidate_cache':True},stages=2,smoke=True))
+    a=pd.DataFrame(run(11000,7311,'Proposed','mixed',.1,cfg={'calibration_candidate_cache':False,'calibration_evidence_cache':False},stages=2,smoke=True))
+    b=pd.DataFrame(run(11000,7311,'Proposed','mixed',.1,cfg={'calibration_candidate_cache':True,'calibration_evidence_cache':True},stages=2,smoke=True))
+    c=pd.DataFrame(run(11000,7311,'Proposed','mixed',.1,cfg={'calibration_candidate_cache':True,'calibration_evidence_cache':True},stages=2,smoke=True))
     cols=['parent_state_hash','candidate_state_hash','commit','U_rec','U_hist','deployed_service_mse','service_data_hash','attack_mask_hash']
     pd.testing.assert_frame_equal(a[cols],b[cols]);pd.testing.assert_frame_equal(a[cols],c[cols])
-    results.update({'calibration_complete_trajectories':count,'candidate_cache_equivalence':'passed','all_14_protocol_tests':'passed','legacy_pool_collision_scan':'passed'})
+    results.update({'calibration_complete_trajectories':count,'candidate_and_evidence_cache_equivalence':'passed','all_14_protocol_tests':'passed','legacy_pool_collision_scan':'passed','acceleration_equivalence':'passed'})
     save_json(ROOT/'audits/heldout_readiness.json',{'status':'approved_by_implementation_audit','heldout_may_start':True,'checks':results,'baseline_limitations':['CLeaR predictor-only framework adaptation','MER-Reg-2026 unavailable, omitted as preregistered'],'scope':'Executable integrity and completeness audit, not external scientific peer review'})
 
 if __name__=='__main__':main()

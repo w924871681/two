@@ -3,6 +3,7 @@ from dataclasses import dataclass
 from pathlib import Path
 import hashlib
 import json
+import os
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -123,6 +124,10 @@ def attack(seg,center,stage,kind,alpha,location,seed=9417):
     key=hashlib.sha256(f'{center}:{stage}:{seg.role}:{kind}:{alpha}:{location}:{seed}'.encode()).hexdigest()
     path=audit_dir/(key+'.npz')
     if not path.exists():
-        np.savez_compressed(path,mask=mask,source_timestamps=source_ts,target_timestamps=seg.ts,
-                            center=center,stage=stage,role=seg.role,kind=kind,alpha=alpha,location=location)
+        tmp=path.with_name(f'{path.name}.{os.getpid()}.tmp')
+        with tmp.open('wb') as f:
+            np.savez_compressed(f,mask=mask,source_timestamps=source_ts,target_timestamps=seg.ts,
+                                center=center,stage=stage,role=seg.role,kind=kind,alpha=alpha,location=location)
+        try:os.replace(tmp,path)
+        finally:tmp.unlink(missing_ok=True)
     return out,mask,source_ts,kind
