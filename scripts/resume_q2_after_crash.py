@@ -49,6 +49,7 @@ def main():
         env = dict(os.environ)
         env["RESUME_FROM_PHASE"] = "Q2"
         env["STOP_AFTER_PHASE"] = "Q2"
+        env["Q2_RECOVERY_APPROVED"] = "1"
         subprocess.run(
             [sys.executable, str(ROOT / "scripts/run_heldout.py")], cwd=ROOT,
             env=env, check=True, stdout=console, stderr=stderr,

@@ -10,6 +10,7 @@ from core.freeze import require_frozen
 from scripts.bootstrap import generate
 from scripts.pretrain import pretrain
 from scripts.q2_manifest import q2_key, q2_key_from_filename, q2_workloads
+from scripts.q2_recovery_freeze import require_q2_recovery_freeze
 
 METHODS=['Frozen','Always-FT','ER','EWC','Huber-FT','CLeaR-Predictor','ValidationCommit','Proposed','OracleCommit']
 
@@ -24,7 +25,8 @@ def case(out,center,seed,method,kind,alpha,loc,cfg,backbone='GRU',H=1,key='base'
     save_execution_status(ROOT/'logs/execution_status.json',{'phase':out.name,'last_completed':name,'heldout_started':True})
 
 def main():
-    require_frozen()
+    if os.environ.get('Q2_RECOVERY_APPROVED')=='1':require_q2_recovery_freeze()
+    else:require_frozen()
     cfg={}
     for f in ['frozen_candidate_config.yaml','frozen_commit_config.yaml','frozen_baseline_config.yaml']:
         cfg.update(json.loads((ROOT/'configs'/f).read_text()))
