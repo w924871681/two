@@ -1,13 +1,15 @@
 import sys
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
-import itertools,json,time
+import itertools,json,os,time
 import pandas as pd
 from core.protocol import ROOT,POOLS,save_json
+from core.status import save_execution_status
 from core.engine import run
 from core.freeze import require_frozen
 from scripts.bootstrap import generate
 from scripts.pretrain import pretrain
+from scripts.q2_manifest import q2_key, q2_key_from_filename, q2_workloads
 
 METHODS=['Frozen','Always-FT','ER','EWC','Huber-FT','CLeaR-Predictor','ValidationCommit','Proposed','OracleCommit']
 
@@ -19,7 +21,7 @@ def case(out,center,seed,method,kind,alpha,loc,cfg,backbone='GRU',H=1,key='base'
     rows=run(center,seed,method,kind,alpha,loc,cfg,backbone=backbone,H=H,run_id=name[:-4])
     tmp=path.with_suffix('.tmp');pd.DataFrame(rows).to_csv(tmp,index=False,na_rep='NA');tmp.replace(path)
     print(out.name,name,flush=True)
-    save_json(ROOT/'logs/execution_status.json',{'phase':out.name,'last_completed':name,'heldout_started':True})
+    save_execution_status(ROOT/'logs/execution_status.json',{'phase':out.name,'last_completed':name,'heldout_started':True})
 
 def main():
     require_frozen()
@@ -28,12 +30,25 @@ def main():
         cfg.update(json.loads((ROOT/'configs'/f).read_text()))
     if not all((ROOT/'data'/f'center_{c}.npz').exists() for c in POOLS['heldout']):generate('heldout')
     seeds=[7311,7312,7313]
-    for seed,c,(kind,alpha),method in itertools.product(seeds,POOLS['heldout'],[('clean',0.),('mixed',.1)],METHODS):
-        case('q1_overall',c,seed,method,kind,alpha,'both',cfg)
-    conditions=[(a,p,'both') for a,p in itertools.product(['random','persistent_bias','burst','replay'],[.05,.1,.2])]
-    conditions+=list(itertools.product(['persistent_bias','replay'],[.1],['update_only','verification_only']))
-    for seed,c,(kind,alpha,loc),method in itertools.product(seeds,POOLS['heldout'][:20],conditions,[m for m in METHODS if m!='OracleCommit']):
-        case('q2_security',c,seed,method,kind,alpha,loc,cfg)
+    if os.environ.get('RESUME_FROM_PHASE','').upper() != 'Q2':
+        for seed,c,(kind,alpha),method in itertools.product(seeds,POOLS['heldout'],[('clean',0.),('mixed',.1)],METHODS):
+            case('q1_overall',c,seed,method,kind,alpha,'both',cfg)
+    expected_q2=q2_workloads();expected_keys={q2_key(workload) for workload in expected_q2}
+    completed_keys=set()
+    for path in (ROOT/'results/q2_security').glob('*.csv'):
+        key=q2_key_from_filename(path.name)
+        if key is not None:completed_keys.add(key)
+    assert completed_keys<=expected_keys,'unexpected completed Q2 key'
+    for workload in expected_q2:
+        key=q2_key(workload)
+        if key in completed_keys:continue
+        seed,c,(kind,alpha,loc),method=workload
+        case('q2_security',c,seed,method,kind,alpha,loc,cfg);completed_keys.add(key)
+    if os.environ.get('STOP_AFTER_PHASE','').upper()=='Q2':
+        from scripts.audit_q2_integrity import audit_q2_integrity
+        audit=audit_q2_integrity();assert audit['status']=='passed',audit
+        save_execution_status(ROOT/'logs/execution_status.json',{'phase':'Q2 complete','phase_complete':'Q2','completed':len(expected_q2),'expected':len(expected_q2),'heldout_started':True,'next':'WAITING_FOR_MANUAL_POST_Q2_BENCHMARK_APPROVAL'})
+        return
     # Q3 uses exact clean Q1 trajectories; no redundant retraining.
     q1=pd.concat([pd.read_csv(p) for p in (ROOT/'results/q1_overall').glob('base_*.csv')],ignore_index=True)
     q3=ROOT/'results/q3_benign_drift';q3.mkdir(exist_ok=True);q1[q1.attack_alpha==0].to_csv(q3/'raw_episode_results.csv',index=False,na_rep='NA')

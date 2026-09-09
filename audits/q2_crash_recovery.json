@@ -1,0 +1,704 @@
+{
+  "status": "passed",
+  "audit": "Q2 crash recovery pre-resume integrity",
+  "created_at": "2026-09-09T12:46:18+0800",
+  "frozen_execution": {
+    "final_freeze_created_at": "2026-09-09T03:26:46.627540",
+    "git_sha": "d6d33075cb3afa55a24878e2343f1bc1d1c9368a",
+    "formal_p6_git_sha": "c5fd73934d44e76629881b61ca77cd4a1a853b9a",
+    "seeds": [
+      7311,
+      7312,
+      7313
+    ],
+    "centers": [
+      13000,
+      13001,
+      13002,
+      13003,
+      13004,
+      13005,
+      13006,
+      13007,
+      13008,
+      13009,
+      13010,
+      13011,
+      13012,
+      13013,
+      13014,
+      13015,
+      13016,
+      13017,
+      13018,
+      13019
+    ],
+    "conditions": [
+      [
+        "random",
+        0.05,
+        "both"
+      ],
+      [
+        "random",
+        0.1,
+        "both"
+      ],
+      [
+        "random",
+        0.2,
+        "both"
+      ],
+      [
+        "persistent_bias",
+        0.05,
+        "both"
+      ],
+      [
+        "persistent_bias",
+        0.1,
+        "both"
+      ],
+      [
+        "persistent_bias",
+        0.2,
+        "both"
+      ],
+      [
+        "burst",
+        0.05,
+        "both"
+      ],
+      [
+        "burst",
+        0.1,
+        "both"
+      ],
+      [
+        "burst",
+        0.2,
+        "both"
+      ],
+      [
+        "replay",
+        0.05,
+        "both"
+      ],
+      [
+        "replay",
+        0.1,
+        "both"
+      ],
+      [
+        "replay",
+        0.2,
+        "both"
+      ],
+      [
+        "persistent_bias",
+        0.1,
+        "update_only"
+      ],
+      [
+        "persistent_bias",
+        0.1,
+        "verification_only"
+      ],
+      [
+        "replay",
+        0.1,
+        "update_only"
+      ],
+      [
+        "replay",
+        0.1,
+        "verification_only"
+      ]
+    ],
+    "methods": [
+      "Frozen",
+      "Always-FT",
+      "ER",
+      "EWC",
+      "Huber-FT",
+      "CLeaR-Predictor",
+      "ValidationCommit",
+      "Proposed"
+    ],
+    "expected_keys": 7680
+  },
+  "counts": {
+    "trajectory_csv": 6421,
+    "scientific_keys": 6421,
+    "stage_rows_expected": 154104,
+    "remaining_expected_scientific_keys": 1259,
+    "last_completed_key": [
+      7313,
+      13010,
+      "random",
+      0.2,
+      "both",
+      "Huber-FT"
+    ],
+    "next_remaining_key": [
+      7313,
+      13010,
+      "random",
+      0.2,
+      "both",
+      "CLeaR-Predictor"
+    ]
+  },
+  "checks": {
+    "expected_total_is_7680": true,
+    "completed_total_is_6421": true,
+    "scientific_key_unique": true,
+    "unexpected_keys_zero": true,
+    "completed_prefix_missing_zero": true,
+    "remaining_keys_is_1259": true,
+    "all_nonempty": true,
+    "no_half_written_or_temp_files": true,
+    "all_csv_parse": true,
+    "all_schema_complete": true,
+    "all_24_stages": true,
+    "filename_metadata_match": true,
+    "cross_method_data_attack_hashes_match": true,
+    "p7_freeze_hashes_match": true,
+    "q3_official_results_absent": true
+  },
+  "failures": {
+    "unknown_files": [],
+    "empty_files": [],
+    "non_csv_or_tmp_files": [],
+    "parse_errors": [],
+    "bad_row_counts": [],
+    "bad_stage_sets": [],
+    "schema_mismatch": [],
+    "metadata_mismatch": [],
+    "duplicate_key_excess": 0,
+    "duplicate_keys": [],
+    "unexpected_keys": [],
+    "holes_in_completed_prefix": [],
+    "hash_inconsistency": [],
+    "freeze_mismatches": [],
+    "q3_files": []
+  },
+  "remaining_manifest": {
+    "count": 1259,
+    "sha256": "0324c7d04b33e08a3a035ee7ecf9c35bcd9e11c4a8a7e12ea50242b13bdc9e49",
+    "first": [
+      7313,
+      13010,
+      "random",
+      0.2,
+      "both",
+      "CLeaR-Predictor"
+    ],
+    "last": [
+      7313,
+      13019,
+      "replay",
+      0.1,
+      "verification_only",
+      "Proposed"
+    ]
+  },
+  "freeze_hash_checks": {
+    "core/__init__.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "current": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "core/engine.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "b143046aac84e62ab098c5cb5f1666dafe4fe24419ea8b164acdf2c8cbee23a6",
+      "current": "b143046aac84e62ab098c5cb5f1666dafe4fe24419ea8b164acdf2c8cbee23a6"
+    },
+    "core/freeze.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "e1222302fbd43dfc5a206a2ee9718febb35a73daf1f10214ef2d67b2ad987122",
+      "current": "e1222302fbd43dfc5a206a2ee9718febb35a73daf1f10214ef2d67b2ad987122"
+    },
+    "core/joint_dag.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "9020dc8cced08766c0bb02e5103578e3da958d02c2f504f793e4d3ebda76374a",
+      "current": "9020dc8cced08766c0bb02e5103578e3da958d02c2f504f793e4d3ebda76374a"
+    },
+    "core/models.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "b38b29b74ff4191add5e8c48e9d916529afb67f801830c68e290f07deacfa656",
+      "current": "b38b29b74ff4191add5e8c48e9d916529afb67f801830c68e290f07deacfa656"
+    },
+    "core/protocol.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "48254f026a096767271ef784e5ed22f8b24ab3369bf3614a8e23c80b626eff15",
+      "current": "48254f026a096767271ef784e5ed22f8b24ab3369bf3614a8e23c80b626eff15"
+    },
+    "core/statistics.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "e8ef1e2963c60e8b3102d48e19472d902f2666b5c5a5b204a5cd1c6dcbe7a415",
+      "current": "e8ef1e2963c60e8b3102d48e19472d902f2666b5c5a5b204a5cd1c6dcbe7a415"
+    },
+    "scripts/audit_acceleration_equivalence.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "a844586a60fc830e61e2eb7f5e60e56da047081e17a352f30f8786f7a8943395",
+      "current": "a844586a60fc830e61e2eb7f5e60e56da047081e17a352f30f8786f7a8943395"
+    },
+    "scripts/audit_alibaba_joint_dag_equivalence.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "f497692df0ee934a902925988f5bc32d7d00ec08949aca5154edf0d7135db698",
+      "current": "f497692df0ee934a902925988f5bc32d7d00ec08949aca5154edf0d7135db698"
+    },
+    "scripts/audit_cache_concurrency.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "697aff259cb02912f13a37701065cf07bc7780e118146a41459e71c19ca60bfc",
+      "current": "697aff259cb02912f13a37701065cf07bc7780e118146a41459e71c19ca60bfc"
+    },
+    "scripts/audit_joint_dag_equivalence.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "d97f95d39846e39878f2ee3e67fdb818550b0df9c63e190470bae08bde55f8cb",
+      "current": "d97f95d39846e39878f2ee3e67fdb818550b0df9c63e190470bae08bde55f8cb"
+    },
+    "scripts/audit_joint_dag_protocol.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "c5879207e0d8bbe5ba7b0fa2b98ee7d476f40670b252ed7969ce64a6b34f2cb4",
+      "current": "c5879207e0d8bbe5ba7b0fa2b98ee7d476f40670b252ed7969ce64a6b34f2cb4"
+    },
+    "scripts/audit_legacy_pools.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "6902630846b3b116be5ef6ca3943d3f38b4a6ca6b71b2cf003d3ffdc8ea02159",
+      "current": "6902630846b3b116be5ef6ca3943d3f38b4a6ca6b71b2cf003d3ffdc8ea02159"
+    },
+    "scripts/audit_preheldout.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "cecbfdcbf56fb803fefd59a730cbe45c2454d542d03033615fa8be64facff314",
+      "current": "cecbfdcbf56fb803fefd59a730cbe45c2454d542d03033615fa8be64facff314"
+    },
+    "scripts/benchmark_joint_dag.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "d76ee42c5af4c6e747495a0ae3148fddc9004bf43c97da9a6e1382eb56d1a90e",
+      "current": "d76ee42c5af4c6e747495a0ae3148fddc9004bf43c97da9a6e1382eb56d1a90e"
+    },
+    "scripts/bootstrap.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "ae55c549b8de000931e136f3d02ea92585df380cf752fae236c2e9b531c47457",
+      "current": "ae55c549b8de000931e136f3d02ea92585df380cf752fae236c2e9b531c47457"
+    },
+    "scripts/derived_metrics.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "11c2594bc09806d3d6067e14f7233ba32389c68fd740e7032d5812b3293ab87d",
+      "current": "11c2594bc09806d3d6067e14f7233ba32389c68fd740e7032d5812b3293ab87d"
+    },
+    "scripts/diagnose_p6_archives.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "367ec2b542113214e044c4e9dc55a18e3c9de0d0ada3e2d44d8570030d2ff5d0",
+      "current": "367ec2b542113214e044c4e9dc55a18e3c9de0d0ada3e2d44d8570030d2ff5d0"
+    },
+    "scripts/expose_validated_reference_cache.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "b3a6fded8ec4064e42bf603d1336012dc5f6e6ab76f993cbc014be2162ee7847",
+      "current": "b3a6fded8ec4064e42bf603d1336012dc5f6e6ab76f993cbc014be2162ee7847"
+    },
+    "scripts/final_reproducibility_audit.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "4a8c8b06e12e2e9cce925f9e01cb7ff1f01a83fd5422b0bfa00456104dd2ae04",
+      "current": "4a8c8b06e12e2e9cce925f9e01cb7ff1f01a83fd5422b0bfa00456104dd2ae04"
+    },
+    "scripts/finalize_outputs.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "9d9c09fbc441ea29777e52355f6f99c7d3f2f1a9462ccf308b31439d2cb8ad12",
+      "current": "9d9c09fbc441ea29777e52355f6f99c7d3f2f1a9462ccf308b31439d2cb8ad12"
+    },
+    "scripts/finalize_report.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "26c7bddaef42dade56011b7dac88c52cdc178e833d6cfb1404aeac87f6532ab0",
+      "current": "26c7bddaef42dade56011b7dac88c52cdc178e833d6cfb1404aeac87f6532ab0"
+    },
+    "scripts/migrate_joint_dag_cache.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "7b895e1926d65302a5094bb52bb9fee7eed5c0ee370a1d925b2ab0aa32b8c16f",
+      "current": "7b895e1926d65302a5094bb52bb9fee7eed5c0ee370a1d925b2ab0aa32b8c16f"
+    },
+    "scripts/prepare_alibaba.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "a102cace8dd79aba18bae57f2288de54d8f96e61826a4d830faa95fad1ad9075",
+      "current": "a102cace8dd79aba18bae57f2288de54d8f96e61826a4d830faa95fad1ad9075"
+    },
+    "scripts/pretrain.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "3643a987744ed11e685a0e13f7ad313392dc59647942d52da4e08217aa1550ce",
+      "current": "3643a987744ed11e685a0e13f7ad313392dc59647942d52da4e08217aa1550ce"
+    },
+    "scripts/profile_reference_executor.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "04d4d651e8e824b70f9c26e091d4fde64a7b62021720e8aeeda7dcf59d683f12",
+      "current": "04d4d651e8e824b70f9c26e091d4fde64a7b62021720e8aeeda7dcf59d683f12"
+    },
+    "scripts/profile_remaining_matrix.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "6243ee7d47cf88c354ec44d8c04bb8edee49ce4af3e194a872d1a77a23e590b2",
+      "current": "6243ee7d47cf88c354ec44d8c04bb8edee49ce4af3e194a872d1a77a23e590b2"
+    },
+    "scripts/resume_after_p7.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "95abb15f731139746c2464de83403812e8ac3f516bcf9638234a6f46ca59320c",
+      "current": "95abb15f731139746c2464de83403812e8ac3f516bcf9638234a6f46ca59320c"
+    },
+    "scripts/run_alibaba.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "bf27ff86c2baa40fed96fbc2ddd2bb975f6bfebc83255ac67b64db6b0b50a729",
+      "current": "bf27ff86c2baa40fed96fbc2ddd2bb975f6bfebc83255ac67b64db6b0b50a729"
+    },
+    "scripts/run_all_final.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "eecfd53c6e10c2bf375a42d60d99476a4e1cfc5174086cc3069ae4c078f5b535",
+      "current": "eecfd53c6e10c2bf375a42d60d99476a4e1cfc5174086cc3069ae4c078f5b535"
+    },
+    "scripts/run_calibration.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "ca173ff5e20b21eceb685e81c2c72e3f7cdfff21396f38cf7ee389a49ce9113c",
+      "current": "ca173ff5e20b21eceb685e81c2c72e3f7cdfff21396f38cf7ee389a49ce9113c"
+    },
+    "scripts/run_calibration_joint_dag.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "c3e32d9fc149c0f6188b992b0448e6e76bda66bc8b1ea5c4b922ee9eec4189ea",
+      "current": "c3e32d9fc149c0f6188b992b0448e6e76bda66bc8b1ea5c4b922ee9eec4189ea"
+    },
+    "scripts/run_calibration_joint_dag_parallel.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "9e52c872e875a5b174bf699ae16e4dbfa8565e3c42cbe06552d6a8d596dc66fb",
+      "current": "9e52c872e875a5b174bf699ae16e4dbfa8565e3c42cbe06552d6a8d596dc66fb"
+    },
+    "scripts/run_calibration_parallel.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "0493dc79845f3ee7ca4c9ae530d132783945dfc0b6e7bc8af967d0fbaa73355e",
+      "current": "0493dc79845f3ee7ca4c9ae530d132783945dfc0b6e7bc8af967d0fbaa73355e"
+    },
+    "scripts/run_development.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "7180c4fe4df783bd378a5c98998c565def2fd3fa2e8ef548de759e105de44d4d",
+      "current": "7180c4fe4df783bd378a5c98998c565def2fd3fa2e8ef548de759e105de44d4d"
+    },
+    "scripts/run_heldout.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "591f1deefa0af5acd09f0a22b60760b877c00e821027cbc51eafa888d44b075c",
+      "current": "591f1deefa0af5acd09f0a22b60760b877c00e821027cbc51eafa888d44b075c"
+    },
+    "scripts/run_smoke.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "412c72736bd9c3edaa9b7c6b8115ad7b1adaf0405cf1df831eee5b16d8664bcc",
+      "current": "412c72736bd9c3edaa9b7c6b8115ad7b1adaf0405cf1df831eee5b16d8664bcc"
+    },
+    "scripts/summarize.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "832424d9c8959ba2cae2c74aab8b1b2c25486b726c21a7a719a08fb7b717ed47",
+      "current": "832424d9c8959ba2cae2c74aab8b1b2c25486b726c21a7a719a08fb7b717ed47"
+    },
+    "scripts/verify_repository.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "e5ad84425bffd59c621d64f9c8b5a9ef15554b69678f32f2ec0417c9135e0271",
+      "current": "e5ad84425bffd59c621d64f9c8b5a9ef15554b69678f32f2ec0417c9135e0271"
+    },
+    "vendor/__init__.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "current": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "vendor/main_cfg.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "fea128a2649301017a2a8ad6cab3db30392e180c2f3aa1216e9a83fefcd5d005",
+      "current": "fea128a2649301017a2a8ad6cab3db30392e180c2f3aa1216e9a83fefcd5d005"
+    },
+    "vendor/sim.py": {
+      "exists": true,
+      "match": true,
+      "frozen": "930fa8ebe34a442d53af16a054955580f2d0c41ef2514a3cfd125b0e6905883d",
+      "current": "930fa8ebe34a442d53af16a054955580f2d0c41ef2514a3cfd125b0e6905883d"
+    },
+    "configs/attack_protocol.yaml": {
+      "exists": true,
+      "match": true,
+      "frozen": "3305b5cc7e8e6c4b74b1b1328daacfcbc47d53e6cf2d077ba38280f8e6679687",
+      "current": "3305b5cc7e8e6c4b74b1b1328daacfcbc47d53e6cf2d077ba38280f8e6679687"
+    },
+    "configs/baseline_protocol.yaml": {
+      "exists": true,
+      "match": true,
+      "frozen": "78b417bbb6a1057852ef3615206bec13f1dae670ea4b449b53d23aa89fd12215",
+      "current": "78b417bbb6a1057852ef3615206bec13f1dae670ea4b449b53d23aa89fd12215"
+    },
+    "configs/calibration_protocol.sha256": {
+      "exists": true,
+      "match": true,
+      "frozen": "3491d05fac32dd207671f1fb996ebc30057b87c233a15c8ad4f850fbabf7ea7d",
+      "current": "3491d05fac32dd207671f1fb996ebc30057b87c233a15c8ad4f850fbabf7ea7d"
+    },
+    "configs/calibration_protocol.yaml": {
+      "exists": true,
+      "match": true,
+      "frozen": "e08902bbf8edefe975b8f55be5d3aeda0dcbe033326c40f6d1dcfd9b6aa6b461",
+      "current": "e08902bbf8edefe975b8f55be5d3aeda0dcbe033326c40f6d1dcfd9b6aa6b461"
+    },
+    "configs/frozen_baseline_config.sha256": {
+      "exists": true,
+      "match": true,
+      "frozen": "57db3cf7058a1e51e9098ece65de5ae2c0cd6cf21ecb7fe8230f2b12079ba444",
+      "current": "57db3cf7058a1e51e9098ece65de5ae2c0cd6cf21ecb7fe8230f2b12079ba444"
+    },
+    "configs/frozen_baseline_config.yaml": {
+      "exists": true,
+      "match": true,
+      "frozen": "765f58a595a156320caa3c4664657670968d4638e5bf15b7d430444b82581908",
+      "current": "765f58a595a156320caa3c4664657670968d4638e5bf15b7d430444b82581908"
+    },
+    "configs/frozen_candidate_config.sha256": {
+      "exists": true,
+      "match": true,
+      "frozen": "3bb4a47c5ed74ff96e451bda8befcc21de69876142e1ae2a6f491ed159bab5d4",
+      "current": "3bb4a47c5ed74ff96e451bda8befcc21de69876142e1ae2a6f491ed159bab5d4"
+    },
+    "configs/frozen_candidate_config.yaml": {
+      "exists": true,
+      "match": true,
+      "frozen": "4a9655cf427f41bb321dc5237008fa795f1fb3437c979206fd4784810bca74ea",
+      "current": "4a9655cf427f41bb321dc5237008fa795f1fb3437c979206fd4784810bca74ea"
+    },
+    "configs/frozen_commit_config.sha256": {
+      "exists": true,
+      "match": true,
+      "frozen": "9a108c6d2d2d4f6ce52e6c0ade74e4eaccc4ff6dafa55271ac05cbd28d715920",
+      "current": "9a108c6d2d2d4f6ce52e6c0ade74e4eaccc4ff6dafa55271ac05cbd28d715920"
+    },
+    "configs/frozen_commit_config.yaml": {
+      "exists": true,
+      "match": true,
+      "frozen": "1da5f249d1a8c41afcc7d49f2bd30d288e2cdabd220b7840cfc0a3903bc9bf3a",
+      "current": "1da5f249d1a8c41afcc7d49f2bd30d288e2cdabd220b7840cfc0a3903bc9bf3a"
+    },
+    "configs/protocol_amendments.json": {
+      "exists": true,
+      "match": true,
+      "frozen": "bf46686cc3cbb23d948fb0f2e5c8d451158abb85617b00b2a0c3f17e59ee2556",
+      "current": "bf46686cc3cbb23d948fb0f2e5c8d451158abb85617b00b2a0c3f17e59ee2556"
+    },
+    "configs/synthetic_protocol.yaml": {
+      "exists": true,
+      "match": true,
+      "frozen": "fd0dc67857e1e9dab689a4d96c158b64e06f28338235c8097596c30c55c5c7c1",
+      "current": "fd0dc67857e1e9dab689a4d96c158b64e06f28338235c8097596c30c55c5c7c1"
+    },
+    "pool_manifest.json": {
+      "exists": true,
+      "match": true,
+      "frozen": "f5550a641384625746ec8fd36791c37e00be5610ed67097c1c5ec69d722ee8fe",
+      "current": "f5550a641384625746ec8fd36791c37e00be5610ed67097c1c5ec69d722ee8fe"
+    }
+  },
+  "heldout_data_files": [
+    {
+      "center": 13000,
+      "path": "data\\center_13000.npz",
+      "exists": true,
+      "sha256": "1e8495dee145fb25fe383cf111235fa12eddd172d5ee870a50710ddbd1520233",
+      "size": 579758,
+      "mtime": "2026-09-09T03:26:54+0800"
+    },
+    {
+      "center": 13001,
+      "path": "data\\center_13001.npz",
+      "exists": true,
+      "sha256": "a20de8cb425376de3eeb506d893e25e92a13f4f3bed859454889e672cd198eb5",
+      "size": 697558,
+      "mtime": "2026-09-09T03:26:54+0800"
+    },
+    {
+      "center": 13002,
+      "path": "data\\center_13002.npz",
+      "exists": true,
+      "sha256": "d5fd18a4bcb40f664b42066bf7392d34501374830e2d59a79bf5a8cc4d0e1841",
+      "size": 586890,
+      "mtime": "2026-09-09T03:26:54+0800"
+    },
+    {
+      "center": 13003,
+      "path": "data\\center_13003.npz",
+      "exists": true,
+      "sha256": "ae20c8db82276406e81947facec833907658d7affd98e9eee7eae32d1180e917",
+      "size": 786314,
+      "mtime": "2026-09-09T03:26:54+0800"
+    },
+    {
+      "center": 13004,
+      "path": "data\\center_13004.npz",
+      "exists": true,
+      "sha256": "e9bb342462183260c20c88bbec0dab9bc9df85ed968731b5751558fe8a99c9fc",
+      "size": 681875,
+      "mtime": "2026-09-09T03:26:54+0800"
+    },
+    {
+      "center": 13005,
+      "path": "data\\center_13005.npz",
+      "exists": true,
+      "sha256": "1c6ca1b979caffc6ae186fa83a075c40556e01ac569390f3df6b7db216d30b17",
+      "size": 819566,
+      "mtime": "2026-09-09T03:26:54+0800"
+    },
+    {
+      "center": 13006,
+      "path": "data\\center_13006.npz",
+      "exists": true,
+      "sha256": "aecd04b398654092ac0db9e4d68e888d1fbecf1110383513f3b82abf94f0d041",
+      "size": 560399,
+      "mtime": "2026-09-09T03:26:54+0800"
+    },
+    {
+      "center": 13007,
+      "path": "data\\center_13007.npz",
+      "exists": true,
+      "sha256": "ac2cc418abc03607ef4d02827cbc71ab04b285c423fa161d85a016b8f2506e7f",
+      "size": 831675,
+      "mtime": "2026-09-09T03:26:54+0800"
+    },
+    {
+      "center": 13008,
+      "path": "data\\center_13008.npz",
+      "exists": true,
+      "sha256": "cacd12408896216b9c6e3e0107cdf4d2fa6c095492981a5304d49425cc206e37",
+      "size": 679342,
+      "mtime": "2026-09-09T03:26:54+0800"
+    },
+    {
+      "center": 13009,
+      "path": "data\\center_13009.npz",
+      "exists": true,
+      "sha256": "3b37bf731fbd73e4f7234524d145c8595085da0d147da889b4c461ec1429ddea",
+      "size": 432387,
+      "mtime": "2026-09-09T03:26:54+0800"
+    },
+    {
+      "center": 13010,
+      "path": "data\\center_13010.npz",
+      "exists": true,
+      "sha256": "8c41b471b067be7876e4e25e6898d66c981aef097cd8edab775e2aa052db3c0d",
+      "size": 691653,
+      "mtime": "2026-09-09T03:26:54+0800"
+    },
+    {
+      "center": 13011,
+      "path": "data\\center_13011.npz",
+      "exists": true,
+      "sha256": "8700ce53dba1aa9614aaf517a09d66a813f2a856fc11b07a9c83db5f54eb2dc0",
+      "size": 475589,
+      "mtime": "2026-09-09T03:26:54+0800"
+    },
+    {
+      "center": 13012,
+      "path": "data\\center_13012.npz",
+      "exists": true,
+      "sha256": "91f00de4cfb3bf21b5813e604e3860ac7fff4cb139083d21432b4522500dee77",
+      "size": 657357,
+      "mtime": "2026-09-09T03:26:55+0800"
+    },
+    {
+      "center": 13013,
+      "path": "data\\center_13013.npz",
+      "exists": true,
+      "sha256": "44b8a1f386f4f54f5b589e4cbc88e913375222a4ea12322070f19540bc9d7423",
+      "size": 719764,
+      "mtime": "2026-09-09T03:26:55+0800"
+    },
+    {
+      "center": 13014,
+      "path": "data\\center_13014.npz",
+      "exists": true,
+      "sha256": "668e9f98a8a281360c2b9494e7ab445cb33c46ae0bd20fce22406000e02c9671",
+      "size": 710072,
+      "mtime": "2026-09-09T03:26:55+0800"
+    },
+    {
+      "center": 13015,
+      "path": "data\\center_13015.npz",
+      "exists": true,
+      "sha256": "ad420ab3b8e080c7d229da764abef3be86eca6b22db28b80fafc48568ce11437",
+      "size": 826573,
+      "mtime": "2026-09-09T03:26:55+0800"
+    },
+    {
+      "center": 13016,
+      "path": "data\\center_13016.npz",
+      "exists": true,
+      "sha256": "22713534bfbc3d1d9ecbea0524174f5ae802f1398ad0fa241d179773d8657d40",
+      "size": 462874,
+      "mtime": "2026-09-09T03:26:55+0800"
+    },
+    {
+      "center": 13017,
+      "path": "data\\center_13017.npz",
+      "exists": true,
+      "sha256": "8d205910f0b1ffc9d6f2ec71a792c51e6753e088e294fa6b9e5dc19e94d904ef",
+      "size": 597714,
+      "mtime": "2026-09-09T03:26:55+0800"
+    },
+    {
+      "center": 13018,
+      "path": "data\\center_13018.npz",
+      "exists": true,
+      "sha256": "0075cd574ce197476eba38d163a426b9ea6a379ca340f665b866c0c1da006cab",
+      "size": 833169,
+      "mtime": "2026-09-09T03:26:55+0800"
+    },
+    {
+      "center": 13019,
+      "path": "data\\center_13019.npz",
+      "exists": true,
+      "sha256": "eccf5c85d80942f3decac31ecb0857e471166d236a31708db4b2656964391f4a",
+      "size": 454647,
+      "mtime": "2026-09-09T03:26:55+0800"
+    }
+  ],
+  "notes": [
+    "The 6421st trajectory CSV is complete although execution_status.json still names the prior EWC trajectory; the crash occurred only while publishing telemetry after the completed CSV atomic replace.",
+    "No Q1 or Q2 result was modified by this audit."
+  ]
+}
