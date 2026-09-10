@@ -5,3 +5,5 @@ checkpoints/
 logs/
 results/
 archive/
+results_v2_dev/
+scratch_v2/

@@ -1,0 +1,330 @@
+{
+  "schema": "ravm-dt-v2-confirmatory-pool-v1",
+  "status": "SEALED_NOT_MATERIALIZED",
+  "center_ids": [
+    14000,
+    14001,
+    14002,
+    14003,
+    14004,
+    14005,
+    14006,
+    14007,
+    14008,
+    14009,
+    14010,
+    14011,
+    14012,
+    14013,
+    14014,
+    14015,
+    14016,
+    14017,
+    14018,
+    14019,
+    14020,
+    14021,
+    14022,
+    14023,
+    14024,
+    14025,
+    14026,
+    14027,
+    14028,
+    14029
+  ],
+  "pool_role": "v2_fresh_confirmatory_heldout",
+  "independent_of": {
+    "v1_source": [
+      10000,
+      10019
+    ],
+    "v1_method_development": [
+      11000,
+      11019
+    ],
+    "v1_decision_calibration": [
+      12000,
+      12019
+    ],
+    "v1_final_heldout": [
+      13000,
+      13029
+    ]
+  },
+  "generator": {
+    "entrypoint": "vendor.sim.simulate_centers",
+    "generator_config": {
+      "seed": 7311,
+      "n_history": 17000,
+      "k_max": 12,
+      "type_ratio": [
+        3,
+        4,
+        3
+      ],
+      "type_A": {
+        "name": "A",
+        "dt_choices": [
+          1
+        ],
+        "miss_rate_range": [
+          0.02,
+          0.08
+        ],
+        "miss_block_len_range": [
+          5,
+          15
+        ],
+        "noise_sigma_range": [
+          0.01,
+          0.03
+        ],
+        "schema_drop_range": [
+          0,
+          2
+        ],
+        "base_logit_range": [
+          -0.7,
+          0.1
+        ],
+        "cycle_amp_range": [
+          0.2,
+          0.45
+        ],
+        "ar_phi_range": [
+          0.55,
+          0.8
+        ],
+        "process_sigma_range": [
+          0.04,
+          0.08
+        ],
+        "burst_rate_range": [
+          1.0,
+          2.5
+        ],
+        "burst_amp_range": [
+          0.25,
+          0.55
+        ],
+        "drift_prob": 0.0,
+        "drift_strength_range": [
+          0.1,
+          0.25
+        ]
+      },
+      "type_B": {
+        "name": "B",
+        "dt_choices": [
+          1,
+          2
+        ],
+        "miss_rate_range": [
+          0.1,
+          0.25
+        ],
+        "miss_block_len_range": [
+          20,
+          60
+        ],
+        "noise_sigma_range": [
+          0.03,
+          0.06
+        ],
+        "schema_drop_range": [
+          2,
+          4
+        ],
+        "base_logit_range": [
+          -0.45,
+          0.35
+        ],
+        "cycle_amp_range": [
+          0.3,
+          0.6
+        ],
+        "ar_phi_range": [
+          0.6,
+          0.88
+        ],
+        "process_sigma_range": [
+          0.06,
+          0.11
+        ],
+        "burst_rate_range": [
+          1.5,
+          3.5
+        ],
+        "burst_amp_range": [
+          0.35,
+          0.75
+        ],
+        "drift_prob": 0.0,
+        "drift_strength_range": [
+          0.15,
+          0.35
+        ]
+      },
+      "type_C": {
+        "name": "C",
+        "dt_choices": [
+          2,
+          3,
+          4
+        ],
+        "miss_rate_range": [
+          0.25,
+          0.45
+        ],
+        "miss_block_len_range": [
+          60,
+          120
+        ],
+        "noise_sigma_range": [
+          0.06,
+          0.1
+        ],
+        "schema_drop_range": [
+          4,
+          6
+        ],
+        "base_logit_range": [
+          -0.2,
+          0.55
+        ],
+        "cycle_amp_range": [
+          0.4,
+          0.75
+        ],
+        "ar_phi_range": [
+          0.65,
+          0.92
+        ],
+        "process_sigma_range": [
+          0.08,
+          0.14
+        ],
+        "burst_rate_range": [
+          2.0,
+          4.5
+        ],
+        "burst_amp_range": [
+          0.45,
+          0.95
+        ],
+        "drift_prob": 0.0,
+        "drift_strength_range": [
+          0.2,
+          0.45
+        ]
+      },
+      "missing_block": {
+        "metric_block_count_range": [
+          2,
+          6
+        ],
+        "group_block_count_range": [
+          1,
+          3
+        ],
+        "group_size_range": [
+          2,
+          4
+        ],
+        "global_outage_prob": 0.2,
+        "global_outage_count_range": [
+          0,
+          2
+        ],
+        "global_outage_len_range": [
+          2,
+          8
+        ]
+      },
+      "T_short": 24,
+      "T_day": 96,
+      "T_long": 672,
+      "max_metric_delay": 8,
+      "metric_process_sigma": [
+        0.01,
+        0.04
+      ],
+      "metric_gain_range": [
+        0.65,
+        1.45
+      ],
+      "metric_bias_range": [
+        -0.35,
+        0.35
+      ],
+      "metric_quad_range": [
+        -0.2,
+        0.35
+      ],
+      "source_seed_offset": 0,
+      "target_seed_offset": 10000
+    },
+    "start_center_id": 14000,
+    "n_centers": 30,
+    "seed_offset_rule": "start_center_id * 17",
+    "seed_offset": 238000,
+    "post_generation_drift_assignment": "REGIMES[local_index % 4]",
+    "regimes": [
+      "stationary",
+      "gradual",
+      "abrupt",
+      "recurring"
+    ],
+    "drift_onset": "1400 + 8*640 for abrupt/gradual; recurring on [1400+6*640,1400+12*640) and from 1400+18*640",
+    "generator_source_sha256": "930fa8ebe34a442d53af16a054955580f2d0c41ef2514a3cfd125b0e6905883d",
+    "generator_config_source_sha256": "fea128a2649301017a2a8ad6cab3db30392e180c2f3aa1216e9a83fefcd5d005",
+    "v1_generation_wrapper_sha256": "ae55c549b8de000931e136f3d02ea92585df380cf752fae236c2e9b531c47457"
+  },
+  "seed_rules": {
+    "data_seed": 7311,
+    "model_seeds": [
+      7311,
+      7312,
+      7313
+    ],
+    "candidate_seed": "model_seed + center_id + stage*100",
+    "attack_seed": 9417,
+    "attack_identity": "independent of method/model/model_seed; SeedSequence([9417, center_id, stage, role])"
+  },
+  "role_boundaries": {
+    "warmup": [
+      0,
+      800
+    ],
+    "initial_history": [
+      800,
+      1000
+    ],
+    "stage_count": 24,
+    "stage_rule": "update=(1000,1400) for stage1 else previous 400 raw observations; verification=240; service=400",
+    "window_length": 96,
+    "forecast_horizon": 1,
+    "decision_before_service_access": true,
+    "protocol_source_sha256": "48254f026a096767271ef784e5ed22f8b24ab3369bf3614a8e23c80b626eff15"
+  },
+  "access_policy": {
+    "may_materialize_before_manual_v2_freeze": false,
+    "may_run_model_before_manual_v2_freeze": false,
+    "may_inspect_service_outcomes_before_manual_v2_freeze": false
+  },
+  "historical_collision_audit": {
+    "roots_scanned_for_path_tokens": [
+      "D:\\dt-trustworthy-maintenance",
+      "D:\\dt-talk",
+      "D:\\RCF_DTI_pre_submission"
+    ],
+    "path_token_hits": [],
+    "existing_materialized_center_id_min": 10000,
+    "existing_materialized_center_id_max": 20099,
+    "existing_materialized_center_count": 190,
+    "candidate_conflicts_in_materialized_data": [],
+    "candidate_range_unused": true,
+    "note": "Exact candidate-ID tokens were scanned in historical path names; current pool/data manifests and materialized center files were also checked."
+  }
+}

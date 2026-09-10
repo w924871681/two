@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "pool_status": "SEALED_NOT_MATERIALIZED",
+  "manifest_sha256": "6883504751748ea38a3399986ebe3b527ff0f0624dd69e468a93fcebe9d683c6",
+  "candidate_range": [
+    14000,
+    14029
+  ],
+  "candidate_count": 30,
+  "historical_collision_check": {
+    "roots_scanned_for_path_tokens": [
+      "D:\\dt-trustworthy-maintenance",
+      "D:\\dt-talk",
+      "D:\\RCF_DTI_pre_submission"
+    ],
+    "path_token_hits": [],
+    "existing_materialized_center_id_min": 10000,
+    "existing_materialized_center_id_max": 20099,
+    "existing_materialized_center_count": 190,
+    "candidate_conflicts_in_materialized_data": [],
+    "candidate_range_unused": true,
+    "note": "Exact candidate-ID tokens were scanned in historical path names; current pool/data manifests and materialized center files were also checked."
+  },
+  "materialized_candidate_files": [],
+  "service_outcomes_accessed": false,
+  "models_run_on_pool": false
+}
