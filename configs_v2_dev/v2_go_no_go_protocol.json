@@ -1,0 +1,67 @@
+{
+  "schema": "ravm-dt-v2-go-no-go-v1",
+  "status": "FROZEN_BEFORE_CALIBRATION_COMPLETION",
+  "created_before_calibration_completion": true,
+  "allowed_verdicts": ["GO", "NO-GO", "AMBIGUOUS"],
+  "go_requires": "GO-1 through GO-6 all PASS",
+  "fail_rule": "any FAIL produces NO-GO; otherwise any AMBIGUOUS produces AMBIGUOUS",
+  "bootstrap": {
+    "unit": "center",
+    "replicates": 4000,
+    "seed": 2904,
+    "interval": "percentile 95%",
+    "paired": true
+  },
+  "operational_rules": {
+    "GO-1": {
+      "name": "risk feasibility",
+      "pass": "calibration winner mixed harmful_commit_rate <= 0.05 and mixed average_downside <= 5.6036475532487204e-05",
+      "fail": "either frozen constraint is exceeded"
+    },
+    "GO-2": {
+      "name": "utility improvement",
+      "pass": "development equal-scenario balanced lifecycle MSE point estimate for V2_SP_ShortDual is lower than V0_LegacyFull and no benign regime has a paired MSE CI wholly above zero",
+      "fail": "balanced point estimate is not lower, or stationary/gradual/abrupt/recurring has paired CI lower bound above zero",
+      "note": "a benign-regime point worsening whose CI crosses zero is retained as uncertainty but is not called a clear severe degradation"
+    },
+    "GO-3": {
+      "name": "plasticity improvement",
+      "pass": "at least one of balanced beneficial-commit recall, balanced post-drift excess-loss area, or balanced censored-recovery rate has a paired 95% CI wholly in the favorable direction, while GO-1 and GO-4 pass",
+      "ambiguous": "one or more point estimates improve but none has a wholly favorable paired CI",
+      "fail": "none of the three point estimates improves"
+    },
+    "GO-4": {
+      "name": "accepted-state quality",
+      "pass": "mixed conditional harmful rate among commits does not have a positive point difference versus V0_LegacyFull",
+      "ambiguous": "point difference is positive but paired CI includes zero",
+      "fail": "paired CI lower bound is above zero"
+    },
+    "GO-5": {
+      "name": "verification-attack safety",
+      "pass": "for persistent-bias and replay verification-only scenarios, V2 harmful rate <= 0.05 and downside <= frozen epsilon, with no harmful-rate or downside paired CI wholly above zero versus V0_LegacyFull",
+      "ambiguous": "constraints pass but harmful/downside points worsen with CI crossing zero, or commit rate is clearly higher while conditional harmful point also worsens",
+      "fail": "a frozen risk constraint is exceeded or a harmful/downside paired CI is wholly above zero"
+    },
+    "GO-6": {
+      "name": "seed and center stability",
+      "pass": "balanced lifecycle-MSE paired CI upper bound is below zero, at least 2 of 3 seed-wise balanced differences are negative, median center difference is negative, and at least 60% of centers have negative paired differences",
+      "ambiguous": "balanced mean improves but the CI, seed-direction, median-center, or 60% center-support conditions conflict without meeting the fail rule",
+      "fail": "fewer than 2 seeds improve or fewer than 50% of centers improve"
+    }
+  },
+  "evidence_boundaries": {
+    "development_centers": [11000, 11019],
+    "calibration_centers": [12000, 12019],
+    "v1_heldout_used": false,
+    "v2_confirmatory_used": false,
+    "alibaba_used": false
+  },
+  "prohibitions": [
+    "no method invention",
+    "no parameter-grid expansion",
+    "no rho or epsilon relaxation",
+    "no post-NO-GO iteration",
+    "no confirmatory access before GO and final freeze",
+    "no heldout-informed retuning"
+  ]
+}
