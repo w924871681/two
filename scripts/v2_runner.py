@@ -8,6 +8,7 @@ import hashlib
 import itertools
 import json
 import os
+import platform
 import re
 import sys
 import time
@@ -16,6 +17,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import pandas as pd
+import torch
 
 from core.protocol import ROOT
 from core.v2_engine import V1_GATE, run_v2
@@ -31,6 +33,19 @@ SCENARIOS = [
     {"scenario_id": "replay_a010_verification_only", "kind": "replay", "alpha": 0.1, "location": "verification_only"},
 ]
 CALIBRATION_SCENARIOS = SCENARIOS[:2]
+
+
+def runtime_provenance() -> dict:
+    cuda_available = bool(torch.cuda.is_available())
+    return {
+        "pid": os.getpid(),
+        "sys_executable": str(Path(sys.executable).resolve()),
+        "python_version": platform.python_version(),
+        "torch_version": torch.__version__,
+        "torch_cuda_version": torch.version.cuda,
+        "torch_cuda_available": cuda_available,
+        "gpu_name": torch.cuda.get_device_name(0) if cuda_available else None,
+    }
 
 
 def structural_grid() -> list[dict]:
@@ -80,6 +95,11 @@ def atomic_json(path: Path, value: object) -> None:
             time.sleep(delays[attempt])
 
 
+def worker_initializer(phase: str, provenance_dir: str) -> None:
+    provenance = runtime_provenance() | {"phase": phase, "role": "worker"}
+    atomic_json(Path(provenance_dir) / f"worker_{os.getpid()}.json", provenance)
+
+
 def output_name(job: dict) -> str:
     safe = re.sub(r"[^A-Za-z0-9_.-]", "_", job["structure"]["structure_id"])
     gate = job["gate"]
@@ -114,7 +134,7 @@ def execute_job(job: dict) -> dict:
     out_dir.mkdir(parents=True, exist_ok=True)
     path = out_dir / output_name(job)
     if path.exists() and valid_output(path, job):
-        return {"status": "skipped", "path": str(path), "pid": os.getpid()}
+        return {"status": "skipped", "path": str(path), "pid": os.getpid(), "runtime": runtime_provenance()}
     if path.exists():
         raise RuntimeError(f"invalid pre-existing V2 output: {path}")
     started = time.perf_counter()
@@ -137,7 +157,20 @@ def execute_job(job: dict) -> dict:
     os.replace(tmp, path)
     if not valid_output(path, job):
         raise RuntimeError(f"published V2 output failed validation: {path}")
-    return {"status": "completed", "path": str(path), "pid": os.getpid(), "wall_s": time.perf_counter() - started}
+    return {
+        "status": "completed",
+        "path": str(path),
+        "pid": os.getpid(),
+        "runtime": runtime_provenance(),
+        "wall_s": time.perf_counter() - started,
+    }
+
+
+def scientific_manifest_view(manifest: dict) -> dict:
+    return {
+        key: manifest[key]
+        for key in ["schema", "phase", "workers", "job_count", "stage_count", "scientific_key", "preflight", "jobs"]
+    }
 
 
 def preflight(phase: str) -> dict:
@@ -210,14 +243,40 @@ def main() -> None:
         "jobs": [{k: v for k, v in job.items() if k != "out_dir"} | {"filename": output_name(job)} for job in jobs],
     }
     manifest_path = ROOT / "audits_v2_dev" / f"v2_{args.phase}_execution_manifest.json"
-    atomic_json(manifest_path, manifest)
+    if manifest_path.exists():
+        frozen_manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        if scientific_manifest_view(frozen_manifest) != scientific_manifest_view(manifest):
+            raise RuntimeError(f"frozen V2 {args.phase} execution manifest changed")
+        manifest = frozen_manifest
+    else:
+        atomic_json(manifest_path, manifest)
 
     existing = sum(valid_output(out_dir / output_name(job), job) for job in jobs)
     pending = [job for job in jobs if not valid_output(out_dir / output_name(job), job)]
     start = time.time()
     completed = existing
     pids: set[int] = set()
+    worker_runtimes: dict[str, dict] = {}
     status_path = ROOT / "results_v2_dev/execution_status.json"
+    provenance_dir = ROOT / "results_v2_dev" / args.phase / "provenance"
+    provenance_dir.mkdir(parents=True, exist_ok=True)
+    runner_runtime = runtime_provenance()
+    execution_provenance_path = ROOT / "audits_v2_dev" / f"v2_{args.phase}_execution_provenance.json"
+
+    def write_execution_provenance(state: str) -> None:
+        atomic_json(
+            execution_provenance_path,
+            {
+                "state": state,
+                "phase": args.phase,
+                "scientific_implementation_commit": manifest["git_sha"],
+                "execution_commit": subprocess_sha(),
+                "manifest_sha256": sha256(manifest_path),
+                "runner": runner_runtime,
+                "workers": worker_runtimes,
+                "heldout_accessed": False,
+            },
+        )
 
     def update_status(state: str, warning: str | None = None) -> None:
         elapsed = max(time.time() - start, 1e-9)
@@ -239,25 +298,35 @@ def main() -> None:
                 "updated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
                 "warning": warning,
                 "heldout_accessed": False,
+                "runner_runtime": runner_runtime,
+                "worker_runtimes": worker_runtimes,
             },
         )
 
+    write_execution_provenance("starting")
     update_status("running")
     print(f"V2 {args.phase}: existing={existing} pending={len(pending)} expected={len(jobs)}", flush=True)
     try:
-        with cf.ProcessPoolExecutor(max_workers=args.workers) as executor:
+        with cf.ProcessPoolExecutor(
+            max_workers=args.workers,
+            initializer=worker_initializer,
+            initargs=(args.phase, str(provenance_dir)),
+        ) as executor:
             futures = [executor.submit(execute_job, job) for job in pending]
             for future in cf.as_completed(futures):
                 result = future.result()
                 completed += 1
                 pids.add(int(result["pid"]))
+                worker_runtimes[str(result["pid"])] = result["runtime"]
                 if completed % 10 == 0 or completed == len(jobs):
+                    write_execution_provenance("running")
                     update_status("running")
                     elapsed = max(time.time() - start, 1e-9)
                     rate = (completed - existing) / elapsed * 3600
                     eta_h = (len(jobs) - completed) / rate if rate else float("inf")
                     print(f"V2 {args.phase} progress {completed}/{len(jobs)} rate={rate:.1f}/h eta={eta_h:.2f}h pids={sorted(pids)}", flush=True)
         update_status("phase_complete")
+        write_execution_provenance("phase_complete")
         atomic_json(
             ROOT / "audits_v2_dev" / f"v2_{args.phase}_execution_complete.json",
             {
@@ -270,10 +339,13 @@ def main() -> None:
                 "elapsed_s": time.time() - start,
                 "heldout_accessed": False,
                 "manifest_sha256": sha256(manifest_path),
+                "runner_runtime": runner_runtime,
+                "worker_runtimes": worker_runtimes,
             },
         )
     except Exception as exc:
         update_status("failed", f"{type(exc).__name__}: {exc}")
+        write_execution_provenance("failed")
         atomic_json(ROOT / "audits_v2_dev" / f"v2_{args.phase}_execution_failure.json", {"status": "FAIL", "error": f"{type(exc).__name__}: {exc}", "completed": completed, "expected": len(jobs)})
         raise
 
