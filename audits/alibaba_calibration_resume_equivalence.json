@@ -1,0 +1,459 @@
+{
+  "all_decisions_exact": true,
+  "all_hash_integer_categorical_exact": true,
+  "cases": [
+    {
+      "center": 20040,
+      "condition": "clean",
+      "joint_metrics": {
+        "candidate_l1_hits": 0,
+        "candidate_l2_hits": 0,
+        "candidate_l2_writes": 0,
+        "candidate_trainings": 405,
+        "evidence_computations": 810,
+        "evidence_l1_hits": 0,
+        "evidence_l2_hits": 0,
+        "evidence_l2_writes": 0,
+        "policy_trajectories": 400,
+        "service_forward_calls_physical": 1620,
+        "trajectories_per_hour": 15819.891015386442,
+        "verification_forward_calls_physical": 24192,
+        "wall_s": 91.02464730000065
+      },
+      "proposed_comparison": {
+        "all_decisions_exact": true,
+        "bitwise_equal": false,
+        "columns_compared": 50,
+        "exact_columns": [
+          "actual_attack_type",
+          "attack_location",
+          "attack_mask_hash",
+          "attack_type",
+          "backbone",
+          "beneficial_candidate",
+          "candidate_state_hash",
+          "causal_state_fingerprint",
+          "center_id",
+          "center_type",
+          "commit",
+          "decision_ts",
+          "deployed_state_hash",
+          "drift_regime",
+          "harmful_commit",
+          "historical_buffer_hash",
+          "horizon",
+          "initial_state_hash",
+          "method",
+          "model_seed",
+          "next_historical_buffer_hash",
+          "number_of_backward_updates",
+          "number_of_fisher_backward_passes",
+          "number_of_forward_passes",
+          "parent_state_hash",
+          "persistent_buffer_bytes",
+          "policy",
+          "service_data_hash",
+          "service_end_ts",
+          "service_start_ts",
+          "stage",
+          "update_data_hash",
+          "update_end_ts",
+          "update_start_ts",
+          "verification_data_hash",
+          "verification_end_ts",
+          "verification_start_ts"
+        ],
+        "float_columns": [
+          "U_hist",
+          "U_rec",
+          "attack_alpha",
+          "candidate_service_mse",
+          "current_service_mse",
+          "delta_srv",
+          "deployed_service_mae",
+          "deployed_service_mse",
+          "downside",
+          "mad_hist",
+          "mad_rec",
+          "median_hist",
+          "median_rec"
+        ],
+        "max_abs_diff": 9.974659986866641e-17,
+        "non_bitwise_columns": [
+          {
+            "column": "U_hist",
+            "max_abs_diff": 1.3552527156068805e-20
+          },
+          {
+            "column": "U_rec",
+            "max_abs_diff": 6.776263578034403e-21
+          },
+          {
+            "column": "candidate_service_mse",
+            "max_abs_diff": 9.84455572616838e-17
+          },
+          {
+            "column": "current_service_mse",
+            "max_abs_diff": 9.974659986866641e-17
+          },
+          {
+            "column": "delta_srv",
+            "max_abs_diff": 3.3881317890172014e-21
+          },
+          {
+            "column": "deployed_service_mae",
+            "max_abs_diff": 9.71445146547012e-17
+          },
+          {
+            "column": "deployed_service_mse",
+            "max_abs_diff": 9.974659986866641e-17
+          },
+          {
+            "column": "downside",
+            "max_abs_diff": 8.470329472543003e-22
+          },
+          {
+            "column": "mad_hist",
+            "max_abs_diff": 6.776263578034403e-21
+          },
+          {
+            "column": "mad_rec",
+            "max_abs_diff": 6.776263578034403e-21
+          },
+          {
+            "column": "median_hist",
+            "max_abs_diff": 3.3881317890172014e-21
+          },
+          {
+            "column": "median_rec",
+            "max_abs_diff": 3.3881317890172014e-21
+          }
+        ],
+        "rows": 9600
+      },
+      "proposed_policies": 400,
+      "seed": 7311,
+      "stage_stats_count": 24,
+      "stages": 24,
+      "validation_comparison": {
+        "all_decisions_exact": true,
+        "bitwise_equal": false,
+        "columns_compared": 46,
+        "exact_columns": [
+          "actual_attack_type",
+          "attack_location",
+          "attack_mask_hash",
+          "attack_type",
+          "backbone",
+          "beneficial_candidate",
+          "candidate_state_hash",
+          "center_id",
+          "center_type",
+          "commit",
+          "decision_ts",
+          "drift_regime",
+          "harmful_commit",
+          "horizon",
+          "initial_state_hash",
+          "method",
+          "model_seed",
+          "number_of_backward_updates",
+          "number_of_fisher_backward_passes",
+          "number_of_forward_passes",
+          "parent_state_hash",
+          "persistent_buffer_bytes",
+          "policy",
+          "service_data_hash",
+          "service_end_ts",
+          "service_start_ts",
+          "stage",
+          "update_data_hash",
+          "update_end_ts",
+          "update_start_ts",
+          "verification_data_hash",
+          "verification_end_ts",
+          "verification_start_ts"
+        ],
+        "float_columns": [
+          "U_hist",
+          "U_rec",
+          "attack_alpha",
+          "candidate_service_mse",
+          "current_service_mse",
+          "delta_srv",
+          "deployed_service_mae",
+          "deployed_service_mse",
+          "downside",
+          "mad_hist",
+          "mad_rec",
+          "median_hist",
+          "median_rec"
+        ],
+        "max_abs_diff": 9.93129189996722e-17,
+        "non_bitwise_columns": [
+          {
+            "column": "U_rec",
+            "max_abs_diff": 6.776263578034403e-21
+          },
+          {
+            "column": "candidate_service_mse",
+            "max_abs_diff": 9.93129189996722e-17
+          },
+          {
+            "column": "current_service_mse",
+            "max_abs_diff": 9.8879238130678e-17
+          },
+          {
+            "column": "delta_srv",
+            "max_abs_diff": 3.3881317890172014e-21
+          },
+          {
+            "column": "deployed_service_mae",
+            "max_abs_diff": 9.71445146547012e-17
+          },
+          {
+            "column": "deployed_service_mse",
+            "max_abs_diff": 9.93129189996722e-17
+          },
+          {
+            "column": "downside",
+            "max_abs_diff": 1.0587911840678754e-22
+          }
+        ],
+        "rows": 120
+      },
+      "validation_policies": 5,
+      "wall_s": 115.4307716000003
+    },
+    {
+      "center": 20040,
+      "condition": "mixed",
+      "joint_metrics": {
+        "candidate_l1_hits": 0,
+        "candidate_l2_hits": 0,
+        "candidate_l2_writes": 0,
+        "candidate_trainings": 611,
+        "evidence_computations": 1222,
+        "evidence_l1_hits": 0,
+        "evidence_l2_hits": 0,
+        "evidence_l2_writes": 0,
+        "policy_trajectories": 400,
+        "service_forward_calls_physical": 2444,
+        "trajectories_per_hour": 12080.538909283709,
+        "verification_forward_calls_physical": 36552,
+        "wall_s": 119.19998029999988
+      },
+      "proposed_comparison": {
+        "all_decisions_exact": true,
+        "bitwise_equal": false,
+        "columns_compared": 50,
+        "exact_columns": [
+          "actual_attack_type",
+          "attack_location",
+          "attack_mask_hash",
+          "attack_type",
+          "backbone",
+          "beneficial_candidate",
+          "candidate_state_hash",
+          "causal_state_fingerprint",
+          "center_id",
+          "center_type",
+          "commit",
+          "decision_ts",
+          "deployed_state_hash",
+          "drift_regime",
+          "harmful_commit",
+          "historical_buffer_hash",
+          "horizon",
+          "initial_state_hash",
+          "method",
+          "model_seed",
+          "next_historical_buffer_hash",
+          "number_of_backward_updates",
+          "number_of_fisher_backward_passes",
+          "number_of_forward_passes",
+          "parent_state_hash",
+          "persistent_buffer_bytes",
+          "policy",
+          "service_data_hash",
+          "service_end_ts",
+          "service_start_ts",
+          "stage",
+          "update_data_hash",
+          "update_end_ts",
+          "update_start_ts",
+          "verification_data_hash",
+          "verification_end_ts",
+          "verification_start_ts"
+        ],
+        "float_columns": [
+          "U_hist",
+          "U_rec",
+          "attack_alpha",
+          "candidate_service_mse",
+          "current_service_mse",
+          "delta_srv",
+          "deployed_service_mae",
+          "deployed_service_mse",
+          "downside",
+          "mad_hist",
+          "mad_rec",
+          "median_hist",
+          "median_rec"
+        ],
+        "max_abs_diff": 9.996344030316351e-17,
+        "non_bitwise_columns": [
+          {
+            "column": "U_hist",
+            "max_abs_diff": 9.982791503160282e-17
+          },
+          {
+            "column": "U_rec",
+            "max_abs_diff": 9.990923019453923e-17
+          },
+          {
+            "column": "candidate_service_mse",
+            "max_abs_diff": 9.996344030316351e-17
+          },
+          {
+            "column": "current_service_mse",
+            "max_abs_diff": 9.985502008591496e-17
+          },
+          {
+            "column": "delta_srv",
+            "max_abs_diff": 9.990923019453923e-17
+          },
+          {
+            "column": "deployed_service_mae",
+            "max_abs_diff": 9.71445146547012e-17
+          },
+          {
+            "column": "deployed_service_mse",
+            "max_abs_diff": 9.985502008591496e-17
+          },
+          {
+            "column": "downside",
+            "max_abs_diff": 9.760530057800754e-17
+          },
+          {
+            "column": "mad_hist",
+            "max_abs_diff": 9.996344030316351e-17
+          },
+          {
+            "column": "mad_rec",
+            "max_abs_diff": 9.94484442712329e-17
+          },
+          {
+            "column": "median_hist",
+            "max_abs_diff": 9.982791503160282e-17
+          },
+          {
+            "column": "median_rec",
+            "max_abs_diff": 9.990923019453923e-17
+          }
+        ],
+        "rows": 9600
+      },
+      "proposed_policies": 400,
+      "seed": 7311,
+      "stage_stats_count": 24,
+      "stages": 24,
+      "validation_comparison": {
+        "all_decisions_exact": true,
+        "bitwise_equal": false,
+        "columns_compared": 46,
+        "exact_columns": [
+          "actual_attack_type",
+          "attack_location",
+          "attack_mask_hash",
+          "attack_type",
+          "backbone",
+          "beneficial_candidate",
+          "candidate_state_hash",
+          "center_id",
+          "center_type",
+          "commit",
+          "decision_ts",
+          "drift_regime",
+          "harmful_commit",
+          "horizon",
+          "initial_state_hash",
+          "method",
+          "model_seed",
+          "number_of_backward_updates",
+          "number_of_fisher_backward_passes",
+          "number_of_forward_passes",
+          "parent_state_hash",
+          "persistent_buffer_bytes",
+          "policy",
+          "service_data_hash",
+          "service_end_ts",
+          "service_start_ts",
+          "stage",
+          "update_data_hash",
+          "update_end_ts",
+          "update_start_ts",
+          "verification_data_hash",
+          "verification_end_ts",
+          "verification_start_ts"
+        ],
+        "float_columns": [
+          "U_hist",
+          "U_rec",
+          "attack_alpha",
+          "candidate_service_mse",
+          "current_service_mse",
+          "delta_srv",
+          "deployed_service_mae",
+          "deployed_service_mse",
+          "downside",
+          "mad_hist",
+          "mad_rec",
+          "median_hist",
+          "median_rec"
+        ],
+        "max_abs_diff": 9.974659986866641e-17,
+        "non_bitwise_columns": [
+          {
+            "column": "U_rec",
+            "max_abs_diff": 9.904186845655083e-17
+          },
+          {
+            "column": "candidate_service_mse",
+            "max_abs_diff": 9.974659986866641e-17
+          },
+          {
+            "column": "current_service_mse",
+            "max_abs_diff": 9.82287168271867e-17
+          },
+          {
+            "column": "delta_srv",
+            "max_abs_diff": 9.969238976004213e-17
+          },
+          {
+            "column": "deployed_service_mae",
+            "max_abs_diff": 9.71445146547012e-17
+          },
+          {
+            "column": "deployed_service_mse",
+            "max_abs_diff": 9.974659986866641e-17
+          },
+          {
+            "column": "downside",
+            "max_abs_diff": 9.969238976004213e-17
+          }
+        ],
+        "rows": 120
+      },
+      "validation_policies": 5,
+      "wall_s": 141.52680540000074
+    }
+  ],
+  "generated_at": "2026-09-10T11:03:14.350181",
+  "max_abs_diff": 9.996344030316351e-17,
+  "reference": "pre-shutdown formal CSVs produced by the original executor",
+  "replay": "same scientific implementation after reboot; scratch only; persistent L2 disabled for independent recomputation",
+  "scientific_implementation_changed": false,
+  "scope": "two complete Alibaba calibration workloads; all 400 Proposed policies and all 5 ValidationCommit policies",
+  "status": "passed"
+}

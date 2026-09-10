@@ -1,0 +1,44 @@
+{
+  "accepted_artifacts": 102913,
+  "atomicity_assessment": "candidate requires a valid matching .pt/.json pair; evidence requires a readable self-describing .npz; tmp/orphan artifacts are excluded",
+  "candidate_cache": {
+    "accepted_entries": 34305,
+    "alibaba_relevant_entries": 34305,
+    "all_json_entries": 102170,
+    "all_pt_entries": 102170,
+    "invalid_entries": 0,
+    "invalid_examples": [],
+    "orphan_pair_keys": []
+  },
+  "evidence_cache": {
+    "accepted_entries": 68608,
+    "alibaba_relevant_entries": 68608,
+    "all_npz_entries": 204338,
+    "invalid_entries": 0,
+    "invalid_examples": []
+  },
+  "generated_at": "2026-09-10T10:56:41.361434",
+  "interruption_point": {
+    "classification": "after complete workload/status publish; exact operation during the final 9 seconds before OS restart request is unknown",
+    "last_completed_worker0": "workload 37/60, center=20058, seed=7311, condition=clean",
+    "last_completed_worker1": "workload 34/60, center=20046, seed=7313, condition=mixed",
+    "last_result_publish": "2026-09-10T04:28:58+08:00",
+    "last_status_publish": "2026-09-10T04:29:05+08:00"
+  },
+  "latest_batch_checksum_validation": {
+    "candidate_entries_checked": 100,
+    "candidate_entries_valid": 100,
+    "candidate_latest_write": "2026-09-10T04:29:15.072426",
+    "evidence_entries_checked": 100,
+    "evidence_entries_valid": 100,
+    "evidence_latest_write": "2026-09-10T04:29:15.050493"
+  },
+  "rejected_or_excluded_artifacts": 0,
+  "science_version_expected": {
+    "core/engine.py": "b143046aac84e62ab098c5cb5f1666dafe4fe24419ea8b164acdf2c8cbee23a6",
+    "core/models.py": "b38b29b74ff4191add5e8c48e9d916529afb67f801830c68e290f07deacfa656",
+    "core/protocol.py": "48254f026a096767271ef784e5ed22f8b24ab3369bf3614a8e23c80b626eff15"
+  },
+  "status": "passed",
+  "worker_local_tmp_orphans": []
+}

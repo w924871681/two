@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "root_cause": "EXTERNAL_SYSTEM_SHUTDOWN",
+  "classification_confidence": "confirmed_by_windows_event_log",
+  "scientific_failure_detected": false,
+  "last_formal_state": {
+    "completed_trajectories": 28755,
+    "expected_trajectories": 48600,
+    "runner_pid": 32776,
+    "worker_pids": [30440, 28848],
+    "all_recorded_pids_dead_after_boot": true,
+    "last_result_publish": "2026-09-10T04:28:58+08:00",
+    "last_status_publish": "2026-09-10T04:29:05.409082+08:00"
+  },
+  "windows_event_evidence": [
+    {
+      "time": "2026-09-10T04:29:14+08:00",
+      "provider": "User32",
+      "event_id": 1074,
+      "evidence": "MoUsoCoreWorker.exe on behalf of NT AUTHORITY\\SYSTEM initiated a planned restart; reason 0x80020010"
+    },
+    {
+      "time": "2026-09-10T04:33:06+08:00",
+      "provider": "User32",
+      "event_id": 1074,
+      "evidence": "TrustedInstaller initiated a planned operating-system upgrade restart; reason 0x80020003"
+    },
+    {
+      "time": "2026-09-10T04:33:17+08:00",
+      "provider": "EventLog",
+      "event_id": 6006,
+      "evidence": "Windows Event Log service stopped normally"
+    },
+    {
+      "time": "2026-09-10T04:33:24+08:00",
+      "provider": "Kernel-General",
+      "event_id": 13,
+      "evidence": "Operating system shutdown"
+    },
+    {
+      "time": "2026-09-10T04:33:42.5+08:00",
+      "provider": "Kernel-General",
+      "event_id": 12,
+      "evidence": "Operating system started; Kernel-Boot records previous shutdown and boot as successful"
+    }
+  ],
+  "post_boot_update_evidence": [
+    "Windows Update recorded installation of KB5126052 at 2026-09-10T04:36:14+08:00",
+    "Windows Update recorded installation of KB5124008 at 2026-09-10T04:36:14+08:00"
+  ],
+  "negative_evidence": {
+    "python_or_cuda_scientific_traceback_at_event_time": false,
+    "application_error_1000_at_event_time": false,
+    "disk_or_ntfs_error_at_event_time": false,
+    "execution_failure_json_for_this_interruption": false,
+    "scientific_hash_change": false
+  },
+  "provenance": {
+    "repository_head_at_interruption": "39ffdaba1ecfdbace4ecebee68a42f97121fadf0",
+    "scientific_executor_commit": "d6d33075cb3afa55a24878e2343f1bc1d1c9368a",
+    "scientific_core_aggregate_sha256": "b462520a80d611f3311a2326effa73bc159754e9ef243cd18e10412363823c33",
+    "frozen_candidate_config_sha256": "4a9655cf427f41bb321dc5237008fa795f1fb3437c979206fd4784810bca74ea",
+    "frozen_commit_config_sha256": "1da5f249d1a8c41afcc7d49f2bd30d288e2cdabd220b7840cfc0a3903bc9bf3a",
+    "frozen_baseline_config_sha256": "765f58a595a156320caa3c4664657670968d4638e5bf15b7d430444b82581908",
+    "calibration_protocol_sha256": "e08902bbf8edefe975b8f55be5d3aeda0dcbe033326c40f6d1dcfd9b6aa6b461",
+    "pool_manifest_sha256": "f5550a641384625746ec8fd36791c37e00be5610ed67097c1c5ec69d722ee8fe",
+    "alibaba_pool_manifest_sha256": "55918806ab6b71d206a944415465d449a2d0463a5befaa8adb06c90508df5d89"
+  },
+  "conclusion": "The formal runner and both workers were terminated by a planned Windows update restart. No evidence identifies a Python, CUDA, disk, or scientific-logic failure."
+}
