@@ -1,0 +1,57 @@
+{
+  "schema": "ravm-dt-v2-final-baseline-provenance-v1",
+  "status": "PASS",
+  "created_at": "2026-09-11T12:37:12.108139+00:00",
+  "checks": {
+    "final_confirmatory_complete": true,
+    "proposed_360_hash_valid": true,
+    "frozen_regime_mapping_exact": true,
+    "v1_frozen_hashes_exact": true,
+    "baseline_config_unique": true,
+    "runtime_exact": true,
+    "fresh_data_already_opened_exact": true,
+    "no_preexisting_baseline_results": true
+  },
+  "failed_checks": [],
+  "methods": [
+    "Always-FT",
+    "ER",
+    "EWC",
+    "Huber-FT",
+    "ValidationCommit",
+    "Frozen"
+  ],
+  "frozen_hashes": {
+    "configs/frozen_candidate_config.yaml": "4a9655cf427f41bb321dc5237008fa795f1fb3437c979206fd4784810bca74ea",
+    "configs/frozen_commit_config.yaml": "1da5f249d1a8c41afcc7d49f2bd30d288e2cdabd220b7840cfc0a3903bc9bf3a",
+    "configs/frozen_baseline_config.yaml": "765f58a595a156320caa3c4664657670968d4638e5bf15b7d430444b82581908",
+    "core/engine.py": "b143046aac84e62ab098c5cb5f1666dafe4fe24419ea8b164acdf2c8cbee23a6"
+  },
+  "resolved_config": {
+    "B": 5,
+    "beta": 0.1,
+    "kappa_rec": 0.5,
+    "kappa_hist": 0.0,
+    "delta_imp": 2.8018237766243602e-05,
+    "delta_ret": 0.0,
+    "validation_retain_all": true,
+    "ewc_lambda": 10.0,
+    "huber_delta": 0.1,
+    "ewc_gamma": 0.9,
+    "ewc_fisher_examples": 32,
+    "clear_factor": 0.75,
+    "clear_capacity": 128,
+    "clear_ewc_lambda": 200.0
+  },
+  "runtime": {
+    "sys_executable": "C:\\Users\\92487\\anaconda3\\envs\\rcf-dti-py311\\python.exe",
+    "python_version": "3.11.15",
+    "torch_version": "2.5.1+cu121",
+    "torch_cuda_version": "12.1",
+    "torch_cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 3060 Laptop GPU"
+  },
+  "v2_hash_mismatches": [],
+  "post_freeze_benchmark_completion": true,
+  "proposed_method_changed": false
+}
