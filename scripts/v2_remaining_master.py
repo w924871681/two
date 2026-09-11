@@ -91,8 +91,10 @@ def main() -> None:
     alibaba_state = "NOT_STARTED"
     try:
         wait_for_severity(severity_pid)
-        status("MASTER_RUNNING", "phase_a_audit")
-        run_script("v2_severity_analyze.py")
+        severity_status = json.loads((ROOT / "results_v2_severity/execution_status.json").read_text(encoding="utf-8"))
+        if severity_status.get("state") != "SEVERITY_SWEEP_COMPLETE":
+            status("MASTER_RUNNING", "phase_a_audit")
+            run_script("v2_severity_analyze.py")
         severity_audit = json.loads((ROOT / "audits_v2_severity/severity_execution_integrity_audit.json").read_text(encoding="utf-8"))
         if severity_audit.get("status") != "PASS":
             raise RuntimeError("Phase A scientific integrity failed")
