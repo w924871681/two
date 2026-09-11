@@ -1,0 +1,28 @@
+{
+  "schema": "ravm-dt-v2-severity-preflight-v1",
+  "status": "PASS",
+  "created_at": "2026-09-11T15:07:06.950175+00:00",
+  "checks": {
+    "final_confirmatory_integrity_pass": true,
+    "final_baseline_integrity_pass": true,
+    "v2_scientific_core_exact": true,
+    "v1_baseline_core_exact": true,
+    "final_v2_config_exact": true,
+    "runtime_exact": true,
+    "final_test_centers_present": true,
+    "no_preexisting_new_severity_results": true,
+    "alpha010_exact_count": true,
+    "alpha010_artifacts_valid": true,
+    "alpha010_pairing_hashes_exact": true,
+    "alpha010_reuse_pass": true
+  },
+  "failed_checks": [],
+  "runtime": {
+    "sys_executable": "C:\\Users\\92487\\anaconda3\\envs\\rcf-dti-py311\\python.exe",
+    "python_version": "3.11.15",
+    "torch_version": "2.5.1+cu121",
+    "torch_cuda_version": "12.1",
+    "torch_cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 3060 Laptop GPU"
+  }
+}
