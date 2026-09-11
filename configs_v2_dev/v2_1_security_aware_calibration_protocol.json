@@ -1,0 +1,81 @@
+{
+  "schema": "ravm-dt-v2.1-security-aware-calibration-v1",
+  "status": "FROZEN_BEFORE_V2_1_EXECUTION",
+  "purpose": "extend decision-calibration safety coverage after a development-stage replay weakness, before any fresh heldout access",
+  "not_parameter_tuning": true,
+  "scientific_structure": {
+    "structure_id": "V2_SP_ShortDual",
+    "candidate": "SinglePath 50-step adaptation",
+    "history_capacity": 12,
+    "delta_imp": 2.8018237766243602e-05,
+    "delta_ret": 0.0,
+    "rho": 0.05,
+    "epsilon": 5.6036475532487204e-05,
+    "scientific_implementation_commit": "7ae7fabd9a4e335e774fbcba2f38dfa8827bb8f3"
+  },
+  "grid": {
+    "kappa_rec": [0.0, 0.5, 1.0, 1.5],
+    "kappa_hist": [0.0, 0.5, 1.0, 1.5],
+    "combinations": 16,
+    "no_values_added_or_removed": true
+  },
+  "pool": {
+    "center_ids": [12000, 12001, 12002, 12003, 12004, 12005, 12006, 12007, 12008, 12009, 12010, 12011, 12012, 12013, 12014, 12015, 12016, 12017, 12018, 12019],
+    "model_seeds": [7311, 7312, 7313],
+    "new_safety_streams": [
+      {"scenario_id": "persistent_a010_verification_only", "kind": "persistent_bias", "alpha": 0.1, "attack_location": "verification_only"},
+      {"scenario_id": "replay_a010_verification_only", "kind": "replay", "alpha": 0.1, "attack_location": "verification_only"}
+    ],
+    "new_v2_trajectories": 1920,
+    "v0_reference_trajectories": 120,
+    "stages_per_trajectory": 24
+  },
+  "existing_primary_utility_results": {
+    "streams": ["clean", "mixed_a010_both"],
+    "reuse_without_rerun": true,
+    "required_integrity_audit": "audits_v2_dev/v2_calibration_final_integrity.json"
+  },
+  "statistics": {
+    "unit": "center",
+    "paired": true,
+    "bootstrap_replicates": 4000,
+    "bootstrap_seed": 2904,
+    "interval": "percentile 95%",
+    "seed_handling": "average the three fixed seeds within each center before resampling centers"
+  },
+  "security_feasibility": {
+    "main_safety": "mixed harmful <= rho and mixed downside <= epsilon",
+    "persistent_absolute": "persistent verification-only harmful <= rho and downside <= epsilon",
+    "replay_absolute": "replay verification-only harmful <= rho and downside <= epsilon",
+    "persistent_relative": "paired harmful and downside 95% CI lower bounds versus calibration-pool V0_LegacyFull are each <= 0",
+    "replay_relative": "paired harmful and downside 95% CI lower bounds versus calibration-pool V0_LegacyFull are each <= 0",
+    "security_feasible": "main safety and both absolute and relative verification-safety rules all pass"
+  },
+  "selection": {
+    "eligible_set": "SECURITY_FEASIBLE configurations only",
+    "primary_objective": "minimum original equal-scenario balanced lifecycle MSE across stationary, gradual, abrupt, recurring, and mixed",
+    "tie_break_1": "lower mixed downside",
+    "tie_break_2": "higher original equal-scenario balanced beneficial-commit recall across stationary, gradual, abrupt, recurring, and mixed",
+    "tie_break_3": "lower equal-weight mean of persistent and replay verification-only downside",
+    "exact_tie_serialization": "retain manifest grid order solely to serialize an otherwise scientifically exact tie"
+  },
+  "pareto_definition": {
+    "scope": "all 16 configurations; diagnostic only and not used to override selection",
+    "minimize": ["original balanced lifecycle MSE across stationary, gradual, abrupt, recurring, and mixed", "mixed harmful rate", "mixed downside", "persistent harmful rate", "persistent downside", "replay harmful rate", "replay downside"],
+    "maximize": ["original balanced beneficial-commit recall across stationary, gradual, abrupt, recurring, and mixed"],
+    "commit_rate": "reported diagnostic, not optimized"
+  },
+  "decision": {
+    "feasible_exists": "V2_1_CALIBRATION_GO and stop at WAITING_FOR_MANUAL_V2_1_CALIBRATION_REVIEW; do not open heldout",
+    "none_feasible": "V2_1_CALIBRATION_NO_FEASIBLE_CONFIG and stop",
+    "fresh_heldout_access_permitted": false
+  },
+  "prohibitions": [
+    "no scientific-method change",
+    "no new module or detector",
+    "no grid expansion or deletion",
+    "no rho/epsilon change",
+    "no attack change",
+    "no fresh confirmatory heldout access or materialization"
+  ]
+}
