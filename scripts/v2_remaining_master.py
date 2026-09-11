@@ -102,15 +102,16 @@ def main() -> None:
         if code == 2:
             alibaba_state = "NOT_EXECUTED_PROVENANCE_UNRESOLVED"
         else:
-            status("MASTER_RUNNING", "phase_b_execution")
-            run_script("v2_alibaba_external_runner.py")
-            status("MASTER_RUNNING", "phase_b_audit")
-            run_script("v2_alibaba_external_analyze.py")
-            ali_audit = json.loads((ROOT / "audits_v2_alibaba/alibaba_execution_integrity_audit.json").read_text(encoding="utf-8"))
-            if ali_audit.get("status") != "PASS":
+            try:
+                status("MASTER_RUNNING", "phase_b_execution")
+                run_script("v2_alibaba_external_runner.py")
+                status("MASTER_RUNNING", "phase_b_audit")
+                run_script("v2_alibaba_external_analyze.py")
+                ali_audit = json.loads((ROOT / "audits_v2_alibaba/alibaba_execution_integrity_audit.json").read_text(encoding="utf-8"))
+                alibaba_state = "PASS" if ali_audit.get("status") == "PASS" else "EXECUTION_INTEGRITY_FAILED"
+            except Exception as exc:
                 alibaba_state = "EXECUTION_INTEGRITY_FAILED"
-            else:
-                alibaba_state = "PASS"
+                atomic_json(ROOT / "audits_v2_alibaba/alibaba_master_failure_record.json", {"status": alibaba_state, "error": f"{type(exc).__name__}: {exc}", "scientific_auto_repair": False, "continue_to_phase_c_d_only": True, "at": now()})
 
         status("MASTER_RUNNING", "phase_c_d_reports", alibaba_state=alibaba_state)
         run_script("v2_remaining_reports.py")
