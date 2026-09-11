@@ -1,0 +1,68 @@
+{
+  "schema": "ravm-dt-v2-minimal-analysis-plan-v1",
+  "status": "ANALYSIS_PLAN_FROZEN",
+  "created_at": "2026-09-11T08:39:44.375089+00:00",
+  "evidence_pools_separate": true,
+  "statistical_unit": "center",
+  "paired": true,
+  "bootstrap": {
+    "replicates": 4000,
+    "seed": 2904,
+    "interval": "percentile 95%",
+    "seed_handling": "average seeds within center"
+  },
+  "primary_endpoint": {
+    "metric": "balanced lifecycle MSE",
+    "scenarios_equal_weight": [
+      "stationary",
+      "gradual",
+      "abrupt",
+      "recurring",
+      "mixed_a010_both"
+    ],
+    "implementation": "scripts/v2_go_no_go.py::stratified_paired_ci",
+    "implementation_sha256": "59ea46aa501cd79d6c513cdd2e3df2c0727cfe70f3da3b11fcd3de54532d1f70",
+    "success": "paired CI upper bound < 0"
+  },
+  "scenario_metrics": [
+    "lifecycle_mse",
+    "lifecycle_mae",
+    "harmful_commit_rate",
+    "average_downside",
+    "conditional_harmful_rate",
+    "beneficial_commit_recall",
+    "commit_rate",
+    "maximum_retain_streak"
+  ],
+  "benign_additional_metrics": [
+    "post_drift_excess_loss_area_relative_to_v1",
+    "recovery_time_to_within_105pct_v1_for_two_stages",
+    "censored_recovery"
+  ],
+  "recovery_scope_note": "Minimal two-method design cannot reproduce the earlier Frozen/Always-FT reference envelope. Fresh recovery is frozen here as a V2-to-V1 relative diagnostic and is never pooled with development recovery estimates.",
+  "absolute_risk": {
+    "scenarios": [
+      "mixed_a010_both",
+      "persistent_a010_verification_only",
+      "replay_a010_verification_only"
+    ],
+    "harmful_rho": 0.05,
+    "downside_epsilon": 5.6036475532487204e-05
+  },
+  "relative_verification_safety": "persistent/replay harmful and downside paired CIs must not be wholly above zero",
+  "benign_regression": "no stationary/gradual/abrupt/recurring lifecycle-MSE paired CI wholly above zero",
+  "plasticity_success": "at least one of beneficial recall CI wholly above zero, relative excess-loss-area CI wholly below zero, censored-recovery CI wholly below zero, or recovery-time CI wholly below zero",
+  "verdicts": {
+    "CONFIRMED": "primary CI upper<0; all absolute risks pass; verification relative safety passes; no benign-regime adverse MSE CI; at least one plasticity endpoint clearly favorable",
+    "PARTIALLY_CONFIRMED": "all absolute risks pass, primary point is favorable, but a required relative/plasticity/regime condition is inconclusive or locally adverse",
+    "NOT_CONFIRMED": "any absolute risk fails; primary MSE CI wholly adverse; or at least two benign-regime lifecycle-MSE CIs are wholly adverse while the primary point estimate is non-favorable (>=0)"
+  },
+  "replay_discordance": {
+    "development": "adverse harmful/downside paired CI",
+    "calibration": "acceptable relative safety",
+    "fresh_rule": "A if either fresh harmful/downside CI is wholly adverse; B if neither is wholly adverse and both point differences are <=0; C otherwise"
+  },
+  "no_partial_analysis": true,
+  "no_heldout_tuning": true,
+  "other_baselines": "prior/development/V1 evidence only; no fresh paired claims"
+}

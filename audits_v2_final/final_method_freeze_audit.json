@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "state": "ANALYSIS_PLAN_FROZEN",
+  "created_at": "2026-09-11T08:39:44.375089+00:00",
+  "checks": {
+    "development_4800_pass": true,
+    "original_calibration_1920_pass": true,
+    "post_calibration_go5_provenance_preserved": true,
+    "v21_execution_2040_pass": true,
+    "v21_decision_go": true,
+    "go1_through_go6_pass": true,
+    "selected_structure_exact": true,
+    "selected_config_exact": true,
+    "scientific_core_unchanged": true,
+    "v1_commit_and_tag_exact": true,
+    "v1_frozen_config_hashes_exact": true,
+    "runtime_exact": true,
+    "pool_manifest_sealed": true,
+    "fresh_data_absent": true,
+    "fresh_results_absent": true,
+    "v21_protocol_hash_exact": true
+  },
+  "artifact_hashes": {
+    "frozen_v2_final_method.yaml": "a410ec3053201d378ae96fc448ae926bfc217b96bc6a3932ab55c4283584b730",
+    "frozen_v2_final_commit_config.yaml": "7275a287ee4a1f4602ed0a10a67362a1a61ffa398848d4529669b0584a127d13",
+    "frozen_v2_final_environment.json": "80a99c899d77e887c40d9373359f2ee20420beadef473fcc0e7830f3e3add03b",
+    "frozen_v2_final_provenance.json": "888bea823b1e77b98889a6c627167673a376f595b04cacf3aee728a67df8f306",
+    "frozen_v2_minimal_confirmatory_manifest.json": "b4428cf870a5bf52aafb5b9b8d74176ea95fb2654f995397f2aa13f8b56430fe",
+    "frozen_v2_minimal_analysis_plan.json": "7cdcafbfbca4e529429a3bc00af3865d23b7f3949a1e5b868d1341c96621ba84"
+  },
+  "heldout_accessed": false,
+  "heldout_materialized": false,
+  "existing_fresh_results": []
+}
