@@ -67,13 +67,13 @@ def wait_for_severity(pid: int) -> None:
     while True:
         payload = json.loads(source.read_text(encoding="utf-8"))
         state = payload.get("state", "UNKNOWN")
-        if state == "SEVERITY_EXECUTION_COMPLETE_PENDING_AUDIT":
+        if state in {"SEVERITY_EXECUTION_COMPLETE_PENDING_AUDIT", "SEVERITY_SWEEP_COMPLETE"}:
             return
         if "FAIL" in state or payload.get("warning"):
             raise RuntimeError(f"Phase A stopped before audit: {payload}")
         if not alive(pid):
             payload = json.loads(source.read_text(encoding="utf-8"))
-            if payload.get("state") == "SEVERITY_EXECUTION_COMPLETE_PENDING_AUDIT":
+            if payload.get("state") in {"SEVERITY_EXECUTION_COMPLETE_PENDING_AUDIT", "SEVERITY_SWEEP_COMPLETE"}:
                 return
             raise RuntimeError(f"Phase A runner {pid} died: {payload}")
         current = time.time()
