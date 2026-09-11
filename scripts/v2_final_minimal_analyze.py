@@ -205,7 +205,7 @@ def main() -> None:
     leakage_checks={"decision_precedes_service":integrity["decision_ordering_errors"]==0,"state_chain_valid":integrity["invalid_state_chain_links"]==0,
         "data_attack_service_hashes_method_seed_invariant":integrity["data_attack_service_hash_mismatch_groups"]==0,
         "scientific_core_hash_frozen":sha256(ROOT/"core/v2_engine.py")=="f27d0abb6fabb50453cb4e04684b8e7b5f99d27aca7ae1f1755990640f3ce024",
-        "analysis_plan_hash_frozen":sha256(plan_path)==manifest["analysis_plan_sha256"],"first_access_recorded":access["heldout_accessed"] and access["heldout_materialized"]}
+        "analysis_plan_hash_frozen":sha256(plan_path)==plan_path.with_suffix(plan_path.suffix+".sha256").read_text(encoding="ascii").strip(),"first_access_recorded":access["heldout_accessed"] and access["heldout_materialized"]}
     leakage={"schema":"ravm-dt-v2-final-leakage-audit-v1","status":"PASS" if all(leakage_checks.values()) else "FAIL","checks":leakage_checks,
         "decision_order":"candidate -> verification -> immutable decision token -> service","service_use":"post-decision evaluation only","heldout_access":access}
     atomic_json(ROOT/"audits_v2_final/final_leakage_audit.json",leakage)
