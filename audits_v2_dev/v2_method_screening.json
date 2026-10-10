@@ -1,0 +1,190 @@
+{
+  "status": "PASS",
+  "terminal_state": "WAITING_FOR_MANUAL_V2_METHOD_REVIEW",
+  "structural_winner": {
+    "status": "PASS",
+    "winner": "V2_SP_ShortDual",
+    "winner_record": {
+      "arm_id": "V2_SP_ShortDual",
+      "variant_family": "V2_SP_ShortDual",
+      "balanced_lifecycle_mse": 0.003425283786859281,
+      "balanced_post_drift_excess_loss_area": 0.00925003787463844,
+      "balanced_beneficial_commit_recall": 0.29350907478949606,
+      "mixed_harmful_commit_rate": 0.04444444444444444,
+      "mixed_average_downside": 5.505740288450294e-06,
+      "mixed_commit_rate": 0.2513888888888889,
+      "rho": 0.05,
+      "epsilon": 5.6036475532487204e-05,
+      "safety_feasible": true,
+      "diagnostic_only": false,
+      "pareto_frontier": true
+    },
+    "eligible_count": 14,
+    "candidate_count_excluding_diagnostic": 19,
+    "rho": 0.05,
+    "epsilon": 5.6036475532487204e-05,
+    "frozen_structure_sha256": "03d4f72e42c60687e109018347c3ac4e3501165e7f872b08f56b9b2ec1a12180",
+    "selection_used_v1_heldout": false,
+    "selection_used_v2_confirmatory_heldout": false,
+    "selection_used_alibaba": false
+  },
+  "calibration_winner": {
+    "status": "PASS",
+    "winner": "kr0_kh0.5",
+    "winner_record": {
+      "arm_id": "kr0_kh0.5",
+      "variant_family": "V2_SP_ShortDual",
+      "balanced_lifecycle_mse": 0.0032678944493454267,
+      "balanced_post_drift_excess_loss_area": null,
+      "balanced_beneficial_commit_recall": 0.28480791046484616,
+      "mixed_harmful_commit_rate": 0.03541666666666666,
+      "mixed_average_downside": 4.162485210043403e-06,
+      "mixed_commit_rate": 0.22569444444444442,
+      "rho": 0.05,
+      "epsilon": 5.6036475532487204e-05,
+      "safety_feasible": true,
+      "diagnostic_only": false,
+      "pareto_frontier": true
+    },
+    "eligible_count": 14,
+    "grid_count": 16,
+    "rho": 0.05,
+    "epsilon": 5.6036475532487204e-05,
+    "frozen_commit_config_sha256": "68e06d381ced23ed105694b97e221b37ea5302fb389789f9ec310c8bbe74d3f4",
+    "selection_used_v1_heldout": false,
+    "selection_used_v2_confirmatory_heldout": false,
+    "selection_used_alibaba": false
+  },
+  "frozen_structure": {
+    "structure_id": "V2_SP_ShortDual",
+    "family": "V2_SP_ShortDual",
+    "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+    "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+    "rho": 0.05,
+    "epsilon": 5.6036475532487204e-05,
+    "development_pool": [
+      11000,
+      11019
+    ],
+    "v1_gate_used_for_structure_screening": {
+      "kappa_rec": 0.5,
+      "kappa_hist": 0.0,
+      "delta_imp": 2.8018237766243602e-05,
+      "delta_ret": 0.0
+    }
+  },
+  "frozen_commit_config": {
+    "status": "FROZEN_AFTER_DECISION_CALIBRATION",
+    "structure_id": "V2_SP_ShortDual",
+    "kappa_rec": 0.0,
+    "kappa_hist": 0.5,
+    "delta_imp": 2.8018237766243602e-05,
+    "delta_ret": 0.0,
+    "rho": 0.05,
+    "epsilon": 5.6036475532487204e-05,
+    "decision_calibration_pool": [
+      12000,
+      12019
+    ],
+    "selection_rule": "minimum equal-scenario balanced lifecycle MSE among configurations satisfying mixed rho and epsilon"
+  },
+  "report_sha256": "cf3d755b8588b7be1552ac0dcd1ac97403c8dbcf76bd6f437956c7304bb66d62",
+  "development_integrity": {
+    "status": "PASS",
+    "phase": "development",
+    "trajectory_files": 4800,
+    "trajectory_groups": 4800,
+    "expected_trajectories": 4800,
+    "stage_rows": 115200,
+    "duplicate_scientific_keys": 0,
+    "invalid_stage_sequences": 0,
+    "forbidden_centers": [],
+    "service_access": "evaluation-only after decision token, enforced by core.v2_engine",
+    "v2_confirmatory_heldout_accessed": false
+  },
+  "calibration_integrity": {
+    "status": "PASS",
+    "phase": "calibration",
+    "trajectory_files": 1920,
+    "trajectory_groups": 1920,
+    "expected_trajectories": 1920,
+    "stage_rows": 46080,
+    "duplicate_scientific_keys": 0,
+    "invalid_stage_sequences": 0,
+    "forbidden_centers": [],
+    "service_access": "evaluation-only after decision token, enforced by core.v2_engine",
+    "v2_confirmatory_heldout_accessed": false
+  },
+  "no_heldout_access": {
+    "status": "PASS",
+    "v2_result_center_ids": [
+      11000,
+      11001,
+      11002,
+      11003,
+      11004,
+      11005,
+      11006,
+      11007,
+      11008,
+      11009,
+      11010,
+      11011,
+      11012,
+      11013,
+      11014,
+      11015,
+      11016,
+      11017,
+      11018,
+      11019,
+      12000,
+      12001,
+      12002,
+      12003,
+      12004,
+      12005,
+      12006,
+      12007,
+      12008,
+      12009,
+      12010,
+      12011,
+      12012,
+      12013,
+      12014,
+      12015,
+      12016,
+      12017,
+      12018,
+      12019
+    ],
+    "allowed_center_ranges": [
+      [
+        11000,
+        11019
+      ],
+      [
+        12000,
+        12019
+      ]
+    ],
+    "forbidden_result_centers": [],
+    "v2_confirmatory_materialized_centers": [],
+    "v1_heldout_used_for_selection": false,
+    "alibaba_used_for_selection": false,
+    "v2_confirmatory_service_outcomes_accessed": false,
+    "executor_center_allowlist_enforced": true
+  },
+  "pool_seal_integrity": {
+    "status": "PASS",
+    "manifest_sha256": "6883504751748ea38a3399986ebe3b527ff0f0624dd69e468a93fcebe9d683c6",
+    "expected_manifest_sha256": "6883504751748ea38a3399986ebe3b527ff0f0624dd69e468a93fcebe9d683c6",
+    "pool_status": "SEALED_NOT_MATERIALIZED",
+    "materialized_centers": [],
+    "service_outcomes_accessed": false
+  },
+  "negative_findings_retained": true,
+  "bootstrap_replicates": 4000,
+  "statistical_unit": "center"
+}

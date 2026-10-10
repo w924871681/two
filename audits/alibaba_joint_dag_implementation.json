@@ -1,0 +1,10 @@
+{
+  "status": "approved_for_formal_p6",
+  "git_sha": "d6d33075cb3afa55a24878e2343f1bc1d1c9368a",
+  "joint_dag_sha256": "9020dc8cced08766c0bb02e5103578e3da958d02c2f504f793e4d3ebda76374a",
+  "workers": 2,
+  "partition": "complete center x condition x seed workload",
+  "domain": "alibaba",
+  "created_at": "2026-09-09T03:26:29.911742",
+  "heldout_started": false
+}

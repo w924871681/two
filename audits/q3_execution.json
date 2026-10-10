@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "expected_trajectories": 810,
+  "completed_trajectories": 810,
+  "stage_rows": 19440,
+  "source": "completed formal Q1 clean trajectories",
+  "executor_note": "Q3 is a deterministic derivation with no model workload; two-worker execution starts at Q4"
+}

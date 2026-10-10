@@ -65,6 +65,9 @@ changed.
 
 ## Recovery execution
 
+Recovery execution-only commit:
+`0a21cf6f7bdf068ab64b8e5ef0f5e2e8bfb95e2e`.
+
 The execution-only recovery wrapper launches the same two original joint-DAG
 workers, with the same complete `center × condition × seed` workload partition
 and serial 24-stage lifecycles. Existing exact filenames are skipped by the
@@ -88,3 +91,8 @@ Machine-readable audits:
 The recovery commit and live PID/cache/throughput fields are recorded at launch
 in `logs/alibaba_shutdown_recovery_launch.json` and
 `logs/execution_status.json`.
+
+Initial live snapshot (2026-09-10 11:22 +08:00): runner PID 19736; worker PIDs
+13260 and 21616; 29,565 / 48,600 complete, including 810 newly published
+trajectories; 160 candidate and 318 evidence L2 hits had already been observed;
+no current warning, traceback, or `execution_failure.json` was present.

@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "completed": 720,
+  "expected": 720,
+  "existing_valid": 0,
+  "executed_now": 720,
+  "runner_pid": 10332,
+  "worker_pids": [
+    15012,
+    16324
+  ],
+  "elapsed_s": 1896.5128219127655,
+  "manifest_sha256": "b4428cf870a5bf52aafb5b9b8d74176ea95fb2654f995397f2aa13f8b56430fe",
+  "heldout_accessed": true,
+  "heldout_materialized": true,
+  "runtime": {
+    "pid": 10332,
+    "sys_executable": "C:\\Users\\92487\\anaconda3\\envs\\rcf-dti-py311\\python.exe",
+    "python_version": "3.11.15",
+    "torch_version": "2.5.1+cu121",
+    "torch_cuda_version": "12.1",
+    "torch_cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 3060 Laptop GPU"
+  }
+}

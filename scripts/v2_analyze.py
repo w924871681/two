@@ -39,6 +39,11 @@ def atomic_json(path: Path, value: object) -> None:
     os.replace(tmp, path)
 
 
+def json_record(series: pd.Series) -> dict:
+    """Convert a pandas row to strict JSON without changing numeric CSV outputs."""
+    return {key: (None if pd.isna(value) else value) for key, value in series.to_dict().items()}
+
+
 def ci_mean(values: pd.DataFrame, value: str) -> tuple[float, float, float]:
     center_values = values.groupby("center_id")[value].mean().dropna().to_numpy(dtype=float)
     if not len(center_values):
@@ -388,7 +393,7 @@ def analyze_calibration(summary: pd.DataFrame, out: Path) -> None:
     selection = {
         "status": "PASS",
         "winner": winner.arm_id,
-        "winner_record": winner.to_dict(),
+        "winner_record": json_record(winner),
         "eligible_count": len(eligible),
         "grid_count": len(balanced),
         "rho": RHO,

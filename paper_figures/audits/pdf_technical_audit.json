@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "requirement": "single-page vector PDF with embedded subset fonts",
+  "figures": [
+    {
+      "file": "fig2_overall_baseline.pdf",
+      "pages": 1,
+      "embedded_images": 0,
+      "font_count": 3,
+      "fonts_embedded_subsetted": true,
+      "sha256": "F1582FFEBA4BD5F091A8E879E26915BD2F692D84B1AB1AA553D1CE9CF111DF35"
+    },
+    {
+      "file": "fig3_corruption_severity.pdf",
+      "pages": 1,
+      "embedded_images": 0,
+      "font_count": 3,
+      "fonts_embedded_subsetted": true,
+      "sha256": "F51CF1E7538C6F7A93BE2B7ADB4619F67E0DC6DB143B2CF198D0B19701B8E518"
+    },
+    {
+      "file": "fig4_benign_evolution.pdf",
+      "pages": 1,
+      "embedded_images": 0,
+      "font_count": 3,
+      "fonts_embedded_subsetted": true,
+      "sha256": "D5C73D4162EEB1DB101B572CBA51A540C00DF028CD15189E00E7CB1368F9FCD1"
+    },
+    {
+      "file": "fig5_mechanism_analysis.pdf",
+      "pages": 1,
+      "embedded_images": 0,
+      "font_count": 3,
+      "fonts_embedded_subsetted": true,
+      "sha256": "038D8CE56BF4D40288D7A3153DE5048D9F819543D60FFC79EC57B9BE3C3E6DA4"
+    },
+    {
+      "file": "fig6_sensitivity_generality.pdf",
+      "pages": 1,
+      "embedded_images": 0,
+      "font_count": 3,
+      "fonts_embedded_subsetted": true,
+      "sha256": "A9AE82BA5CA199B253DF5B48BD640EE3A80893A6A5278F87D193426CC59B5E08"
+    },
+    {
+      "file": "fig7_alibaba_external.pdf",
+      "pages": 1,
+      "embedded_images": 0,
+      "font_count": 3,
+      "fonts_embedded_subsetted": true,
+      "sha256": "F8488651629C9AA545547345403B126DD0195AA0089A376C8BC89D6A0D5B25C5"
+    }
+  ]
+}

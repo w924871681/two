@@ -1,0 +1,309 @@
+{
+  "schema": "ravm-dt-v2-post-calibration-go5-audit-v1",
+  "status": "PASS",
+  "purpose": "complete missing verification-only evidence for the already frozen final calibration winner; not parameter tuning or grid search",
+  "why_120": "20 development centers × 3 fixed model seeds × 2 preregistered verification-only scenarios",
+  "checks": {
+    "preflight_pass": true,
+    "execution_complete": true,
+    "expected_120": true,
+    "valid_120": true,
+    "missing_zero": true,
+    "duplicate_zero": true,
+    "unexpected_zero": true,
+    "partial_invalid_zero": true,
+    "metadata_consistent": true,
+    "reference_stage_alignment_2880": true,
+    "reference_data_attack_hashes_exact": true,
+    "frozen_config_hash_exact": true,
+    "config_frozen_before_run": true,
+    "scientific_implementation_unchanged": true,
+    "runner_runtime_correct": true,
+    "worker_runtimes_correct": true,
+    "heldout_access_false": true,
+    "heldout_materialized_false": true
+  },
+  "integrity": {
+    "expected": 120,
+    "valid": 120,
+    "missing": 0,
+    "duplicate": 0,
+    "unexpected": 0,
+    "partial_invalid": 0,
+    "stage_rows": 2880,
+    "metadata_mismatches": [],
+    "invalid_files": []
+  },
+  "frozen_configuration": {
+    "structure": "V2_SP_ShortDual",
+    "history_capacity": 12,
+    "kappa_rec": 0.0,
+    "kappa_hist": 0.5,
+    "delta_imp": 2.8018237766243602e-05,
+    "delta_ret": 0.0,
+    "rho": 0.05,
+    "epsilon": 5.6036475532487204e-05,
+    "sha256": "68e06d381ced23ed105694b97e221b37ea5302fb389789f9ec310c8bbe74d3f4",
+    "frozen_at_utc_from_file_mtime": "2026-09-10T17:54:40.701323+00:00",
+    "execution_manifest_created_at": "2026-09-11T01:55:29.929044+00:00",
+    "frozen_before_run": true
+  },
+  "reference": {
+    "status": "PASS",
+    "development_files": 4800,
+    "development_aggregate_sha256": "032239b87875b4a7f2a3f583a9a8e932fb681306a8f9d0f00ee56eb5f4aa9b34",
+    "expected_development_aggregate_sha256": "032239b87875b4a7f2a3f583a9a8e932fb681306a8f9d0f00ee56eb5f4aa9b34",
+    "reference_expected": 120,
+    "reference_valid": 120,
+    "reference_missing": [],
+    "reference_unexpected": [],
+    "reference_invalid": [],
+    "development_integrity_audit": "PASS",
+    "development_execution_complete": "PASS",
+    "development_manifest_sha256": "d0cbc97835f7c5994efd92a2804e2f8ce0bcd7bdcb7eae25bf8ed1fa94fd619e",
+    "reference_provenance": "V2 development execution manifest and immutable aggregate"
+  },
+  "hash_alignment_with_v0": {
+    "attack_mask_hash": 0,
+    "update_data_hash": 0,
+    "verification_data_hash": 0,
+    "service_data_hash": 0
+  },
+  "statistics": {
+    "unit": "center",
+    "paired": true,
+    "bootstrap_replicates": 4000,
+    "bootstrap_seed": 2904,
+    "interval": "percentile 95%",
+    "scenarios": {
+      "persistent_a010_verification_only": {
+        "lifecycle_mse": {
+          "final_calibrated_shortdual": {
+            "estimate": 0.0035015071352568162,
+            "ci_low": 0.0025103383344967888,
+            "ci_high": 0.004543246900738116
+          },
+          "v0_legacy_full": {
+            "estimate": 0.003821184470689228,
+            "ci_low": 0.002709882573315242,
+            "ci_high": 0.004980559531590992
+          },
+          "paired_difference_final_minus_v0": {
+            "estimate": -0.00031967733543241175,
+            "ci_low": -0.0004839355635147839,
+            "ci_high": -0.00017070239686133563
+          }
+        },
+        "harmful_commit_rate": {
+          "final_calibrated_shortdual": {
+            "estimate": 0.011805555555555557,
+            "ci_low": 0.0041666666666666675,
+            "ci_high": 0.020833333333333332
+          },
+          "v0_legacy_full": {
+            "estimate": 0.018749999999999982,
+            "ci_low": 0.011805555555555541,
+            "ci_high": 0.026388888888888858
+          },
+          "paired_difference_final_minus_v0": {
+            "estimate": -0.006944444444444424,
+            "ci_low": -0.014583333333333314,
+            "ci_high": 0.0006944444444444593
+          }
+        },
+        "average_downside": {
+          "final_calibrated_shortdual": {
+            "estimate": 1.7294556730320587e-06,
+            "ci_low": 3.3912278821739385e-07,
+            "ci_high": 3.505370502049276e-06
+          },
+          "v0_legacy_full": {
+            "estimate": 1.1473831060961591e-06,
+            "ci_low": 4.333485513698231e-07,
+            "ci_high": 1.997424414083482e-06
+          },
+          "paired_difference_final_minus_v0": {
+            "estimate": 5.820725669358998e-07,
+            "ci_low": -4.426024497660633e-07,
+            "ci_high": 1.7909475233557316e-06
+          }
+        },
+        "conditional_harmful_rate": {
+          "final_calibrated_shortdual": {
+            "estimate": 0.045046897546897544,
+            "ci_low": 0.015681818181818186,
+            "ci_high": 0.0807377344877345
+          },
+          "v0_legacy_full": {
+            "estimate": 0.10693362193362192,
+            "ci_low": 0.052262175324675315,
+            "ci_high": 0.1760347522847523
+          },
+          "paired_difference_final_minus_v0": {
+            "estimate": -0.03688672438672438,
+            "ci_low": -0.07612340668590668,
+            "ci_high": -0.0035375781625781467
+          }
+        },
+        "beneficial_commit_recall": {
+          "final_calibrated_shortdual": {
+            "estimate": 0.2679126413500152,
+            "ci_low": 0.21600859324318486,
+            "ci_high": 0.31854362905211353
+          },
+          "v0_legacy_full": {
+            "estimate": 0.25645061256390167,
+            "ci_low": 0.18715665293399508,
+            "ci_high": 0.32349966582901907
+          },
+          "paired_difference_final_minus_v0": {
+            "estimate": 0.011462028786113482,
+            "ci_low": -0.02812694736313114,
+            "ci_high": 0.051663670913694074
+          }
+        },
+        "commit_rate": {
+          "final_calibrated_shortdual": {
+            "estimate": 0.23819444444444446,
+            "ci_low": 0.19442708333333333,
+            "ci_high": 0.2798611111111111
+          },
+          "v0_legacy_full": {
+            "estimate": 0.2291666666666666,
+            "ci_low": 0.17012152777777773,
+            "ci_high": 0.2881944444444444
+          },
+          "paired_difference_final_minus_v0": {
+            "estimate": 0.009027777777777806,
+            "ci_low": -0.027795138888888873,
+            "ci_high": 0.04444444444444448
+          }
+        }
+      },
+      "replay_a010_verification_only": {
+        "lifecycle_mse": {
+          "final_calibrated_shortdual": {
+            "estimate": 0.003536115097510094,
+            "ci_low": 0.0025453565889296346,
+            "ci_high": 0.004580964918934268
+          },
+          "v0_legacy_full": {
+            "estimate": 0.0038407052936235133,
+            "ci_low": 0.0027437484872491237,
+            "ci_high": 0.004996035795667017
+          },
+          "paired_difference_final_minus_v0": {
+            "estimate": -0.00030459019611342,
+            "ci_low": -0.00045175376941941116,
+            "ci_high": -0.00016811338355328975
+          }
+        },
+        "harmful_commit_rate": {
+          "final_calibrated_shortdual": {
+            "estimate": 0.017361111111111112,
+            "ci_low": 0.009027777777777777,
+            "ci_high": 0.02638888888888889
+          },
+          "v0_legacy_full": {
+            "estimate": 0.008333333333333323,
+            "ci_low": 0.002777777777777775,
+            "ci_high": 0.01527777777777776
+          },
+          "paired_difference_final_minus_v0": {
+            "estimate": 0.009027777777777787,
+            "ci_low": 0.0006944444444444552,
+            "ci_high": 0.018055555555555564
+          }
+        },
+        "average_downside": {
+          "final_calibrated_shortdual": {
+            "estimate": 1.5122024504102758e-06,
+            "ci_low": 6.11009333321391e-07,
+            "ci_high": 2.646448184450951e-06
+          },
+          "v0_legacy_full": {
+            "estimate": 2.726359121474955e-07,
+            "ci_low": 2.641936589498073e-08,
+            "ci_high": 6.751673501839994e-07
+          },
+          "paired_difference_final_minus_v0": {
+            "estimate": 1.2395665382627802e-06,
+            "ci_low": 2.2133533901874564e-07,
+            "ci_high": 2.3601980208488578e-06
+          }
+        },
+        "conditional_harmful_rate": {
+          "final_calibrated_shortdual": {
+            "estimate": 0.10567460317460317,
+            "ci_low": 0.05075396825396825,
+            "ci_high": 0.1709563492063492
+          },
+          "v0_legacy_full": {
+            "estimate": 0.10487722154388819,
+            "ci_low": 0.020899301315967976,
+            "ci_high": 0.23228021978021982
+          },
+          "paired_difference_final_minus_v0": {
+            "estimate": -0.025600325600325605,
+            "ci_low": -0.13381859652692987,
+            "ci_high": 0.06000440917107585
+          }
+        },
+        "beneficial_commit_recall": {
+          "final_calibrated_shortdual": {
+            "estimate": 0.2509352014041407,
+            "ci_low": 0.19377298373900795,
+            "ci_high": 0.3083465632077786
+          },
+          "v0_legacy_full": {
+            "estimate": 0.2016156092770543,
+            "ci_low": 0.13617737063240745,
+            "ci_high": 0.26871559544490375
+          },
+          "paired_difference_final_minus_v0": {
+            "estimate": 0.04931959212708643,
+            "ci_low": 0.003507105002189731,
+            "ci_high": 0.09679077098882509
+          }
+        },
+        "commit_rate": {
+          "final_calibrated_shortdual": {
+            "estimate": 0.2263888888888889,
+            "ci_low": 0.1784722222222222,
+            "ci_high": 0.2736111111111111
+          },
+          "v0_legacy_full": {
+            "estimate": 0.17916666666666664,
+            "ci_low": 0.12428819444444442,
+            "ci_high": 0.23680555555555555
+          },
+          "paired_difference_final_minus_v0": {
+            "estimate": 0.04722222222222224,
+            "ci_low": 0.00972222222222224,
+            "ci_high": 0.08541666666666667
+          }
+        }
+      }
+    }
+  },
+  "go5": {
+    "status": "FAIL",
+    "frozen_rule_unchanged": true,
+    "failure_reasons": [
+      "replay_a010_verification_only: harmful-rate paired CI wholly adverse",
+      "replay_a010_verification_only: downside paired CI wholly adverse"
+    ]
+  },
+  "mechanical_recheck_other_gates": {
+    "GO-1": "PASS",
+    "GO-2": "PASS",
+    "GO-3": "PASS",
+    "GO-4": "PASS",
+    "GO-6": "PASS"
+  },
+  "resulting_overall_verdict": "NO-GO",
+  "heldout_accessed": false,
+  "heldout_materialized": false,
+  "confirmatory_started": false,
+  "terminal_state": "WAITING_FOR_MANUAL_V2_METHOD_REVIEW"
+}

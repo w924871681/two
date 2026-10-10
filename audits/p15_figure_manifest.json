@@ -1,0 +1,140 @@
+{
+  "status": "passed",
+  "data_profile": {
+    "rows": 279,
+    "paired_rows": 249,
+    "questions": [
+      "q1_overall",
+      "q2_security",
+      "q3_benign_drift",
+      "q4_ablation",
+      "q5_generality",
+      "q5_runtime",
+      "q5_sensitivity_cost",
+      "q6_alibaba"
+    ],
+    "methods": [
+      "Always-FT",
+      "CLeaR-Predictor",
+      "ER",
+      "EWC",
+      "Frozen",
+      "Huber-FT",
+      "MeanDelta",
+      "MeanVerification",
+      "OracleCommit",
+      "Proposed",
+      "RecentOnly",
+      "RobustAlways",
+      "SinglePath",
+      "ValidationCommit"
+    ],
+    "missing_fraction": {
+      "question": 0.0,
+      "variant": 0.0,
+      "backbone": 0.0,
+      "horizon": 0.0,
+      "attack_type": 0.0,
+      "attack_alpha": 0.0,
+      "attack_location": 0.0,
+      "method": 0.0,
+      "lifecycle_mse": 0.0,
+      "lifecycle_mse_ci_low": 0.0,
+      "lifecycle_mse_ci_high": 0.0,
+      "lifecycle_mae": 0.0,
+      "lifecycle_mae_ci_low": 0.0,
+      "lifecycle_mae_ci_high": 0.0,
+      "final_stage_mse": 0.0,
+      "final_stage_mse_ci_low": 0.0,
+      "final_stage_mse_ci_high": 0.0,
+      "commit_rate": 0.0,
+      "commit_rate_ci_low": 0.0,
+      "commit_rate_ci_high": 0.0,
+      "harmful_commit_rate": 0.0,
+      "harmful_commit_rate_ci_low": 0.0,
+      "harmful_commit_rate_ci_high": 0.0,
+      "average_downside": 0.0,
+      "average_downside_ci_low": 0.0,
+      "average_downside_ci_high": 0.0,
+      "conditional_harmful_rate": 0.25089605734767023,
+      "conditional_harmful_rate_ci_low": 0.25089605734767023,
+      "conditional_harmful_rate_ci_high": 0.25089605734767023,
+      "beneficial_commit_recall": 0.12186379928315412,
+      "beneficial_commit_recall_ci_low": 0.12186379928315412,
+      "beneficial_commit_recall_ci_high": 0.12186379928315412,
+      "worst_10pct_stage_mse": 0.0,
+      "worst_10pct_stage_mse_ci_low": 0.0,
+      "worst_10pct_stage_mse_ci_high": 0.0,
+      "cvar90_center_mse": 0.0,
+      "cvar90_center_mse_ci_low": 0.0,
+      "cvar90_center_mse_ci_high": 0.0,
+      "centers": 0.0,
+      "seeds": 0.0
+    }
+  },
+  "figures": [
+    {
+      "name": "figure_q1_lifecycle_mse",
+      "png": "results/figures/figure_q1_lifecycle_mse.png",
+      "svg": "results/figures/figure_q1_lifecycle_mse.svg",
+      "grayscale": "results/figures/figure_q1_lifecycle_mse_grayscale.png",
+      "pixels": [
+        2194,
+        994
+      ],
+      "dpi": 300,
+      "caption": "Point estimates and 95% center-cluster bootstrap CIs; centers are the sampling unit.",
+      "sha256": {
+        "png": "202066357759f99b598db924fb1142c6d433f18f50f9d6b9c488a0ffb6830060",
+        "svg": "a5dffcb22895a04c4328650aac9e1d7e06fd8a1afc3cc9669594156278c023dd",
+        "grayscale": "22df70de0abe7af57634ac55f078611802962fe490105f558817bdc938b9e16e"
+      }
+    },
+    {
+      "name": "figure_q2_security_heatmap",
+      "png": "results/figures/figure_q2_security_heatmap.png",
+      "svg": "results/figures/figure_q2_security_heatmap.svg",
+      "grayscale": "results/figures/figure_q2_security_heatmap_grayscale.png",
+      "pixels": [
+        1592,
+        994
+      ],
+      "dpi": 300,
+      "caption": "Center-paired lifecycle-MSE differences; a perceptually balanced diverging scale is centered at zero.",
+      "sha256": {
+        "png": "bb2ac2fd3c69d7a9ef1f535b3f5c5bd6c95b338fd497669c476f34c33df69413",
+        "svg": "3f3a078315c66afe9621469dc195daa376de55acc4090c54c630da390631e03d",
+        "grayscale": "f321ff6b86860b7af72ce1b65cdf6afb018d294dcf8d61b9b7bf38d3657d5bbb"
+      }
+    },
+    {
+      "name": "figure_q3_lifecycle",
+      "png": "results/figures/figure_q3_lifecycle.png",
+      "svg": "results/figures/figure_q3_lifecycle.svg",
+      "grayscale": "results/figures/figure_q3_lifecycle_grayscale.png",
+      "pixels": [
+        2194,
+        1054
+      ],
+      "dpi": 300,
+      "caption": "Lines are center means; shaded regions show the 2.5th\u201397.5th percentiles across centers.",
+      "sha256": {
+        "png": "4517b97db11bcffdc52d7a875a6b065d4569d14624a56e1084c684dd1b1ea92c",
+        "svg": "6e57b4b31615c314c250687440c6d50c93117372a10ca1200c7edd719c37e551",
+        "grayscale": "46f86b267048c6d25dad81a42c8eb8dbb804e6483f838122cdae510feb58fee6"
+      }
+    }
+  ],
+  "machine_checks": {
+    "vector_exports": true,
+    "png_min_300_dpi": true,
+    "minimum_pixels": true,
+    "colorblind_palette_and_redundant_markers": true,
+    "grayscale_previews": true,
+    "no_dual_y_axes": true,
+    "no_pie_or_3d": true,
+    "continuous_heatmap_has_colorbar": true,
+    "ci_or_uncertainty_described": true
+  },
+  "visual_review": "machine-rendered; Codex visual inspection is recorded separately when available"
+}

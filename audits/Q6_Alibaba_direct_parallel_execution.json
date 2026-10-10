@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "phase": "Q6_Alibaba_direct",
+  "expected": 2160,
+  "completed": 2160,
+  "missing": [],
+  "invalid": [],
+  "duplicate_manifest_filenames": 0,
+  "temp_files": [],
+  "stages_per_lifecycle": 24
+}

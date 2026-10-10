@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "created_at": "2026-09-09T14:29:20.414316",
+  "checks": {
+    "expected_trajectories": true,
+    "complete_trajectories": true,
+    "duplicate_keys_zero": true,
+    "unexpected_keys_zero": true,
+    "missing_keys_zero": true,
+    "invalid_files_zero": true,
+    "temporary_files_zero": true,
+    "data_attack_hash_mismatches_zero": true,
+    "p7_scientific_and_frozen_hashes_match": true,
+    "q3_results_absent": true
+  },
+  "counts": {
+    "expected": 7680,
+    "completed": 7680,
+    "valid_keys": 7680,
+    "duplicate_excess": 0,
+    "unexpected": 0,
+    "missing": 0,
+    "invalid": 0,
+    "hash_mismatches": 0
+  },
+  "failures": {
+    "invalid": [],
+    "temporary_files": [],
+    "unexpected": [],
+    "missing": [],
+    "freeze_mismatches": [],
+    "q3_files": []
+  }
+}

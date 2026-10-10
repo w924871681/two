@@ -1,0 +1,13 @@
+{
+  "state": "ALIBABA_EXTERNAL_COMPLETE",
+  "phase": "v2_alibaba_external_trace",
+  "completed": 1200,
+  "expected": 1200,
+  "integrity": "PASS",
+  "pairing": "PASS",
+  "leakage": "PASS",
+  "report": "D:\\dt-trustworthy-maintenance\\V2_ALIBABA_EXTERNAL_TRACE_REPORT.md",
+  "report_sha256": "8029bb085276341f4bde73ee25548fac2563887efb492efc2f999892ecb243cf",
+  "warning": null,
+  "updated_at": "2026-09-11T17:39:15.513422+00:00"
+}

@@ -1,0 +1,3611 @@
+{
+  "schema": "ravm-dt-v2-generality-gruh1-reuse-v1",
+  "status": "PASS",
+  "expected": 360,
+  "valid": 360,
+  "errors": [],
+  "pairing_hash_mismatches": [],
+  "rerun_gruh1": false,
+  "artifacts": [
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14000,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14000__7311.csv",
+      "source_file_sha256": "ae361112472e9c59e7347375dd8fb746cd04c697a81cee411a997956af48cbba"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14000,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14000__7311.csv",
+      "source_file_sha256": "1fd2220fd15d7900391b5bc8245752415f69ee80d212d6ddd47580804aca6101"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14000,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14000__7311.csv",
+      "source_file_sha256": "a56293298d0fba919ed448226ac85c4aa4c45bb6573c7a4ad9f09d3316bdea1c"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14000,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14000__7311.csv",
+      "source_file_sha256": "1797454a26bb84e6aafe662a0e0aff9bd072a0235c1881df5a00cfa396c17750"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14000,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14000__7311.csv",
+      "source_file_sha256": "12591ead663b7103d9cefceee1135d94b5d447847d2989b2d804b570874d7f5e"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14000,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14000__7311.csv",
+      "source_file_sha256": "5403bdd4890872216c9ee4df1a5d0e62713cb3079ab3b181962c8bc423b915b4"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14000,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14000__7312.csv",
+      "source_file_sha256": "870d455119f77efb02996f041e5d41173cfe8ef57d8e6e75c3d9ea9f7ca79fd2"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14000,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14000__7312.csv",
+      "source_file_sha256": "473f3df75682ca18c01758df11dce25d2dd9d32f9877821b8dac35a1f2d149a3"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14000,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14000__7312.csv",
+      "source_file_sha256": "98bee9c5c6b166521a35a04f31d8599db3150c53e9855f536d803e42e6a33e99"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14000,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14000__7312.csv",
+      "source_file_sha256": "95c926e40dad92c5d1321efe8d5e4417d0de9a886a72164cfadaa546fab05a76"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14000,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14000__7312.csv",
+      "source_file_sha256": "f1365d2d3a546f4afb94a9eff14c17c9b83d531a90ae88ef744d97aeba5c7efa"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14000,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14000__7312.csv",
+      "source_file_sha256": "e0c96072c595eb950316fe5c9cb1f270b513c78351ca5d494b985da10a9c4e60"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14000,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14000__7313.csv",
+      "source_file_sha256": "50fab16267af45bc944680f7f684862f9e9bd7739fb6b5e44c56f80f75e2e021"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14000,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14000__7313.csv",
+      "source_file_sha256": "230557ef6e11f58aadd45ec6cab4e6cb1d22e94ff58df9743de3662de9b1ba84"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14000,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14000__7313.csv",
+      "source_file_sha256": "33fa966878df797e2b6ce720fca6cc4cd59ce10daf7bcb09026a49098893f6ef"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14000,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14000__7313.csv",
+      "source_file_sha256": "47cd85a884e2fdea80093722b3642fae2b0285282bba7a85ebdf2cc51a672ccd"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14000,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14000__7313.csv",
+      "source_file_sha256": "6ec22acec82c46897a974e85d0d4f1cbef304ccc7265e45dbcab3469cd301f4c"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14000,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14000__7313.csv",
+      "source_file_sha256": "980026f57b625ff334ceff8c1c510df8548fa83455536b05c957f07fa9483d67"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14001,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14001__7311.csv",
+      "source_file_sha256": "fe248f1a5b117a9e023ba88ad4717a5652dd5f8f6076e8c97dcdc25f04974cbc"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14001,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14001__7311.csv",
+      "source_file_sha256": "c64daaccd43630b7889ee0276d5fec6e571d1faf100126caef2dd96e9188c0ae"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14001,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14001__7311.csv",
+      "source_file_sha256": "1c3bfa2f0ff202477c5d638b87a53e9175031b160f4384b18398a2c96026452c"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14001,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14001__7311.csv",
+      "source_file_sha256": "6b7cea29f2ae163f2e4af040574372a7eea764178f55fa0523a4ab447bb6ee62"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14001,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14001__7311.csv",
+      "source_file_sha256": "32dbd3e155b719e2f04e899dc432606a69c236a05318e7b9c3d25f070947f774"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14001,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14001__7311.csv",
+      "source_file_sha256": "f0c56eb6d189c3875c4d183057f3d27a93bf01786f8528d6cd4d33272848f5c0"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14001,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14001__7312.csv",
+      "source_file_sha256": "755bff9148e80663529b5235f527971831bc65db898130093100d4444d950fe8"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14001,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14001__7312.csv",
+      "source_file_sha256": "04c760a6960d54c25832743690f17344eb183f7c21a5522bf70076576166cc54"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14001,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14001__7312.csv",
+      "source_file_sha256": "24f863f78d031bc61fb84a1a8b06665ffc499980ac08dcea75d5121edf5f7507"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14001,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14001__7312.csv",
+      "source_file_sha256": "77a86e08967fd261472a049dbb41dc828429f5b3e600078119f0612dcf3657d5"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14001,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14001__7312.csv",
+      "source_file_sha256": "3e0778177e3229b3c0504a20c38e47790ecb41a6e6215f0b8999068bd2333b4e"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14001,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14001__7312.csv",
+      "source_file_sha256": "289a4f10bd795b84c23117b9935b80f68e0907bc65be4bd1657c4799b37929b3"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14001,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14001__7313.csv",
+      "source_file_sha256": "de50b6cc28b2e80af2ff34efd8814096839089cd36d9f0a2985f56409bc3a780"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14001,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14001__7313.csv",
+      "source_file_sha256": "1657f8a475f08d1d2d75a7e3e2e99a24a67f71f21cfbf238c320ca1aa061a96a"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14001,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14001__7313.csv",
+      "source_file_sha256": "04d1296b6d7a342977f3dac012a6ce9838986763d843579e3feea94d4934d89f"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14001,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14001__7313.csv",
+      "source_file_sha256": "c620c5c8f2ebbe3b4eab9b177ea2355f8a506af991dbf7b3fafc727d3e1823b6"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14001,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14001__7313.csv",
+      "source_file_sha256": "a87afad3a1243cd86e3ba8b53a59d1687e53f0cd7358ff5e984941ca77996630"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14001,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14001__7313.csv",
+      "source_file_sha256": "a8782f5b7a1140fd8b038380b348679b85eaf85adcf056b31bfeccecef6c20df"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14002,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14002__7311.csv",
+      "source_file_sha256": "5c8d7d94c4dfc94af8fc72ce12fd67b6d16d822cb44b81abfbd1c57b01975c54"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14002,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14002__7311.csv",
+      "source_file_sha256": "0cababbe474544b08fe06ebfdc09fade6e09e851d79fabff879f1b25ae309bd7"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14002,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14002__7311.csv",
+      "source_file_sha256": "5497d5d3952b5f3f4cab7d457bee85296529cb3711fa36e48fd3738841fadd04"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14002,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14002__7311.csv",
+      "source_file_sha256": "556154bf5d4de4403c35ac2f536fe948e00864feb9a48d237dc36fa11a10f035"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14002,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14002__7311.csv",
+      "source_file_sha256": "a2ab5a78e9bcf858b1db6306a943a60f0858b6d1dcd75169a8185ae29f5b6480"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14002,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14002__7311.csv",
+      "source_file_sha256": "23e8bf1649097773431cf9a4099a09a02d8fb1f4c0c7e5cb5176b7d5ec2bf870"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14002,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14002__7312.csv",
+      "source_file_sha256": "2579478d6d3affde866f1653089262399903fa614ca038f5323c2f296291cd63"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14002,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14002__7312.csv",
+      "source_file_sha256": "64d9c5f9e579a5756aa1c627d39e18b1478a1e9e2c95726284286a03537f62f0"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14002,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14002__7312.csv",
+      "source_file_sha256": "5cc30ede029380cd0d80a5c0a283a3adfbc5f4cb83fcede892411d4eacaf23d4"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14002,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14002__7312.csv",
+      "source_file_sha256": "6bd7fa169a077189de285b6da611c23d3c1b9b130dd33dc91d2fc19dcc4357be"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14002,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14002__7312.csv",
+      "source_file_sha256": "e33f80610acf5a012b66d47d4c9d17dc623a4354103529ea2fe5ad38c86a7a9c"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14002,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14002__7312.csv",
+      "source_file_sha256": "907e8c0360a1e8d4f5679e9ba3b3c50bc44b8ba2af2ad1931fd78bbf9b242094"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14002,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14002__7313.csv",
+      "source_file_sha256": "a5bc43eed16370bb64a56c79e01f4c666101dc81c6a443f9044a0d8a312e9b80"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14002,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14002__7313.csv",
+      "source_file_sha256": "50dd14a81fb2ce2e9a11c0290a583fcbe4730c6aeab5685766253479aaa09fe5"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14002,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14002__7313.csv",
+      "source_file_sha256": "941d2bf6ae69c3001ae7b62bdba2a126ad419a8a8dc6914ec9373ef9f632e720"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14002,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14002__7313.csv",
+      "source_file_sha256": "05f9fd745f0e7a6135aeeee07cf83fbc8ea130fbdbcd6365158913a2cbebb5af"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14002,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14002__7313.csv",
+      "source_file_sha256": "7d02907a58c329d05a9444326c793450fc62431361c703329d26ee62f798b06d"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14002,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14002__7313.csv",
+      "source_file_sha256": "c66ab95898af4620a7dc9bc7e8df592221d6968352440b9cbfd8579de4703b32"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14003,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14003__7311.csv",
+      "source_file_sha256": "0778fc33d7d4ce68fe2d4c5cb692ce6c0037fe037c0d0e0343cff91e70e686e0"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14003,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14003__7311.csv",
+      "source_file_sha256": "9a877141a323d8d4d9463fe19fc347f6450223b5b20b4eaf33b3992810170877"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14003,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14003__7311.csv",
+      "source_file_sha256": "07f202513be5cf5c7b4835e10ae7b46797f79473bda8d9dfc51c62133be57b0e"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14003,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14003__7311.csv",
+      "source_file_sha256": "343d482c5353bc6ca880413c2a21c373ebd93d452561f61708857e7db7300de7"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14003,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14003__7311.csv",
+      "source_file_sha256": "e339ac75528403aacb5203328b0d80d5088908fa23e6b53ff4ba76efded86f0a"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14003,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14003__7311.csv",
+      "source_file_sha256": "bfc430c7df4b04efe745dec9812f8212887596e5e44ec4249b1222a495bc4bfd"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14003,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14003__7312.csv",
+      "source_file_sha256": "ef71a553c7827438d0cd636d0540193e8e5487c222e3a400c4c3d0051f4e9630"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14003,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14003__7312.csv",
+      "source_file_sha256": "85e0f5bd42d8da10a413e0a9898cc00429d48214da17723bc733b64823e212e6"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14003,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14003__7312.csv",
+      "source_file_sha256": "3cda6a53bd94f0740229863c6f314ceeebd3b1fbe84434c5a16f14e18226b033"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14003,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14003__7312.csv",
+      "source_file_sha256": "a0b1d40e8ab114b461891aeb19379e421bf5fd7f7adb8d5b08948873bb065cf3"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14003,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14003__7312.csv",
+      "source_file_sha256": "15d45c393dbe24850fd313e6bdc4e48ef64d331c4416695e0a49842f99c9e689"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14003,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14003__7312.csv",
+      "source_file_sha256": "115d65ce23df424bb8ec1bf7af5c1c9b8e2c2479dbf7e961240b46fa11ae16b3"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14003,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14003__7313.csv",
+      "source_file_sha256": "8f78eb2a615d9838566e2f101dc0d7132aba9f332ad5e1ceab4e74eb21aa9097"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14003,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14003__7313.csv",
+      "source_file_sha256": "2ad6ab838fad97117298a9e3b19bf57b6d5b620f90e3be8d9399a75df0a22443"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14003,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14003__7313.csv",
+      "source_file_sha256": "94d9cdbc109ab85c8cbd6b798c936be519c08a08b1afda9581fe9079f5817183"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14003,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14003__7313.csv",
+      "source_file_sha256": "004847f8f60ad456f72d3d9a5b29c944da4d3e6c372097415cdb01fd4d709bcb"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14003,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14003__7313.csv",
+      "source_file_sha256": "9c7ab31bf651a6ff7614c6e8831adacab3563f2bb09e8494f28456615b625170"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14003,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14003__7313.csv",
+      "source_file_sha256": "9501594850cda57b171ede0c60dedeb84cc5e8407116152da5644a5adb275c57"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14004,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14004__7311.csv",
+      "source_file_sha256": "7d82b6fe89535615a921a6f9059666dc59b850f9eb9b999b656848e07ffb1f69"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14004,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14004__7311.csv",
+      "source_file_sha256": "135f7fdac19aaea20baf0d331a53fa739e5a67252edf83adc44b16c291c5fd57"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14004,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14004__7311.csv",
+      "source_file_sha256": "01bcdc3ed62ef3477ffc781f38bfebf13073e57a0e8442f51d667b3aa59f9808"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14004,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14004__7311.csv",
+      "source_file_sha256": "fe78abf7b80f4ef988b52012afa60beda3c2e2a71647e94e54f08c168ed3723f"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14004,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14004__7311.csv",
+      "source_file_sha256": "e5242be339d2b170bd88fa24395bfe0e551d385bc67fe555b95d06f4d7878ec0"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14004,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14004__7311.csv",
+      "source_file_sha256": "6e61fa9b71a33b2ffce751f29760c57a3b2c2d9148b0333d8f544d7463595d32"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14004,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14004__7312.csv",
+      "source_file_sha256": "15c122eafe61577790c89e6eff31f31072672f374d376dfcffc94a5f2819d677"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14004,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14004__7312.csv",
+      "source_file_sha256": "42f8c85b74f3ecf0b76f9fbf51bf61ad86805910ad6e0ec26834c1a67e4b1119"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14004,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14004__7312.csv",
+      "source_file_sha256": "2a457a99eb3a7663295a83022a2cb681f8866d2128fb093aa998d14e4275c819"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14004,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14004__7312.csv",
+      "source_file_sha256": "3cc4cd52dd461070215f93f5577201fb67fab7035748cb972fcb04d79d1ff6c5"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14004,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14004__7312.csv",
+      "source_file_sha256": "10d0e68af889feb8bd25a38ef2aea8257cd03b3586925bd06920f11848c36085"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14004,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14004__7312.csv",
+      "source_file_sha256": "9a24970c89262d058f3d149aef39042f29f02d669e890660273e77b469e4d803"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14004,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14004__7313.csv",
+      "source_file_sha256": "16d6c281688153ccfbe926903ac7fa4bc26a8f6a2387bdbb53af4a29682ef5a1"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14004,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14004__7313.csv",
+      "source_file_sha256": "0b28853be9a9b2758e568536df7b98a122d5cfb101652f57da53c9169b911ec1"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14004,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14004__7313.csv",
+      "source_file_sha256": "f92cfc9c3c27567e7e49ce65e0c421a4a9979c5ab2bbd9db42027aef25f82f99"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14004,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14004__7313.csv",
+      "source_file_sha256": "998d54c6093295420e826c1ad66690bfd2e7b1dbd8546271e15df0274bed3256"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14004,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14004__7313.csv",
+      "source_file_sha256": "dfded89c719aa23033788875f50a00acbb8fec4a87fd1abbf5a150fdf9de8005"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14004,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14004__7313.csv",
+      "source_file_sha256": "dfdd092889bcdc3297c362efb6976fdfa6a6b30191f85c121bfc1e52ab095614"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14005,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14005__7311.csv",
+      "source_file_sha256": "bfd2b30afdb1359bc13777aee211d5bc03deb92543feb022915dc55548b03688"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14005,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14005__7311.csv",
+      "source_file_sha256": "3da36c63293ea10f5c76d209be6adc6558c332987fc32aefd4992fea4d7fe497"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14005,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14005__7311.csv",
+      "source_file_sha256": "fc3b1ade04d88263b52120a5df4bc3a21e9cf4a1a782f7d09cb09e6406c37e85"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14005,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14005__7311.csv",
+      "source_file_sha256": "24e9e62b170b730f908013b0e12497be9897ef47e6132299a36964792cf678e3"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14005,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14005__7311.csv",
+      "source_file_sha256": "12779b07fb7d1a3499c25cc7a4d25bdf56618b05a3397f51c012b246fa087f71"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14005,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14005__7311.csv",
+      "source_file_sha256": "31a4b1a3eb3d1ef0a05f9a160506908bdb24edf9c5a31f82a6e1efff2646d86d"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14005,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14005__7312.csv",
+      "source_file_sha256": "2e8518ee7de23d93d2d8295280d0ade7b71912716ef9ad97b139362be8794627"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14005,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14005__7312.csv",
+      "source_file_sha256": "df847abfad3634355b66f1c9b7bc0cc83ab118e9d5b2a39f94fc2ce6d68b5867"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14005,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14005__7312.csv",
+      "source_file_sha256": "d8b32a723b771da8f2c3f0088fe1622e543d527e1d19bd1b136237f67b825609"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14005,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14005__7312.csv",
+      "source_file_sha256": "d8769ee2ff7926f463bee8c7bc15535cf1d0b8e79e961b416ea6005321b66359"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14005,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14005__7312.csv",
+      "source_file_sha256": "dc20a925e710117b196ccf533ca94477c60137db6d60fc2e740378c25394953f"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14005,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14005__7312.csv",
+      "source_file_sha256": "e0c09403040fa963da1f77a5f3e66c035e92752e45adad86cd860354e2bb1dcb"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14005,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14005__7313.csv",
+      "source_file_sha256": "29e7abe4d441297a59c7026dd679a08ce73947a986c36e470f8f650f780c8e28"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14005,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14005__7313.csv",
+      "source_file_sha256": "29b95920d98c405b3b1903bb15b69f70b661f29ca0e97eb496fb9546488ab3d9"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14005,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14005__7313.csv",
+      "source_file_sha256": "91fa4b3d154ae4549b80b1d0965a338745084762b5c757f435a3e3e8f313d896"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14005,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14005__7313.csv",
+      "source_file_sha256": "6b24345a356ac981318a9a0c1ca93c4a0a0f92829ef8a5c56d88fe95b00466cb"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14005,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14005__7313.csv",
+      "source_file_sha256": "b4747b2c40cbd663b2349190c726cf6cab9a86b2215a5bf2ab987ba84e6a8acd"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14005,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14005__7313.csv",
+      "source_file_sha256": "d99b4d6ec6b537fc426e1c8fa9c52c3eb0f91f24bf692abfea8ffaf3ce313646"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14006,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14006__7311.csv",
+      "source_file_sha256": "7e0486ffd35e10e52073de651581b466a8e742011fd4844eb35bed959de20fb2"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14006,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14006__7311.csv",
+      "source_file_sha256": "2363482e78fe9d5aa1a6d63604fb6e79e12ee9245233bd9ba36ca293fc3f7b2f"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14006,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14006__7311.csv",
+      "source_file_sha256": "c82dfc8526848125432a4f7104647fdb971ee842eee61ca4c3f59e52dc631e2c"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14006,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14006__7311.csv",
+      "source_file_sha256": "be87ae6d2add31129b4c93df30d4b7b74a06e425f251881339a722559dbd4a4c"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14006,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14006__7311.csv",
+      "source_file_sha256": "0965e2d27bcd03cbc2258c791faebfb36a6e9640e750f12cba347bfbaac053a6"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14006,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14006__7311.csv",
+      "source_file_sha256": "50baa05d84233ea31a3c1dfb3396e5c3eee81580e061a00f015e48f1f4d57894"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14006,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14006__7312.csv",
+      "source_file_sha256": "41c97dc08db5c772007b7e7c4bd035674de328e5abf66ca95777924169bd0c06"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14006,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14006__7312.csv",
+      "source_file_sha256": "493e5a88d38cffd32cabcee2cac47f9f40d942079105dbc80efdd89290ec5d78"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14006,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14006__7312.csv",
+      "source_file_sha256": "22a4133ad337610642aabb5b5bc06a79a7ae0150a93a3e41072d86583c5fe842"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14006,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14006__7312.csv",
+      "source_file_sha256": "cd442818c9e7614aeab2b84464330bddc0a2bda8af949b0a70bac0bb1147e7ad"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14006,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14006__7312.csv",
+      "source_file_sha256": "116ec7db152d41449dd36f927d78fa8c35deb0a8a44ad74e735eb81644d07267"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14006,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14006__7312.csv",
+      "source_file_sha256": "029cd2ef4c38254423efd257b4ffa92c22e1e67ca8e123cd348303a44f42d1bf"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14006,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14006__7313.csv",
+      "source_file_sha256": "ad3e9bf17f7101ed8d8f942ccdeacbc2bca43ce140c44fbdcb2764dd90b2ae49"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14006,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14006__7313.csv",
+      "source_file_sha256": "83c64f5df8bc974044a2932fa68cd8c3ee6776b0942e6fbae77eff4ca64d52b9"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14006,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14006__7313.csv",
+      "source_file_sha256": "843b6984f0323f7b9c25aa082134e9708ec015c6c92e3b6ef0de8d599415a36c"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14006,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14006__7313.csv",
+      "source_file_sha256": "aea83b1edeb6f14c201564d840bd8f109a5cdc5347cdc656816946f772cc7cf2"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14006,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14006__7313.csv",
+      "source_file_sha256": "96856359b492ab77bccdc85150fd3ed1939b0913d48797499e0cfa5eb61a1467"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14006,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14006__7313.csv",
+      "source_file_sha256": "e614146d7e5026e160e28fa63859f96d7364e6bf053e75b5d3e32903fbf9b4b3"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14007,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14007__7311.csv",
+      "source_file_sha256": "f9dede78f8fadc6cdfd78953adf2606c48edfd179fa6490c9aa7b63f3831a018"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14007,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14007__7311.csv",
+      "source_file_sha256": "c7459bc796b004a4457ce0c8ae09bdc939cfec7aa4746a72eb86cf1e7e732068"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14007,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14007__7311.csv",
+      "source_file_sha256": "8c52ccd318d6d09f2c9bbc428e2fab67a779d33c543dc83104b6d06bd09b7cea"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14007,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14007__7311.csv",
+      "source_file_sha256": "0200423622a2d6e974a1d4a1cd36958d5e911e28c6c301e7460994f8305131ac"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14007,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14007__7311.csv",
+      "source_file_sha256": "8da0da53f505b9dfc1ae49234227c48898d931cc7b431768faa01c8bd5e34203"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14007,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14007__7311.csv",
+      "source_file_sha256": "125788201bab2092177a42b2a3199d86828a92aaab84187a9d3fc0e9a3acf44c"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14007,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14007__7312.csv",
+      "source_file_sha256": "f237e046f7c74603cd0fa8a61a4c4577e0b3e2e544c17a3456ad86f909228a2a"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14007,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14007__7312.csv",
+      "source_file_sha256": "bea0ea9be710e0051b6fde6c10ff8a4236ab3debb6d247977ed2b19bf70acaa1"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14007,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14007__7312.csv",
+      "source_file_sha256": "49faaa2619370a9a91cfe0c26c69a2c80adefb1576ff28be30d688feca679282"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14007,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14007__7312.csv",
+      "source_file_sha256": "29228ad37407f253a918090e9886638ff21ed411fd2f41ca7fc46fb970d79ff5"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14007,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14007__7312.csv",
+      "source_file_sha256": "c94c79f460754f47bb6bea7b3db6f1559f817548fdb907e1cfa4524fd15c52fd"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14007,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14007__7312.csv",
+      "source_file_sha256": "f4616d71c2909240d9e774f588be6ad725a02900f3d7a734dcc3d0c42ce6add4"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14007,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14007__7313.csv",
+      "source_file_sha256": "52f0173252d5da8d86cf6cae63b30dcc6c936de3b9e53754e90499e71cee891b"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14007,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14007__7313.csv",
+      "source_file_sha256": "bd8f950f62aa81e4748ba5b18c3e3c0fd019e47998559086a469facbb674c2dc"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14007,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14007__7313.csv",
+      "source_file_sha256": "b2dd709763b759acf3bc58ac13b9bfeb681c3c141800f2df9428e1f548a2449c"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14007,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14007__7313.csv",
+      "source_file_sha256": "cb2ad7981af7f3337b88a6620f06c6cd02fbe485958cf8628d9ff94716318b8e"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14007,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14007__7313.csv",
+      "source_file_sha256": "e091a10b52c9d624ca2b22ab94608d7834d25c535d97fb9039d3b61a879ae1d2"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14007,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14007__7313.csv",
+      "source_file_sha256": "7a072405fff6cf53fa642e079b149ccaa161e48b2e2a1df4ac87b0ccb71ddf1d"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14008,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14008__7311.csv",
+      "source_file_sha256": "76b15e18d644a93f3093f10ded9ddae33ec6f0d84e5b7473ba11a487d5ea6c3a"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14008,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14008__7311.csv",
+      "source_file_sha256": "25aa3e72896bbf72e7c9cc5efe17183af720ecb811044e9a1fe872a550105d4a"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14008,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14008__7311.csv",
+      "source_file_sha256": "d9e8f0e40d8a83a624b4165ad92d7bf47c2583f5fe7e28c7abca12606970aecf"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14008,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14008__7311.csv",
+      "source_file_sha256": "b24a25a284cbdd6aa41ebb086eb4735764c279e85a20e38afc08bd0848f141c1"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14008,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14008__7311.csv",
+      "source_file_sha256": "9dbe7c1916b37f465bff34a7f5b955ed096dae146d7f89d894f3e3b269a2a12c"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14008,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14008__7311.csv",
+      "source_file_sha256": "75dacc47deebbced3cf854f09aed11c039f3272c051d67fa1e8b70e62c348145"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14008,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14008__7312.csv",
+      "source_file_sha256": "a2909b1a734d45492326ec6e63519d13fd6e5b91e09b6affc8d37e6998bde168"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14008,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14008__7312.csv",
+      "source_file_sha256": "153155ff32c361c39483c417b16b087dd9f0a46ca78d95ab5aa489b78cfc3c51"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14008,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14008__7312.csv",
+      "source_file_sha256": "b5986deff7d0ee3e10440e7ed65b35c9f4e5176308e94dc184ccdebc1d0359c9"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14008,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14008__7312.csv",
+      "source_file_sha256": "f55d39865052858f6e1d36c07022f1d27b69b8ecf810134b063bb40751560d74"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14008,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14008__7312.csv",
+      "source_file_sha256": "abd81c87345db97f8ff51f9ed11e53916f1e8dcc369e4aed759103c4f9d10c4f"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14008,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14008__7312.csv",
+      "source_file_sha256": "86cd4b814e2de9e54ca031d0660c0a4b8050d92d8f6f9c64e3afcedbcc6b8177"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14008,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14008__7313.csv",
+      "source_file_sha256": "e3658949a01eba4bcdee17316403a1931d81cc75b1796623c99efbb0d9fac379"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14008,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14008__7313.csv",
+      "source_file_sha256": "5304e6665f72ffb037aca698e042134dee628a1131bb6d87375c74616181e6f5"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14008,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14008__7313.csv",
+      "source_file_sha256": "a4bbb51b3a2dfc1741d8b79763e313eed98d201990eaaebce4985aa2a6ebf0be"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14008,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14008__7313.csv",
+      "source_file_sha256": "ea880c7241c98cfd9459ce9e0fe6a7ce14161e49cecaf5617ad7e68f44d7d1ec"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14008,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14008__7313.csv",
+      "source_file_sha256": "60b065ee286728126a2290f08c906d942df3d717cb60d10cd47b629e2ffa8dd7"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14008,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14008__7313.csv",
+      "source_file_sha256": "c4353ef8246a69d05575bef023413c90f852879428eed81fa9df14e6aa97cba1"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14009,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14009__7311.csv",
+      "source_file_sha256": "411eafd0fe071472d87afaa84beef6a08d4096c4c66e0a860c450d425521fba0"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14009,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14009__7311.csv",
+      "source_file_sha256": "fd8942e2413acf21a38a49973f25f36278f5348eb5fdd3ed29a2c160e553277b"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14009,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14009__7311.csv",
+      "source_file_sha256": "e80d6f4a5c524e04907040b83b70c4cda17e3bf877bd6c81a6300d291543ed68"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14009,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14009__7311.csv",
+      "source_file_sha256": "a0a8e67890aba125a2d1e19ac996c522672f076b62a5f86e87c7df7268dd549d"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14009,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14009__7311.csv",
+      "source_file_sha256": "db1e7aefac87835a66b7ab414269d65ee8d55c814b1af1fe102f8b5d5ddb5d94"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14009,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14009__7311.csv",
+      "source_file_sha256": "b88b994b9e3f4e710d68ea19a9a19b77b1f85e1e9dd0f8d28fa0e8ba69f3da36"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14009,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14009__7312.csv",
+      "source_file_sha256": "f8aa3c4665fcb7ce699615ca30de71a50afdedcac76ef949b392176b3bc97f87"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14009,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14009__7312.csv",
+      "source_file_sha256": "7d2f95c36786adfd864176affa5cc515bd4b2b5d168cffc1d33b53876d81ae82"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14009,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14009__7312.csv",
+      "source_file_sha256": "d48d17c5a042131709ba13ab6b01d23d991f286dd1b3c2e90d4cd0e9531860d8"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14009,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14009__7312.csv",
+      "source_file_sha256": "19ad3531b232d28da0228590258d5299378580b572020c828b9445008753698e"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14009,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14009__7312.csv",
+      "source_file_sha256": "121c2991db814cd8105f41d624b95636baa44931eb868b5d336470270a49c9d2"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14009,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14009__7312.csv",
+      "source_file_sha256": "99a77cbb88c2a1bd7cbdf296a961935145bc0e4652dc00d9b414c3d7889f9a1a"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14009,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14009__7313.csv",
+      "source_file_sha256": "f28e842becba41300c4053f5ceb327b2a115d663bf01207de6757cb3bd78b8c2"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14009,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14009__7313.csv",
+      "source_file_sha256": "90534d9198992cc7cf9f97a6c1058ecc734d2f0abb6aa4e8cc3fb7340b53b7d2"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14009,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14009__7313.csv",
+      "source_file_sha256": "937753d39b879bb85e19a7ee3f70e5bf9b81d90a9a50ab56190840fb522754ba"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14009,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14009__7313.csv",
+      "source_file_sha256": "e46258f512d3fd0d8ef0381aa6a99b0541b8b5c573e7464ab2c929c166337620"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14009,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14009__7313.csv",
+      "source_file_sha256": "a9f247d0ac481af809816a760c6121faacbc5d7a0fcabb354389d18d336d32e2"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14009,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14009__7313.csv",
+      "source_file_sha256": "3d34725d1de1eda518b5fb1761494e3626b72546610ecc9a20adbf1b579f6fb5"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14010,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14010__7311.csv",
+      "source_file_sha256": "4f969d1b37ada7d8e4305c243229e4cd8131998e3cec9f4f529488cc5d7e1633"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14010,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14010__7311.csv",
+      "source_file_sha256": "72db9c1ef632ea9b1253b9b09cc14add2bcfc687e12d59040d993946b0bb9e34"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14010,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14010__7311.csv",
+      "source_file_sha256": "564addc6dfe44e2521de448bf91e34e61f22ebcd5888e16bc63c380627990fcf"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14010,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14010__7311.csv",
+      "source_file_sha256": "f80b40492277867bcd7fd68e1f50bead5dc2415c58bb54adbb9cd8f5c7db223a"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14010,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14010__7311.csv",
+      "source_file_sha256": "779fd39a0549e969cc290e831931f3edb6baa30d007a0894d8d2832cd23f28df"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14010,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14010__7311.csv",
+      "source_file_sha256": "d721e6722926fc803061de0bedb732be4e5fa98b5260ed081703b7d6fff8a552"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14010,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14010__7312.csv",
+      "source_file_sha256": "c3d24f97cbf73cfb73ecc172103f893828ea3f8ced38310f0197d24ce4b6169a"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14010,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14010__7312.csv",
+      "source_file_sha256": "43fd3d1cb421b81957b86eabfbecb852cfcdcd4eee23fb45f54644f5641f2175"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14010,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14010__7312.csv",
+      "source_file_sha256": "133b39453c7524b7dec2aa43a87e546c607dcc56b1027601c81834b2dbae198e"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14010,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14010__7312.csv",
+      "source_file_sha256": "655668a0ed9b639b2d11530189bd203678c79f30c33983da3c4f36a69959084a"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14010,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14010__7312.csv",
+      "source_file_sha256": "94e00acb96b31653e229c811069f92f82c8f7a8c6110558e7cb088e8abf7219b"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14010,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14010__7312.csv",
+      "source_file_sha256": "cc1a21e1a89e6782e3c834c8f0dcada2def2afe10d481ed3829f33199e7af2af"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14010,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14010__7313.csv",
+      "source_file_sha256": "d578beb11dc9a6db66569babd4b04b4eb040fbc4fed42ac50af2ef968f601b52"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14010,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14010__7313.csv",
+      "source_file_sha256": "858db80fe11fa9cb4d166362cc5f1f5f83006568ea4abd93c4811795ce71f2ff"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14010,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14010__7313.csv",
+      "source_file_sha256": "a80873e6096448f1bf0a41d6fea7e36419929c11a5b1501559f6ce039853e1cb"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14010,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14010__7313.csv",
+      "source_file_sha256": "315ef9984f9d4afbca444752e515f8ea0e3d64863cf81e69f4114226ff5e812a"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14010,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14010__7313.csv",
+      "source_file_sha256": "29cb8cf9a6cb115c7e0c7e43c2f054fcedd720ea1d51d69d71bff8e4e7dc06c1"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14010,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14010__7313.csv",
+      "source_file_sha256": "345c7b6b9bab6603b4d25344b376ecc70045d15fac470294b284f4f5aa7c9683"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14011,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14011__7311.csv",
+      "source_file_sha256": "6c999da7842e04ae4bfde052f06de52594a67a929d3a3333f20aad7a2afb51ae"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14011,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14011__7311.csv",
+      "source_file_sha256": "67c30d69474b25b5ad1d00b8acb0124349d79bdbef8bb4ce8d1958fce5e820f4"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14011,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14011__7311.csv",
+      "source_file_sha256": "d67b1785675be2143a35edba9498b359ada10166241ca92c6dc6e07b976b1c84"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14011,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14011__7311.csv",
+      "source_file_sha256": "07dc5489cfd0c0f89c259e8cce61e504f21a138af2378ef90276a421b5c28cc9"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14011,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14011__7311.csv",
+      "source_file_sha256": "9f082d2e6c8d5d44d3e84a10d10a06c99eb189f1c8cd923d27504ef9b7162e53"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14011,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14011__7311.csv",
+      "source_file_sha256": "27f36f80afb1537371a25a34f3da0c1812acffef60037d48860e21b4658e63a0"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14011,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14011__7312.csv",
+      "source_file_sha256": "3e26783ae084d5453aa05724947e34d189de745a9dff0a29cbddb25c2dbcaae1"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14011,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14011__7312.csv",
+      "source_file_sha256": "038c9a0506363a138383c55020928a88b57034a6d0952623caba60d2edcaa4c9"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14011,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14011__7312.csv",
+      "source_file_sha256": "9d459712b5e497b1fb2ec0db2041071b4b8e3ac7a089f464188bd4d41be1a6ef"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14011,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14011__7312.csv",
+      "source_file_sha256": "b2960a6cfbdc33d9dfdc13902933c3988c5b1e5bb1d7afcb8d80e9c981a4034b"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14011,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14011__7312.csv",
+      "source_file_sha256": "8bbfaf3e77ad99bf4902ad5698a877bd8e26741dcc548cdc1b9aedc414fdb9ea"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14011,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14011__7312.csv",
+      "source_file_sha256": "2889d01c3be599f226de26cfac27c9948d0ddb86ce6b84a3466ad6ec2443c901"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14011,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14011__7313.csv",
+      "source_file_sha256": "50b1e711222ec9218793b768be4059b0d24236a9be7547c86ebe1d424b25b9ac"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14011,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14011__7313.csv",
+      "source_file_sha256": "30653e1480e9893094f85a2c36958efc1940e3c873a829bf5d1ba73870d02b3e"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14011,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14011__7313.csv",
+      "source_file_sha256": "b5390e13aef917fb5f33c515b19b8550255c07b15fe16a93d4fefc62021975bf"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14011,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14011__7313.csv",
+      "source_file_sha256": "163fa7dc199caf342c6c8da183855e37ba4839745be91c616c5ee3430eabb739"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14011,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14011__7313.csv",
+      "source_file_sha256": "c9e346e99733c7b1dd4bfb00cc0175de6088c416914de2ae355800214722c633"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14011,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14011__7313.csv",
+      "source_file_sha256": "217a8ab042f1bcd92ae98d23c213594284410c6194f5da4db1bba76eab0212d2"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14012,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14012__7311.csv",
+      "source_file_sha256": "189551ec459b11a95bfb761e9825c017199ff2e9c5efb3e578073885d5d7dc90"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14012,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14012__7311.csv",
+      "source_file_sha256": "74262adb43c69999c3b337c4fe08bac3ca2168c0d4381e79308a7ea1b1a6db86"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14012,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14012__7311.csv",
+      "source_file_sha256": "84c63a734275e211c9b294cc94318eda291a04727d69db5dc69eada904879a1b"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14012,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14012__7311.csv",
+      "source_file_sha256": "237a72d4ed3514ee516e6efa7533d1d96762761d4641ece81f06985e3d8ae462"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14012,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14012__7311.csv",
+      "source_file_sha256": "dfcd039baecb30f7a253195a2b11174a55fff7de6ec7296f97295588ec630ca4"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14012,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14012__7311.csv",
+      "source_file_sha256": "cc90f5f2ac8bb6442dead1629a27005ba9ea2104fc0051fb312637ece74f7fad"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14012,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14012__7312.csv",
+      "source_file_sha256": "0a818299b4864dffd4bc2e0d5b324bfce51b61c983d0190516d56a9a4977c26c"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14012,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14012__7312.csv",
+      "source_file_sha256": "8afb4cdb898e74c00762089e9bf7d35b9aecbc6b443a5c0a0370de052e4aadff"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14012,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14012__7312.csv",
+      "source_file_sha256": "374b10c7114f3ba5280759c233d5eeb2e39cdf9a0cd8f270da43a21181bfe99c"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14012,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14012__7312.csv",
+      "source_file_sha256": "61a4ed657c03cf7d963f2fd970155ebe087e907bd6f1ea7d6ed6ee71ab6e68bf"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14012,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14012__7312.csv",
+      "source_file_sha256": "54b57597e094b573230baa504cd91481b5c69ea6ea4dba2e2e1f3364763bc872"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14012,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14012__7312.csv",
+      "source_file_sha256": "315d1f5e068df35b89ccb730751b15624c0c63d6c72bcffb2e0836e2d8abd88b"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14012,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14012__7313.csv",
+      "source_file_sha256": "418ea09fce61a80566aecae07da3feb7582132d5469f2825d8dcf2eafd0bf921"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14012,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14012__7313.csv",
+      "source_file_sha256": "4bd50ed8fd8f0ceaf39894073cfade237c74f1eb74f54ccfc50a030ec92b58ea"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14012,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14012__7313.csv",
+      "source_file_sha256": "ad4313bc1709e444a42fa20f1c0b14226fb6ca5792d00919f76f27bad8314c42"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14012,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14012__7313.csv",
+      "source_file_sha256": "00e68274bf860b6ac164c20f0d8d39e67b823c527628d1f8a2cbb0bbb7998a2c"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14012,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14012__7313.csv",
+      "source_file_sha256": "7df93a292c7338f636f719cdda6ff46d2c075fe4487e009507c0a26e4ad9351d"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14012,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14012__7313.csv",
+      "source_file_sha256": "4e38176dd8ee141b0398ebf6797dbedc162525235eec6b3b5330203654d700bb"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14013,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14013__7311.csv",
+      "source_file_sha256": "8bb80f3ffc613d10b8125032809bd0e634c429236dc4541c359a8fcba22d0777"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14013,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14013__7311.csv",
+      "source_file_sha256": "de2bec7294e1c4249ff840893c48ea5bc8f2de04d4f279c889193010aa177b47"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14013,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14013__7311.csv",
+      "source_file_sha256": "6b0671b9c87a10632af44c9d553e25b8c5fd7c847343237e47fd5e85206d9a8c"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14013,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14013__7311.csv",
+      "source_file_sha256": "c4f9981b05b43e67078a637e6dbab8c05d8b149967ebf279a574fe74d16feb73"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14013,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14013__7311.csv",
+      "source_file_sha256": "b7afbf1b7a48e66167ebdbabce9953f73cdfa05f94dd8b916eb81b7c0fd20c5c"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14013,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14013__7311.csv",
+      "source_file_sha256": "bfcdabd6a03c5e0db2e113c185ab3a4cb44dfe8ba0a76b7b5270dc1f153d67b9"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14013,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14013__7312.csv",
+      "source_file_sha256": "5eb02e53e8edb952faf457d950039ec270491ab3b63a422cc68fe7348076ce39"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14013,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14013__7312.csv",
+      "source_file_sha256": "4219136102abde8f858b409ff42f1acf870dd53c90eb554bc44b91d31abd9c41"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14013,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14013__7312.csv",
+      "source_file_sha256": "0321f789b8205fa76172ddc7221fd2c0178070d0f0beeca79c45382dad0429b0"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14013,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14013__7312.csv",
+      "source_file_sha256": "fce0e83bcc6a81f84f763300b666b445b58c62f5cec234c45c43cfcc6d97bf83"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14013,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14013__7312.csv",
+      "source_file_sha256": "40cfd404c70aac120f7560ebe0261fba318e6a572c6fd1ebb32fa2c1734bbe9a"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14013,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14013__7312.csv",
+      "source_file_sha256": "b5bae52eb8f7d8177a6e1b2682e08fa9e7287f23bb69b58e71e5fc61059431e4"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14013,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14013__7313.csv",
+      "source_file_sha256": "0ffedf6d2328f1b05d507b28c4be067e517f11a7a51b00e6b79802ea52bfd424"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14013,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14013__7313.csv",
+      "source_file_sha256": "c5f9ee59e0877cf1c53bbf5ff7171fd0c4f0e8799289c103c95bcf6555a36ef2"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14013,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14013__7313.csv",
+      "source_file_sha256": "267d95e643fac5caf9a55fb336e1b322d651a2ab75f90a4128a63de8d9153237"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14013,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14013__7313.csv",
+      "source_file_sha256": "e14bdd05d92d29412742b666dd833baa5f246d2081f4764e3552588ecbf1d793"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14013,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14013__7313.csv",
+      "source_file_sha256": "053158da801ca07bb526f16a126f10aa04092a510fe167553dad90f461f6b14a"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14013,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14013__7313.csv",
+      "source_file_sha256": "42f039de172b6fc9dde0a82711bd263e98ca36d58f141d7926513b592b33c048"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14014,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14014__7311.csv",
+      "source_file_sha256": "c99caab42d95235f5aebef3cf3ffee0024de3cdc1d950a00056facfb15e3de83"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14014,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14014__7311.csv",
+      "source_file_sha256": "562d5d8ea29eb373d071e546a646f45973b8bfb007ae353de03a256e2c4be064"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14014,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14014__7311.csv",
+      "source_file_sha256": "4a3e15abac6092d194712f5b3ce1595382368c8df03dd108d30e466c95598c15"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14014,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14014__7311.csv",
+      "source_file_sha256": "b1ee3037d757b1527625db7231e19a4a29b020ecfeedc7f64a8db9fc8db133cc"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14014,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14014__7311.csv",
+      "source_file_sha256": "c4af4121ee99415e9a0d5c727a2e30205c9afd5e983257c7297db4dd4cb8d80c"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14014,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14014__7311.csv",
+      "source_file_sha256": "2a3cf6d4b35116105ab49b6751cce6e39aad3d54fe8e30d12ccbc255454a3dc6"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14014,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14014__7312.csv",
+      "source_file_sha256": "88faf8378a2e07f2d8e65b748b0a97911ea6c5d70b6c4914ec4360091d11322e"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14014,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14014__7312.csv",
+      "source_file_sha256": "f0187c074067ae2219180681a5f96318370b38ad5b075882634ba2f0361e3a2a"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14014,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14014__7312.csv",
+      "source_file_sha256": "95f0341991446fed88f18e70f75a815034c0db373e899dc78291a3e5a7e3dba6"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14014,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14014__7312.csv",
+      "source_file_sha256": "7cf056c0bc7d649005b64ac0ac09d935b30b75d5f299a8365ee94613bfc78cbe"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14014,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14014__7312.csv",
+      "source_file_sha256": "9741b39f6887da0e881233634ab234ba658f42cbfd2d5e562a7adce4819f9432"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14014,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14014__7312.csv",
+      "source_file_sha256": "2ff6551ea0f9bd7cb3a5153266e0de1c582a022d181838a932dc1bfc10623974"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14014,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14014__7313.csv",
+      "source_file_sha256": "196cc8cc31b26c7cae2b2bab35c67248d043c3a37f2d2dd40a13cb2701d84894"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14014,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14014__7313.csv",
+      "source_file_sha256": "aa6c3189fb4349f62b2f76a628f2c7bab514740409c40e72d2630340dcff5df2"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14014,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14014__7313.csv",
+      "source_file_sha256": "ba04f406ac0a3c7b12b7e24a30a08867fd2938a6d8cfe63b3a9afce4ff9bd203"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14014,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14014__7313.csv",
+      "source_file_sha256": "4abf2021ece8bdc00fc45081d5632eebd8ab9cb14ef931b16bbc59867ff80ccb"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14014,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14014__7313.csv",
+      "source_file_sha256": "45023fa8f849a89f2798833d55c5e037abe1358598852138ef13c4fdc500c8bc"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14014,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14014__7313.csv",
+      "source_file_sha256": "191cce86885b7ff3c82e26e44e541c78fe44bd78d96b5ba803138f40bf00de3e"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14015,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14015__7311.csv",
+      "source_file_sha256": "711443fc06d9bb83db0023bb27dc89e57a794311efb0441307e73ed531e58776"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14015,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14015__7311.csv",
+      "source_file_sha256": "0fa242fa2934847b4ff3bc7551ee27e3665588ce2b036927f78c52944fd77a0b"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14015,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14015__7311.csv",
+      "source_file_sha256": "83a22a56fb5b10a9372fc209f5069941149abe542cbc901d45f2da392965e890"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14015,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14015__7311.csv",
+      "source_file_sha256": "1efae42ee3c9644e8e2bfe4b9fafb68fd841ea7f7186deef67b4fbaa9199f7ed"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14015,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14015__7311.csv",
+      "source_file_sha256": "7653a2a9ab5856e68d37221642946a5050c5abcf09da43bf7df630ddf35e0cf8"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14015,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14015__7311.csv",
+      "source_file_sha256": "9f3b631581339140ba7b6ebd4f2102cd60e925439d6fe573978727ec30ac8493"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14015,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14015__7312.csv",
+      "source_file_sha256": "e044008c54f69ee7184fcc26f34b5e56fe1d28dc5a32e9c014ab3132607ff19d"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14015,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14015__7312.csv",
+      "source_file_sha256": "ba4939bfd23dcab54f69edd0efb5a64959c3c0e6284badb9412a04dd5bb139e8"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14015,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14015__7312.csv",
+      "source_file_sha256": "f457603f150df6e621defe39081b17fca15652f6efccfbd80faff90164a927c6"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14015,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14015__7312.csv",
+      "source_file_sha256": "efd9ba87bbbb4e559d28bbd116bcbaaf510819bd3a4d2eb31d695bdf95286afa"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14015,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14015__7312.csv",
+      "source_file_sha256": "69ea6c4d63926af2e38e1841a5e8f5646b5d8992fe5d51a5f33d7afef5d637dd"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14015,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14015__7312.csv",
+      "source_file_sha256": "2754cc92d1df04047dcfe6dfee23962b658f27b289d4c7f44bbfb208fd71b806"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14015,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14015__7313.csv",
+      "source_file_sha256": "193c5316ae3640fd2b8e8169068837cfc912ea33676bc30d36b8570acc04b5a3"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14015,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14015__7313.csv",
+      "source_file_sha256": "30851a7be5e8baf672cb8400a2a110eef978b489da3b4ee4e40330979bc84778"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14015,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14015__7313.csv",
+      "source_file_sha256": "8278fd5efc63ec9961ad534d73efce9d9e5faffbe9763cb9800f178c48d5afc7"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14015,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14015__7313.csv",
+      "source_file_sha256": "60d0974b284fca1e332ef8a2c0844f8604742452791e499853c670f2f2176928"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14015,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14015__7313.csv",
+      "source_file_sha256": "8a66279d91c36c7f79e1628a10325fab5c4b5a18eeb649b1f7c9d03ac110c5f2"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14015,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14015__7313.csv",
+      "source_file_sha256": "daee1795ae7cf74eb3de0633d7bf3bed730e213e0b3b3c1a9281597f9e513b11"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14016,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14016__7311.csv",
+      "source_file_sha256": "5983d1fa456057207a54f99fe10b1f5eb6965f19a247546b210700a2d29f18c5"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14016,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14016__7311.csv",
+      "source_file_sha256": "15bdb209f6be289bc8b6812e0e4196a1c57c47e91a82857784c216241ccc0107"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14016,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14016__7311.csv",
+      "source_file_sha256": "46e888b742760d50960d7af5efd3f9b360003f720b72ab276413cae844dbef0b"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14016,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14016__7311.csv",
+      "source_file_sha256": "25bd9b47e01498783e143204f5654617323f50b4886ab8ef31d099b3913ad233"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14016,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14016__7311.csv",
+      "source_file_sha256": "631b18a60f8d4f1902e85a00315bae47cf82c7b6064dd43be1c9f64f49585704"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14016,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14016__7311.csv",
+      "source_file_sha256": "d7804ab167333fc49f38762f3a232c3bdfd53d42da05a1aed6cddac46a1b7eb2"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14016,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14016__7312.csv",
+      "source_file_sha256": "266e1444868b513087020e9574e94c669dbb3e12e6c05e33c6fbae3a955a41c8"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14016,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14016__7312.csv",
+      "source_file_sha256": "0e5ea9beaf8a311d3ada3f512299318a22a5eac77a94454727758c97aebd20ad"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14016,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14016__7312.csv",
+      "source_file_sha256": "cd672ff0305687d4eb97069ab8f50c8b09a9ed89e75b4e112fc620983a52bc3e"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14016,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14016__7312.csv",
+      "source_file_sha256": "214cee4ea4be9c9fb7848edcf19ba7a5b270d320582a3ff346ef113b636da8c3"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14016,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14016__7312.csv",
+      "source_file_sha256": "746cd4d9a215285c87318ed86828268dd503863a42803276c37235fd7db1dac2"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14016,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14016__7312.csv",
+      "source_file_sha256": "812bf4a6da3df5280d89fa9df5a0821229a467db9831e6a36afb4658755ae60f"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14016,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14016__7313.csv",
+      "source_file_sha256": "6a2a29efadc9f52336597eaef83b3b575e061688c39422dad4b5c0d057995e8c"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14016,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14016__7313.csv",
+      "source_file_sha256": "b12c6bccfd79391842a01b311043714f98faf057f1d372c62ca057597ddf3645"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14016,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14016__7313.csv",
+      "source_file_sha256": "1f97e289856fa1b149653b5045266d41342aa72cd5081ab97f88ecff1f65ef89"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14016,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14016__7313.csv",
+      "source_file_sha256": "e91f7d74467483876ba7c193bcf5dc886b1bab9990a6b3a1bf8ae8beeb2352cb"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14016,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14016__7313.csv",
+      "source_file_sha256": "31d2f5e1e2d23895410520efa76b1f17f5360a4a370fb33debb95335295925bb"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14016,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14016__7313.csv",
+      "source_file_sha256": "d383db24e20c171274c36ebb3225a42c29f958069030a7b53fedeb1d607fa7e8"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14017,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14017__7311.csv",
+      "source_file_sha256": "193e7125315ed346cf40727979b9ddf39a73b81975aa4ecd2b4b4082279c648c"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14017,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14017__7311.csv",
+      "source_file_sha256": "1591fa9a258465a02430c6961d295d5696007ced58d003db0610c703c143d5eb"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14017,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14017__7311.csv",
+      "source_file_sha256": "303050415bc59ae615f0d114aba50b0e9531b499289a1bd23391dd39c65456b9"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14017,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14017__7311.csv",
+      "source_file_sha256": "8189e54165aa0722eb626da69188f89d9569dd9307c0518cbaba27fa8f6844b8"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14017,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14017__7311.csv",
+      "source_file_sha256": "51a2f76e27ad5e15c504b609aa63032ac9445e1ddf0c5777f59a54a9a4e5fb9f"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14017,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14017__7311.csv",
+      "source_file_sha256": "ae524df49610c082d41e618a9187b95800ebac0342e694715e5cc4fe5f167dd6"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14017,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14017__7312.csv",
+      "source_file_sha256": "955cb25295a91dfa1ad8c703a6ef0f98861bcd0696f9257f21faaf77c4089bfb"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14017,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14017__7312.csv",
+      "source_file_sha256": "be2e6060fb62b35d7204fd81e7b326e5c99b038b18c1daa98b9f8fd457ee7152"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14017,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14017__7312.csv",
+      "source_file_sha256": "a0a4a6ef8f51bae35dd1b39844124ed4bc48d5801e0c8d5dc70e72dae8396019"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14017,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14017__7312.csv",
+      "source_file_sha256": "a1124050b8125c8870cf317c779b2b295256e3b59c2afe0a687b182f79d183ab"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14017,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14017__7312.csv",
+      "source_file_sha256": "16491f121d012d7a0e372fb6fe117a43d22576d85f6fb61cdd406ae31c5200b5"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14017,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14017__7312.csv",
+      "source_file_sha256": "8c497ace5793db0190028c05437c0cad1b032f923e9c4ad8d5bfe770fad47298"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14017,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14017__7313.csv",
+      "source_file_sha256": "06128009a49fdb49ddfb04d95b3e7c480538a96d5356218451cc78a63d0fadad"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14017,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14017__7313.csv",
+      "source_file_sha256": "5b68cdf814a569db0f5e1b51abf6d67899aef18f7343882db65385f122c1195c"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14017,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14017__7313.csv",
+      "source_file_sha256": "480c4588cd3939562552420a606444837bef3a8ab87fb0b9624931c38f061011"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14017,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14017__7313.csv",
+      "source_file_sha256": "8e47d7446698d74ec5bfb248d89c06d0bb6ccb93d1e91ce56c0e8bd07b0f051b"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14017,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14017__7313.csv",
+      "source_file_sha256": "71964d4947bd933f51928db4fb313dc51e4f6fcc7f91ba35286bf411c243c79c"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14017,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14017__7313.csv",
+      "source_file_sha256": "7e2ade2e2d28cebd48e421ff0a6303b4b58ff18a1e4d3c16c54c740213d3455b"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14018,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14018__7311.csv",
+      "source_file_sha256": "4ead7a7741a2d8ddfd9cc92a79d14d76de303be33db7c128404e4132793db46b"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14018,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14018__7311.csv",
+      "source_file_sha256": "cecee250754133da78c5bca9925518bef2b17bfea3a6818d0ee83a8115b28632"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14018,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14018__7311.csv",
+      "source_file_sha256": "14d2e6e0f1a82e26d516d36135958c45daa425abbf411f2e78ce1ca3228d8753"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14018,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14018__7311.csv",
+      "source_file_sha256": "056895e0be11d1057a0581fd30855606c2acc108d23a35dcd192e61019992417"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14018,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14018__7311.csv",
+      "source_file_sha256": "10c3140d126c37e1c8b4a9267b1b7e7990a84c84d3ddf826f3861253478a44bf"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14018,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14018__7311.csv",
+      "source_file_sha256": "b437967cefbed8b1863b14eec2c27bbfefe23fc826975248e9462054b7b3bd34"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14018,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14018__7312.csv",
+      "source_file_sha256": "01188614b9ee4c47e5df87e7e005b7c45f3874df6ec296576d8a1b4331553f07"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14018,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14018__7312.csv",
+      "source_file_sha256": "818cd0aab878adc7e6bee6635e985daa5e27deba9d02456f128699f5c9df7f80"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14018,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14018__7312.csv",
+      "source_file_sha256": "b6319c8402e8448c57d17cc87087d979608a87f1a2d5c66d6a4b49342c4c4469"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14018,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14018__7312.csv",
+      "source_file_sha256": "15c9ba78107b9651b3065136770c4f98788192e6bf42ed53d03081fab0bc1bf7"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14018,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14018__7312.csv",
+      "source_file_sha256": "efd5d5ccab6ef9ac3fe495b7fe85a021ffeeb8ead4e04032eadd1b353e01c781"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14018,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14018__7312.csv",
+      "source_file_sha256": "e46b87ad429d2c71802a8c823b7999f6ad75819b7005b3cda9d2e699b0464b51"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14018,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14018__7313.csv",
+      "source_file_sha256": "779c728d76a6111a4a7ddb0475ac70394d5fd897e6134071904bd5e80a394434"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14018,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14018__7313.csv",
+      "source_file_sha256": "4721e287c65bf1da64f09079b996bd0b94bc310cc236ac6c9378cd1c9604da35"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14018,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14018__7313.csv",
+      "source_file_sha256": "4a22e393eca3c5c5cd0363c959a97ad95e9cbc57b1a0316cecf2e901539888f2"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14018,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14018__7313.csv",
+      "source_file_sha256": "f1aaf1db8fc3ce63c9b20358818a7016d14ca4bb6a87b8ec8cd95c4724c1a304"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14018,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14018__7313.csv",
+      "source_file_sha256": "7de7350f04406c681eb6d59aeb026eede772f796f4d38db9cfdf0595e35c9743"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14018,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14018__7313.csv",
+      "source_file_sha256": "47be39764a3c22870e53d3bbade01b4101589751805e4904172f6f3a2d9f5108"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14019,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14019__7311.csv",
+      "source_file_sha256": "275de5147e51ff440ba37fdf7701ff38ea65a8400bd32d3beee1fe5958e0762a"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14019,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14019__7311.csv",
+      "source_file_sha256": "aff63595df692db5a747c001130ffd907842cbafcf96d1786c8711bb2bc38968"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14019,
+      "model_seed": 7311,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14019__7311.csv",
+      "source_file_sha256": "23ef43dc6aa20003b5fef455737d2479feb1659b67fde3fa2fb813c9cef3b06b"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14019,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14019__7311.csv",
+      "source_file_sha256": "ddde6f2af389e4af9cc4f1e05bee2717a612e1e94045d21482119a545eb6f713"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14019,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14019__7311.csv",
+      "source_file_sha256": "6d3daec7a07d2af2acacdb0bfb8c98319e292ec3c40543f3a2b12b19a56379b7"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14019,
+      "model_seed": 7311,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14019__7311.csv",
+      "source_file_sha256": "946aecec1bb57e8449e31a50b98f8b644b2e520660da96a0b3a24572b54c7ea2"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14019,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14019__7312.csv",
+      "source_file_sha256": "e5c424ed6887c78fd1159336d0f4727a0d7469fea864b04101a6cd9f73b66716"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14019,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14019__7312.csv",
+      "source_file_sha256": "730ca82bed14032f7174e3156a4530a464c4816bf6e9407dbd7498b23c37f4ae"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14019,
+      "model_seed": 7312,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14019__7312.csv",
+      "source_file_sha256": "d41564ddeb19965cb2836c6ac23234e00b373c06d65acabd442011d261445a4c"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14019,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14019__7312.csv",
+      "source_file_sha256": "eeece09b9b62d34f7d4d56ebb838585975bd2fab6f2cee37532c2f6b13a91d1e"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14019,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14019__7312.csv",
+      "source_file_sha256": "9badce359c220d58188f4dc2b6f1cad22dac95872cfe8da53e3916a9171558bd"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14019,
+      "model_seed": 7312,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14019__7312.csv",
+      "source_file_sha256": "41dba076ee8b1584b4ecf968d6868deab8fcd2a1ad5dd3717937eaff6e81b301"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14019,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__clean__14019__7313.csv",
+      "source_file_sha256": "8341d63523c7b79b25cf505ee0dcd2f6f23bba009e0fc2dde04936b604ee9fc9"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14019,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__clean__14019__7313.csv",
+      "source_file_sha256": "757b7a89035647d91fd6be62702c0de7fd17e8cb1dbbd2098aca229e562efc7e"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14019,
+      "model_seed": 7313,
+      "scenario_id": "clean",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__clean__14019__7313.csv",
+      "source_file_sha256": "25e21ed45be58d5a1730ee2d7fb94829d844a4ad30f631d232010557fbe826e9"
+    },
+    {
+      "method": "Proposed",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14019,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final\\trajectories\\Final_V2_SP_ShortDual__mixed_a010_both__14019__7313.csv",
+      "source_file_sha256": "9a24f58012e1f58360f92e71f66345ea8eb2f064c8493c48579f489c0099238d"
+    },
+    {
+      "method": "Always-FT",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14019,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Always-FT__mixed_a010_both__14019__7313.csv",
+      "source_file_sha256": "6282a0aea1e1d58eaa03ad83cdac92b65dc0f68708eeee6c108cc0c4f010c022"
+    },
+    {
+      "method": "Frozen",
+      "backbone": "GRU",
+      "horizon": 1,
+      "center_id": 14019,
+      "model_seed": 7313,
+      "scenario_id": "mixed_a010_both",
+      "source_file": "results_v2_final_baselines\\trajectories\\Frozen__mixed_a010_both__14019__7313.csv",
+      "source_file_sha256": "6577d8f8501df0c197d0291ae1eba3aecff2e3b5b06582d3f5da3b57dad66998"
+    }
+  ]
+}

@@ -17,9 +17,11 @@
     "cache_migration": "strict_pass",
     "cache_keys_exclude_service_data": true,
     "causal_fingerprint_includes_historical_buffer": true,
-    "formal_runner_not_switched": true,
+    "formal_runner_switched_to_joint_dag": true,
+    "formal_workers": 2,
+    "partition": "complete workload",
     "full_p6_started": false,
     "p0_p5_recomputed": false
   },
-  "scope": "staged executor only; no formal P6 or heldout run"
+  "scope": "formal P6 preflight; no formal P6 rows or heldout access"
 }

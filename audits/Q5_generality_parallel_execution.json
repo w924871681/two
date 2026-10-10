@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "phase": "Q5_generality",
+  "expected": 1800,
+  "completed": 1800,
+  "missing": [],
+  "invalid": [],
+  "duplicate_manifest_filenames": 0,
+  "temp_files": [],
+  "stages_per_lifecycle": 24
+}

@@ -1,0 +1,60 @@
+{
+  "status": "RECOVERED_AND_QUARANTINED",
+  "reason": "INVALID_EXECUTION_ENVIRONMENT",
+  "classification": "execution provenance/environment mismatch; not a scientific failure",
+  "detected_at": "2026-09-10T23:31:41+08:00",
+  "stopped_at": "2026-09-10T23:39:29+08:00",
+  "wrong_run": {
+    "runner_pid": 25452,
+    "worker_pids": [
+      9176,
+      12580
+    ],
+    "completed_trajectories": 30,
+    "expected_trajectories": 1920,
+    "sys_executable": "C:\\Users\\92487\\anaconda3\\python.exe",
+    "torch_version": "2.13.0+cpu",
+    "torch_cuda_version": null,
+    "torch_cuda_available": false
+  },
+  "termination": {
+    "authorized_by_user": true,
+    "runner_stopped": true,
+    "workers_stopped": true,
+    "remaining_wrong_environment_processes": 0
+  },
+  "quarantine": {
+    "path": "archive_v2/invalid_calibration_cpu_env_20260910_233929",
+    "trajectory_csv_files": 30,
+    "trajectory_bytes": 800647,
+    "scratch_attack_mask_artifacts": 526,
+    "execution_status_archived": true,
+    "calibration_manifest_copied_for_provenance": true,
+    "evidence_deleted": false
+  },
+  "formal_calibration_after_quarantine": {
+    "trajectory_files": 0,
+    "wrong_environment_scientific_outputs_included": 0,
+    "resume_from_wrong_run": false,
+    "restart_from_zero_required": true
+  },
+  "unaffected_artifacts": {
+    "development_completed": 4800,
+    "development_integrity": "PASS",
+    "development_trajectory_aggregate_sha256": "032239b87875b4a7f2a3f583a9a8e932fb681306a8f9d0f00ee56eb5f4aa9b34",
+    "structural_winner": "V2_SP_ShortDual",
+    "scientific_implementation_commit": "7ae7fabd9a4e335e774fbcba2f38dfa8827bb8f3",
+    "scientific_core_sha256": "f27d0abb6fabb50453cb4e04684b8e7b5f99d27aca7ae1f1755990640f3ce024",
+    "calibration_manifest_sha256": "acec81a765610dad089066f74984366f8cc4295c2ae0bc94e0ae6c01d87d8fa0",
+    "frozen_structure_sha256": "03d4f72e42c60687e109018347c3ac4e3501165e7f872b08f56b9b2ec1a12180",
+    "heldout_accessed": false,
+    "heldout_materialized": false
+  },
+  "recovery": {
+    "execution_only_commit": "5e455455884d6db42f3bfa2e3a8c43eb0032b621",
+    "freeze_audit": "audits_v2_dev/v2_calibration_recovery_freeze_audit.json",
+    "scratch_preflight": "audits_v2_dev/v2_calibration_recovery_preflight.json",
+    "freeze_audit_status": "PASS",
+    "scratch_preflight_status": "PASS"
+  }
+}

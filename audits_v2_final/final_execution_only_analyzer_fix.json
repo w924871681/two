@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "classification": "execution-only analyzer path correction",
+  "detected_at": "2026-09-11T08:43:11.2037836Z",
+  "freeze_commit": "b1973890b426715569b899ca0d3955c18ab9ee69",
+  "fix_commit": "dae31ac32aa147f21ede41a208a7df140db9c84c",
+  "scientific_implementation_commit": "7ae7fabd9a4e335e774fbcba2f38dfa8827bb8f3",
+  "scientific_core_sha256": "f27d0abb6fabb50453cb4e04684b8e7b5f99d27aca7ae1f1755990640f3ce024",
+  "change": "read the frozen analysis-plan digest from its existing sidecar instead of a nonexistent manifest field",
+  "scientific_method_changed": false,
+  "frozen_config_changed": false,
+  "analysis_rule_changed": false,
+  "runner_paused_or_restarted": false
+}

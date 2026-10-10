@@ -1,0 +1,72 @@
+% Tech Science Press / Computers, Materials & Continua
+% RAVM-DT manuscript - post-experiment integrated version.
+% Based directly on the user-provided TSP/CMC LaTeX template.
+
+\documentclass[cmc,article,submit,moreauthors,pdftex]{Definitions/tsp}
+\input{Definitions/package}
+\input{Definitions/unicode}
+
+% Publication metadata; the Editorial Office will finalize these fields.
+\continuouspages{}
+\firstpage{1}
+\makeatletter
+\setcounter{page}{\@firstpage}
+\makeatother
+\pubvolume{0}
+\issuenum{0}
+\elocationid{0}
+\articlenumber{0}
+\pubyear{2026}
+\doiyear{2026}
+\copyrightyear{2026}
+\datereceived{Day Month Year}
+\dateaccepted{Day Month Year}
+\dateonlinefirst{}
+\datepublished{Day Month Year}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\graphicspath{{figures/}{Definitions/}}
+% Compact references to keep the manuscript within the target page budget.
+\makeatletter
+\apptocmd{\thebibliography}{\fontsize{9}{10}\selectfont}{}{}
+\makeatother
+
+\Title{Verification-Guided Continual Maintenance of Digital Twin Models Under Evolving and Potentially Unreliable Monitoring Data}
+\TitleCitation{Verification-Guided Continual Maintenance of Digital Twin Models Under Evolving and Potentially Unreliable Monitoring Data}
+
+% Author metadata.
+\Author{Jianyong Wang\textsuperscript{1}, Jie Liu\textsuperscript{1}, Yubo Dong\textsuperscript{1}, Tengyu Gai\textsuperscript{1} and Fengbiao Zan\textsuperscript{1,*}}
+\AuthorCitation{Wang J, Liu J, Dong Y, Gai T, Zan F}
+\AuthorNames{Jianyong Wang, Jie Liu, Yubo Dong, Tengyu Gai and Fengbiao Zan}
+
+\address{%
+\textsuperscript{1}School of Intelligent Science and Engineering, Qinghai Minzu University, Xining 810007, China
+}%
+\corres{Corresponding Author: Fengbiao Zan. Email: zanfb@163.com}
+
+\abstract{Digital twin (DT) models deployed in computing infrastructures require continual maintenance as operating conditions evolve and new monitoring data become available. However, newly accumulated monitoring data may reflect legitimate operating changes or unreliable observations, so directly updating the deployed model can improve adaptation but may also introduce harmful model-state transitions. Existing DT updating and continual-learning methods mainly address how models are adapted, leaving insufficiently controlled whether an adapted candidate should actually replace the current deployed state when maintenance evidence itself may be unreliable. To address this problem, we propose RAVM-DT, a verification-guided continual maintenance algorithm that explicitly separates candidate adaptation from deployment commitment. At each maintenance stage, RAVM-DT adapts the current model using update data, compares the resulting candidate with the deployed state using paired recent and bounded historical verification evidence, and commits the candidate only when the evidence supports the transition; otherwise, the current state is retained. Across the five primary lifecycle conditions, RAVM-DT reduces harmful-transition frequency by approximately 85.5\%--91.4\% and harmful-transition downside by 85.3\%--94.9\% relative to active continual-adaptation baselines, at a 6.8\%--13.2\% increase in lifecycle MSE. Compared with the no-maintenance reference, it reduces lifecycle MSE by approximately 34.9\% while retaining nonzero adaptation. The selective-transition behavior remains qualitatively consistent across corruption severities, three model architectures, two prediction horizons, and an external production workload trace.}
+
+\keyword{Digital twin; continual maintenance; model-state transition; verification; unreliable monitoring data; continual learning}
+
+\begin{document}
+
+\input{sections/01_introduction}
+\input{sections/02_related_work}
+\input{sections/03_system_model}
+\input{sections/04_method}
+\input{sections/05_experiments}
+\input{sections/06_conclusion}
+
+% Mandatory TSP statements.
+\acknowledgement{During the preparation of this manuscript, the authors used OpenAI ChatGPT (GPT-5.6 Sol) for language polishing and editorial revision. The authors subsequently reviewed and revised the relevant content and accept full responsibility for the article.}
+\funding{This work was supported in part by the Major Science and Technology Special Project of Qinghai Office of Science and Technology, China, under Grant No. 2024-GX-A3.}
+\authorcontributions{The authors confirm contribution to the paper as follows: conceptualization, Jianyong Wang; methodology, Jianyong Wang; software, Jianyong Wang; validation, Jianyong Wang; formal analysis, Jianyong Wang; investigation, Jianyong Wang; data curation, Jianyong Wang; visualization, Jianyong Wang; writing---original draft preparation, Jianyong Wang; writing---review and editing, Jie Liu, Yubo Dong, Tengyu Gai and Fengbiao Zan. All authors reviewed and approved the final version of the manuscript.}
+\availabilityofdataandmaterials{The implementation code, experimental configurations, and processed results supporting the findings of this study are available from the corresponding author upon reasonable request. The Alibaba Cluster Trace used for external evaluation is a publicly available third-party dataset and should be obtained from the original provider; it is not redistributed with this article.}
+\ethicsapproval{Not applicable. This study does not involve human participants or animals.}
+\conflictsofinterest{The authors declare no conflicts of interest. The funder had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript; or in the decision to publish the results.}
+
+\reftitle{References}
+\bibliography{bibliography/references}
+
+\end{document}

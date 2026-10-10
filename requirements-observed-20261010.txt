@@ -1,0 +1,9 @@
+# Observed in the source environment on 2026-10-10.
+# Only Python/Torch/CUDA/GPU are recorded in the original frozen environment.
+# Install the original Torch build separately for CUDA 12.1:
+# python -m pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+numpy==2.4.6
+pandas==3.0.5
+matplotlib==3.11.1
+Pillow==12.3.0
+pytest==9.1.1

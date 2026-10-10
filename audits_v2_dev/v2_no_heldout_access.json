@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "v2_result_center_ids": [
+    11000,
+    11001,
+    11002,
+    11003,
+    11004,
+    11005,
+    11006,
+    11007,
+    11008,
+    11009,
+    11010,
+    11011,
+    11012,
+    11013,
+    11014,
+    11015,
+    11016,
+    11017,
+    11018,
+    11019,
+    12000,
+    12001,
+    12002,
+    12003,
+    12004,
+    12005,
+    12006,
+    12007,
+    12008,
+    12009,
+    12010,
+    12011,
+    12012,
+    12013,
+    12014,
+    12015,
+    12016,
+    12017,
+    12018,
+    12019
+  ],
+  "allowed_center_ranges": [
+    [
+      11000,
+      11019
+    ],
+    [
+      12000,
+      12019
+    ]
+  ],
+  "forbidden_result_centers": [],
+  "v2_confirmatory_materialized_centers": [],
+  "v1_heldout_used_for_selection": false,
+  "alibaba_used_for_selection": false,
+  "v2_confirmatory_service_outcomes_accessed": false,
+  "executor_center_allowlist_enforced": true
+}

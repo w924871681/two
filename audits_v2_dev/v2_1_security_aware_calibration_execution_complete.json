@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "completed": 2040,
+  "expected": 2040,
+  "new_v2_expected": 1920,
+  "v0_reference_expected": 120,
+  "workers": 2,
+  "worker_pids": [
+    10144,
+    16392
+  ],
+  "elapsed_s": 6020.095971107483,
+  "manifest_sha256": "0c2f7a5867503c4fa55905449009197ab68774dda27b70567aa86f6bdbb53c84",
+  "protocol_sha256": "dacef8ac0081b7ace6e6c12ffb26fb98fa931ec498a62cf9620021d95d684b78",
+  "runner_runtime": {
+    "pid": 6056,
+    "sys_executable": "C:\\Users\\92487\\anaconda3\\envs\\rcf-dti-py311\\python.exe",
+    "python_version": "3.11.15",
+    "torch_version": "2.5.1+cu121",
+    "torch_cuda_version": "12.1",
+    "torch_cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 3060 Laptop GPU"
+  },
+  "worker_runtimes": {
+    "16392": {
+      "pid": 16392,
+      "sys_executable": "C:\\Users\\92487\\anaconda3\\envs\\rcf-dti-py311\\python.exe",
+      "python_version": "3.11.15",
+      "torch_version": "2.5.1+cu121",
+      "torch_cuda_version": "12.1",
+      "torch_cuda_available": true,
+      "gpu_name": "NVIDIA GeForce RTX 3060 Laptop GPU"
+    },
+    "10144": {
+      "pid": 10144,
+      "sys_executable": "C:\\Users\\92487\\anaconda3\\envs\\rcf-dti-py311\\python.exe",
+      "python_version": "3.11.15",
+      "torch_version": "2.5.1+cu121",
+      "torch_cuda_version": "12.1",
+      "torch_cuda_available": true,
+      "gpu_name": "NVIDIA GeForce RTX 3060 Laptop GPU"
+    }
+  },
+  "heldout_accessed": false,
+  "heldout_materialized": false
+}

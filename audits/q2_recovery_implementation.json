@@ -1,0 +1,35 @@
+{
+  "status": "approved_for_q2_recovery",
+  "created_at": "2026-09-09T13:07:53+0800",
+  "recovery_git_sha": "e2ae48e14677ea2c6a5612a9e568e0c26624d83c",
+  "p7_final_freeze_git_sha": "d6d33075cb3afa55a24878e2343f1bc1d1c9368a",
+  "scientific_core_sha256": "b462520a80d611f3311a2326effa73bc159754e9ef243cd18e10412363823c33",
+  "scientific_core_changed": false,
+  "frozen_config_sha256": {
+    "frozen_candidate_config.yaml": "4a9655cf427f41bb321dc5237008fa795f1fb3437c979206fd4784810bca74ea",
+    "frozen_commit_config.yaml": "1da5f249d1a8c41afcc7d49f2bd30d288e2cdabd220b7840cfc0a3903bc9bf3a",
+    "frozen_baseline_config.yaml": "765f58a595a156320caa3c4664657670968d4638e5bf15b7d430444b82581908"
+  },
+  "execution_only_sha256": {
+    "scripts/run_heldout.py": "73e1da01a136c028bd1e600625260b961ddf8a4de10350227f492638db0a3d0d",
+    "core/status.py": "2e2bf8e4b4394575aa6e020ed9785f641fa83f60649ae575521c14fe3e37669a",
+    "scripts/q2_manifest.py": "bc41e5fd5175e0b0484019ff6bb90b8c3321f3860212ec8070dccb8aee0550c1",
+    "scripts/audit_q2_integrity.py": "ca82aaac16615f90789f387c0b5702dda700f92ef34007d49e02971095ebaaab",
+    "scripts/resume_q2_after_crash.py": "6b9467c3fefe9e3a5c5876daeee94ddcb931eaf3dc091a1a7e80f92459342f08"
+  },
+  "completed_keys": 6421,
+  "remaining_keys": 1259,
+  "expected_keys": 7680,
+  "preflight_audit": "passed",
+  "resume_equivalence": "passed",
+  "status_retry_tests": "passed",
+  "recovery_freeze_gate_tests": "passed",
+  "internal_gate": "STOP_AFTER_PHASE=Q2",
+  "external_boundary_watcher": "disabled",
+  "q3_started": false,
+  "failed_preflight_attempt": {
+    "git_sha": "323bce3488598a3c99976da27d263425ebe58169",
+    "reason": "P7 require_frozen rejected approved run_heldout execution-only change before any trajectory ran",
+    "new_trajectories": 0
+  }
+}

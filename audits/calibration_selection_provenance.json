@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "selected_configuration": {
+    "kappa_rec": 0.5,
+    "kappa_hist": 0.0,
+    "delta_imp": 2.8018237766243602e-05,
+    "delta_ret": 0.0,
+    "validation_retain_all": true
+  },
+  "selected_kappa_rec": 0.5,
+  "selected_kappa_hist": 0.0,
+  "selected_delta_imp": 2.8018237766243602e-05,
+  "selected_delta_ret": 0.0,
+  "calibration_objective": "minimum lifecycle_mse among eligible policies, tie broken by policy index",
+  "feasibility_criterion": "Both clean and mixed condition individually satisfy unconditional harmful-commit rate <= rho and mean downside <= epsilon",
+  "fallback_triggered": true,
+  "frozen_config_sha256": "1da5f249d1a8c41afcc7d49f2bd30d288e2cdabd220b7840cfc0a3903bc9bf3a",
+  "formal_p6_git_sha": "c5fd73934d44e76629881b61ca77cd4a1a853b9a",
+  "heldout_accessed": false
+}

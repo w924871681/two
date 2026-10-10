@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "created_at": "2026-09-10T11:18:11.404919",
+  "checks": {
+    "all_frozen_scientific_hashes_match": true,
+    "result_integrity_pass": true,
+    "valid_preserved_exact": true,
+    "recovery_exact": true,
+    "invalid_zero": true,
+    "duplicate_zero": true,
+    "unexpected_zero": true,
+    "scientific_hash_mismatch_zero": true,
+    "formal_count_exact": true,
+    "cache_integrity_pass": true,
+    "resume_equivalence_pass": true,
+    "scientific_implementation_unchanged": true,
+    "original_executor_identity": true,
+    "no_legacy_heldout_directory": true
+  },
+  "hash_mismatches": {},
+  "recovery_executor_commit": "0a21cf6f7bdf068ab64b8e5ef0f5e2e8bfb95e2e",
+  "scientific_executor_commit": "d6d33075cb3afa55a24878e2343f1bc1d1c9368a",
+  "expected": 48600,
+  "valid_preserved": 28755,
+  "missing": 19845,
+  "invalid_rerun": 0,
+  "recovery_queue": 19845,
+  "cache_preserved": 102913,
+  "cache_recomputed_for_invalid": 0,
+  "scientific_change": false
+}

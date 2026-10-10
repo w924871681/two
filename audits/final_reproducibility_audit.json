@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "completed_at": "2026-09-10T13:03:58.884528",
+  "git_sha": "0a21cf6f7bdf068ab64b8e5ef0f5e2e8bfb95e2e",
+  "final_freeze_verified": true,
+  "heldout_readiness_verified": true,
+  "pool_disjointness": "passed",
+  "trajectory_files": {
+    "q1_overall": 1620,
+    "q2_security": 7680,
+    "q4_ablation": 360,
+    "q5_sensitivity_cost": 660,
+    "q5_generality": 1800,
+    "q5_runtime": 400,
+    "q6_alibaba": 2640
+  },
+  "alibaba_calibration_trajectories": 48600,
+  "bootstrap_replicates": 4000,
+  "p15_manifest": "passed",
+  "required_artifact_hashes": {
+    "calibration_grid.csv": "716c01458b8ddba34c778bbd2b27a2ddf214f1bd37afdb259157f1206816f21a",
+    "calibration_summary.json": "e80a18f7eb532f30807f7b780f2830ef060ade25fff67c7d3f31484b62c9e7cc",
+    "configs/frozen_candidate_config.yaml": "4a9655cf427f41bb321dc5237008fa795f1fb3437c979206fd4784810bca74ea",
+    "configs/frozen_commit_config.yaml": "1da5f249d1a8c41afcc7d49f2bd30d288e2cdabd220b7840cfc0a3903bc9bf3a",
+    "configs/frozen_baseline_config.yaml": "765f58a595a156320caa3c4664657670968d4638e5bf15b7d430444b82581908"
+  },
+  "baseline_fidelity_notes": [
+    "CLeaR-Predictor is a declared predictor-only framework adaptation",
+    "MER-Reg-2026 omitted as implementation_unavailable_or_nonfaithful",
+    "OracleCommit is offline diagnostic only"
+  ],
+  "reproduction_status": "complete exact frozen-code/config execution; stochastic uncertainty summarized by preregistered center-cluster bootstrap"
+}

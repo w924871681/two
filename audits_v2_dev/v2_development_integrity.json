@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "phase": "development",
+  "trajectory_files": 4800,
+  "trajectory_groups": 4800,
+  "expected_trajectories": 4800,
+  "stage_rows": 115200,
+  "duplicate_scientific_keys": 0,
+  "invalid_stage_sequences": 0,
+  "forbidden_centers": [],
+  "service_access": "evaluation-only after decision token, enforced by core.v2_engine",
+  "v2_confirmatory_heldout_accessed": false
+}

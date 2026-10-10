@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "started_at": 1788879599.7561843,
+  "started_at": 1788883509.922231,
   "cases": [
     {
       "name": "five_abrupt_clean",
@@ -15,8 +15,8 @@
         399
       ],
       "stages": 24,
-      "reference_wall_s": 0.07559009999999944,
-      "dag_wall_s": 5.284628999999995,
+      "reference_wall_s": 0.037001300000156334,
+      "dag_wall_s": 1.5837111000000732,
       "dag_metrics": {
         "candidate_l1_hits": 0,
         "candidate_l2_hits": 72,
@@ -28,9 +28,9 @@
         "evidence_l2_writes": 0,
         "verification_forward_calls_physical": 0,
         "service_forward_calls_physical": 288,
-        "wall_s": 4.748545700000022,
+        "wall_s": 1.0385489000000234,
         "policy_trajectories": 5,
-        "trajectories_per_hour": 3790.6342567156753
+        "trajectories_per_hour": 17331.875273277547
       },
       "stage_state_counts": [
         {
@@ -410,8 +410,8 @@
         380
       ],
       "stages": 24,
-      "reference_wall_s": 0.4579573999999411,
-      "dag_wall_s": 1.7337471000000733,
+      "reference_wall_s": 0.1383415000000241,
+      "dag_wall_s": 1.6616140000000996,
       "dag_metrics": {
         "candidate_l1_hits": 0,
         "candidate_l2_hits": 117,
@@ -423,9 +423,9 @@
         "evidence_l2_writes": 0,
         "verification_forward_calls_physical": 0,
         "service_forward_calls_physical": 468,
-        "wall_s": 1.6949948999999833,
+        "wall_s": 1.6209616000001006,
         "policy_trajectories": 20,
-        "trajectories_per_hour": 42478.003916118396
+        "trajectories_per_hour": 44418.078750289664
       },
       "stage_state_counts": [
         {
@@ -809,8 +809,8 @@
         390
       ],
       "stages": 24,
-      "reference_wall_s": 0.3012650000000576,
-      "dag_wall_s": 5.7639120999999705,
+      "reference_wall_s": 0.13946809999993093,
+      "dag_wall_s": 1.2980839000001652,
       "dag_metrics": {
         "candidate_l1_hits": 0,
         "candidate_l2_hits": 91,
@@ -822,9 +822,9 @@
         "evidence_l2_writes": 0,
         "verification_forward_calls_physical": 0,
         "service_forward_calls_physical": 364,
-        "wall_s": 5.722653399999899,
+        "wall_s": 1.2599749000000884,
         "policy_trajectories": 20,
-        "trajectories_per_hour": 12581.576231753135
+        "trajectories_per_hour": 57143.99548752515
       },
       "stage_state_counts": [
         {
@@ -1584,8 +1584,8 @@
         399
       ],
       "stages": 24,
-      "reference_wall_s": 8.76432520000003,
-      "dag_wall_s": 16.333301599999913,
+      "reference_wall_s": 3.008120299999973,
+      "dag_wall_s": 16.422277900000154,
       "dag_metrics": {
         "candidate_l1_hits": 0,
         "candidate_l2_hits": 851,
@@ -1597,9 +1597,9 @@
         "evidence_l2_writes": 0,
         "verification_forward_calls_physical": 0,
         "service_forward_calls_physical": 3404,
-        "wall_s": 15.59193409999989,
+        "wall_s": 15.630502699999852,
         "policy_trajectories": 400,
-        "trajectories_per_hour": 92355.44421650744
+        "trajectories_per_hour": 92127.55518093565
       },
       "stage_state_counts": [
         {
@@ -1957,7 +1957,7 @@
     }
   ],
   "full_p6_started": false,
-  "completed_at": 1788879641.8790338,
+  "completed_at": 1788883537.1652622,
   "all_scientific_equivalence_pass": true,
   "no_decision_changes": true,
   "leakage_audit": {

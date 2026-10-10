@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "checks": {
+    "structural_winner_unchanged": true,
+    "development_complete": true,
+    "development_manifest_hash_unchanged": true,
+    "development_file_count_unchanged": true,
+    "scientific_core_hash_unchanged": true,
+    "scientific_implementation_commit_unchanged": true,
+    "calibration_manifest_bytes_unchanged": true,
+    "calibration_scientific_manifest_unchanged": true,
+    "calibration_grid_unchanged": true,
+    "calibration_pool_unchanged": true,
+    "model_seeds_unchanged": true,
+    "calibration_scenarios_unchanged": true,
+    "calibration_job_count_unchanged": true,
+    "rho_unchanged": true,
+    "epsilon_unchanged": true,
+    "v1_frozen_artifacts_unchanged": true,
+    "heldout_access_false": true,
+    "heldout_materialized_false": true,
+    "confirmatory_pool_manifest_hash_unchanged": true,
+    "wrong_environment_formal_outputs_absent": true
+  },
+  "development_trajectory_aggregate_sha256": "032239b87875b4a7f2a3f583a9a8e932fb681306a8f9d0f00ee56eb5f4aa9b34",
+  "development_trajectory_files": 4800,
+  "scientific_core_sha256": "f27d0abb6fabb50453cb4e04684b8e7b5f99d27aca7ae1f1755990640f3ce024",
+  "scientific_implementation_commit": "7ae7fabd9a4e335e774fbcba2f38dfa8827bb8f3",
+  "calibration_manifest_sha256": "acec81a765610dad089066f74984366f8cc4295c2ae0bc94e0ae6c01d87d8fa0",
+  "frozen_structure_sha256": "03d4f72e42c60687e109018347c3ac4e3501165e7f872b08f56b9b2ec1a12180",
+  "calibration_factorization": {
+    "centers": [
+      12000,
+      12001,
+      12002,
+      12003,
+      12004,
+      12005,
+      12006,
+      12007,
+      12008,
+      12009,
+      12010,
+      12011,
+      12012,
+      12013,
+      12014,
+      12015,
+      12016,
+      12017,
+      12018,
+      12019
+    ],
+    "seeds": [
+      7311,
+      7312,
+      7313
+    ],
+    "scenarios": [
+      "clean",
+      "mixed_a010_both"
+    ],
+    "gate_pairs": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.5
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.5
+      ],
+      [
+        0.5,
+        0.0
+      ],
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        1.0
+      ],
+      [
+        0.5,
+        1.5
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.5
+      ],
+      [
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.5
+      ],
+      [
+        1.5,
+        0.0
+      ],
+      [
+        1.5,
+        0.5
+      ],
+      [
+        1.5,
+        1.0
+      ],
+      [
+        1.5,
+        1.5
+      ]
+    ],
+    "expected": 1920
+  },
+  "v1_mismatches": [],
+  "confirmatory_materialized": []
+}

@@ -1,11 +1,28 @@
 {
-  "status":"pending_implementation_audit",
-  "heldout_may_start":false,
-  "remaining":[
-    "Complete development and calibration and verify all selected configuration hashes",
-    "Independently audit calibration candidate-cache equivalence and policy-dependent trajectories",
-    "Verify baseline fidelity and complete matrix-level output coverage",
-    "Complete nonlinear metric confidence intervals, clean-to-attack deltas and recovery reporting",
-    "Complete final-code freeze audit before any heldout evaluation"
-  ]
+  "status": "approved_by_implementation_audit",
+  "heldout_may_start": true,
+  "checks": {
+    "frozen_candidate_config.yaml": "hash_verified",
+    "frozen_commit_config.yaml": "hash_verified",
+    "frozen_baseline_config.yaml": "hash_verified",
+    "calibration_protocol.yaml": "hash_verified",
+    "calibration_complete_trajectories": 48600,
+    "candidate_and_evidence_cache_equivalence": "passed",
+    "all_14_protocol_tests": "passed",
+    "legacy_pool_collision_scan": "passed",
+    "acceleration_equivalence": "passed",
+    "cache_concurrency": "passed",
+    "joint_dag_equivalence": "passed",
+    "joint_dag_protocol": "passed",
+    "cache_migration": "passed",
+    "single_implementation_git_sha": "c5fd73934d44e76629881b61ca77cd4a1a853b9a",
+    "calibration_selection_provenance": "passed",
+    "frozen_commit_config_sha256": "1da5f249d1a8c41afcc7d49f2bd30d288e2cdabd220b7840cfc0a3903bc9bf3a",
+    "heldout_accessed_before_audit": false
+  },
+  "baseline_limitations": [
+    "CLeaR predictor-only framework adaptation",
+    "MER-Reg-2026 unavailable, omitted as preregistered"
+  ],
+  "scope": "Executable integrity and completeness audit, not external scientific peer review"
 }

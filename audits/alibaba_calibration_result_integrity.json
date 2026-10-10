@@ -1,0 +1,126 @@
+{
+  "complete_workloads": 120,
+  "csv_files_scanned": 48600,
+  "directory_content_manifest_sha256": "390877c657d6142566fd1802911a7c97a87dd1502a848d2a9105b14840beeb42",
+  "duplicate_key_count": 0,
+  "duplicates": [],
+  "generated_at": "2026-09-10T12:37:29.597451",
+  "incomplete_workloads": [],
+  "invalid": [],
+  "invalid_or_partial_count": 0,
+  "latest_complete_workloads": [
+    {
+      "center": 20059,
+      "condition": "mixed",
+      "last_write": "2026-09-10T12:28:59.343676",
+      "seed": 7313,
+      "valid_policies": 405
+    },
+    {
+      "center": 20059,
+      "condition": "clean",
+      "last_write": "2026-09-10T12:25:16.156919",
+      "seed": 7313,
+      "valid_policies": 405
+    },
+    {
+      "center": 20058,
+      "condition": "mixed",
+      "last_write": "2026-09-10T12:21:44.709928",
+      "seed": 7313,
+      "valid_policies": 405
+    },
+    {
+      "center": 20049,
+      "condition": "mixed",
+      "last_write": "2026-09-10T12:19:31.162577",
+      "seed": 7312,
+      "valid_policies": 405
+    },
+    {
+      "center": 20058,
+      "condition": "clean",
+      "last_write": "2026-09-10T12:17:32.937699",
+      "seed": 7313,
+      "valid_policies": 405
+    },
+    {
+      "center": 20049,
+      "condition": "clean",
+      "last_write": "2026-09-10T12:15:16.854199",
+      "seed": 7312,
+      "valid_policies": 405
+    },
+    {
+      "center": 20057,
+      "condition": "mixed",
+      "last_write": "2026-09-10T12:14:34.439482",
+      "seed": 7313,
+      "valid_policies": 405
+    },
+    {
+      "center": 20048,
+      "condition": "mixed",
+      "last_write": "2026-09-10T12:14:04.951589",
+      "seed": 7312,
+      "valid_policies": 405
+    },
+    {
+      "center": 20057,
+      "condition": "clean",
+      "last_write": "2026-09-10T12:12:49.642882",
+      "seed": 7313,
+      "valid_policies": 405
+    },
+    {
+      "center": 20056,
+      "condition": "mixed",
+      "last_write": "2026-09-10T12:12:10.069920",
+      "seed": 7313,
+      "valid_policies": 405
+    }
+  ],
+  "manifest_definition": {
+    "center_count": 20,
+    "centers": [
+      20040,
+      20059
+    ],
+    "conditions": {
+      "clean": 0.0,
+      "mixed": 0.1
+    },
+    "expected_total": 48600,
+    "policies": 405,
+    "scientific_key": [
+      "policy",
+      "model_seed",
+      "center_id",
+      "attack_type"
+    ],
+    "seeds": [
+      7311,
+      7312,
+      7313
+    ]
+  },
+  "mismatch_counts": {},
+  "missing_keys": [],
+  "overwrite_assessment": {
+    "detected_overwrite": false,
+    "evidence": "executor skips existing final paths; all observed final files are unique, valid, and atomically published; no tmp/partial file was counted"
+  },
+  "provenance": {
+    "implementation_git_sha": "d6d33075cb3afa55a24878e2343f1bc1d1c9368a",
+    "joint_dag_implementation_sha256": "9020dc8cced08766c0bb02e5103578e3da958d02c2f504f793e4d3ebda76374a"
+  },
+  "remaining_keys": 0,
+  "scientific_hash_mismatch_count": 0,
+  "stage_rows_scanned": 1166400,
+  "status": "passed",
+  "status_claimed_completed": 28755,
+  "tmp_or_partial_files": [],
+  "unexpected": [],
+  "unexpected_key_count": 0,
+  "valid_completed_keys": 48600
+}

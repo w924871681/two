@@ -1,0 +1,4338 @@
+{
+  "schema": "ravm-dt-v2-post-calibration-go5-v1",
+  "phase": "post_calibration_go5",
+  "created_at": "2026-09-11T01:55:29.929044+00:00",
+  "purpose": "fixed-config completion audit, not parameter tuning",
+  "scientific_implementation_commit": "7ae7fabd9a4e335e774fbcba2f38dfa8827bb8f3",
+  "execution_commit": "368119baef4a6268c3e49a26922fbd5b66b642d5",
+  "workers": 2,
+  "job_count": 120,
+  "stage_count": 24,
+  "frozen_config_sha256": "68e06d381ced23ed105694b97e221b37ea5302fb389789f9ec310c8bbe74d3f4",
+  "frozen_structure_sha256": "03d4f72e42c60687e109018347c3ac4e3501165e7f872b08f56b9b2ec1a12180",
+  "reference_development_aggregate_sha256": "032239b87875b4a7f2a3f583a9a8e932fb681306a8f9d0f00ee56eb5f4aa9b34",
+  "heldout_accessed": false,
+  "heldout_materialized": false,
+  "jobs": [
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11000,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11000__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11000,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11000__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11000,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11000__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11000,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11000__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11000,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11000__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11000,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11000__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11001,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11001__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11001,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11001__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11001,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11001__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11001,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11001__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11001,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11001__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11001,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11001__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11002,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11002__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11002,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11002__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11002,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11002__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11002,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11002__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11002,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11002__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11002,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11002__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11003,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11003__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11003,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11003__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11003,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11003__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11003,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11003__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11003,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11003__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11003,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11003__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11004,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11004__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11004,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11004__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11004,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11004__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11004,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11004__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11004,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11004__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11004,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11004__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11005,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11005__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11005,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11005__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11005,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11005__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11005,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11005__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11005,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11005__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11005,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11005__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11006,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11006__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11006,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11006__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11006,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11006__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11006,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11006__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11006,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11006__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11006,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11006__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11007,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11007__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11007,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11007__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11007,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11007__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11007,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11007__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11007,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11007__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11007,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11007__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11008,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11008__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11008,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11008__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11008,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11008__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11008,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11008__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11008,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11008__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11008,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11008__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11009,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11009__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11009,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11009__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11009,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11009__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11009,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11009__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11009,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11009__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11009,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11009__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11010,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11010__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11010,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11010__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11010,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11010__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11010,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11010__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11010,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11010__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11010,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11010__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11011,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11011__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11011,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11011__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11011,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11011__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11011,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11011__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11011,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11011__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11011,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11011__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11012,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11012__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11012,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11012__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11012,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11012__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11012,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11012__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11012,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11012__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11012,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11012__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11013,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11013__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11013,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11013__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11013,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11013__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11013,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11013__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11013,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11013__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11013,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11013__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11014,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11014__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11014,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11014__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11014,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11014__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11014,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11014__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11014,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11014__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11014,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11014__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11015,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11015__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11015,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11015__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11015,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11015__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11015,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11015__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11015,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11015__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11015,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11015__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11016,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11016__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11016,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11016__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11016,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11016__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11016,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11016__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11016,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11016__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11016,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11016__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11017,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11017__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11017,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11017__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11017,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11017__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11017,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11017__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11017,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11017__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11017,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11017__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11018,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11018__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11018,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11018__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11018,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11018__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11018,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11018__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11018,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11018__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11018,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11018__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11019,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11019__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11019,
+      "seed": 7311,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11019__7311.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11019,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11019__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11019,
+      "seed": 7312,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11019__7312.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11019,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "persistent_a010_verification_only",
+        "kind": "persistent_bias",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__persistent_a010_verification_only__11019__7313.csv"
+    },
+    {
+      "phase": "post_calibration_go5",
+      "structure": {
+        "structure_id": "V2_SP_ShortDual",
+        "family": "V2_SP_ShortDual",
+        "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+        "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+        "rho": 0.05,
+        "epsilon": 5.6036475532487204e-05,
+        "development_pool": [
+          11000,
+          11019
+        ],
+        "v1_gate_used_for_structure_screening": {
+          "kappa_rec": 0.5,
+          "kappa_hist": 0.0,
+          "delta_imp": 2.8018237766243602e-05,
+          "delta_ret": 0.0
+        }
+      },
+      "gate": {
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "delta_imp": 2.8018237766243602e-05,
+        "delta_ret": 0.0
+      },
+      "center": 11019,
+      "seed": 7313,
+      "scenario": {
+        "scenario_id": "replay_a010_verification_only",
+        "kind": "replay",
+        "alpha": 0.1,
+        "location": "verification_only"
+      },
+      "filename": "V2_SP_ShortDual__replay_a010_verification_only__11019__7313.csv"
+    }
+  ]
+}

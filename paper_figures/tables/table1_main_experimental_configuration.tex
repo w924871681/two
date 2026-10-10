@@ -1,0 +1,29 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Main experimental configuration.}
+\label{tab:main_configuration}
+\begin{tabular}{ll}
+\toprule
+Item & Value \\
+\midrule
+Final centers & 30 (14000-14029) \\
+Model seeds & 7311, 7312, 7313 \\
+Lifecycle stages & 24 \\
+Main architecture & GRU \\
+Input window L & 96 \\
+Forecast horizon H & 1 \\
+Adaptation optimizer / loss & SGD / MSE \\
+Adaptation steps per stage & 50 \\
+Learning rate & 0.01 \\
+Gradient clipping & 1.0 \\
+History capacity & 12 \\
+kappa\_rec / kappa\_hist & 0.0 / 0.5 \\
+delta\_imp / delta\_ret & 2.8018238e-05 / 0 \\
+rho / epsilon & 0.05 / 5.6036476e-05 \\
+Statistical unit & Computing center; seeds averaged within center \\
+Bootstrap & 4000 center-cluster percentile replicates; seed 2904 \\
+Hardware & NVIDIA GeForce RTX 3060 Laptop GPU (2.5.1+cu121, CUDA 12.1) \\
+\bottomrule
+\end{tabular}
+\end{table}

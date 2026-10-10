@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "completed_at": "2026-09-10T12:39:51.769010",
+  "root_cause": "EXTERNAL_SYSTEM_SHUTDOWN",
+  "expected": 48600,
+  "valid_preserved": 28755,
+  "recovered": 19845,
+  "final_valid": 48600,
+  "missing": 0,
+  "invalid": 0,
+  "duplicate": 0,
+  "unexpected": 0,
+  "scientific_hash_mismatch": 0,
+  "recovery_executor_commit": "0a21cf6f7bdf068ab64b8e5ef0f5e2e8bfb95e2e",
+  "scientific_executor_commit": "d6d33075cb3afa55a24878e2343f1bc1d1c9368a",
+  "scientific_change": false,
+  "cache_metrics_during_recovery": {
+    "candidate_l1_hits": 0,
+    "candidate_l2_hits": 160,
+    "candidate_trainings": 25436,
+    "candidate_l2_writes": 25436,
+    "evidence_l1_hits": 0,
+    "evidence_l2_hits": 318,
+    "evidence_computations": 50874,
+    "evidence_l2_writes": 50874
+  },
+  "recovery_elapsed_s": 4248.92603635788,
+  "selection": {
+    "Proposed": {
+      "status": "calibrated",
+      "selected_policy": 182
+    },
+    "ValidationCommit": {
+      "status": "calibration_failure_retain_all"
+    }
+  },
+  "alibaba_frozen_commit_config_sha256": "f066dc70b63c3758b8dbad7a67f2726759df36af59e2ad9e54aa0b262b489196"
+}

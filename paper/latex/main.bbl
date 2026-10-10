@@ -1,0 +1,194 @@
+\begin{thebibliography}{10}
+
+\bibitem{tao2019dt}
+Tao F, Zhang H, Liu A, Nee AYC.
+\newblock Digital Twin in Industry: State-of-the-Art.
+\newblock IEEE Transactions on Industrial Informatics. 2019;15(4):2405-15.
+
+\bibitem{khan2022wirelessdt}
+Khan LU, Han Z, Saad W, Hossain E, Guizani M, Hong CS.
+\newblock Digital Twin of Wireless Systems: Overview, Taxonomy, Challenges, and
+  Opportunities.
+\newblock IEEE Communications Surveys \& Tutorials. 2022;24(4):2230-54.
+
+\bibitem{mihai2022dtsurvey}
+Mihai S, Yaqoob M, Hung DV, Davis W, Towakel P, Raza M, et~al.
+\newblock Digital Twins: A Survey on Enabling Technologies, Challenges, Trends
+  and Future Prospects.
+\newblock IEEE Communications Surveys \& Tutorials. 2022;24(4):2255-91.
+
+\bibitem{xu2023dtiot}
+Xu H, Wu J, Pan Q, Guan X, Guizani M.
+\newblock A Survey on Digital Twin for Industrial Internet of Things:
+  Applications, Technologies and Tools.
+\newblock IEEE Communications Surveys \& Tutorials. 2023;25(4):2569-98.
+
+\bibitem{wu2021dtnetwork}
+Wu Y, Zhang K, Zhang Y.
+\newblock Digital Twin Networks: A Survey.
+\newblock IEEE Internet of Things Journal. 2021;8(18):13789-804.
+
+\bibitem{li2024dtcl}
+Li J, Guo S, Liang W, Wang J, Chen Q, Zeng Y, et~al.
+\newblock Digital Twin-Enabled Service Provisioning in Edge Computing via
+  Continual Learning.
+\newblock IEEE Transactions on Mobile Computing. 2024;23(6):7335-50.
+
+\bibitem{rodriguez2023updating}
+Rodriguez F, Chicaiza WD, Sanchez A, Escano JM.
+\newblock Updating Digital Twins: Methodology for Data Accuracy Quality Control
+  Using Machine Learning Techniques.
+\newblock Computers in Industry. 2023;151:103958.
+
+\bibitem{amad2025calmdt}
+Amad H, Astorga N, van~der Schaar M.
+\newblock Continuously Updating Digital Twins Using Large Language Models.
+\newblock In: Proceedings of the 42nd International Conference on Machine
+  Learning. vol. 267 of Proceedings of Machine Learning Research; 2025. p.
+  1343-66.
+
+\bibitem{qin2024dtnn}
+Qin B, Pan H, Dai Y, Si X, Huang X, Yuen C, et~al.
+\newblock Machine and Deep Learning for Digital Twin Networks: A Survey.
+\newblock IEEE Internet of Things Journal. 2024;11(21):34694-716.
+
+\bibitem{hakiri2024dtsurvey}
+Hakiri A, Gokhale A, Ben~Yahia S, Mellouli N.
+\newblock A Comprehensive Survey on Digital Twin for Future Networks and
+  Emerging Internet of Things Industry.
+\newblock Computer Networks. 2024;244:110350.
+
+\bibitem{parisi2019review}
+Parisi GI, Kemker R, Part JL, Kanan C, Wermter S.
+\newblock Continual Lifelong Learning with Neural Networks: A Review.
+\newblock Neural Networks. 2019;113:54-71.
+
+\bibitem{delange2022survey}
+De~Lange M, Aljundi R, Masana M, Parisot S, Jia X, Leonardis A, et~al.
+\newblock A Continual Learning Survey: Defying Forgetting in Classification
+  Tasks.
+\newblock IEEE Transactions on Pattern Analysis and Machine Intelligence.
+  2022;44(7):3366-85.
+
+\bibitem{wang2024clsurvey}
+Wang L, Zhang X, Su H, Zhu J.
+\newblock A Comprehensive Survey of Continual Learning: Theory, Method and
+  Application.
+\newblock IEEE Transactions on Pattern Analysis and Machine Intelligence.
+  2024;46(8):5362-83.
+
+\bibitem{son2025survey}
+Son J, Lee S, Kim G.
+\newblock When Meta-Learning Meets Online and Continual Learning: A Survey.
+\newblock IEEE Transactions on Pattern Analysis and Machine Intelligence.
+  2025;47(1):413-32.
+
+\bibitem{gama2014drift}
+Gama J, Zliobaite I, Bifet A, Pechenizkiy M, Bouchachia A.
+\newblock A Survey on Concept Drift Adaptation.
+\newblock ACM Computing Surveys. 2014;46(4):1-37.
+
+\bibitem{kirkpatrick2017ewc}
+Kirkpatrick J, Pascanu R, Rabinowitz N, Veness J, Desjardins G, Rusu AA, et~al.
+\newblock Overcoming Catastrophic Forgetting in Neural Networks.
+\newblock Proceedings of the National Academy of Sciences. 2017;114(13):3521-6.
+
+\bibitem{li2016lwf}
+Li Z, Hoiem D.
+\newblock Learning without Forgetting.
+\newblock In: European Conference on Computer Vision; 2016. p. 614-29.
+
+\bibitem{rebuffi2017icarl}
+Rebuffi SA, Kolesnikov A, Sperl G, Lampert CH.
+\newblock iCaRL: Incremental Classifier and Representation Learning.
+\newblock In: Proceedings of the IEEE Conference on Computer Vision and Pattern
+  Recognition; 2017. p. 2001-10.
+
+\bibitem{lopezpaz2017gem}
+Lopez-Paz D, Ranzato M.
+\newblock Gradient Episodic Memory for Continual Learning.
+\newblock In: Advances in Neural Information Processing Systems. vol.~30; 2017.
+  p. 6467-76.
+
+\bibitem{rolnick2019replay}
+Rolnick D, Ahuja A, Schwarz J, Lillicrap T, Wayne G.
+\newblock Experience Replay for Continual Learning.
+\newblock In: Advances in Neural Information Processing Systems. vol.~32; 2019.
+  p. 348-58.
+
+\bibitem{aljundi2018mas}
+Aljundi R, Babiloni F, Elhoseiny M, Rohrbach M, Tuytelaars T.
+\newblock Memory Aware Synapses: Learning What (not) to Forget.
+\newblock In: European Conference on Computer Vision; 2018. p. 139-54.
+
+\bibitem{ding2024forgetting}
+Ding M, Ji K, Wang D, Xu J.
+\newblock Understanding Forgetting in Continual Learning with Linear
+  Regression.
+\newblock In: Proceedings of the 41st International Conference on Machine
+  Learning. vol. 235 of Proceedings of Machine Learning Research. PMLR; 2024.
+  p. 10978-1001.
+
+\bibitem{bang2022contaminated}
+Bang J, Koh H, Park S, Song H, Ha JW, Choi J.
+\newblock Online Continual Learning on a Contaminated Data Stream With Blurry
+  Task Boundaries.
+\newblock In: Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition; 2022. p. 9275-84.
+
+\bibitem{shen2026trustworthy}
+Shen Z, Sun P, Arrano-Vargas F, Konstantinou G.
+\newblock Anomalous Data Evaluation for Reliable Updates of Trustworthy Power
+  System Digital Twins.
+\newblock Expert Systems with Applications. 2026;314:131434.
+
+\bibitem{huber1964robust}
+Huber PJ.
+\newblock Robust Estimation of a Location Parameter.
+\newblock The Annals of Mathematical Statistics. 1964;35(1):73-101.
+
+\bibitem{yin2018byzantine}
+Yin D, Chen Y, Kannan R, Bartlett P.
+\newblock Byzantine-Robust Distributed Learning: Towards Optimal Statistical
+  Rates.
+\newblock In: Proceedings of the 35th International Conference on Machine
+  Learning. vol.~80 of Proceedings of Machine Learning Research; 2018. p.
+  5650-9.
+
+\bibitem{biggio2012poisoning}
+Biggio B, Nelson B, Laskov P.
+\newblock Poisoning Attacks against Support Vector Machines.
+\newblock In: Proceedings of the 29th International Conference on Machine
+  Learning; 2012. p. 190.
+
+\bibitem{kim2024workload}
+Kim YM, Song S, Koo BM, Son J, Lee Y, Baek JG.
+\newblock Enhancing Long-Term Cloud Workload Forecasting Framework: Anomaly
+  Handling and Ensemble Learning in Multivariate Time Series.
+\newblock IEEE Transactions on Cloud Computing. 2024;12(2):789-99.
+
+\bibitem{zuo2025workload}
+Zuo Z, Huang Y, Li Z, Jiang Y, Liu C.
+\newblock Mixed Contrastive Transfer Learning for Few-Shot Workload Prediction
+  in the Cloud.
+\newblock Computing. 2025;107(1):5.
+
+\bibitem{zhao2025mscnet}
+Zhao F, Lin W, Lin S, Tang S, Li K.
+\newblock MSCNet: Multi-Scale Network with Convolutions for Long-Term Cloud
+  Workload Prediction.
+\newblock IEEE Transactions on Services Computing. 2025;18(2):969-82.
+
+\bibitem{feng2025workloadsurvey}
+Feng B, Ding Z.
+\newblock Application-Oriented Cloud Workload Prediction: A Survey and New
+  Perspectives.
+\newblock Tsinghua Science and Technology. 2025;30(1):34-54.
+
+\bibitem{alibaba2018trace}
+Group A.
+\newblock Alibaba Cluster Trace Program: Cluster Trace v2018.
+\newblock Alibaba Group; 2018.
+\newblock GitHub repository; accessed 2026-07-03.
+
+\end{thebibliography}

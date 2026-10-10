@@ -1,0 +1,74 @@
+\section{System Model and Problem Formulation}
+\label{sec:problem}
+
+\subsection{System Setting and Deployed DT Model}
+We consider a DT platform that maintains center-specific models for a set of heterogeneous computing centers $\mathcal C$. For center $c\in\mathcal C$, let $a_c$ denote the architecture of its deployed DT model and let $\theta_{c,t}$ denote the model parameters after maintenance stage $t$. The deployed DT model state is represented as
+\begin{equation}
+M_{c,t}=(a_c,\theta_{c,t}),\qquad t=0,\ldots,T,
+\label{eq:state}
+\end{equation}
+where $T$ is the number of maintenance stages.
+
+The initial state $M_{c,0}$ is assumed to be valid and may be obtained by any model-instantiation procedure. We focus on parameter-state maintenance after deployment and keep $a_c$ fixed over the maintenance horizon. Repeated maintenance therefore produces the deployed-state sequence $M_{c,0}\rightarrow M_{c,1}\rightarrow\cdots\rightarrow M_{c,T}$.
+
+\subsection{Operational Data and Model-State Transition}
+At maintenance stage $t$, center $c$ provides newly matured operational data $\mathcal D^{\mathrm{maint}}_{c,t}$. The maintenance data are characterized from two complementary perspectives:
+\begin{equation}
+\mathcal D^{\mathrm{maint}}_{c,t}
+=\mathcal D^{\mathrm{ben}}_{c,t}\uplus\mathcal D^{\mathrm{cor}}_{c,t},
+\qquad
+\mathcal D^{\mathrm{maint}}_{c,t}
+=\mathcal D^{\mathrm{upd}}_{c,t}\uplus\mathcal D^{\mathrm{ver}}_{c,t},
+\label{eq:data}
+\end{equation}
+where $\uplus$ denotes disjoint union. The first partition describes observation reliability: $\mathcal D^{\mathrm{ben}}_{c,t}$ contains legitimate operating observations, whereas $\mathcal D^{\mathrm{cor}}_{c,t}$ contains unreliable observations caused by measurement faults, stale data, communication faults, or manipulation. Their membership is unknown to the maintenance algorithm. The second partition specifies algorithmic roles. The update subset $\mathcal D^{\mathrm{upd}}_{c,t}$ is used to generate a candidate state, whereas the chronologically later verification subset $\mathcal D^{\mathrm{ver}}_{c,t}$ is excluded from candidate adaptation and provides evidence for the deployment decision. Either subset may contain unreliable observations.
+
+For a prescribed candidate-adaptation operator $\mathcal A$, the candidate is
+\begin{equation}
+\widetilde{\theta}_{c,t}
+=\mathcal A\!\left(\theta_{c,t-1},\mathcal D^{\mathrm{upd}}_{c,t}\right),
+\qquad
+\widetilde M_{c,t}=(a_c,\widetilde{\theta}_{c,t}).
+\label{eq:candidate}
+\end{equation}
+Candidate generation does not by itself modify the deployed model. Let $u_{c,t}\in\{0,1\}$ denote the deployment decision, where $u_{c,t}=1$ commits the candidate and $u_{c,t}=0$ retains the current state. The deployed state after maintenance is
+\begin{equation}
+M_{c,t}=
+\begin{cases}
+\widetilde M_{c,t}, & u_{c,t}=1,\\
+M_{c,t-1}, & u_{c,t}=0.
+\end{cases}
+\label{eq:commit-state}
+\end{equation}
+Thus, candidate adaptation and deployment commitment are distinct stages.
+
+\subsection{Continual DT Model Maintenance Problem}
+Let $\mathcal L(\mathcal D;M)$ denote the mean task loss of model state $M$ on dataset $\mathcal D$. Let $\mathcal D^{\mathrm{srv}}_{c,t}$ denote the service interval following the stage-$t$ deployment decision. These data are unavailable when $u_{c,t}$ is determined and are used only to evaluate the subsequent consequence. Define
+\begin{equation}
+\Delta_{c,t}
+=\mathcal L\!\left(\mathcal D^{\mathrm{srv}}_{c,t};\widetilde M_{c,t}\right)
+-\mathcal L\!\left(\mathcal D^{\mathrm{srv}}_{c,t};M_{c,t-1}\right).
+\label{eq:delta}
+\end{equation}
+A negative $\Delta_{c,t}$ indicates that the candidate would improve subsequent service performance relative to retaining the current state, whereas a positive value indicates degradation. A harmful state transition therefore occurs when the candidate is committed and $\Delta_{c,t}>0$.
+
+For the prescribed candidate-adaptation operator $\mathcal A$, the ideal deployment-decision problem is
+\begin{equation}
+\begin{aligned}
+\min_{\{u_{c,t}\}}\quad
+&\frac{1}{|\mathcal C|T}
+\sum_{c\in\mathcal C}\sum_{t=1}^{T}
+\mathcal L\!\left(\mathcal D^{\mathrm{srv}}_{c,t};M_{c,t}\right)\\
+\mathrm{s.t.}\quad
+&\frac{1}{|\mathcal C|T}
+\sum_{c\in\mathcal C}\sum_{t=1}^{T}
+ u_{c,t}\mathbf 1[\Delta_{c,t}>0]\leq \rho,\\
+&\frac{1}{|\mathcal C|T}
+\sum_{c\in\mathcal C}\sum_{t=1}^{T}
+ u_{c,t}[\Delta_{c,t}]_{+}\leq \epsilon,
+\end{aligned}
+\label{eq:ideal-problem}
+\end{equation}
+where $|\mathcal C|$ is the number of computing centers, $\mathbf 1[\cdot]$ is the indicator function, $[z]_{+}=\max(z,0)$, $\rho\in[0,1]$ is the tolerated harmful-transition frequency, and $\epsilon\geq0$ is the tolerated average harmful-transition downside.
+
+Equation~\eqref{eq:ideal-problem} defines an ideal lifecycle objective and risk criteria rather than an online guarantee. At maintenance time, $\mathcal D^{\mathrm{srv}}_{c,t}$ and hence $\Delta_{c,t}$ are unavailable. The practical problem is therefore to determine $u_{c,t}$ using only information available before the subsequent service interval, while maintaining lifecycle utility and limiting harmful deployed-state transitions.

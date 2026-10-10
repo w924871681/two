@@ -1,0 +1,5 @@
+comparison,condition,difference,ci_low,ci_high,direction,centers,seeds,bootstrap_replicates,bootstrap_seed
+Block consensus - SinglePath,Clean,0.00039554262067314165,0.00020417374724679088,0.0005970919017919279,complex variant - simpler reference,10,3,4000,2904
+Block consensus - SinglePath,Mixed,0.0003205000776991574,0.00010833763005596109,0.0005559466316127441,complex variant - simpler reference,10,3,4000,2904
+Trimmed aggregation - Mean,Clean,0.0,0.0,0.0,complex variant - simpler reference,10,3,4000,2904
+Trimmed aggregation - Mean,Mixed,0.0,0.0,0.0,complex variant - simpler reference,10,3,4000,2904

@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "created_at": "2026-09-09T17:39:05.091783",
+  "checks": {
+    "q1_complete": true,
+    "q2_complete": true,
+    "q1_q2_unchanged_since_benchmark": true,
+    "q3_and_later_formal_outputs_zero": true,
+    "benchmark_scientific_csv_only_in_scratch": true,
+    "p7_hashes_unchanged_except_recorded_q2_execution_file": true,
+    "q2_recovery_execution_hashes_unchanged": true,
+    "scientific_core_matches_q2_recovery": true,
+    "B_equivalence_pass": true,
+    "B_max_float_difference_zero": true,
+    "benchmark_recommends_B": true
+  },
+  "git_sha": "39ffdaba1ecfdbace4ecebee68a42f97121fadf0",
+  "scientific_implementation": "unchanged",
+  "change_scope": "execution scheduling only",
+  "workers": 2,
+  "partition_unit": "complete center x condition x seed x method lifecycle",
+  "stages_within_lifecycle": "strictly serial 1-24",
+  "scientific_core_hashes": {
+    "core/engine.py": "b143046aac84e62ab098c5cb5f1666dafe4fe24419ea8b164acdf2c8cbee23a6",
+    "core/protocol.py": "48254f026a096767271ef784e5ed22f8b24ab3369bf3614a8e23c80b626eff15",
+    "core/models.py": "b38b29b74ff4191add5e8c48e9d916529afb67f801830c68e290f07deacfa656",
+    "core/joint_dag.py": "9020dc8cced08766c0bb02e5103578e3da958d02c2f504f793e4d3ebda76374a"
+  },
+  "scientific_core_aggregate_sha256": "b462520a80d611f3311a2326effa73bc159754e9ef243cd18e10412363823c33",
+  "p7_final_freeze_sha256": "21d9d4756b3920a748dff7033d18f1492e9c47835288f5d8ebe6341f874cf111",
+  "p7_frozen_config_sha256": {
+    "frozen_candidate_config.yaml": "4a9655cf427f41bb321dc5237008fa795f1fb3437c979206fd4784810bca74ea",
+    "frozen_commit_config.yaml": "1da5f249d1a8c41afcc7d49f2bd30d288e2cdabd220b7840cfc0a3903bc9bf3a",
+    "frozen_baseline_config.yaml": "765f58a595a156320caa3c4664657670968d4638e5bf15b7d430444b82581908"
+  },
+  "pool_manifest_sha256": "f5550a641384625746ec8fd36791c37e00be5610ed67097c1c5ec69d722ee8fe",
+  "q1_manifest": {
+    "files": 1620,
+    "bytes": 34027984,
+    "sha256": "8df231d474ded5bbf2ff33781cf297e5e9fef39cb6492bed661512eca12e96df"
+  },
+  "q2_manifest": {
+    "files": 7680,
+    "bytes": 164269234,
+    "sha256": "f18f33d06c0116d75644798f02134f33d97cb864a57c8cf743976126d2ed1b21"
+  },
+  "later_formal_counts": {
+    "q3_benign_drift": 0,
+    "q4_ablation": 0,
+    "q5_sensitivity_cost": 0,
+    "q5_generality": 0,
+    "q5_runtime": 0,
+    "q6_alibaba": 0,
+    "alibaba_calibration": 0
+  },
+  "p7_mismatches": [],
+  "q2_recovery_mismatches": [],
+  "B_equivalence_cases": 16,
+  "B_speedup_range": [
+    1.7027200722089921,
+    1.7994659979649896
+  ]
+}

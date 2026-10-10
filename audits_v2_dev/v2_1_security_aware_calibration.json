@@ -1,0 +1,1276 @@
+{
+  "schema": "ravm-dt-v2.1-security-aware-calibration-audit-v1",
+  "status": "PASS",
+  "decision": "V2_1_CALIBRATION_GO",
+  "terminal_state": "WAITING_FOR_MANUAL_V2_1_CALIBRATION_REVIEW",
+  "purpose": "security-aware calibration coverage extension before fresh heldout; not heldout tuning and not a scientific-structure change",
+  "selection_rules_frozen_before_execution": true,
+  "protocol_sha256": "dacef8ac0081b7ace6e6c12ffb26fb98fa931ec498a62cf9620021d95d684b78",
+  "scientific_implementation_commit": "7ae7fabd9a4e335e774fbcba2f38dfa8827bb8f3",
+  "checks": {
+    "preflight_pass": true,
+    "execution_complete_2040": true,
+    "new_v2_expected_valid_1920": true,
+    "reference_expected_valid_120": true,
+    "missing_zero": true,
+    "duplicate_zero": true,
+    "unexpected_zero": true,
+    "partial_invalid_zero": true,
+    "metadata_consistent": true,
+    "each_trajectory_24_stages": true,
+    "data_attack_hashes_match_across_all_configs_and_v0": true,
+    "existing_clean_mixed_results_unchanged": true,
+    "protocol_hash_unchanged": true,
+    "scientific_implementation_unchanged": true,
+    "heldout_access_false": true,
+    "heldout_materialized_false": true
+  },
+  "integrity": {
+    "new_expected": 1920,
+    "new_valid": 1920,
+    "reference_expected": 120,
+    "reference_valid": 120,
+    "missing": 0,
+    "duplicate": 0,
+    "unexpected": 0,
+    "partial_invalid": 0,
+    "new_stage_rows": 46080,
+    "reference_stage_rows": 2880,
+    "hash_mismatch_groups": 0,
+    "metadata_mismatches": [],
+    "invalid_files": []
+  },
+  "selection": {
+    "security_feasible_count": 14,
+    "selected": {
+      "arm_id": "kr0_kh0.5",
+      "kappa_rec": 0.0,
+      "kappa_hist": 0.5,
+      "clean_mse": 0.0032467583175375503,
+      "mixed_mse": 0.0033524389765766,
+      "balanced_mse": 0.0032678944493454,
+      "mixed_harmful": 0.0354166666666666,
+      "mixed_downside": 4.162485210043403e-06,
+      "persistent_harmful": 0.0125,
+      "persistent_downside": 1.6845791631362955e-06,
+      "replay_harmful": 0.015277777777777779,
+      "replay_downside": 1.0251168633757656e-06,
+      "balanced_beneficial_recall": 0.28480791046484616,
+      "balanced_commit_rate": 0.23625,
+      "verification_downside": 1.3548480132560307e-06,
+      "absolute_risk_pass": true,
+      "go5_persistent_pass": true,
+      "go5_replay_pass": true,
+      "security_feasible": true,
+      "pareto": true
+    },
+    "primary_objective": "minimum original equal-scenario balanced lifecycle MSE across stationary, gradual, abrupt, recurring, and mixed among SECURITY_FEASIBLE configurations",
+    "tie_breaks": [
+      "lower mixed downside",
+      "higher balanced beneficial recall",
+      "lower verification-only downside"
+    ]
+  },
+  "configurations": {
+    "kr0_kh0": {
+      "summary": {
+        "arm_id": "kr0_kh0",
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.0,
+        "clean_mse": 0.0031456925140849745,
+        "mixed_mse": 0.003226903678559,
+        "balanced_mse": 0.0031619347469798,
+        "mixed_harmful": 0.08125,
+        "mixed_downside": 1.024796622206878e-05,
+        "persistent_harmful": 0.024305555555555556,
+        "persistent_downside": 1.4797439184295449e-06,
+        "replay_harmful": 0.024999999999999998,
+        "replay_downside": 1.7282553017137402e-06,
+        "balanced_beneficial_recall": 0.3693554042669166,
+        "balanced_commit_rate": 0.32055555555555554,
+        "verification_downside": 1.6039996100716426e-06,
+        "absolute_risk_pass": false,
+        "go5_persistent_pass": true,
+        "go5_replay_pass": false,
+        "security_feasible": false,
+        "pareto": true,
+        "selected": false
+      },
+      "paired_vs_calibration_pool_v0": {
+        "persistent_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.0004410898223795812,
+            "ci_low": -0.0006535530191306135,
+            "ci_high": -0.00024352707829469584,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.0006944444444444437,
+            "ci_low": -0.010416666666666666,
+            "ci_high": 0.008333333333333331,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": 1.7743726251248617e-07,
+            "ci_low": -8.848999515165511e-07,
+            "ci_high": 1.2310090849288772e-06,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        },
+        "replay_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.0004616243234219556,
+            "ci_low": -0.0006823697249764275,
+            "ci_high": -0.00025656151483063926,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": 0.011805555555555555,
+            "ci_low": 0.0020833333333333333,
+            "ci_high": 0.021527777777777778,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": 9.650369773023195e-07,
+            "ci_low": 1.2816210679986096e-07,
+            "ci_high": 2.070044147330713e-06,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        }
+      }
+    },
+    "kr0_kh0.5": {
+      "summary": {
+        "arm_id": "kr0_kh0.5",
+        "kappa_rec": 0.0,
+        "kappa_hist": 0.5,
+        "clean_mse": 0.0032467583175375503,
+        "mixed_mse": 0.0033524389765766,
+        "balanced_mse": 0.0032678944493454,
+        "mixed_harmful": 0.0354166666666666,
+        "mixed_downside": 4.162485210043403e-06,
+        "persistent_harmful": 0.0125,
+        "persistent_downside": 1.6845791631362955e-06,
+        "replay_harmful": 0.015277777777777779,
+        "replay_downside": 1.0251168633757656e-06,
+        "balanced_beneficial_recall": 0.28480791046484616,
+        "balanced_commit_rate": 0.23625,
+        "verification_downside": 1.3548480132560307e-06,
+        "absolute_risk_pass": true,
+        "go5_persistent_pass": true,
+        "go5_replay_pass": true,
+        "security_feasible": true,
+        "pareto": true,
+        "selected": true
+      },
+      "paired_vs_calibration_pool_v0": {
+        "persistent_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.00031850770834959506,
+            "ci_low": -0.0004977467526820579,
+            "ci_high": -0.0001513502586981818,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.0125,
+            "ci_low": -0.020833333333333332,
+            "ci_high": -0.004861111111111111,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": 3.822725072192369e-07,
+            "ci_low": -1.722148534907793e-06,
+            "ci_high": 2.9802526134716343e-06,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        },
+        "replay_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.0003455767917936722,
+            "ci_low": -0.0005209635680284946,
+            "ci_high": -0.00018330734451360039,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": 0.0020833333333333337,
+            "ci_low": -0.00972222222222222,
+            "ci_high": 0.011111111111111113,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": 2.618985389643446e-07,
+            "ci_low": -4.955323038301247e-07,
+            "ci_high": 1.0128963771824381e-06,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        }
+      }
+    },
+    "kr0_kh1": {
+      "summary": {
+        "arm_id": "kr0_kh1",
+        "kappa_rec": 0.0,
+        "kappa_hist": 1.0,
+        "clean_mse": 0.0033602008945914,
+        "mixed_mse": 0.003446294153198,
+        "balanced_mse": 0.0033774195463127,
+        "mixed_harmful": 0.0166666666666666,
+        "mixed_downside": 1.1055030174447491e-06,
+        "persistent_harmful": 0.009027777777777777,
+        "persistent_downside": 8.8425903312664e-07,
+        "replay_harmful": 0.00625,
+        "replay_downside": 3.9112104180577407e-07,
+        "balanced_beneficial_recall": 0.2002277544804298,
+        "balanced_commit_rate": 0.17083333333333334,
+        "verification_downside": 6.376900374662071e-07,
+        "absolute_risk_pass": true,
+        "go5_persistent_pass": true,
+        "go5_replay_pass": true,
+        "security_feasible": true,
+        "pareto": true,
+        "selected": false
+      },
+      "paired_vs_calibration_pool_v0": {
+        "persistent_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.00020864600612387408,
+            "ci_low": -0.0003631106085120143,
+            "ci_high": -5.1682823716166e-05,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.01597222222222222,
+            "ci_low": -0.026388888888888885,
+            "ci_high": -0.00625,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -4.180476227904186e-07,
+            "ci_low": -1.8772397243079652e-06,
+            "ci_high": 7.945120503586502e-07,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        },
+        "replay_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.00021499085723917355,
+            "ci_low": -0.0003571564235577784,
+            "ci_high": -8.218245576598731e-05,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.006944444444444445,
+            "ci_low": -0.01944444444444444,
+            "ci_high": 0.0020833333333333333,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -3.720972826056468e-07,
+            "ci_low": -1.2507464735890441e-06,
+            "ci_high": 2.7872334107493345e-07,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        }
+      }
+    },
+    "kr0_kh1.5": {
+      "summary": {
+        "arm_id": "kr0_kh1.5",
+        "kappa_rec": 0.0,
+        "kappa_hist": 1.5,
+        "clean_mse": 0.0035262168375588252,
+        "mixed_mse": 0.0036253309609592,
+        "balanced_mse": 0.0035460396622389,
+        "mixed_harmful": 0.0076388888888888,
+        "mixed_downside": 5.1864256723391e-07,
+        "persistent_harmful": 0.004861111111111111,
+        "persistent_downside": 6.876210843781234e-07,
+        "replay_harmful": 0.0027777777777777775,
+        "replay_downside": 1.0608685746168096e-07,
+        "balanced_beneficial_recall": 0.14871470302990356,
+        "balanced_commit_rate": 0.12388888888888883,
+        "verification_downside": 3.9685397091990214e-07,
+        "absolute_risk_pass": true,
+        "go5_persistent_pass": true,
+        "go5_replay_pass": true,
+        "security_feasible": true,
+        "pareto": true,
+        "selected": false
+      },
+      "paired_vs_calibration_pool_v0": {
+        "persistent_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -6.98304842848688e-05,
+            "ci_low": -0.00021447199305940499,
+            "ci_high": 8.160132645217457e-05,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.02013888888888889,
+            "ci_low": -0.029166666666666667,
+            "ci_high": -0.01111111111111111,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -6.146855715389352e-07,
+            "ci_low": -1.8461870902476385e-06,
+            "ci_high": 3.281687658171218e-07,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        },
+        "replay_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -2.2054562860932805e-05,
+            "ci_low": -0.00018441327844963647,
+            "ci_high": 0.00016294353513078097,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.010416666666666666,
+            "ci_low": -0.023611111111111107,
+            "ci_high": -0.0013888888888888887,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -6.571314669497399e-07,
+            "ci_low": -1.5401620981312575e-06,
+            "ci_high": -5.73719666539874e-09,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        }
+      }
+    },
+    "kr0.5_kh0": {
+      "summary": {
+        "arm_id": "kr0.5_kh0",
+        "kappa_rec": 0.5,
+        "kappa_hist": 0.0,
+        "clean_mse": 0.0031899533942324745,
+        "mixed_mse": 0.003286252132481,
+        "balanced_mse": 0.0032092131418822,
+        "mixed_harmful": 0.0534722222222222,
+        "mixed_downside": 6.042225039789503e-06,
+        "persistent_harmful": 0.015277777777777776,
+        "persistent_downside": 4.954509778245691e-07,
+        "replay_harmful": 0.01597222222222222,
+        "replay_downside": 1.332124197182825e-06,
+        "balanced_beneficial_recall": 0.2909630436362668,
+        "balanced_commit_rate": 0.2498611111111111,
+        "verification_downside": 9.13787587503697e-07,
+        "absolute_risk_pass": false,
+        "go5_persistent_pass": true,
+        "go5_replay_pass": true,
+        "security_feasible": false,
+        "pareto": true,
+        "selected": false
+      },
+      "paired_vs_calibration_pool_v0": {
+        "persistent_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.00039165764915701905,
+            "ci_low": -0.0005899001159731482,
+            "ci_high": -0.00021178752041274885,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.009722222222222222,
+            "ci_low": -0.020833333333333332,
+            "ci_high": -0.0013888888888888887,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -8.068556780924897e-07,
+            "ci_low": -1.7281911459574329e-06,
+            "ci_high": -1.0199529646746798e-07,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        },
+        "replay_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.00039226473412175945,
+            "ci_low": -0.000591643398909384,
+            "ci_high": -0.00021113639232074626,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": 0.0027777777777777775,
+            "ci_low": -0.002777777777777778,
+            "ci_high": 0.008333333333333333,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": 5.68905872771404e-07,
+            "ci_low": -1.4308747267921723e-07,
+            "ci_high": 1.4679774964556623e-06,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        }
+      }
+    },
+    "kr0.5_kh0.5": {
+      "summary": {
+        "arm_id": "kr0.5_kh0.5",
+        "kappa_rec": 0.5,
+        "kappa_hist": 0.5,
+        "clean_mse": 0.0032908520665538,
+        "mixed_mse": 0.0033861655418755,
+        "balanced_mse": 0.0033099147616181,
+        "mixed_harmful": 0.0312499999999999,
+        "mixed_downside": 2.5477386871996592e-06,
+        "persistent_harmful": 0.006944444444444445,
+        "persistent_downside": 8.553935104928505e-07,
+        "replay_harmful": 0.009027777777777779,
+        "replay_downside": 5.621923062587292e-07,
+        "balanced_beneficial_recall": 0.23857134957405854,
+        "balanced_commit_rate": 0.19805555555555557,
+        "verification_downside": 7.087929083757899e-07,
+        "absolute_risk_pass": true,
+        "go5_persistent_pass": true,
+        "go5_replay_pass": true,
+        "security_feasible": true,
+        "pareto": true,
+        "selected": false
+      },
+      "paired_vs_calibration_pool_v0": {
+        "persistent_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.0002886397165841316,
+            "ci_low": -0.0004591346913760694,
+            "ci_high": -0.00013234414163182197,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.018055555555555557,
+            "ci_low": -0.025694444444444447,
+            "ci_high": -0.010416666666666668,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -4.46913145424208e-07,
+            "ci_low": -1.9926853974535517e-06,
+            "ci_high": 1.0787740282263996e-06,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        },
+        "replay_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.0003005423604311865,
+            "ci_low": -0.00046768035550990726,
+            "ci_high": -0.00014791973772995993,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.004166666666666667,
+            "ci_low": -0.014583333333333334,
+            "ci_high": 0.0034722222222222225,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -2.0102601815269161e-07,
+            "ci_low": -8.083628047945532e-07,
+            "ci_high": 2.0534042454931803e-07,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        }
+      }
+    },
+    "kr0.5_kh1": {
+      "summary": {
+        "arm_id": "kr0.5_kh1",
+        "kappa_rec": 0.5,
+        "kappa_hist": 1.0,
+        "clean_mse": 0.0033920210462382748,
+        "mixed_mse": 0.0034778184388414,
+        "balanced_mse": 0.0034091805247589,
+        "mixed_harmful": 0.0131944444444444,
+        "mixed_downside": 1.1071541343373618e-06,
+        "persistent_harmful": 0.004166666666666667,
+        "persistent_downside": 1.6346053194458245e-07,
+        "replay_harmful": 0.005555555555555555,
+        "replay_downside": 5.048421573721029e-07,
+        "balanced_beneficial_recall": 0.18047697912632624,
+        "balanced_commit_rate": 0.15027777777777776,
+        "verification_downside": 3.3415134465834266e-07,
+        "absolute_risk_pass": true,
+        "go5_persistent_pass": true,
+        "go5_replay_pass": true,
+        "security_feasible": true,
+        "pareto": true,
+        "selected": false
+      },
+      "paired_vs_calibration_pool_v0": {
+        "persistent_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.00018485763068585735,
+            "ci_low": -0.0003284764020913319,
+            "ci_high": -3.903911187232218e-05,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.020833333333333336,
+            "ci_low": -0.03194444444444445,
+            "ci_high": -0.010416666666666666,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -1.1388461239724761e-06,
+            "ci_low": -2.4900967537173607e-06,
+            "ci_high": -1.3915931200854357e-07,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        },
+        "replay_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.00018849006974051055,
+            "ci_low": -0.0003227561524474569,
+            "ci_high": -5.8921571935571305e-05,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.007638888888888887,
+            "ci_low": -0.02013888888888889,
+            "ci_high": 0.0013888888888888887,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -2.5837616703931803e-07,
+            "ci_low": -1.1359633501542121e-06,
+            "ci_high": 5.445795613922355e-07,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        }
+      }
+    },
+    "kr0.5_kh1.5": {
+      "summary": {
+        "arm_id": "kr0.5_kh1.5",
+        "kappa_rec": 0.5,
+        "kappa_hist": 1.5,
+        "clean_mse": 0.0035498580081466755,
+        "mixed_mse": 0.0036312123732891,
+        "balanced_mse": 0.0035661288811751,
+        "mixed_harmful": 0.0055555555555555,
+        "mixed_downside": 3.13161924875866e-07,
+        "persistent_harmful": 0.0027777777777777775,
+        "persistent_downside": 2.1115144287851904e-07,
+        "replay_harmful": 0.0027777777777777775,
+        "replay_downside": 8.13566859708064e-08,
+        "balanced_beneficial_recall": 0.13083028578088476,
+        "balanced_commit_rate": 0.10847222222222215,
+        "verification_downside": 1.4625406442466272e-07,
+        "absolute_risk_pass": true,
+        "go5_persistent_pass": true,
+        "go5_replay_pass": true,
+        "security_feasible": true,
+        "pareto": true,
+        "selected": false
+      },
+      "paired_vs_calibration_pool_v0": {
+        "persistent_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -4.1488196135709846e-05,
+            "ci_low": -0.00018341300118360177,
+            "ci_high": 0.00010624353848268439,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.022222222222222223,
+            "ci_low": -0.031249999999999993,
+            "ci_high": -0.013888888888888886,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -1.0911552130385395e-06,
+            "ci_low": -2.289925059812559e-06,
+            "ci_high": -2.669732996057266e-07,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        },
+        "replay_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -7.462928483115004e-06,
+            "ci_low": -0.00016454139683244422,
+            "ci_high": 0.00017561452378483873,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.010416666666666666,
+            "ci_low": -0.023611111111111107,
+            "ci_high": -0.0006944444444444444,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -6.818616384406144e-07,
+            "ci_low": -1.5815004351474723e-06,
+            "ci_high": 1.4227110417201219e-08,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        }
+      }
+    },
+    "kr1_kh0": {
+      "summary": {
+        "arm_id": "kr1_kh0",
+        "kappa_rec": 1.0,
+        "kappa_hist": 0.0,
+        "clean_mse": 0.0032524788029250004,
+        "mixed_mse": 0.0033492545755506,
+        "balanced_mse": 0.0032718339574501,
+        "mixed_harmful": 0.0430555555555555,
+        "mixed_downside": 4.577717805254551e-06,
+        "persistent_harmful": 0.011805555555555555,
+        "persistent_downside": 5.028706760236149e-07,
+        "replay_harmful": 0.008333333333333333,
+        "replay_downside": 1.1750323109378851e-06,
+        "balanced_beneficial_recall": 0.22773985197099003,
+        "balanced_commit_rate": 0.19374999999999998,
+        "verification_downside": 8.3895149348075e-07,
+        "absolute_risk_pass": true,
+        "go5_persistent_pass": true,
+        "go5_replay_pass": true,
+        "security_feasible": true,
+        "pareto": true,
+        "selected": false
+      },
+      "paired_vs_calibration_pool_v0": {
+        "persistent_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.0003284342373768178,
+            "ci_low": -0.0005125415796712509,
+            "ci_high": -0.00015899322663244365,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.013194444444444443,
+            "ci_low": -0.02361111111111111,
+            "ci_high": -0.004861111111111112,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -7.994359798934436e-07,
+            "ci_low": -1.6513098191553424e-06,
+            "ci_high": -1.5579045490681214e-07,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        },
+        "replay_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.0003211586288873364,
+            "ci_low": -0.0004977464600112094,
+            "ci_high": -0.00015615369721066002,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.00486111111111111,
+            "ci_low": -0.013888888888888886,
+            "ci_high": 0.0020833333333333337,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": 4.1181398652646426e-07,
+            "ci_low": -4.2741358103939043e-07,
+            "ci_high": 1.3416056289212575e-06,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        }
+      }
+    },
+    "kr1_kh0.5": {
+      "summary": {
+        "arm_id": "kr1_kh0.5",
+        "kappa_rec": 1.0,
+        "kappa_hist": 0.5,
+        "clean_mse": 0.00335288774513165,
+        "mixed_mse": 0.0034451289909055,
+        "balanced_mse": 0.0033713359942864,
+        "mixed_harmful": 0.0243055555555555,
+        "mixed_downside": 2.1475454357437364e-06,
+        "persistent_harmful": 0.00486111111111111,
+        "persistent_downside": 6.131958798505366e-08,
+        "replay_harmful": 0.005555555555555556,
+        "replay_downside": 5.46729764512915e-07,
+        "balanced_beneficial_recall": 0.19410254266281318,
+        "balanced_commit_rate": 0.16180555555555548,
+        "verification_downside": 3.0402467624898434e-07,
+        "absolute_risk_pass": true,
+        "go5_persistent_pass": true,
+        "go5_replay_pass": true,
+        "security_feasible": true,
+        "pareto": true,
+        "selected": false
+      },
+      "paired_vs_calibration_pool_v0": {
+        "persistent_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.00023987424408712993,
+            "ci_low": -0.0003885625095254992,
+            "ci_high": -0.00010093025744835187,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.02013888888888889,
+            "ci_low": -0.029861111111111106,
+            "ci_high": -0.011805555555555554,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -1.2409870679320048e-06,
+            "ci_low": -2.524003505943972e-06,
+            "ci_high": -3.1584349421286284e-07,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        },
+        "replay_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.00023580548612598347,
+            "ci_low": -0.00038353691055817944,
+            "ci_high": -9.458203616961754e-05,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.007638888888888888,
+            "ci_low": -0.018749999999999996,
+            "ci_high": 0.0,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -2.1648855989850586e-07,
+            "ci_low": -8.911414604678084e-07,
+            "ci_high": 2.854731458985248e-07,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        }
+      }
+    },
+    "kr1_kh1": {
+      "summary": {
+        "arm_id": "kr1_kh1",
+        "kappa_rec": 1.0,
+        "kappa_hist": 1.0,
+        "clean_mse": 0.003448380614099625,
+        "mixed_mse": 0.003532411427376,
+        "balanced_mse": 0.0034651867767549,
+        "mixed_harmful": 0.0097222222222222,
+        "mixed_downside": 7.664445244395332e-07,
+        "persistent_harmful": 0.0034722222222222225,
+        "persistent_downside": 1.5564518333926755e-07,
+        "replay_harmful": 0.0034722222222222225,
+        "replay_downside": 2.3819706661415005e-07,
+        "balanced_beneficial_recall": 0.14683946879075763,
+        "balanced_commit_rate": 0.12208333333333328,
+        "verification_downside": 1.9692112497670881e-07,
+        "absolute_risk_pass": true,
+        "go5_persistent_pass": true,
+        "go5_replay_pass": true,
+        "security_feasible": true,
+        "pareto": true,
+        "selected": false
+      },
+      "paired_vs_calibration_pool_v0": {
+        "persistent_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.0001195434383488543,
+            "ci_low": -0.0002511733480160824,
+            "ci_high": 1.5782499501964942e-05,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.021527777777777778,
+            "ci_low": -0.03263888888888889,
+            "ci_high": -0.01111111111111111,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -1.1466614725777908e-06,
+            "ci_low": -2.495041388909468e-06,
+            "ci_high": -1.25405279807974e-07,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        },
+        "replay_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.00013408375721660966,
+            "ci_low": -0.0002579232386101983,
+            "ci_high": -9.88795635445806e-06,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.00972222222222222,
+            "ci_low": -0.021527777777777778,
+            "ci_high": -0.0013888888888888887,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -5.250212577972708e-07,
+            "ci_low": -1.3621772399748671e-06,
+            "ci_high": 5.6328526625275317e-08,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        }
+      }
+    },
+    "kr1_kh1.5": {
+      "summary": {
+        "arm_id": "kr1_kh1.5",
+        "kappa_rec": 1.0,
+        "kappa_hist": 1.5,
+        "clean_mse": 0.0036123293446708995,
+        "mixed_mse": 0.0036739411367508,
+        "balanced_mse": 0.0036246517030869,
+        "mixed_harmful": 0.0041666666666666,
+        "mixed_downside": 2.975553191693764e-07,
+        "persistent_harmful": 0.0020833333333333333,
+        "persistent_downside": 2.0895086992009603e-07,
+        "replay_harmful": 0.0006944444444444444,
+        "replay_downside": 3.837534071256717e-08,
+        "balanced_beneficial_recall": 0.10826366864491102,
+        "balanced_commit_rate": 0.09013888888888881,
+        "verification_downside": 1.236631053163316e-07,
+        "absolute_risk_pass": true,
+        "go5_persistent_pass": true,
+        "go5_replay_pass": true,
+        "security_feasible": true,
+        "pareto": true,
+        "selected": false
+      },
+      "paired_vs_calibration_pool_v0": {
+        "persistent_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -1.322107446968327e-05,
+            "ci_low": -0.00014830633031225185,
+            "ci_high": 0.00012970592904063374,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.02291666666666667,
+            "ci_low": -0.0326388888888889,
+            "ci_high": -0.01388888888888889,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -1.0933557859969624e-06,
+            "ci_low": -2.292125632770982e-06,
+            "ci_high": -2.669732996057266e-07,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        },
+        "replay_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -6.769626351251683e-07,
+            "ci_low": -0.00014843958766505225,
+            "ci_high": 0.00016932688902165233,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.0125,
+            "ci_low": -0.024999999999999998,
+            "ci_high": -0.0034722222222222225,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -7.248429836988536e-07,
+            "ci_low": -1.6112622900737185e-06,
+            "ci_high": -4.062398753982651e-08,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        }
+      }
+    },
+    "kr1.5_kh0": {
+      "summary": {
+        "arm_id": "kr1.5_kh0",
+        "kappa_rec": 1.5,
+        "kappa_hist": 0.0,
+        "clean_mse": 0.0033251838162160503,
+        "mixed_mse": 0.0034240287658272,
+        "balanced_mse": 0.0033449528061383,
+        "mixed_harmful": 0.0340277777777777,
+        "mixed_downside": 3.2442977600207315e-06,
+        "persistent_harmful": 0.005555555555555557,
+        "persistent_downside": 4.4494641365919226e-07,
+        "replay_harmful": 0.005555555555555557,
+        "replay_downside": 8.69259707138011e-07,
+        "balanced_beneficial_recall": 0.17120690568922153,
+        "balanced_commit_rate": 0.1472222222222222,
+        "verification_downside": 6.571030603986016e-07,
+        "absolute_risk_pass": true,
+        "go5_persistent_pass": true,
+        "go5_replay_pass": true,
+        "security_feasible": true,
+        "pareto": true,
+        "selected": false
+      },
+      "paired_vs_calibration_pool_v0": {
+        "persistent_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.0002348840229994183,
+            "ci_low": -0.00040355361893539915,
+            "ci_high": -7.848643820832583e-05,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.019444444444444445,
+            "ci_low": -0.02986111111111111,
+            "ci_high": -0.010416666666666668,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -8.573602422578663e-07,
+            "ci_low": -1.7008848625559634e-06,
+            "ci_high": -2.169485055168117e-07,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        },
+        "replay_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.0002598906116165598,
+            "ci_low": -0.00043697108318358456,
+            "ci_high": -9.620155935206649e-05,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.0076388888888888895,
+            "ci_low": -0.018055555555555554,
+            "ci_high": -0.0006944444444444444,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": 1.0604138272659002e-07,
+            "ci_low": -7.620867846626427e-07,
+            "ci_high": 1.0970767501323493e-06,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        }
+      }
+    },
+    "kr1.5_kh0.5": {
+      "summary": {
+        "arm_id": "kr1.5_kh0.5",
+        "kappa_rec": 1.5,
+        "kappa_hist": 0.5,
+        "clean_mse": 0.0034188769753300246,
+        "mixed_mse": 0.0035005464201983,
+        "balanced_mse": 0.0034352108643037,
+        "mixed_harmful": 0.0187499999999999,
+        "mixed_downside": 1.5918129469758007e-06,
+        "persistent_harmful": 0.0020833333333333333,
+        "persistent_downside": 2.4059045244939626e-08,
+        "replay_harmful": 0.0034722222222222225,
+        "replay_downside": 1.9810209374147118e-07,
+        "balanced_beneficial_recall": 0.1563889681508472,
+        "balanced_commit_rate": 0.13222222222222219,
+        "verification_downside": 1.1108056949320541e-07,
+        "absolute_risk_pass": true,
+        "go5_persistent_pass": true,
+        "go5_replay_pass": true,
+        "security_feasible": true,
+        "pareto": true,
+        "selected": false
+      },
+      "paired_vs_calibration_pool_v0": {
+        "persistent_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.00016451398504513138,
+            "ci_low": -0.0003028020845759888,
+            "ci_high": -2.809756957503888e-05,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.02291666666666667,
+            "ci_low": -0.03333333333333333,
+            "ci_high": -0.013888888888888886,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -1.278247610672119e-06,
+            "ci_low": -2.583008889713121e-06,
+            "ci_high": -3.1399427219488037e-07,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        },
+        "replay_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -0.0001602829757555622,
+            "ci_low": -0.0002919685445082615,
+            "ci_high": -2.806837241678383e-05,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.00972222222222222,
+            "ci_low": -0.020833333333333332,
+            "ci_high": -0.0020833333333333333,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -5.651162306699497e-07,
+            "ci_low": -1.4414979331273276e-06,
+            "ci_high": 6.278045879702806e-08,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        }
+      }
+    },
+    "kr1.5_kh1": {
+      "summary": {
+        "arm_id": "kr1.5_kh1",
+        "kappa_rec": 1.5,
+        "kappa_hist": 1.0,
+        "clean_mse": 0.0034998916777314,
+        "mixed_mse": 0.003559446596753,
+        "balanced_mse": 0.0035118026615357,
+        "mixed_harmful": 0.0076388888888888,
+        "mixed_downside": 4.840497543529576e-07,
+        "persistent_harmful": 0.0027777777777777775,
+        "persistent_downside": 1.2238633644298092e-07,
+        "replay_harmful": 0.0020833333333333333,
+        "replay_downside": 6.933922931138013e-08,
+        "balanced_beneficial_recall": 0.12267582081399549,
+        "balanced_commit_rate": 0.10305555555555553,
+        "verification_downside": 9.586278287718052e-08,
+        "absolute_risk_pass": true,
+        "go5_persistent_pass": true,
+        "go5_replay_pass": true,
+        "security_feasible": true,
+        "pareto": true,
+        "selected": false
+      },
+      "paired_vs_calibration_pool_v0": {
+        "persistent_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -2.6143138812686796e-05,
+            "ci_low": -0.00018867604447425114,
+            "ci_high": 0.00015958124548281572,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.022222222222222223,
+            "ci_low": -0.033333333333333326,
+            "ci_high": -0.0125,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -1.1799203194740776e-06,
+            "ci_low": -2.504826164415901e-06,
+            "ci_high": -1.8516198350782965e-07,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        },
+        "replay_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": -2.9906917330260623e-05,
+            "ci_low": -0.00019538844802153158,
+            "ci_high": 0.00016224472521874454,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.01111111111111111,
+            "ci_low": -0.020833333333333336,
+            "ci_high": -0.0041666666666666675,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -6.938790951000406e-07,
+            "ci_low": -1.454099314691259e-06,
+            "ci_high": -7.355721613243474e-08,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        }
+      }
+    },
+    "kr1.5_kh1.5": {
+      "summary": {
+        "arm_id": "kr1.5_kh1.5",
+        "kappa_rec": 1.5,
+        "kappa_hist": 1.5,
+        "clean_mse": 0.0036427836131728746,
+        "mixed_mse": 0.0036990182546408,
+        "balanced_mse": 0.0036540305414665,
+        "mixed_harmful": 0.0013888888888888,
+        "mixed_downside": 6.374375516315922e-08,
+        "persistent_harmful": 0.0006944444444444444,
+        "persistent_downside": 1.3755602089481222e-09,
+        "replay_harmful": 0.0,
+        "replay_downside": 0.0,
+        "balanced_beneficial_recall": 0.09299019415845367,
+        "balanced_commit_rate": 0.07638888888888884,
+        "verification_downside": 6.877801044740611e-10,
+        "absolute_risk_pass": true,
+        "go5_persistent_pass": true,
+        "go5_replay_pass": true,
+        "security_feasible": true,
+        "pareto": true,
+        "selected": false
+      },
+      "paired_vs_calibration_pool_v0": {
+        "persistent_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": 0.00010245484190818507,
+            "ci_low": -7.323323532899458e-05,
+            "ci_high": 0.0003047192218602712,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.02430555555555556,
+            "ci_low": -0.03402777777777778,
+            "ci_high": -0.015277777777777779,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -1.3009310957081102e-06,
+            "ci_low": -2.6055570146526484e-06,
+            "ci_high": -3.4078950445998767e-07,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        },
+        "replay_a010_verification_only": {
+          "lifecycle_mse": {
+            "difference": 6.365312298536599e-05,
+            "ci_low": -0.00010126448908471939,
+            "ci_high": 0.00026606199859543025,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "harmful_commit_rate": {
+            "difference": -0.013194444444444444,
+            "ci_low": -0.025694444444444443,
+            "ci_high": -0.00486111111111111,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          },
+          "average_downside": {
+            "difference": -7.632183244114209e-07,
+            "ci_low": -1.6408774152090866e-06,
+            "ci_high": -7.455736926608035e-08,
+            "unit": "center",
+            "bootstrap_replicates": 4000
+          }
+        }
+      }
+    }
+  },
+  "mechanical_go_recheck": {
+    "GO-1": "PASS",
+    "GO-2": "PASS",
+    "GO-3": "PASS",
+    "GO-4": "PASS",
+    "GO-6": "PASS",
+    "GO-5": "PASS"
+  },
+  "development_v2_vs_v1_legacy_context": {
+    "scope": "previous frozen GO-2 structural evidence; no calibration-pool V0 clean/mixed trajectories were added",
+    "v2_balanced_mse": 0.0034252837868592,
+    "v1_balanced_mse": 0.0038222460615441,
+    "relative_change_percent": -10.38557613228428,
+    "paired_difference": {
+      "difference": -0.00039696227468488405,
+      "ci_low": -0.0005303481464467639,
+      "ci_high": -0.00027682775463583006,
+      "scenario_differences": {
+        "stationary": -0.00026114219912820005,
+        "gradual": -0.0003789538034147333,
+        "abrupt": -0.0005037248391696801,
+        "recurring": -0.00044637924939806676,
+        "mixed_a010_both": -0.0003946112823137401
+      },
+      "bootstrap_replicates": 4000,
+      "unit": "center",
+      "scenario_weighting": "equal"
+    }
+  },
+  "heldout_accessed": false,
+  "heldout_materialized": false,
+  "confirmatory_started": false
+}

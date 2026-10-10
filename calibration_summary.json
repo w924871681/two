@@ -1,0 +1,9 @@
+{
+  "Proposed": {
+    "status": "calibrated",
+    "selected_policy": 110
+  },
+  "ValidationCommit": {
+    "status": "calibration_failure_retain_all"
+  }
+}

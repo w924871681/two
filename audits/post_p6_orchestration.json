@@ -1,0 +1,14 @@
+{
+  "status": "recorded",
+  "formal_p6_executor_commit": "c5fd73934d44e76629881b61ca77cd4a1a853b9a",
+  "post_p7_orchestration_commit": "5aa4173bc694cbb3297692255b645b902062de74",
+  "joint_dag_core_sha256": "9020dc8cced08766c0bb02e5103578e3da958d02c2f504f793e4d3ebda76374a",
+  "joint_dag_core_changed": false,
+  "scope": [
+    "pre-heldout remaining-matrix plan",
+    "Alibaba domain equivalence gate",
+    "Alibaba workload-level joint-DAG orchestration"
+  ],
+  "formal_p6_workers_restarted": false,
+  "formal_p6_interrupted": false
+}

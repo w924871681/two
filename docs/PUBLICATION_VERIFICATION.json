@@ -1,0 +1,20 @@
+{
+  "verified_date": "2026-10-10",
+  "scope": "Read-only validation and byte-preserving publication; no retraining",
+  "source_snapshot_files_verified": 17384,
+  "source_snapshot_missing_or_mismatched": 0,
+  "formal_unique_trajectory_csv_files": 8040,
+  "trajectory_index_rows_including_reuse": 9480,
+  "trajectory_sha256_mismatches": 0,
+  "additional_frozen_report_result_and_figure_hash_checks": 77,
+  "additional_hash_mismatches": 0,
+  "python_files_syntax_checked": 106,
+  "python_syntax_errors": 0,
+  "paper_pdf_matches_original_submission_archive": true,
+  "experimental_figure_pdfs_match_original_submission_archive": 6,
+  "synthetic_npz_files_in_inputs_asset": 120,
+  "top_level_checkpoint_and_metadata_files_in_inputs_asset": 1908,
+  "original_git_history_preserved": true,
+  "original_freeze_tags_preserved": 5,
+  "scientific_implementation_commit": "7ae7fabd9a4e335e774fbcba2f38dfa8827bb8f3"
+}

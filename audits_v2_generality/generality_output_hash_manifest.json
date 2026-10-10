@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "report_sha256": "27e05f6098378d5ae9f48d006f01983a8470efeebaf6e0b37cfa39a6815df3ee",
+  "result_hashes": {
+    "generality_trajectory_index.csv": "8bf5632577380a25a11f9b6f052221c488e6f61677695afc680200be552357f8",
+    "generality_center_summary.csv": "e4d8e278eafb3b1a61e2e581bea1ebfef7baad30fd6927e353f0d7c63e6759ed",
+    "generality_setting_summary.csv": "fb67aeed27d84edfaa563152c9c96cbf283abb44dfac996ff8cc8af6ea60437e",
+    "generality_paired_comparisons.csv": "f46fed7e9b4e420c9137423be909acea9f2a98e23d45667e67753a9b6163221d",
+    "generality_main_table.csv": "e2ff68fe0e75b39a50b4ffbcf937e24c3e5a277e6b52075c24c0d9052e3ce426"
+  },
+  "audit_hashes": {
+    "architecture_provenance_audit.json": "3f591108eb3b3425d0814cd85b09f07755bfb3ce79c4531acba60e6e3cf401a4",
+    "checkpoint_provenance_audit.json": "009050a3e759d68444c3211c46956311d1b62ed6aa48fb8838b128d3e411e342",
+    "execution_integrity_audit.json": "8b38b024ab1e4553f4716834754da851c50a5a9485a5c350b32d6e7b3e3c66e5",
+    "generality_execution_complete.json": "1b248fa3ba714f31647bd80c2c45f306e50b807bd611cf5fe2d3a7028b1e3087",
+    "generality_protocol.json": "cb13ac539fb5f76f7d2790aba0cf2731b74ed2edebc0ba7942d2585dec07023d",
+    "gruh1_reuse_audit.json": "1f754a58f0c5f9f693442358aca774e475d4d05746ad50a1cb77cc903afd30d0",
+    "leakage_audit.json": "5db597a584d2134218128ed06114e3b7fab5c32657628a9ef46f149bcb17e3bb",
+    "pairing_hash_audit.json": "d65f0c7dc4a12318c2240b573920cb08c277277571e824cd7e1a809198531ffb"
+  },
+  "ordering_cells_holding": 12,
+  "ordering_cells_total": 12,
+  "recommended_section_5_6_title": "Sensitivity, Generality, and Maintenance Cost"
+}

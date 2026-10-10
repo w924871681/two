@@ -1,0 +1,9 @@
+{
+  "status": "ANALYSIS_PLAN_FROZEN",
+  "phase": "v2_final_preheldout_freeze",
+  "expected": 720,
+  "manifest_sha256": "b4428cf870a5bf52aafb5b9b8d74176ea95fb2654f995397f2aa13f8b56430fe",
+  "analysis_plan_sha256": "7cdcafbfbca4e529429a3bc00af3865d23b7f3949a1e5b868d1341c96621ba84",
+  "heldout_accessed": false,
+  "heldout_materialized": false
+}

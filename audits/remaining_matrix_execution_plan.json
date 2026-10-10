@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "created_at": "2026-09-09T03:26:44.959758",
+  "heldout_accessed": false,
+  "alibaba_joint_dag_adopted": true,
+  "alibaba_speedup": 1.7583456402090036,
+  "estimated_hours": [
+    17.9525,
+    38.11833333333333
+  ],
+  "development_profiles": {
+    "RobustAlways": {
+      "trajectories": 480,
+      "median_s": 3.614195700007257,
+      "p10_s": 2.9390761099988585,
+      "p90_s": 9.902939830033576
+    },
+    "CLeaR-Predictor": {
+      "trajectories": 480,
+      "median_s": 3.1159949000284533,
+      "p10_s": 0.8936217899550671,
+      "p90_s": 8.540113259968347
+    },
+    "EWC": {
+      "trajectories": 360,
+      "median_s": 6.7014265499747125,
+      "p10_s": 5.440226230080587,
+      "p90_s": 16.851687499959375
+    },
+    "Frozen": {
+      "trajectories": 120,
+      "median_s": 0.06863495001743905,
+      "p10_s": 0.06481446995749046,
+      "p90_s": 0.0931429799384193
+    },
+    "Always-FT": {
+      "trajectories": 120,
+      "median_s": 2.8958060999721047,
+      "p10_s": 2.642977379882358,
+      "p90_s": 3.3075037499889723
+    }
+  },
+  "no_scientific_protocol_change": true
+}

@@ -1,0 +1,15 @@
+{
+  "state": "V2_FINAL_CONFIRMATORY_COMPLETE",
+  "phase": "v2_final_analysis_complete",
+  "completed": 720,
+  "expected": 720,
+  "verdict": "CONFIRMED",
+  "integrity": "PASS",
+  "leakage": "PASS",
+  "report": "D:\\dt-trustworthy-maintenance\\V2_FINAL_MINIMAL_CONFIRMATORY_REPORT.md",
+  "report_sha256": "1e4787ffc96c5144f8693f103f1e481884e6b13ae4aa4b0a566902927d4435e0",
+  "warning": null,
+  "heldout_accessed": true,
+  "heldout_materialized": true,
+  "updated_at": "2026-09-11T09:14:14.513722+00:00"
+}

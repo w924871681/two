@@ -1,0 +1,18 @@
+{
+  "structure_id": "V2_SP_ShortDual",
+  "family": "V2_SP_ShortDual",
+  "status": "FROZEN_AFTER_DEVELOPMENT_SCREENING",
+  "selection_rule": "safety feasible on mixed alpha=0.10/both, then minimum equal-scenario balanced lifecycle MSE; fixed secondary tie-breakers",
+  "rho": 0.05,
+  "epsilon": 5.6036475532487204e-05,
+  "development_pool": [
+    11000,
+    11019
+  ],
+  "v1_gate_used_for_structure_screening": {
+    "kappa_rec": 0.5,
+    "kappa_hist": 0.0,
+    "delta_imp": 2.8018237766243602e-05,
+    "delta_ret": 0.0
+  }
+}

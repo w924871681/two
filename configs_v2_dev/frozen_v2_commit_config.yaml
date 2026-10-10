@@ -1,0 +1,15 @@
+{
+  "status": "FROZEN_AFTER_DECISION_CALIBRATION",
+  "structure_id": "V2_SP_ShortDual",
+  "kappa_rec": 0.0,
+  "kappa_hist": 0.5,
+  "delta_imp": 2.8018237766243602e-05,
+  "delta_ret": 0.0,
+  "rho": 0.05,
+  "epsilon": 5.6036475532487204e-05,
+  "decision_calibration_pool": [
+    12000,
+    12019
+  ],
+  "selection_rule": "minimum equal-scenario balanced lifecycle MSE among configurations satisfying mixed rho and epsilon"
+}

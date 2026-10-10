@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "generated_at": "2026-09-11T09:14:14.512398+00:00",
+  "report": {
+    "path": "D:\\dt-trustworthy-maintenance\\V2_FINAL_MINIMAL_CONFIRMATORY_REPORT.md",
+    "sha256": "1e4787ffc96c5144f8693f103f1e481884e6b13ae4aa4b0a566902927d4435e0"
+  },
+  "results": {
+    "final_trajectory_index.csv": "b58ee0739acbc3df185ce50dca4b7236a3d2fdca815168e1bc2e3423729e796e",
+    "final_center_level_summary.csv": "c5cb7e472b9d048bc397fe3843b3ab599f7152609b355d17042d0f1f6c621d15",
+    "final_paired_comparisons.csv": "9c7bf8df9b528dbde8c8c7633ebfb5fd22a571838389ffdb4922038e03b6de43",
+    "final_scenario_summary.csv": "881ea76c5cf027ba5b2564abddf73f27faa869ea6302077fa121a789f4434c30"
+  },
+  "audits": {
+    "final_confirmatory_verdict.json": "b345e58a755be67df35c57d6e235701fb24acdb88d52ea0b853f4b60994bd5cc",
+    "final_execution_complete.json": "935d3e3c03cd0787cc90e17980fa152375a2a8cddecb01419f3a884c8da792a3",
+    "final_execution_integrity_audit.json": "cded6f778e2c2dd1d992cdb6e7c00939bce20e0df07383273f3fc8de357f62bf",
+    "final_execution_only_analyzer_fix.json": "2db0e36af476a7bfb8808c5ed1c1c96ef5c6dfb1858ee06c5fcaf6e26e9345ac",
+    "final_heldout_access_audit.json": "07b0c1c6a4492262b4f3ca6e5a7ee255a7392cdbef77b028f2377a07b42bd1d4",
+    "final_initial_checkpoint_manifest.json": "05159ab1cc62c1dcad6bc0af2f7e0f52d8e430c152d044abc0e3ff6d33f453c4",
+    "final_leakage_audit.json": "e4fb6d77e58fd87fca2aa6d9a657f608dea202221bdb9edec91d200456f9b727",
+    "final_manifest_freeze_audit.json": "25d2723440d87b4f49c4f6df23fc7ef63afed02db628157135e3c1384573f414",
+    "final_method_freeze_audit.json": "aff47b64a3ea04434cba817f4b9137aba4dbf3d0ff6cfcd8efbf9ef6a7dbcaf6"
+  }
+}

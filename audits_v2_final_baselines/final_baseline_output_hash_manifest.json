@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "report_sha256": "bf7afa27797bfecf9e867a2f5b656258c1bcf577f032c5414624d818f00fbf91",
+  "result_hashes": {
+    "baseline_trajectory_index.csv": "a896dbf7ba395cb0c6a68e4ca5566decec14d6cdcb82b99f2343819b77228549",
+    "baseline_center_level_summary.csv": "22cf4f15449f0d352e142035dffe622987e72a4a5bbc0081d661ae6fdcbfe026",
+    "baseline_scenario_summary.csv": "2e14bf7f75f824f4b8bd8ca18d139cefd454c16aafd57c6c5e9544d31d839012",
+    "proposed_vs_baseline_paired.csv": "bff0f7db73966bfee68f8dd499e87019c24d2aa1507db4ccaf1c11333e9cee8d",
+    "final_main_table.csv": "873f610f5d5e4825ecbd065a40ff86428e2266f89cdbd9970ad28f76534b02aa"
+  },
+  "audit_hashes": {
+    "baseline_execution_complete.json": "ed5b33245ba477fe74cfe1ddf7687e278d41c8ff21c4eca2167d4f29c9ba1d97",
+    "baseline_execution_integrity_audit.json": "6b0c48dc4d2b16583d7ba42a41c7a74717cd54237dd2862793d269358b75066f",
+    "baseline_leakage_audit.json": "6cde6d24fcb7e2d504fe879c3ce5184b288d85261110eaf36f4f9e80cc1fd32a",
+    "baseline_pairing_hash_audit.json": "45a2c2041007100b51c621866e6dbe5291094b32ac7da54a726b152580e37a45",
+    "baseline_provenance_audit.json": "8f779059151a207930b66cf57eb48e007e02d6e05c220a077c94da8732edce55",
+    "final_benchmark_manifest.json": "8ebbe73c40683c882c56cd5407cb546b24847aa78dbb8716fdf93e1aa656dfb7"
+  }
+}

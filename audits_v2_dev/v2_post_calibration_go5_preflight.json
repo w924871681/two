@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "purpose": "complete GO-5 evidence for the already selected final calibration configuration; not parameter tuning",
+  "checks": {
+    "reference_integrity": true,
+    "structure_fixed": true,
+    "history_capacity_fixed_by_scientific_core": true,
+    "final_config_hash_exact": true,
+    "gate_exact": true,
+    "rho_exact": true,
+    "epsilon_exact": true,
+    "scientific_core_unchanged": true,
+    "heldout_sealed": true,
+    "heldout_not_materialized": true,
+    "original_no_go_preserved": true
+  },
+  "reference": {
+    "status": "PASS",
+    "development_files": 4800,
+    "development_aggregate_sha256": "032239b87875b4a7f2a3f583a9a8e932fb681306a8f9d0f00ee56eb5f4aa9b34",
+    "expected_development_aggregate_sha256": "032239b87875b4a7f2a3f583a9a8e932fb681306a8f9d0f00ee56eb5f4aa9b34",
+    "reference_expected": 120,
+    "reference_valid": 120,
+    "reference_missing": [],
+    "reference_unexpected": [],
+    "reference_invalid": [],
+    "development_integrity_audit": "PASS",
+    "development_execution_complete": "PASS",
+    "development_manifest_sha256": "d0cbc97835f7c5994efd92a2804e2f8ce0bcd7bdcb7eae25bf8ed1fa94fd619e",
+    "reference_provenance": "V2 development execution manifest and immutable aggregate"
+  },
+  "scientific_implementation_commit": "7ae7fabd9a4e335e774fbcba2f38dfa8827bb8f3",
+  "scientific_core_sha256": "f27d0abb6fabb50453cb4e04684b8e7b5f99d27aca7ae1f1755990640f3ce024",
+  "frozen_config_sha256": "68e06d381ced23ed105694b97e221b37ea5302fb389789f9ec310c8bbe74d3f4",
+  "frozen_structure_sha256": "03d4f72e42c60687e109018347c3ac4e3501165e7f872b08f56b9b2ec1a12180",
+  "confirmatory_manifest_sha256": "6883504751748ea38a3399986ebe3b527ff0f0624dd69e468a93fcebe9d683c6",
+  "heldout_accessed": false,
+  "heldout_materialized": false
+}

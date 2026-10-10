@@ -1,0 +1,23 @@
+{
+  "schema": "ravm-dt-v2-severity-pairing-v1",
+  "status": "PASS",
+  "paired_stage_rows": 58320,
+  "expected_paired_stage_rows": 58320,
+  "expected_factorization": {
+    "baselines": 3,
+    "attack_families": 3,
+    "alpha_levels": 3,
+    "centers": 30,
+    "seeds": 3,
+    "stages": 24
+  },
+  "duplicate_combined_stage_keys": 0,
+  "mismatch_rows": {
+    "update_data_hash": 0,
+    "verification_data_hash": 0,
+    "service_data_hash": 0,
+    "attack_mask_hash": 0,
+    "initial_state_hash": 0
+  },
+  "pairing_unit": "center x seed x alpha x scenario x stage"
+}

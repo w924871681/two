@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Maintenance cost measured in the frozen Final V2 baseline benchmark.}
+\label{tab:maintenance_cost}
+\begin{tabular}{lrrr}
+\toprule
+Method & Maintenance runtime per stage (s) & Peak GPU memory (MiB) & Persistent buffer (KiB) \\
+\midrule
+RAVM-DT & 0.1845 & 53.16 & 151.88 \\
+Always-FT & 0.2496 & 53.02 & 0.00 \\
+ER & 0.2620 & 93.76 & 295.31 \\
+EWC & 0.5042 & 55.56 & 43.76 \\
+Huber-FT & 0.2501 & 53.02 & 0.00 \\
+ValidationCommit & 0.2515 & 64.59 & 0.00 \\
+Frozen & 0.0044 & 24.31 & 0.00 \\
+\bottomrule
+\end{tabular}
+\end{table}

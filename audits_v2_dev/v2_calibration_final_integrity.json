@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "checks": {
+    "expected_trajectory_count": true,
+    "valid_trajectory_count": true,
+    "missing_zero": true,
+    "duplicate_zero": true,
+    "unexpected_zero": true,
+    "partial_invalid_zero": true,
+    "metadata_consistent": true,
+    "immutable_data_and_attack_hashes_consistent_across_gate_configs": true,
+    "wrong_environment_outputs_not_in_formal_directory": true,
+    "runner_runtime_correct": true,
+    "all_worker_runtimes_correct": true,
+    "scientific_implementation_commit_exact": true,
+    "execution_recovery_commit_present": true,
+    "scientific_core_hash_unchanged": true,
+    "calibration_manifest_hash_unchanged": true,
+    "v1_frozen_artifacts_unchanged": true,
+    "confirmatory_manifest_hash_unchanged": true,
+    "heldout_access_false": true,
+    "heldout_materialized_false": true
+  },
+  "expected": 1920,
+  "valid": 1920,
+  "missing": 0,
+  "duplicate": 0,
+  "unexpected": 0,
+  "partial_invalid": 0,
+  "wrong_environment_included": 0,
+  "stage_rows": 46080,
+  "metadata_mismatches": [],
+  "invalid_files": [],
+  "missing_files": [],
+  "unexpected_files": [],
+  "immutable_hash_mismatch_groups": 0,
+  "scientific_implementation_commit": "7ae7fabd9a4e335e774fbcba2f38dfa8827bb8f3",
+  "execution_only_recovery_commit": "5e455455884d6db42f3bfa2e3a8c43eb0032b621",
+  "scientific_core_sha256": "f27d0abb6fabb50453cb4e04684b8e7b5f99d27aca7ae1f1755990640f3ce024",
+  "calibration_manifest_sha256": "acec81a765610dad089066f74984366f8cc4295c2ae0bc94e0ae6c01d87d8fa0",
+  "frozen_structure_sha256": "03d4f72e42c60687e109018347c3ac4e3501165e7f872b08f56b9b2ec1a12180",
+  "confirmatory_materialized": [],
+  "heldout_accessed": false,
+  "runner_runtime": {
+    "pid": 21604,
+    "sys_executable": "C:\\Users\\92487\\anaconda3\\envs\\rcf-dti-py311\\python.exe",
+    "python_version": "3.11.15",
+    "torch_version": "2.5.1+cu121",
+    "torch_cuda_version": "12.1",
+    "torch_cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 3060 Laptop GPU"
+  },
+  "worker_runtimes": {
+    "27580": {
+      "pid": 27580,
+      "sys_executable": "C:\\Users\\92487\\anaconda3\\envs\\rcf-dti-py311\\python.exe",
+      "python_version": "3.11.15",
+      "torch_version": "2.5.1+cu121",
+      "torch_cuda_version": "12.1",
+      "torch_cuda_available": true,
+      "gpu_name": "NVIDIA GeForce RTX 3060 Laptop GPU"
+    },
+    "26228": {
+      "pid": 26228,
+      "sys_executable": "C:\\Users\\92487\\anaconda3\\envs\\rcf-dti-py311\\python.exe",
+      "python_version": "3.11.15",
+      "torch_version": "2.5.1+cu121",
+      "torch_cuda_version": "12.1",
+      "torch_cuda_available": true,
+      "gpu_name": "NVIDIA GeForce RTX 3060 Laptop GPU"
+    }
+  }
+}

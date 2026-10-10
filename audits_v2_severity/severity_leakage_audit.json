@@ -1,0 +1,10 @@
+{
+  "schema": "ravm-dt-v2-severity-leakage-v1",
+  "status": "PASS",
+  "decision_ordering_errors": 0,
+  "final_test_centers_already_opened": true,
+  "fresh_or_unseen_claim": false,
+  "service_data_post_decision_only": true,
+  "scientific_core_hashes_unchanged": true,
+  "severity_results_not_used_for_tuning": true
+}

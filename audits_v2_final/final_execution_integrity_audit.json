@@ -1,0 +1,18 @@
+{
+  "schema": "ravm-dt-v2-final-execution-integrity-v1",
+  "status": "PASS",
+  "expected": 720,
+  "valid": 720,
+  "missing": 0,
+  "duplicate": 0,
+  "unexpected": 0,
+  "partial_invalid": 0,
+  "stage_rows": 17280,
+  "expected_stage_rows": 17280,
+  "invalid_state_chain_links": 0,
+  "data_attack_service_hash_mismatch_groups": 0,
+  "decision_ordering_errors": 0,
+  "missing_files": [],
+  "unexpected_files": [],
+  "invalid_files": []
+}

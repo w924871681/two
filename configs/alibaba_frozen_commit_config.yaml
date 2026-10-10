@@ -1,0 +1,7 @@
+{
+  "kappa_rec": 0.5,
+  "kappa_hist": 1.5,
+  "delta_imp": 5.60364755324872e-06,
+  "delta_ret": 2.8018237766243602e-05,
+  "validation_retain_all": true
+}

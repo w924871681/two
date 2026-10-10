@@ -1,0 +1,10 @@
+{
+  "status": "approved_for_formal_p6",
+  "git_sha": "c5fd73934d44e76629881b61ca77cd4a1a853b9a",
+  "joint_dag_sha256": "9020dc8cced08766c0bb02e5103578e3da958d02c2f504f793e4d3ebda76374a",
+  "execution_code_manifest_sha256": "223b48a7c848ae1829c7036410107a5f505bf1fbda9ec5df1c008d6c19e2351d",
+  "workers": 2,
+  "partition": "complete center x condition x seed workload",
+  "created_at": "2026-09-09T00:06:53.810026",
+  "heldout_started": false
+}

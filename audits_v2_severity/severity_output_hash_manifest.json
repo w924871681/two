@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "report_sha256": "7f224a42dd061c19a270e2147474c34da16486f871403e94a7bd1d2be808ad0d",
+  "result_hashes": {
+    "severity_trajectory_index.csv": "1cae04f9edfd7c4774aae9f430aae70d446e7366a4db00e12406c3765afc04b8",
+    "severity_scenario_summary.csv": "5a4034fcabd419634ca9dc60210757d2d3abb154ac8adca0b3d66b26fb0d5678",
+    "severity_paired_comparisons.csv": "04fea93cecbc3ab76f6ede458f8d9af6808cee9d5e021f101c0960cf145030db",
+    "severity_trend_table.csv": "8207b54c19ec78e7912fd51e92be9021b0051b4c4216392f98fca4e62dad4d61"
+  },
+  "audit_hashes": {
+    "alpha010_reuse_audit.json": "687ca028caba3d3858b49033210f35649303bf67bd95f4be57648fdb4e32e816",
+    "severity_execution_complete.json": "d9e500a330a7f960ac9fdfb491e78fbfc4b9bff156c058c2dbea2c90771167a8",
+    "severity_execution_integrity_audit.json": "be44d7eb6f841cf2162379b4da136777a4913a464d662b2927f2e80ada64cf66",
+    "severity_leakage_audit.json": "a4bdada9e07da33d5710b5b892175465b0ff9189b01adbe04890ff84303451d5",
+    "severity_manifest.json": "794db19c07b19a3bb673e1bc515a271553c1f24191c804c1a820952b1b97166d",
+    "severity_pairing_audit.json": "8f16742c910c8ce34378266c13138c4ca56ab3d9a825eb52b0c9a2b54c4f2f64",
+    "severity_preflight_audit.json": "65f3e6d0ac5482d2fd89d21c223df5ef659fa6e34c22e093c1fe86747d110398"
+  }
+}

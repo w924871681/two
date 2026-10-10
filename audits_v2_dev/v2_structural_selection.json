@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "winner": "V2_SP_ShortDual",
+  "winner_record": {
+    "arm_id": "V2_SP_ShortDual",
+    "variant_family": "V2_SP_ShortDual",
+    "balanced_lifecycle_mse": 0.003425283786859281,
+    "balanced_post_drift_excess_loss_area": 0.00925003787463844,
+    "balanced_beneficial_commit_recall": 0.29350907478949606,
+    "mixed_harmful_commit_rate": 0.04444444444444444,
+    "mixed_average_downside": 5.505740288450294e-06,
+    "mixed_commit_rate": 0.2513888888888889,
+    "rho": 0.05,
+    "epsilon": 5.6036475532487204e-05,
+    "safety_feasible": true,
+    "diagnostic_only": false,
+    "pareto_frontier": true
+  },
+  "eligible_count": 14,
+  "candidate_count_excluding_diagnostic": 19,
+  "rho": 0.05,
+  "epsilon": 5.6036475532487204e-05,
+  "frozen_structure_sha256": "03d4f72e42c60687e109018347c3ac4e3501165e7f872b08f56b9b2ec1a12180",
+  "selection_used_v1_heldout": false,
+  "selection_used_v2_confirmatory_heldout": false,
+  "selection_used_alibaba": false
+}

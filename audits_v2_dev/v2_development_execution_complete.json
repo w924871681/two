@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "phase": "development",
+  "completed": 4800,
+  "expected": 4800,
+  "workers": 2,
+  "worker_pids": [
+    11752,
+    12336
+  ],
+  "elapsed_s": 18062.934146165848,
+  "heldout_accessed": false,
+  "manifest_sha256": "d0cbc97835f7c5994efd92a2804e2f8ce0bcd7bdcb7eae25bf8ed1fa94fd619e"
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "winner": "kr0_kh0.5",
+  "winner_record": {
+    "arm_id": "kr0_kh0.5",
+    "variant_family": "V2_SP_ShortDual",
+    "balanced_lifecycle_mse": 0.0032678944493454267,
+    "balanced_post_drift_excess_loss_area": null,
+    "balanced_beneficial_commit_recall": 0.28480791046484616,
+    "mixed_harmful_commit_rate": 0.03541666666666666,
+    "mixed_average_downside": 4.162485210043403e-06,
+    "mixed_commit_rate": 0.22569444444444442,
+    "rho": 0.05,
+    "epsilon": 5.6036475532487204e-05,
+    "safety_feasible": true,
+    "diagnostic_only": false,
+    "pareto_frontier": true
+  },
+  "eligible_count": 14,
+  "grid_count": 16,
+  "rho": 0.05,
+  "epsilon": 5.6036475532487204e-05,
+  "frozen_commit_config_sha256": "68e06d381ced23ed105694b97e221b37ea5302fb389789f9ec310c8bbe74d3f4",
+  "selection_used_v1_heldout": false,
+  "selection_used_v2_confirmatory_heldout": false,
+  "selection_used_alibaba": false
+}

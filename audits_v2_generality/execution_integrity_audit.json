@@ -1,0 +1,18 @@
+{
+  "schema": "ravm-dt-v2-generality-integrity-v1",
+  "status": "PASS",
+  "expected": 1800,
+  "valid": 1800,
+  "missing": 0,
+  "duplicate": 0,
+  "unexpected": 0,
+  "partial_invalid": 0,
+  "stage_rows": 43200,
+  "expected_stage_rows": 43200,
+  "stage_errors": 0,
+  "decision_ordering_errors": 0,
+  "state_chain_errors": 0,
+  "missing_files": [],
+  "unexpected_files": [],
+  "invalid_files": []
+}

@@ -1,0 +1,9 @@
+{
+  "schema": "ravm-dt-v2-alibaba-leakage-v1",
+  "status": "PASS",
+  "decision_precedes_service": true,
+  "state_chain_valid": true,
+  "service_data_post_decision_only": true,
+  "no_alibaba_recalibration": true,
+  "terminology": "external-domain evaluation; not fresh confirmation"
+}

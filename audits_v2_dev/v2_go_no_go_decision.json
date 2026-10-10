@@ -1,0 +1,381 @@
+{
+  "schema": "ravm-dt-v2-go-no-go-decision-v1",
+  "protocol_sha256": "65898e871abd4f557ab0daefb3970669115c897692784030143186f772116075",
+  "protocol_status": "FROZEN_BEFORE_CALIBRATION_COMPLETION",
+  "verdict": "NO-GO",
+  "gates": {
+    "GO-1": {
+      "status": "PASS",
+      "calibration_winner": "kr0_kh0.5",
+      "mixed_harmful_commit_rate": 0.03541666666666666,
+      "rho": 0.05,
+      "mixed_average_downside": 4.162485210043403e-06,
+      "epsilon": 5.6036475532487204e-05,
+      "integrity": "PASS"
+    },
+    "GO-2": {
+      "status": "PASS",
+      "balanced_lifecycle_mse_paired": {
+        "difference": -0.00039696227468488405,
+        "ci_low": -0.0005303481464467639,
+        "ci_high": -0.00027682775463583006,
+        "scenario_differences": {
+          "stationary": -0.00026114219912820005,
+          "gradual": -0.0003789538034147333,
+          "abrupt": -0.0005037248391696801,
+          "recurring": -0.00044637924939806676,
+          "mixed_a010_both": -0.0003946112823137401
+        },
+        "bootstrap_replicates": 4000,
+        "unit": "center",
+        "scenario_weighting": "equal"
+      },
+      "benign_regime_lifecycle_mse_paired": {
+        "stationary": {
+          "difference": -0.0002611421991281,
+          "ci_low": -0.0006039792788214,
+          "ci_high": -5.577114756710493e-05,
+          "bootstrap_replicates": 4000,
+          "unit": "center"
+        },
+        "gradual": {
+          "difference": -0.0003789538034147,
+          "ci_low": -0.000699220502348,
+          "ci_high": -0.0001254954278313,
+          "bootstrap_replicates": 4000,
+          "unit": "center"
+        },
+        "abrupt": {
+          "difference": -0.0005037248391696,
+          "ci_low": -0.0008564532294662,
+          "ci_high": -0.0001509964488731,
+          "bootstrap_replicates": 4000,
+          "unit": "center"
+        },
+        "recurring": {
+          "difference": -0.000446379249398,
+          "ci_low": -0.000764418793066,
+          "ci_high": -0.0001974901152102,
+          "bootstrap_replicates": 4000,
+          "unit": "center"
+        },
+        "mixed_a010_both": {
+          "difference": -0.0003946112823137,
+          "ci_low": -0.0005770798909169,
+          "ci_high": -0.0002219138234017,
+          "bootstrap_replicates": 4000,
+          "unit": "center"
+        }
+      }
+    },
+    "GO-3": {
+      "status": "PASS",
+      "balanced_beneficial_commit_recall_paired": {
+        "difference": 0.04663555712371165,
+        "ci_low": 0.018865534279591093,
+        "ci_high": 0.07258837593705932,
+        "scenario_differences": {
+          "stationary": 0.0758565292412378,
+          "gradual": 0.030674867339627078,
+          "abrupt": -0.027531474323774792,
+          "recurring": 0.08535363117810285,
+          "mixed_a010_both": 0.06882423218336531
+        },
+        "bootstrap_replicates": 4000,
+        "unit": "center",
+        "scenario_weighting": "equal"
+      },
+      "balanced_post_drift_excess_loss_area_paired": {
+        "difference": -0.00863526677971503,
+        "ci_low": -0.012104457778688028,
+        "ci_high": -0.005173468479317542,
+        "scenario_differences": {
+          "gradual": -0.006763220481419327,
+          "abrupt": -0.0098350775622142,
+          "recurring": -0.00930750229551156
+        },
+        "bootstrap_replicates": 4000,
+        "unit": "center",
+        "scenario_weighting": "equal"
+      },
+      "balanced_censored_recovery_rate_paired": {
+        "difference": -0.4666666666666666,
+        "ci_low": -0.6,
+        "ci_high": -0.35555555555555546,
+        "scenario_differences": {
+          "gradual": -0.3333333333333333,
+          "abrupt": -0.3333333333333333,
+          "recurring": -0.7333333333333332
+        },
+        "bootstrap_replicates": 4000,
+        "unit": "center",
+        "scenario_weighting": "equal"
+      },
+      "improvement_not_only_commit_frequency": "plasticity endpoints are candidate-quality/recovery endpoints rather than commit count"
+    },
+    "GO-4": {
+      "status": "PASS",
+      "mixed_conditional_harmful_rate_paired": {
+        "difference": -0.0510949235949235,
+        "ci_low": -0.1179408727846227,
+        "ci_high": 0.0183620881433381,
+        "bootstrap_replicates": 4000,
+        "unit": "center"
+      },
+      "mixed_commit_rate_paired": {
+        "difference": 0.03125,
+        "ci_low": 0.0097222222222222,
+        "ci_high": 0.0555555555555555,
+        "bootstrap_replicates": 4000,
+        "unit": "center"
+      },
+      "v2": {
+        "lifecycle_mse": 0.0034856471886895,
+        "lifecycle_mae": 0.0444328608282375,
+        "harmful_commit_rate": 0.0444444444444444,
+        "average_downside": 5.505740288450294e-06,
+        "conditional_harmful_rate": 0.2159234746734746,
+        "beneficial_commit_recall": 0.3260679981926112,
+        "commit_rate": 0.2513888888888889
+      },
+      "v1": {
+        "lifecycle_mse": 0.0038802584710032,
+        "lifecycle_mae": 0.0467940628664412,
+        "harmful_commit_rate": 0.0479166666666666,
+        "average_downside": 5.782477455795035e-06,
+        "conditional_harmful_rate": 0.2753517316017316,
+        "beneficial_commit_recall": 0.2572437660092458,
+        "commit_rate": 0.2201388888888888
+      }
+    },
+    "GO-5": {
+      "status": "FAIL",
+      "scenarios": {
+        "persistent_a010_verification_only": {
+          "v2": {
+            "lifecycle_mse": 0.003405514968593,
+            "lifecycle_mae": 0.0438823614767493,
+            "harmful_commit_rate": 0.0173611111111111,
+            "average_downside": 2.2577105685031323e-06,
+            "conditional_harmful_rate": 0.0557276982276982,
+            "beneficial_commit_recall": 0.2900384687078724,
+            "commit_rate": 0.2583333333333333
+          },
+          "v1": {
+            "lifecycle_mse": 0.0038211844706892,
+            "lifecycle_mae": 0.0463701378689923,
+            "harmful_commit_rate": 0.01875,
+            "average_downside": 1.1473831060961591e-06,
+            "conditional_harmful_rate": 0.1069336219336219,
+            "beneficial_commit_recall": 0.2564506125639016,
+            "commit_rate": 0.2291666666666666
+          },
+          "harmful_rate_paired": {
+            "difference": -0.0013888888888888,
+            "ci_low": -0.0090277777777777,
+            "ci_high": 0.0069444444444444,
+            "bootstrap_replicates": 4000,
+            "unit": "center"
+          },
+          "downside_paired": {
+            "difference": 1.1103274624069731e-06,
+            "ci_low": 1.319161755317917e-07,
+            "ci_high": 2.3463021170752443e-06,
+            "bootstrap_replicates": 4000,
+            "unit": "center"
+          },
+          "commit_rate_paired": {
+            "difference": 0.0291666666666666,
+            "ci_low": -0.0027777777777777,
+            "ci_high": 0.0611111111111111,
+            "bootstrap_replicates": 4000,
+            "unit": "center"
+          },
+          "conditional_harmful_paired": {
+            "difference": -0.0512059237059237,
+            "ci_low": -0.1208726909664409,
+            "ci_high": 0.0023157906907907,
+            "bootstrap_replicates": 4000,
+            "unit": "center"
+          },
+          "constraint_fail": false,
+          "paired_ci_fail": true
+        },
+        "replay_a010_verification_only": {
+          "v2": {
+            "lifecycle_mse": 0.0034455420484542,
+            "lifecycle_mae": 0.044166258583492,
+            "harmful_commit_rate": 0.0159722222222222,
+            "average_downside": 1.4364667650723126e-06,
+            "conditional_harmful_rate": 0.0864221426721426,
+            "beneficial_commit_recall": 0.2622470299401919,
+            "commit_rate": 0.2347222222222222
+          },
+          "v1": {
+            "lifecycle_mse": 0.0038407052936235,
+            "lifecycle_mae": 0.0465731382402332,
+            "harmful_commit_rate": 0.0083333333333333,
+            "average_downside": 2.726359121474955e-07,
+            "conditional_harmful_rate": 0.1048772215438881,
+            "beneficial_commit_recall": 0.2016156092770543,
+            "commit_rate": 0.1791666666666666
+          },
+          "harmful_rate_paired": {
+            "difference": 0.0076388888888888,
+            "ci_low": 0.0006944444444444,
+            "ci_high": 0.0166666666666666,
+            "bootstrap_replicates": 4000,
+            "unit": "center"
+          },
+          "downside_paired": {
+            "difference": 1.1638308529248171e-06,
+            "ci_low": 2.51155924059989e-07,
+            "ci_high": 2.5626647321682703e-06,
+            "bootstrap_replicates": 4000,
+            "unit": "center"
+          },
+          "commit_rate_paired": {
+            "difference": 0.0555555555555555,
+            "ci_low": 0.0222222222222222,
+            "ci_high": 0.08890625,
+            "bootstrap_replicates": 4000,
+            "unit": "center"
+          },
+          "conditional_harmful_paired": {
+            "difference": -0.0577944175166397,
+            "ci_low": -0.1682213555477444,
+            "ci_high": 0.0270008181119292,
+            "bootstrap_replicates": 4000,
+            "unit": "center"
+          },
+          "constraint_fail": false,
+          "paired_ci_fail": true
+        }
+      }
+    },
+    "GO-6": {
+      "status": "PASS",
+      "balanced_lifecycle_mse_paired": {
+        "difference": -0.00039696227468488405,
+        "ci_low": -0.0005303481464467639,
+        "ci_high": -0.00027682775463583006,
+        "scenario_differences": {
+          "stationary": -0.00026114219912820005,
+          "gradual": -0.0003789538034147333,
+          "abrupt": -0.0005037248391696801,
+          "recurring": -0.00044637924939806676,
+          "mixed_a010_both": -0.0003946112823137401
+        },
+        "bootstrap_replicates": 4000,
+        "unit": "center",
+        "scenario_weighting": "equal"
+      },
+      "seed_wise_balanced_differences": {
+        "7311": -0.0003441401615903801,
+        "7312": -0.000402362450780244,
+        "7313": -0.00044438421168402803
+      },
+      "negative_seed_count": 3,
+      "center_difference_distribution": {
+        "count": 20,
+        "min": -0.0011820668070059504,
+        "q25": -0.0007740212462926504,
+        "median": -0.00018792160901484172,
+        "q75": -3.639700864569582e-05,
+        "max": -5.507325921833187e-07,
+        "negative_fraction": 1.0,
+        "five_most_favorable": {
+          "11019": -0.0011820668070059504,
+          "11000": -0.0009343497917547837,
+          "11010": -0.0008912692121359669,
+          "11001": -0.0008482005570032165,
+          "11002": -0.00080370232818595
+        },
+        "five_least_favorable": {
+          "11016": -3.3013980606083324e-05,
+          "11014": -3.0639413024683325e-05,
+          "11009": -3.053638081638337e-05,
+          "11008": -2.0038183720333255e-05,
+          "11006": -5.507325921833187e-07
+        }
+      }
+    }
+  },
+  "calibration_integrity": {
+    "status": "PASS",
+    "checks": {
+      "expected_trajectory_count": true,
+      "valid_trajectory_count": true,
+      "missing_zero": true,
+      "duplicate_zero": true,
+      "unexpected_zero": true,
+      "partial_invalid_zero": true,
+      "metadata_consistent": true,
+      "immutable_data_and_attack_hashes_consistent_across_gate_configs": true,
+      "wrong_environment_outputs_not_in_formal_directory": true,
+      "runner_runtime_correct": true,
+      "all_worker_runtimes_correct": true,
+      "scientific_implementation_commit_exact": true,
+      "execution_recovery_commit_present": true,
+      "scientific_core_hash_unchanged": true,
+      "calibration_manifest_hash_unchanged": true,
+      "v1_frozen_artifacts_unchanged": true,
+      "confirmatory_manifest_hash_unchanged": true,
+      "heldout_access_false": true,
+      "heldout_materialized_false": true
+    },
+    "expected": 1920,
+    "valid": 1920,
+    "missing": 0,
+    "duplicate": 0,
+    "unexpected": 0,
+    "partial_invalid": 0,
+    "wrong_environment_included": 0,
+    "stage_rows": 46080,
+    "metadata_mismatches": [],
+    "invalid_files": [],
+    "missing_files": [],
+    "unexpected_files": [],
+    "immutable_hash_mismatch_groups": 0,
+    "scientific_implementation_commit": "7ae7fabd9a4e335e774fbcba2f38dfa8827bb8f3",
+    "execution_only_recovery_commit": "5e455455884d6db42f3bfa2e3a8c43eb0032b621",
+    "scientific_core_sha256": "f27d0abb6fabb50453cb4e04684b8e7b5f99d27aca7ae1f1755990640f3ce024",
+    "calibration_manifest_sha256": "acec81a765610dad089066f74984366f8cc4295c2ae0bc94e0ae6c01d87d8fa0",
+    "frozen_structure_sha256": "03d4f72e42c60687e109018347c3ac4e3501165e7f872b08f56b9b2ec1a12180",
+    "confirmatory_materialized": [],
+    "heldout_accessed": false,
+    "runner_runtime": {
+      "pid": 21604,
+      "sys_executable": "C:\\Users\\92487\\anaconda3\\envs\\rcf-dti-py311\\python.exe",
+      "python_version": "3.11.15",
+      "torch_version": "2.5.1+cu121",
+      "torch_cuda_version": "12.1",
+      "torch_cuda_available": true,
+      "gpu_name": "NVIDIA GeForce RTX 3060 Laptop GPU"
+    },
+    "worker_runtimes": {
+      "27580": {
+        "pid": 27580,
+        "sys_executable": "C:\\Users\\92487\\anaconda3\\envs\\rcf-dti-py311\\python.exe",
+        "python_version": "3.11.15",
+        "torch_version": "2.5.1+cu121",
+        "torch_cuda_version": "12.1",
+        "torch_cuda_available": true,
+        "gpu_name": "NVIDIA GeForce RTX 3060 Laptop GPU"
+      },
+      "26228": {
+        "pid": 26228,
+        "sys_executable": "C:\\Users\\92487\\anaconda3\\envs\\rcf-dti-py311\\python.exe",
+        "python_version": "3.11.15",
+        "torch_version": "2.5.1+cu121",
+        "torch_cuda_version": "12.1",
+        "torch_cuda_available": true,
+        "gpu_name": "NVIDIA GeForce RTX 3060 Laptop GPU"
+      }
+    }
+  },
+  "heldout_accessed": false,
+  "heldout_materialized": false,
+  "confirmatory_started": false,
+  "terminal_state": "WAITING_FOR_MANUAL_V2_METHOD_REVIEW"
+}

@@ -1,0 +1,11 @@
+{
+  "pid": 21892,
+  "sys_executable": "C:\\Users\\92487\\anaconda3\\envs\\rcf-dti-py311\\python.exe",
+  "python_version": "3.11.15",
+  "torch_version": "2.5.1+cu121",
+  "torch_cuda_version": "12.1",
+  "torch_cuda_available": true,
+  "gpu_name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "phase": "post_calibration_go5",
+  "role": "worker"
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "manifest_sha256": "6883504751748ea38a3399986ebe3b527ff0f0624dd69e468a93fcebe9d683c6",
+  "expected_manifest_sha256": "6883504751748ea38a3399986ebe3b527ff0f0624dd69e468a93fcebe9d683c6",
+  "pool_status": "SEALED_NOT_MATERIALIZED",
+  "materialized_centers": [],
+  "service_outcomes_accessed": false
+}

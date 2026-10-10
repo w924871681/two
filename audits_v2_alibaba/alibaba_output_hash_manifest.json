@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "report_sha256": "8029bb085276341f4bde73ee25548fac2563887efb492efc2f999892ecb243cf",
+  "result_hashes": {
+    "alibaba_trajectory_index.csv": "7a17783a01d164acd5bcab23a5d344021c8bc3659aba9559a66a6ed3c9f39f2c",
+    "alibaba_machine_level_summary.csv": "5850c79d1fac9ade921d27a15d565bade70c637a3e09465d892f4d7f9af5ecbf",
+    "alibaba_scenario_summary.csv": "8873354feac85e427d9d7cb2366042849cfdeeac13e97dfce9142a7fc3fbe33f",
+    "alibaba_paired_comparisons.csv": "0f2c9506cb609f8dbe6a9b04fb931ef7ee059d015de28e6342c97c2493e00075"
+  },
+  "audit_hashes": {
+    "alibaba_environment_audit.json": "897e3f330175c598f3cb071b120e29d4c75418404ad5074d67e539f9dffb8112",
+    "alibaba_execution_complete.json": "26099f2269a307dd9dcb4c1c867b73e22c7a7e3cdc1c8b4a3dccab31b6bdc367",
+    "alibaba_execution_integrity_audit.json": "c85884b6eec7cabd3ab79406771840e4d6ec47275e55d7ecd580be72af5896cd",
+    "alibaba_leakage_audit.json": "e5c4c3b013ebf4b8ebb43af5a18a2c86d2a0264119b0e4e1eb6798b21c1e407e",
+    "alibaba_pairing_audit.json": "582e2e189262128963dcc45ebcfda10617ce9644383689ff3b4ec4d5c55f4065",
+    "alibaba_protocol_provenance_audit.json": "d8a3fc1790a07788e35b3e708e87f2afd54f48610415f4d917e45d3f88319bc5"
+  }
+}

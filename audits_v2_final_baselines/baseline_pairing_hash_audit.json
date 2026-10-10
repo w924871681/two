@@ -1,0 +1,15 @@
+{
+  "schema": "ravm-dt-v2-final-baseline-pairing-v1",
+  "status": "PASS",
+  "paired_stage_rows": 51840,
+  "expected": 51840,
+  "mismatch_rows": {
+    "update_data_hash": 0,
+    "verification_data_hash": 0,
+    "service_data_hash": 0,
+    "attack_mask_hash": 0,
+    "initial_state_hash": 0
+  },
+  "replay_mapping_check": "attack_mask_hash includes attack source timestamps and is exact",
+  "persistent_and_mixed_realization_check": "attack_mask_hash exact"
+}

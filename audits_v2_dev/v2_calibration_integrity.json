@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "phase": "calibration",
+  "trajectory_files": 1920,
+  "trajectory_groups": 1920,
+  "expected_trajectories": 1920,
+  "stage_rows": 46080,
+  "duplicate_scientific_keys": 0,
+  "invalid_stage_sequences": 0,
+  "forbidden_centers": [],
+  "service_access": "evaluation-only after decision token, enforced by core.v2_engine",
+  "v2_confirmatory_heldout_accessed": false
+}

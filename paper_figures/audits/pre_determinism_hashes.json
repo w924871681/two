@@ -1,0 +1,118 @@
+[
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\data\\fig2_overall_baseline.csv",
+    "Hash": "CA7C0026FAB0B1FCA8506FA39CF40A0A7D5C7273F315A8563C38657AC109EF7E"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\data\\fig3_corruption_severity.csv",
+    "Hash": "85F7BB5B9FE7F47207E5A56A472B949B5786AA1CC8C7C35BF0E2BE62A41111AB"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\data\\fig4_benign_evolution.csv",
+    "Hash": "D8CEE76B0D4A4D951A6F92A383EF23F71E6DC5A3F43BBBA7EE7ADE18AD8D43B8"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\data\\fig5a_candidate_complexity.csv",
+    "Hash": "95A8DA2B95839A87FA175E42432CCB30AE23D42045694105F5D459CF6C1FE21E"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\data\\fig5b_temporal_tradeoff.csv",
+    "Hash": "66D5EA07DBA80481E6627851005A4CF0D8C86845B1AC4449A93EFD10DE59D2A8"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\data\\fig5c_selective_commit.csv",
+    "Hash": "F0DE48C7833565B65A0AE83165EA4D30B5FA26107BF7441ABA136E010C5A5A76"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\data\\fig6a_kappa_frontier.csv",
+    "Hash": "58C5CA051015583AE8A193ADFC6ACBDCFD2731E0B66AE09A0E9058B551E0B5BA"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\data\\fig6bc_generality_effects.csv",
+    "Hash": "494FC3937C2B96939D9B4B27919A42626D0C12173B979F271266E8C45DFA89E3"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\data\\fig6c_generality_effect_scatter.csv",
+    "Hash": "58EA5B399FD2E191C5D200B775C2B4D375E78A220AB2A330F32EE06D0A463C73"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\data\\fig7_alibaba_external.csv",
+    "Hash": "246FE118CFA42B75460E22BE431D7D3481E3876FCE4B5A742AE555791125316E"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\data\\primary_five_condition_paired_comparisons.csv",
+    "Hash": "46E13AF3A8A659B2B5B7B8A37F54068126B085F49550046B88FADC891014EB94"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\data\\primary_five_condition_summary.csv",
+    "Hash": "7E5C07B5AFB1CD53C89982795D413F6D3BECBC6A8C494F8E09D87138F49F4220"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\data\\primary_five_vs_seven_audit.csv",
+    "Hash": "D0402F540A41E381D84644C064514F3F6C6BDA2885944E4622CE945246EEEC84"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\pdf\\fig2_overall_baseline.pdf",
+    "Hash": "F1582FFEBA4BD5F091A8E879E26915BD2F692D84B1AB1AA553D1CE9CF111DF35"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\pdf\\fig3_corruption_severity.pdf",
+    "Hash": "F51CF1E7538C6F7A93BE2B7ADB4619F67E0DC6DB143B2CF198D0B19701B8E518"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\pdf\\fig4_benign_evolution.pdf",
+    "Hash": "D5C73D4162EEB1DB101B572CBA51A540C00DF028CD15189E00E7CB1368F9FCD1"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\pdf\\fig5_mechanism_analysis.pdf",
+    "Hash": "038D8CE56BF4D40288D7A3153DE5048D9F819543D60FFC79EC57B9BE3C3E6DA4"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\pdf\\fig6_sensitivity_generality.pdf",
+    "Hash": "A9AE82BA5CA199B253DF5B48BD640EE3A80893A6A5278F87D193426CC59B5E08"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\pdf\\fig7_alibaba_external.pdf",
+    "Hash": "F8488651629C9AA545547345403B126DD0195AA0089A376C8BC89D6A0D5B25C5"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\png\\fig2_overall_baseline.png",
+    "Hash": "1DFFAC0F9EB56D9BCC6A570DB249158B753C20CE3CD6BE4A8AF44DD5FFBB7F60"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\png\\fig3_corruption_severity.png",
+    "Hash": "933F310F94B511CA6F84C3A3C88AED4F350723B91DC24B74A1D7C5FA97103DB2"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\png\\fig4_benign_evolution.png",
+    "Hash": "670EC62B7BDD05E3DC2F1269BB83EC71A6C5D3D86E7EA26A58C135122616FE7C"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\png\\fig5_mechanism_analysis.png",
+    "Hash": "2054A953A29A6FB0925BA6356365D3943F6BD75000A19548E83BC3609C6E52D9"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\png\\fig6_sensitivity_generality.png",
+    "Hash": "7A64BE3B6C6F0526AF20F359E04FE31F2330C72E3ADABFE88515B1030830D6E9"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\png\\fig7_alibaba_external.png",
+    "Hash": "62C653C68DEE4ABC2B39CC25BF48927D76B7410E0FE5BABDC98FEA47B2F65832"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\tables\\table1_main_experimental_configuration.csv",
+    "Hash": "C70CCAE06105EFA04D986355A7826F4620A953557DC972591AF4CFAB50841303"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\tables\\table1_main_experimental_configuration.tex",
+    "Hash": "75BEFFD9835109E95D06F383A5D4F8924C754A75158F2372DD47B5733D2DD2A0"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\tables\\table2_maintenance_cost.csv",
+    "Hash": "638A5F94CE031CA6A028C9DF302DFC7CD227DC15C81DE53C1577B2A11FCF3BFA"
+  },
+  {
+    "Path": "D:\\dt-trustworthy-maintenance\\paper_figures\\tables\\table2_maintenance_cost.tex",
+    "Hash": "F21CE2148FD9FE1D6BDCC76D40F754565089AA662D3749D2EA45FC1516255CBE"
+  }
+]
