@@ -1,0 +1,45 @@
+{
+  "additional_m0_steps": 0,
+  "at_unix": 1792579277.6457264,
+  "authorization": [
+    "修正，你能修正嘛，还是需要gpt来修正？",
+    "那么修正后重新执行"
+  ],
+  "combined_actual_smoke_cost_expected": 418400,
+  "corrected_composite_expected_steps": 394400,
+  "corrected_composite_nominal_cap": 404000,
+  "correction_optimizer_steps": 24000,
+  "correction_optimizer_steps_exclusive_cap": 24000,
+  "correction_rule": "clean native alpha=0, all other streams unchanged; no new candidate/parameter/seed/center selection",
+  "downstream_original_gates_unchanged": true,
+  "excluded_failed_optimizer_steps": 24000,
+  "existing_smoke_data_reused": true,
+  "failed_round_actual_steps": 394400,
+  "kind": "EXPLICIT_ENGINEERING_CORRECTION_NOT_NEW_INDEPENDENT_SMOKE",
+  "new_final_data_unopened": true,
+  "new_training_trajectories": 24,
+  "no_paper_edits": true,
+  "original_execution_sha256": "23abd9da31aa4b905ce8df02a719be295f4f2a774686144cdc3bd89808eb2774",
+  "original_root": "D:\\dt-talk\\experiments\\D3f2R_SMOKE_NEW_FINAL_20261021",
+  "patches": {
+    "RUN_MANIFEST.json": {
+      "after": "275b2eccfa1acd9a4b099e062d954f6894ec231b22ee062db080a97698e4f2f7",
+      "before": "1a632a06448d304c6f7dcb38f75aadfaea5ab1687d18b7323beabae6996102b6"
+    },
+    "d3_common.py": {
+      "after": "5f404548438cf697c7e4f223eebe22ecef0111fcbc766ee7500b5ffd231ceafd",
+      "before": "5dab57bc17b5ada97c32b347397e685b69480fb810414a20851ff6404ad3ad42"
+    },
+    "legacy_adapter.py": {
+      "after": "77ae3083a50f4c68894160616c5eeb18cf47bab27189740aec90ddeeadd3e569",
+      "before": "de2e61433ae3658d5ac2dfffea4fa5648d27691326feb60b924105a260bff52b"
+    },
+    "new_audit.py": {
+      "after": "3dcbf481f89c9645428826c365b58442fc73a63004158ec86a2dc9c87ba7796c",
+      "before": "91211a587cb92483aeb88b47cf4ddd880729497e295bf8c6d03a342d70ef16ff"
+    }
+  },
+  "reused_optimizer_steps": 370400,
+  "reused_trajectories": 312,
+  "smoke_is_development_only": true
+}

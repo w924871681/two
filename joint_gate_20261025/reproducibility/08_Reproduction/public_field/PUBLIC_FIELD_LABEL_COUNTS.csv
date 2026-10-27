@@ -1,0 +1,19 @@
+﻿file,released_rows,last_column,category,count,record_unit,not_supported
+office_scientific_data.csv,175532,labeling,Normal condition,119402,Released curated hourly record; not independent fault event,Original-site incidence; injected mean bias; episode length without ordering
+office_scientific_data.csv,175532,labeling,Supply fan fault,47983,Released curated hourly record; not independent fault event,Original-site incidence; injected mean bias; episode length without ordering
+office_scientific_data.csv,175532,labeling,Return air temperature fault,6999,Released curated hourly record; not independent fault event,Original-site incidence; injected mean bias; episode length without ordering
+office_scientific_data.csv,175532,labeling,Supply air temperature fault,1031,Released curated hourly record; not independent fault event,Original-site incidence; injected mean bias; episode length without ordering
+office_scientific_data.csv,175532,labeling,Valve position fault,117,Released curated hourly record; not independent fault event,Original-site incidence; injected mean bias; episode length without ordering
+hosptial_scientific_data.csv,66048,labeling,Normal condition,53757,Released curated hourly record; not independent fault event,Original-site incidence; injected mean bias; episode length without ordering
+hosptial_scientific_data.csv,66048,labeling,Return air temperature fault,8835,Released curated hourly record; not independent fault event,Original-site incidence; injected mean bias; episode length without ordering
+hosptial_scientific_data.csv,66048,labeling,Supply fan fault,1921,Released curated hourly record; not independent fault event,Original-site incidence; injected mean bias; episode length without ordering
+hosptial_scientific_data.csv,66048,labeling,Valve position fault,1525,Released curated hourly record; not independent fault event,Original-site incidence; injected mean bias; episode length without ordering
+hosptial_scientific_data.csv,66048,labeling,Supply air temperature fault,9,Released curated hourly record; not independent fault event,Original-site incidence; injected mean bias; episode length without ordering
+hosptial_scientific_data.csv,66048,labeling,Cooling supply temperature fault,1,Released curated hourly record; not independent fault event,Original-site incidence; injected mean bias; episode length without ordering
+auditorium_scientific_data.csv,113375,labeling,Normal condition,60219,Released curated hourly record; not independent fault event,Original-site incidence; injected mean bias; episode length without ordering
+auditorium_scientific_data.csv,113375,labeling,Heating pump fault,24890,Released curated hourly record; not independent fault event,Original-site incidence; injected mean bias; episode length without ordering
+auditorium_scientific_data.csv,113375,labeling,Cooling pump fault,19292,Released curated hourly record; not independent fault event,Original-site incidence; injected mean bias; episode length without ordering
+auditorium_scientific_data.csv,113375,labeling,Supply fan fault,6525,Released curated hourly record; not independent fault event,Original-site incidence; injected mean bias; episode length without ordering
+auditorium_scientific_data.csv,113375,labeling,Return air temperature fault,1734,Released curated hourly record; not independent fault event,Original-site incidence; injected mean bias; episode length without ordering
+auditorium_scientific_data.csv,113375,labeling,Supply air temperature fault,404,Released curated hourly record; not independent fault event,Original-site incidence; injected mean bias; episode length without ordering
+auditorium_scientific_data.csv,113375,labeling,Valve position fault,311,Released curated hourly record; not independent fault event,Original-site incidence; injected mean bias; episode length without ordering

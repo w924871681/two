@@ -1,0 +1,67 @@
+[
+  {
+    "path": "experiments/D3f2R_CLEANFIX_20261021/runtime/vendor/main_cfg.py",
+    "provided": "08_Reproduction\\protocol_sources\\experiments\\D3f2R_CLEANFIX_20261021\\runtime\\vendor\\main_cfg.py",
+    "sha256": "fea128a2649301017a2a8ad6cab3db30392e180c2f3aa1216e9a83fefcd5d005"
+  },
+  {
+    "path": "experiments/D3f2R_CLEANFIX_20261021/runtime/vendor/sim.py",
+    "provided": "08_Reproduction\\protocol_sources\\experiments\\D3f2R_CLEANFIX_20261021\\runtime\\vendor\\sim.py",
+    "sha256": "930fa8ebe34a442d53af16a054955580f2d0c41ef2514a3cfd125b0e6905883d"
+  },
+  {
+    "path": "experiments/D3f2R_CLEANFIX_20261021/runtime/core/protocol.py",
+    "provided": "08_Reproduction\\protocol_sources\\experiments\\D3f2R_CLEANFIX_20261021\\runtime\\core\\protocol.py",
+    "sha256": "d28e057b123d1db38a02de8764976a3657d7298b3c1f3f1db6e74a3fb654c297"
+  },
+  {
+    "path": "experiments/D3f2R_CLEANFIX_20261021/runtime/core/models.py",
+    "provided": "08_Reproduction\\protocol_sources\\experiments\\D3f2R_CLEANFIX_20261021\\runtime\\core\\models.py",
+    "sha256": "b38b29b74ff4191add5e8c48e9d916529afb67f801830c68e290f07deacfa656"
+  },
+  {
+    "path": "experiments/D3f2R_CLEANFIX_20261021/runtime/b1_data.py",
+    "provided": "08_Reproduction\\protocol_sources\\experiments\\D3f2R_CLEANFIX_20261021\\runtime\\b1_data.py",
+    "sha256": "5f4ddb81aa76a2f3535030ce1047f0e3f1429d4dc44aa5e87f00855609fb46a7"
+  },
+  {
+    "path": "experiments/D3f2R_CLEANFIX_20261021/runtime/stage3_engine.py",
+    "provided": "08_Reproduction\\protocol_sources\\experiments\\D3f2R_CLEANFIX_20261021\\runtime\\stage3_engine.py",
+    "sha256": "238cd0f34fdc8a35d40488beca62f8868ba2fc97996cafccbccae76d82fcab8a"
+  },
+  {
+    "path": "experiments/D3f2R_CLEANFIX_20261021/RUN_PROTOCOL_LOCK.json",
+    "provided": "08_Reproduction\\protocol_sources\\experiments\\D3f2R_CLEANFIX_20261021\\RUN_PROTOCOL_LOCK.json",
+    "sha256": "19cb3a40590ae78561b523087a4107dae3b2e0b2412eb13b590fee2376878b79"
+  },
+  {
+    "path": "experiments/D3f2R_CLEANFIX_20261021/DEVCAL_SELECTED_LOCK.json",
+    "provided": "08_Reproduction\\protocol_sources\\experiments\\D3f2R_CLEANFIX_20261021\\DEVCAL_SELECTED_LOCK.json",
+    "sha256": "eb3ff207b5290305c95f0fc28910455e3685d49ed0ee6da3d0e04c122855600c"
+  },
+  {
+    "path": "RAVM_JOINT_CMC_COVERAGE_20261022/datasets.py",
+    "provided": "08_Reproduction\\protocol_sources\\RAVM_JOINT_CMC_COVERAGE_20261022\\datasets.py",
+    "sha256": "bd1d4c3fc991436191db29a165e5ebdf6d0babfd9a4fa83e63d5b2efa0902aaa"
+  },
+  {
+    "path": "paper2_revision_execution_20261012/code/revision_building.py",
+    "provided": "08_Reproduction\\protocol_sources\\paper2_revision_execution_20261012\\code\\revision_building.py",
+    "sha256": "876f1823921bc00fcfaed92c6e957ff2ec849c042bde287f59aa16bbe3a8a22e"
+  },
+  {
+    "path": "paper2_revision_round2_20261013/code/thermal_study.py",
+    "provided": "08_Reproduction\\protocol_sources\\paper2_revision_round2_20261013\\code\\thermal_study.py",
+    "sha256": "cea92b3a61177c5d51efa1ef18dfd757ed3c0e23c29d9e304a745ceb764a6f28"
+  },
+  {
+    "path": "paper2_revision_round2_20261013/audit/thermal_protocol_locked.json",
+    "provided": "08_Reproduction\\protocol_sources\\paper2_revision_round2_20261013\\audit\\thermal_protocol_locked.json",
+    "sha256": "ee9110e14f42ebea212967264fb32e9e0234efe72460a6d70f5d4f46c92a7ab3"
+  },
+  {
+    "path": "experiments/ravm_d3f2_20261020/f2_analysis.py",
+    "provided": "08_Reproduction\\protocol_sources\\experiments\\ravm_d3f2_20261020\\f2_analysis.py",
+    "sha256": "427cbc812aee1342347fb06df5fcf11c0976afa03e16d576c68686d8104e277a"
+  }
+]

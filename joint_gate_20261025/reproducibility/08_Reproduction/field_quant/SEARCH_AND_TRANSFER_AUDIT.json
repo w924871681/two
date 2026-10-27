@@ -1,0 +1,42 @@
+{
+  "status": "COMPLETED_TARGETED_SEARCH_NOT_EXHAUSTIVE",
+  "sources": [
+    {
+      "source": "QUANT v1 + Scientific Data 2024",
+      "url": "https://doi.org/10.5281/zenodo.10775692",
+      "result": "Selected for paired real field discrepancies; NO2 ppb, not target-DT calibration"
+    },
+    {
+      "source": "Wang AHU v3",
+      "url": "https://doi.org/10.6084/m9.figshare.27147678.v3",
+      "result": "Already profiled; operational state labels lack independent measurement-error truth"
+    },
+    {
+      "source": "LBNL FDD",
+      "url": "https://faultdetection.lbl.gov/data/",
+      "result": "Controlled sensor biases distinguishable from field equipment faults; not naturally observed site prevalence"
+    },
+    {
+      "source": "Berk urban heat calibration v1",
+      "url": "https://doi.org/10.5281/zenodo.17180024",
+      "result": "Siting/shielding comparison and controlled setups; metadata does not establish paired independent target-DT fault truth"
+    },
+    {
+      "source": "Typical Sensor Defects",
+      "url": "https://doi.org/10.5281/zenodo.56358",
+      "result": "Modified clean readings simulate defects; not natural field calibration"
+    },
+    {
+      "source": "REFIT",
+      "url": "https://doi.org/10.17028/rd.lboro.2070091.v1",
+      "result": "Real homes but no documented independent per-fault measurement truth for our rates/amplitudes/durations"
+    },
+    {
+      "source": "Sensor Faults: Detection Methods and Prevalence",
+      "url": "https://bourbon.usc.edu/leana/papers/SharmaGG10.pdf",
+      "result": "Author text describes heuristic/visual identification without faulty-sample ground truth for SensorScope; already mechanism context"
+    }
+  ],
+  "decision": "R2.4 stronger paired-reference support, full target-site parameter calibration still unresolved",
+  "optimizer_steps": 0
+}

@@ -1,0 +1,239 @@
+{
+  "status": "PASS",
+  "reconstruction": {
+    "status": "PASS_READ_ONLY_AGGREGATE_RECONSTRUCTION",
+    "training_steps_added": 0,
+    "main_improvement_percent": 4.850042866956949,
+    "main_center_wins": 29,
+    "all_method_stream_rows_checked": 330,
+    "e3_machine_paired_delta": 1.2643252644573645e-05,
+    "e3_unadjusted_ci_recomputed": [
+      3.886903305094194e-06,
+      2.2041349108279673e-05
+    ],
+    "cost_replicas": [
+      {
+        "arm": "ALWAYS_FT",
+        "repetition": 1,
+        "seconds_per_24_stage_lifecycle": 10.797911200032104
+      },
+      {
+        "arm": "DUAL_MEAN__g12",
+        "repetition": 1,
+        "seconds_per_24_stage_lifecycle": 11.708330500172451
+      },
+      {
+        "arm": "ER",
+        "repetition": 1,
+        "seconds_per_24_stage_lifecycle": 8.068130200146697
+      },
+      {
+        "arm": "EWC",
+        "repetition": 1,
+        "seconds_per_24_stage_lifecycle": 11.261577200086322
+      },
+      {
+        "arm": "FROZEN",
+        "repetition": 1,
+        "seconds_per_24_stage_lifecycle": 2.004705500032287
+      },
+      {
+        "arm": "HUBER_FT",
+        "repetition": 1,
+        "seconds_per_24_stage_lifecycle": 10.140757499961182
+      },
+      {
+        "arm": "JOINT__l3__m0",
+        "repetition": 1,
+        "seconds_per_24_stage_lifecycle": 13.64293909992557
+      },
+      {
+        "arm": "MWU_MEAN__g04",
+        "repetition": 1,
+        "seconds_per_24_stage_lifecycle": 13.812902399920858
+      },
+      {
+        "arm": "RAVM_D2B_V02",
+        "repetition": 1,
+        "seconds_per_24_stage_lifecycle": 16.73715619998984
+      },
+      {
+        "arm": "RAVM_ORIGINAL",
+        "repetition": 1,
+        "seconds_per_24_stage_lifecycle": 13.218485799850896
+      },
+      {
+        "arm": "RECENT_MEAN__g12",
+        "repetition": 1,
+        "seconds_per_24_stage_lifecycle": 12.037291999848094
+      },
+      {
+        "arm": "VALIDATION_COMMIT",
+        "repetition": 1,
+        "seconds_per_24_stage_lifecycle": 10.353111899865326
+      },
+      {
+        "arm": "ALWAYS_FT",
+        "repetition": 2,
+        "seconds_per_24_stage_lifecycle": 10.14725370000815
+      },
+      {
+        "arm": "DUAL_MEAN__g12",
+        "repetition": 2,
+        "seconds_per_24_stage_lifecycle": 11.920335700153373
+      },
+      {
+        "arm": "ER",
+        "repetition": 2,
+        "seconds_per_24_stage_lifecycle": 7.517159599985462
+      },
+      {
+        "arm": "EWC",
+        "repetition": 2,
+        "seconds_per_24_stage_lifecycle": 10.711441600229591
+      },
+      {
+        "arm": "FROZEN",
+        "repetition": 2,
+        "seconds_per_24_stage_lifecycle": 2.213690399948973
+      },
+      {
+        "arm": "HUBER_FT",
+        "repetition": 2,
+        "seconds_per_24_stage_lifecycle": 9.332722799910698
+      },
+      {
+        "arm": "JOINT__l3__m0",
+        "repetition": 2,
+        "seconds_per_24_stage_lifecycle": 14.309559400076978
+      },
+      {
+        "arm": "MWU_MEAN__g04",
+        "repetition": 2,
+        "seconds_per_24_stage_lifecycle": 12.034642499987967
+      },
+      {
+        "arm": "RAVM_D2B_V02",
+        "repetition": 2,
+        "seconds_per_24_stage_lifecycle": 14.349406799999997
+      },
+      {
+        "arm": "RAVM_ORIGINAL",
+        "repetition": 2,
+        "seconds_per_24_stage_lifecycle": 11.853785000101198
+      },
+      {
+        "arm": "RECENT_MEAN__g12",
+        "repetition": 2,
+        "seconds_per_24_stage_lifecycle": 11.62689519993728
+      },
+      {
+        "arm": "VALIDATION_COMMIT",
+        "repetition": 2,
+        "seconds_per_24_stage_lifecycle": 7.9443280000123195
+      },
+      {
+        "arm": "ALWAYS_FT",
+        "repetition": 3,
+        "seconds_per_24_stage_lifecycle": 10.224991400027648
+      },
+      {
+        "arm": "DUAL_MEAN__g12",
+        "repetition": 3,
+        "seconds_per_24_stage_lifecycle": 11.47367660002783
+      },
+      {
+        "arm": "ER",
+        "repetition": 3,
+        "seconds_per_24_stage_lifecycle": 10.655435600085184
+      },
+      {
+        "arm": "EWC",
+        "repetition": 3,
+        "seconds_per_24_stage_lifecycle": 11.772555199859198
+      },
+      {
+        "arm": "FROZEN",
+        "repetition": 3,
+        "seconds_per_24_stage_lifecycle": 2.394962700025644
+      },
+      {
+        "arm": "HUBER_FT",
+        "repetition": 3,
+        "seconds_per_24_stage_lifecycle": 8.618793899891898
+      },
+      {
+        "arm": "JOINT__l3__m0",
+        "repetition": 3,
+        "seconds_per_24_stage_lifecycle": 14.890905899985228
+      },
+      {
+        "arm": "MWU_MEAN__g04",
+        "repetition": 3,
+        "seconds_per_24_stage_lifecycle": 12.580318200227339
+      },
+      {
+        "arm": "RAVM_D2B_V02",
+        "repetition": 3,
+        "seconds_per_24_stage_lifecycle": 16.477322200022172
+      },
+      {
+        "arm": "RAVM_ORIGINAL",
+        "repetition": 3,
+        "seconds_per_24_stage_lifecycle": 10.444689500029199
+      },
+      {
+        "arm": "RECENT_MEAN__g12",
+        "repetition": 3,
+        "seconds_per_24_stage_lifecycle": 12.39179820008576
+      },
+      {
+        "arm": "VALIDATION_COMMIT",
+        "repetition": 3,
+        "seconds_per_24_stage_lifecycle": 9.478697000013199
+      }
+    ],
+    "scope_limit": "No full independent model-training replication; raw assets/checkpoints are indexed separately."
+  },
+  "plot_generation": "PASS",
+  "plotted_values_match_frozen_package": true,
+  "paper_vs_regenerated_figure_checks": [
+    {
+      "file": "fig3_overall_baseline.pdf",
+      "same_dimensions": true,
+      "same_text": true,
+      "same_pixels": true
+    },
+    {
+      "file": "fig4_corruption_severity.pdf",
+      "same_dimensions": true,
+      "same_text": true,
+      "same_pixels": true
+    },
+    {
+      "file": "fig5_benign_evolution.pdf",
+      "same_dimensions": true,
+      "same_text": true,
+      "same_pixels": true
+    },
+    {
+      "file": "fig6_mechanism_analysis.pdf",
+      "same_dimensions": true,
+      "same_text": true,
+      "same_pixels": true
+    },
+    {
+      "file": "fig7_sensitivity_generality.pdf",
+      "same_dimensions": true,
+      "same_text": true,
+      "same_pixels": true
+    },
+    {
+      "file": "fig8_alibaba_external.pdf",
+      "same_dimensions": true,
+      "same_text": true,
+      "same_pixels": true
+    }
+  ],
+  "training_steps": 0
+}

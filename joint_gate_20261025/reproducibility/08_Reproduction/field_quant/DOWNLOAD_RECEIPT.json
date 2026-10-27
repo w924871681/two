@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "doi": "10.5281/zenodo.10775692",
+  "files": [
+    {
+      "file": "QUANT_DuplicateRef_hourly.csv",
+      "bytes": 1434199,
+      "provider_checksum": "md5:95a7adc5e12f6b67f92baadb9a18cb2a",
+      "sha256": "5b95c1c8e114bf1444c055f4ee37b3498f72dd9dbd5c32ca421b5c9423c6f6d3",
+      "url": "https://zenodo.org/api/records/10775692/files/QUANT_DuplicateRef_hourly.csv/content"
+    },
+    {
+      "file": "QUANT_SensorSystems_hourly.csv",
+      "bytes": 476864853,
+      "provider_checksum": "md5:7f8665948c58014f4dde1122d5f438e6",
+      "sha256": "a8fa398aacd7bb5c5c320df6675a8dccb146d4e44d0c6f392b4d5acf76fc4d1f",
+      "url": "https://zenodo.org/api/records/10775692/files/QUANT_SensorSystems_hourly.csv/content"
+    },
+    {
+      "file": "QUANT_Reference_hourly.csv",
+      "bytes": 26658532,
+      "provider_checksum": "md5:51df9e9632f21e5a8fcbed11662cab45",
+      "sha256": "079a686e4c01193415429bf7a6fde22b6911014af308200d8c2068fac7390585",
+      "url": "https://zenodo.org/api/records/10775692/files/QUANT_Reference_hourly.csv/content"
+    }
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "training_steps": 0
+}

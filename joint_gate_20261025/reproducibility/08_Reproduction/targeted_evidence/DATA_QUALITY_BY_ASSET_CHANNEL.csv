@@ -1,0 +1,655 @@
+﻿domain,asset,channel,scope,unit,raw_rows,nonfinite,documented_marker,range_violation,invalid,invalid_fraction,negative_finite,classification,valid_denominator
+alibaba,20060,cpu_util_percent,full_raw,percentage points,61048,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20060,mem_util_percent,full_raw,percentage points,61048,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20060,mem_gps,full_raw,normalized units,61048,47610,0,0,47610,0.7798781286856244,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20060,mkpi,full_raw,misses per thousand instructions,61048,47610,0,0,47610,0.7798781286856244,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20060,net_in,full_raw,normalized units,61048,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20060,net_out,full_raw,normalized units,61048,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20060,disk_io_percent,full_raw,percentage points,61048,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20060,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20060,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20060,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20060,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20060,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20060,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20060,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20061,cpu_util_percent,full_raw,percentage points,61922,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20061,mem_util_percent,full_raw,percentage points,61922,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20061,mem_gps,full_raw,normalized units,61922,48848,0,0,48848,0.7888634088046251,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20061,mkpi,full_raw,misses per thousand instructions,61922,48848,0,0,48848,0.7888634088046251,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20061,net_in,full_raw,normalized units,61922,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20061,net_out,full_raw,normalized units,61922,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20061,disk_io_percent,full_raw,percentage points,61922,0,16,16,16,0.00025838958689964795,10,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20061,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20061,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20061,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20061,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20061,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20061,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20061,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,10,10,10,0.0005966587112171838,10,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20062,cpu_util_percent,full_raw,percentage points,59837,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20062,mem_util_percent,full_raw,percentage points,59837,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20062,mem_gps,full_raw,normalized units,59837,46927,0,0,46927,0.7842472049066631,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20062,mkpi,full_raw,misses per thousand instructions,59837,46927,0,0,46927,0.7842472049066631,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20062,net_in,full_raw,normalized units,59837,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20062,net_out,full_raw,normalized units,59837,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20062,disk_io_percent,full_raw,percentage points,59837,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20062,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20062,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20062,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20062,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20062,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20062,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20062,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20063,cpu_util_percent,full_raw,percentage points,60838,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20063,mem_util_percent,full_raw,percentage points,60838,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20063,mem_gps,full_raw,normalized units,60838,47359,0,0,47359,0.7784443933068148,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20063,mkpi,full_raw,misses per thousand instructions,60838,47359,0,0,47359,0.7784443933068148,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20063,net_in,full_raw,normalized units,60838,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20063,net_out,full_raw,normalized units,60838,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20063,disk_io_percent,full_raw,percentage points,60838,0,6,6,6,9.86225714191788e-05,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20063,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20063,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20063,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20063,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20063,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20063,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20063,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,6,6,6,0.00035799522673031026,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20064,cpu_util_percent,full_raw,percentage points,61155,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20064,mem_util_percent,full_raw,percentage points,61155,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20064,mem_gps,full_raw,normalized units,61155,48183,0,0,48183,0.7878832474858964,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20064,mkpi,full_raw,misses per thousand instructions,61155,48183,0,0,48183,0.7878832474858964,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20064,net_in,full_raw,normalized units,61155,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20064,net_out,full_raw,normalized units,61155,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20064,disk_io_percent,full_raw,percentage points,61155,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20064,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20064,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20064,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20064,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20064,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20064,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20064,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20065,cpu_util_percent,full_raw,percentage points,61349,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20065,mem_util_percent,full_raw,percentage points,61349,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20065,mem_gps,full_raw,normalized units,61349,48315,0,0,48315,0.7875433992404114,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20065,mkpi,full_raw,misses per thousand instructions,61349,48315,0,0,48315,0.7875433992404114,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20065,net_in,full_raw,normalized units,61349,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20065,net_out,full_raw,normalized units,61349,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20065,disk_io_percent,full_raw,percentage points,61349,0,12,12,12,0.00019560221030497644,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20065,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20065,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20065,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20065,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20065,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20065,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20065,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20066,cpu_util_percent,full_raw,percentage points,61124,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20066,mem_util_percent,full_raw,percentage points,61124,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20066,mem_gps,full_raw,normalized units,61124,47905,0,0,47905,0.7837347032262286,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20066,mkpi,full_raw,misses per thousand instructions,61124,47905,0,0,47905,0.7837347032262286,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20066,net_in,full_raw,normalized units,61124,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20066,net_out,full_raw,normalized units,61124,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20066,disk_io_percent,full_raw,percentage points,61124,0,18,18,18,0.00029448334533080297,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20066,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20066,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20066,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20066,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20066,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20066,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20066,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,6,6,6,0.00035799522673031026,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20067,cpu_util_percent,full_raw,percentage points,62294,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20067,mem_util_percent,full_raw,percentage points,62294,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20067,mem_gps,full_raw,normalized units,62294,49423,0,0,49423,0.7933829903361479,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20067,mkpi,full_raw,misses per thousand instructions,62294,49423,0,0,49423,0.7933829903361479,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20067,net_in,full_raw,normalized units,62294,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20067,net_out,full_raw,normalized units,62294,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20067,disk_io_percent,full_raw,percentage points,62294,0,35,35,35,0.0005618518637428966,35,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20067,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20067,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20067,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20067,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20067,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20067,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20067,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,17,17,17,0.0010143198090692123,17,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20068,cpu_util_percent,full_raw,percentage points,62526,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20068,mem_util_percent,full_raw,percentage points,62526,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20068,mem_gps,full_raw,normalized units,62526,49582,0,0,49582,0.7929821194383136,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20068,mkpi,full_raw,misses per thousand instructions,62526,49582,0,0,49582,0.7929821194383136,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20068,net_in,full_raw,normalized units,62526,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20068,net_out,full_raw,normalized units,62526,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20068,disk_io_percent,full_raw,percentage points,62526,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20068,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20068,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20068,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20068,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20068,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20068,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20068,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20069,cpu_util_percent,full_raw,percentage points,60816,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20069,mem_util_percent,full_raw,percentage points,60816,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20069,mem_gps,full_raw,normalized units,60816,47406,0,0,47406,0.779498816101026,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20069,mkpi,full_raw,misses per thousand instructions,60816,47406,0,0,47406,0.779498816101026,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20069,net_in,full_raw,normalized units,60816,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20069,net_out,full_raw,normalized units,60816,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20069,disk_io_percent,full_raw,percentage points,60816,0,113,113,113,0.0018580636674559326,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20069,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20069,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20069,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20069,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20069,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20069,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20069,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,41,41,41,0.0024463007159904533,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20070,cpu_util_percent,full_raw,percentage points,58547,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20070,mem_util_percent,full_raw,percentage points,58547,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20070,mem_gps,full_raw,normalized units,58547,45643,0,0,45643,0.7795958802329752,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20070,mkpi,full_raw,misses per thousand instructions,58547,45643,0,0,45643,0.7795958802329752,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20070,net_in,full_raw,normalized units,58547,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20070,net_out,full_raw,normalized units,58547,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20070,disk_io_percent,full_raw,percentage points,58547,0,24,24,24,0.0004099270671426375,6,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20070,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20070,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20070,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20070,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20070,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20070,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20070,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,12,12,12,0.0007159904534606205,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20071,cpu_util_percent,full_raw,percentage points,62406,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20071,mem_util_percent,full_raw,percentage points,62406,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20071,mem_gps,full_raw,normalized units,62406,49108,0,0,49108,0.7869115149184374,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20071,mkpi,full_raw,misses per thousand instructions,62406,49108,0,0,49108,0.7869115149184374,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20071,net_in,full_raw,normalized units,62406,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20071,net_out,full_raw,normalized units,62406,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20071,disk_io_percent,full_raw,percentage points,62406,0,12,12,12,0.00019228920296125374,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20071,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20071,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20071,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20071,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20071,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20071,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20071,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,12,12,12,0.0007159904534606205,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20072,cpu_util_percent,full_raw,percentage points,60000,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20072,mem_util_percent,full_raw,percentage points,60000,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20072,mem_gps,full_raw,normalized units,60000,47072,0,0,47072,0.7845333333333333,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20072,mkpi,full_raw,misses per thousand instructions,60000,47072,0,0,47072,0.7845333333333333,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20072,net_in,full_raw,normalized units,60000,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20072,net_out,full_raw,normalized units,60000,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20072,disk_io_percent,full_raw,percentage points,60000,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20072,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20072,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20072,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20072,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20072,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20072,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20072,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20073,cpu_util_percent,full_raw,percentage points,63706,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20073,mem_util_percent,full_raw,percentage points,63706,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20073,mem_gps,full_raw,normalized units,63706,50687,0,0,50687,0.7956393432329765,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20073,mkpi,full_raw,misses per thousand instructions,63706,50687,0,0,50687,0.7956393432329765,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20073,net_in,full_raw,normalized units,63706,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20073,net_out,full_raw,normalized units,63706,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20073,disk_io_percent,full_raw,percentage points,63706,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20073,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20073,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20073,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20073,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20073,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20073,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20073,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20074,cpu_util_percent,full_raw,percentage points,61262,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20074,mem_util_percent,full_raw,percentage points,61262,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20074,mem_gps,full_raw,normalized units,61262,47859,0,0,47859,0.7812183735431426,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20074,mkpi,full_raw,misses per thousand instructions,61262,47859,0,0,47859,0.7812183735431426,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20074,net_in,full_raw,normalized units,61262,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20074,net_out,full_raw,normalized units,61262,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20074,disk_io_percent,full_raw,percentage points,61262,0,126,126,126,0.0020567399040188044,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20074,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20074,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20074,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20074,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20074,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20074,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20074,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,42,42,42,0.002505966587112172,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20075,cpu_util_percent,full_raw,percentage points,60872,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20075,mem_util_percent,full_raw,percentage points,60872,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20075,mem_gps,full_raw,normalized units,60872,47671,0,0,47671,0.7831351031673018,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20075,mkpi,full_raw,misses per thousand instructions,60872,47671,0,0,47671,0.7831351031673018,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20075,net_in,full_raw,normalized units,60872,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20075,net_out,full_raw,normalized units,60872,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20075,disk_io_percent,full_raw,percentage points,60872,0,12,12,12,0.00019713497174398737,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20075,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20075,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20075,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20075,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20075,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20075,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20075,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20076,cpu_util_percent,full_raw,percentage points,61851,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20076,mem_util_percent,full_raw,percentage points,61851,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20076,mem_gps,full_raw,normalized units,61851,48564,0,0,48564,0.7851772808847068,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20076,mkpi,full_raw,misses per thousand instructions,61851,48564,0,0,48564,0.7851772808847068,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20076,net_in,full_raw,normalized units,61851,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20076,net_out,full_raw,normalized units,61851,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20076,disk_io_percent,full_raw,percentage points,61851,0,12,12,12,0.000194014648105932,6,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20076,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20076,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20076,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20076,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20076,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20076,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20076,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20077,cpu_util_percent,full_raw,percentage points,61417,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20077,mem_util_percent,full_raw,percentage points,61417,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20077,mem_gps,full_raw,normalized units,61417,48275,0,0,48275,0.7860201572854422,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20077,mkpi,full_raw,misses per thousand instructions,61417,48275,0,0,48275,0.7860201572854422,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20077,net_in,full_raw,normalized units,61417,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20077,net_out,full_raw,normalized units,61417,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20077,disk_io_percent,full_raw,percentage points,61417,0,12,12,12,0.0001953856424117101,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20077,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20077,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20077,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20077,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20077,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20077,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20077,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20078,cpu_util_percent,full_raw,percentage points,60096,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20078,mem_util_percent,full_raw,percentage points,60096,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20078,mem_gps,full_raw,normalized units,60096,47037,0,0,47037,0.7826976837060703,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20078,mkpi,full_raw,misses per thousand instructions,60096,47037,0,0,47037,0.7826976837060703,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20078,net_in,full_raw,normalized units,60096,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20078,net_out,full_raw,normalized units,60096,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20078,disk_io_percent,full_raw,percentage points,60096,0,96,96,96,0.001597444089456869,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20078,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20078,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20078,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20078,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20078,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20078,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20078,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,42,42,42,0.002505966587112172,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20079,cpu_util_percent,full_raw,percentage points,62003,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20079,mem_util_percent,full_raw,percentage points,62003,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20079,mem_gps,full_raw,normalized units,62003,48717,0,0,48717,0.7857200458042353,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20079,mkpi,full_raw,misses per thousand instructions,62003,48717,0,0,48717,0.7857200458042353,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20079,net_in,full_raw,normalized units,62003,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20079,net_out,full_raw,normalized units,62003,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20079,disk_io_percent,full_raw,percentage points,62003,0,18,18,18,0.00029030853345805846,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20079,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20079,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20079,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20079,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20079,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20079,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20079,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,12,12,12,0.0007159904534606205,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20080,cpu_util_percent,full_raw,percentage points,61974,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20080,mem_util_percent,full_raw,percentage points,61974,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20080,mem_gps,full_raw,normalized units,61974,55088,0,0,55088,0.8888888888888888,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20080,mkpi,full_raw,misses per thousand instructions,61974,55088,0,0,55088,0.8888888888888888,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20080,net_in,full_raw,normalized units,61974,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20080,net_out,full_raw,normalized units,61974,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20080,disk_io_percent,full_raw,percentage points,61974,0,96,96,96,0.001549036692806661,24,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20080,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20080,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20080,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20080,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20080,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20080,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20080,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,30,30,30,0.0017899761336515514,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20081,cpu_util_percent,full_raw,percentage points,64282,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20081,mem_util_percent,full_raw,percentage points,64282,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20081,mem_gps,full_raw,normalized units,64282,51161,0,0,51161,0.7958837621729256,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20081,mkpi,full_raw,misses per thousand instructions,64282,51161,0,0,51161,0.7958837621729256,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20081,net_in,full_raw,normalized units,64282,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20081,net_out,full_raw,normalized units,64282,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20081,disk_io_percent,full_raw,percentage points,64282,0,12,12,12,0.0001866774524750319,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20081,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20081,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20081,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20081,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20081,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20081,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20081,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20082,cpu_util_percent,full_raw,percentage points,62423,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20082,mem_util_percent,full_raw,percentage points,62423,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20082,mem_gps,full_raw,normalized units,62423,49301,0,0,49301,0.7897890200727296,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20082,mkpi,full_raw,misses per thousand instructions,62423,49301,0,0,49301,0.7897890200727296,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20082,net_in,full_raw,normalized units,62423,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20082,net_out,full_raw,normalized units,62423,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20082,disk_io_percent,full_raw,percentage points,62423,0,12,12,12,0.00019223683578168305,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20082,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20082,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20082,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20082,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20082,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20082,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20082,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,6,6,6,0.00035799522673031026,6,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20083,cpu_util_percent,full_raw,percentage points,60549,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20083,mem_util_percent,full_raw,percentage points,60549,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20083,mem_gps,full_raw,normalized units,60549,47567,0,0,47567,0.7855951378222596,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20083,mkpi,full_raw,misses per thousand instructions,60549,47567,0,0,47567,0.7855951378222596,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20083,net_in,full_raw,normalized units,60549,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20083,net_out,full_raw,normalized units,60549,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20083,disk_io_percent,full_raw,percentage points,60549,0,12,12,12,0.0001981865926770054,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20083,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20083,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20083,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20083,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20083,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20083,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20083,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20084,cpu_util_percent,full_raw,percentage points,60228,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20084,mem_util_percent,full_raw,percentage points,60228,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20084,mem_gps,full_raw,normalized units,60228,47292,0,0,47292,0.7852161785216178,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20084,mkpi,full_raw,misses per thousand instructions,60228,47292,0,0,47292,0.7852161785216178,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20084,net_in,full_raw,normalized units,60228,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20084,net_out,full_raw,normalized units,60228,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20084,disk_io_percent,full_raw,percentage points,60228,0,66,66,66,0.0010958358238692967,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20084,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20084,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20084,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20084,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20084,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20084,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20084,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,6,6,6,0.00035799522673031026,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20085,cpu_util_percent,full_raw,percentage points,60524,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20085,mem_util_percent,full_raw,percentage points,60524,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20085,mem_gps,full_raw,normalized units,60524,47386,0,0,47386,0.7829290859824202,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20085,mkpi,full_raw,misses per thousand instructions,60524,47386,0,0,47386,0.7829290859824202,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20085,net_in,full_raw,normalized units,60524,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20085,net_out,full_raw,normalized units,60524,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20085,disk_io_percent,full_raw,percentage points,60524,0,18,18,18,0.0002974026832330976,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20085,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20085,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20085,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20085,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20085,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20085,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20085,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20086,cpu_util_percent,full_raw,percentage points,61674,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20086,mem_util_percent,full_raw,percentage points,61674,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20086,mem_gps,full_raw,normalized units,61674,48656,0,0,48656,0.7889223984174855,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20086,mkpi,full_raw,misses per thousand instructions,61674,48656,0,0,48656,0.7889223984174855,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20086,net_in,full_raw,normalized units,61674,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20086,net_out,full_raw,normalized units,61674,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20086,disk_io_percent,full_raw,percentage points,61674,0,6,6,6,9.728572818367545e-05,6,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20086,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20086,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20086,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20086,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20086,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20086,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20086,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,6,6,6,0.00035799522673031026,6,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20087,cpu_util_percent,full_raw,percentage points,63070,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20087,mem_util_percent,full_raw,percentage points,63070,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20087,mem_gps,full_raw,normalized units,63070,49883,0,0,49883,0.7909148565086412,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20087,mkpi,full_raw,misses per thousand instructions,63070,49883,0,0,49883,0.7909148565086412,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20087,net_in,full_raw,normalized units,63070,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20087,net_out,full_raw,normalized units,63070,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20087,disk_io_percent,full_raw,percentage points,63070,0,30,30,30,0.0004756619628983669,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20087,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20087,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20087,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20087,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20087,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20087,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20087,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20088,cpu_util_percent,full_raw,percentage points,61462,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20088,mem_util_percent,full_raw,percentage points,61462,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20088,mem_gps,full_raw,normalized units,61462,47939,0,0,47939,0.7799778725065895,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20088,mkpi,full_raw,misses per thousand instructions,61462,47939,0,0,47939,0.7799778725065895,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20088,net_in,full_raw,normalized units,61462,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20088,net_out,full_raw,normalized units,61462,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20088,disk_io_percent,full_raw,percentage points,61462,0,30,30,30,0.0004881064722918226,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20088,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20088,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20088,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20088,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20088,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20088,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20088,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,18,18,18,0.0010739856801909309,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20089,cpu_util_percent,full_raw,percentage points,61323,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20089,mem_util_percent,full_raw,percentage points,61323,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20089,mem_gps,full_raw,normalized units,61323,48590,0,0,48590,0.7923617566002968,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20089,mkpi,full_raw,misses per thousand instructions,61323,48590,0,0,48590,0.7923617566002968,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20089,net_in,full_raw,normalized units,61323,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20089,net_out,full_raw,normalized units,61323,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20089,disk_io_percent,full_raw,percentage points,61323,0,18,18,18,0.00029352771390832153,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20089,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20089,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20089,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20089,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20089,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20089,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20089,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,12,12,12,0.0007159904534606205,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20090,cpu_util_percent,full_raw,percentage points,61300,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20090,mem_util_percent,full_raw,percentage points,61300,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20090,mem_gps,full_raw,normalized units,61300,48256,0,0,48256,0.78721044045677,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20090,mkpi,full_raw,misses per thousand instructions,61300,48256,0,0,48256,0.78721044045677,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20090,net_in,full_raw,normalized units,61300,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20090,net_out,full_raw,normalized units,61300,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20090,disk_io_percent,full_raw,percentage points,61300,0,12,12,12,0.00019575856443719412,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20090,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20090,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20090,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20090,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20090,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20090,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20090,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20091,cpu_util_percent,full_raw,percentage points,64175,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20091,mem_util_percent,full_raw,percentage points,64175,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20091,mem_gps,full_raw,normalized units,64175,51120,0,0,51120,0.7965718737826256,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20091,mkpi,full_raw,misses per thousand instructions,64175,51120,0,0,51120,0.7965718737826256,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20091,net_in,full_raw,normalized units,64175,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20091,net_out,full_raw,normalized units,64175,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20091,disk_io_percent,full_raw,percentage points,64175,0,18,18,18,0.00028048305414881184,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20091,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20091,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20091,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20091,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20091,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20091,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20091,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20092,cpu_util_percent,full_raw,percentage points,59160,1,0,0,1,1.6903313049357674e-05,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20092,mem_util_percent,full_raw,percentage points,59160,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20092,mem_gps,full_raw,normalized units,59160,59160,0,0,59160,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20092,mkpi,full_raw,misses per thousand instructions,59160,59160,0,0,59160,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20092,net_in,full_raw,normalized units,59160,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20092,net_out,full_raw,normalized units,59160,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20092,disk_io_percent,full_raw,percentage points,59160,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20092,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20092,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20092,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20092,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20092,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20092,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20092,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20093,cpu_util_percent,full_raw,percentage points,61292,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20093,mem_util_percent,full_raw,percentage points,61292,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20093,mem_gps,full_raw,normalized units,61292,48087,0,0,48087,0.7845558963649416,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20093,mkpi,full_raw,misses per thousand instructions,61292,48087,0,0,48087,0.7845558963649416,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20093,net_in,full_raw,normalized units,61292,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20093,net_out,full_raw,normalized units,61292,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20093,disk_io_percent,full_raw,percentage points,61292,0,6,6,6,9.789205769105266e-05,6,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20093,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20093,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20093,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20093,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20093,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20093,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20093,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,6,6,6,0.00035799522673031026,6,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20094,cpu_util_percent,full_raw,percentage points,61873,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20094,mem_util_percent,full_raw,percentage points,61873,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20094,mem_gps,full_raw,normalized units,61873,48731,0,0,48731,0.7875971748581773,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20094,mkpi,full_raw,misses per thousand instructions,61873,48731,0,0,48731,0.7875971748581773,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20094,net_in,full_raw,normalized units,61873,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20094,net_out,full_raw,normalized units,61873,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20094,disk_io_percent,full_raw,percentage points,61873,0,18,18,18,0.00029091849433517044,6,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20094,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20094,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20094,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20094,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20094,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20094,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20094,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,6,6,6,0.00035799522673031026,6,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20095,cpu_util_percent,full_raw,percentage points,62646,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20095,mem_util_percent,full_raw,percentage points,62646,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20095,mem_gps,full_raw,normalized units,62646,49686,0,0,49686,0.7931232640551671,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20095,mkpi,full_raw,misses per thousand instructions,62646,49686,0,0,49686,0.7931232640551671,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20095,net_in,full_raw,normalized units,62646,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20095,net_out,full_raw,normalized units,62646,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20095,disk_io_percent,full_raw,percentage points,62646,0,36,36,36,0.000574657599846758,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20095,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20095,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20095,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20095,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20095,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20095,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20095,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,12,12,12,0.0007159904534606205,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20096,cpu_util_percent,full_raw,percentage points,61531,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20096,mem_util_percent,full_raw,percentage points,61531,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20096,mem_gps,full_raw,normalized units,61531,48591,0,0,48591,0.789699501064504,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20096,mkpi,full_raw,misses per thousand instructions,61531,48591,0,0,48591,0.789699501064504,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20096,net_in,full_raw,normalized units,61531,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20096,net_out,full_raw,normalized units,61531,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20096,disk_io_percent,full_raw,percentage points,61531,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20096,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20096,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20096,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20096,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20096,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20096,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20096,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20097,cpu_util_percent,full_raw,percentage points,62834,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20097,mem_util_percent,full_raw,percentage points,62834,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20097,mem_gps,full_raw,normalized units,62834,49820,0,0,49820,0.7928828341343859,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20097,mkpi,full_raw,misses per thousand instructions,62834,49820,0,0,49820,0.7928828341343859,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20097,net_in,full_raw,normalized units,62834,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20097,net_out,full_raw,normalized units,62834,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20097,disk_io_percent,full_raw,percentage points,62834,0,12,12,12,0.00019097940605404716,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20097,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20097,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20097,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20097,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20097,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20097,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20097,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,6,6,6,0.00035799522673031026,6,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20098,cpu_util_percent,full_raw,percentage points,60393,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20098,mem_util_percent,full_raw,percentage points,60393,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20098,mem_gps,full_raw,normalized units,60393,47131,0,0,47131,0.7804050138261057,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20098,mkpi,full_raw,misses per thousand instructions,60393,47131,0,0,47131,0.7804050138261057,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20098,net_in,full_raw,normalized units,60393,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20098,net_out,full_raw,normalized units,60393,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20098,disk_io_percent,full_raw,percentage points,60393,0,12,12,12,0.00019869852466345437,12,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20098,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20098,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20098,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20098,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20098,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20098,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20098,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20099,cpu_util_percent,full_raw,percentage points,59679,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20099,mem_util_percent,full_raw,percentage points,59679,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20099,mem_gps,full_raw,normalized units,59679,46691,0,0,46691,0.7823690075235845,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20099,mkpi,full_raw,misses per thousand instructions,59679,46691,0,0,46691,0.7823690075235845,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20099,net_in,full_raw,normalized units,59679,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20099,net_out,full_raw,normalized units,59679,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20099,disk_io_percent,full_raw,percentage points,59679,0,6,6,6,0.0001005378776454029,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20099,cpu_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20099,mem_util_percent,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20099,mem_gps,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20099,mkpi,lifecycle_time_range,same as full_raw,16760,16760,0,0,16760,1.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20099,net_in,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20099,net_out,lifecycle_time_range,same as full_raw,16760,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+alibaba,20099,disk_io_percent,lifecycle_time_range,same as full_raw,16760,0,6,6,6,0.00035799522673031026,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,room_5_living_110_AT,full_raw,Celsius,42528,605,0,0,605,0.014225921745673439,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,wea_Tair_out,full_raw,Celsius,42528,0,0,0,0,0.0,7571,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,wea_IbeamHor,full_raw,provider raw physical unit,42528,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,wea_IdiffHor,full_raw,provider raw physical unit,42528,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,room_5_living_ihs,full_raw,provider raw physical unit,42528,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,hp_elP,full_raw,provider raw physical unit,42528,254,0,0,254,0.005972535741158766,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,hp_rps,full_raw,provider raw physical unit,42528,8,0,0,8,0.00018811136192626034,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,dist_Tflow_store_ufh,full_raw,Celsius,42528,607,0,0,607,0.014272949586155003,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,dist_Vol,full_raw,provider raw physical unit,42528,606,0,0,606,0.01424943566591422,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,mode_heat,full_raw,provider raw physical unit,42528,8,0,0,8,0.00018811136192626034,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,mode_cool,full_raw,provider raw physical unit,42528,8,0,0,8,0.00018811136192626034,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,room_5_living_110_AT,source_days_1_120,Celsius,11518,353,0,0,353,0.030647681889216877,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,wea_Tair_out,source_days_1_120,Celsius,11518,0,0,0,0,0.0,1498,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,wea_IbeamHor,source_days_1_120,provider raw physical unit,11518,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,wea_IdiffHor,source_days_1_120,provider raw physical unit,11518,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,room_5_living_ihs,source_days_1_120,provider raw physical unit,11518,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,hp_elP,source_days_1_120,provider raw physical unit,11518,2,0,0,2,0.00017364125716270185,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,hp_rps,source_days_1_120,provider raw physical unit,11518,4,0,0,4,0.0003472825143254037,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,dist_Tflow_store_ufh,source_days_1_120,Celsius,11518,355,0,0,355,0.03082132314637958,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,dist_Vol,source_days_1_120,provider raw physical unit,11518,354,0,0,354,0.030734502517798228,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,mode_heat,source_days_1_120,provider raw physical unit,11518,4,0,0,4,0.0003472825143254037,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,mode_cool,source_days_1_120,provider raw physical unit,11518,4,0,0,4,0.0003472825143254037,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,room_5_living_110_AT,final_days_271_444,Celsius,16610,227,0,0,227,0.013666465984346779,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,wea_Tair_out,final_days_271_444,Celsius,16610,0,0,0,0,0.0,6027,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,wea_IbeamHor,final_days_271_444,provider raw physical unit,16610,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,wea_IdiffHor,final_days_271_444,provider raw physical unit,16610,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,room_5_living_ihs,final_days_271_444,provider raw physical unit,16610,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,hp_elP,final_days_271_444,provider raw physical unit,16610,227,0,0,227,0.013666465984346779,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,hp_rps,final_days_271_444,provider raw physical unit,16610,4,0,0,4,0.00024081878386514148,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,dist_Tflow_store_ufh,final_days_271_444,Celsius,16610,227,0,0,227,0.013666465984346779,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,dist_Vol,final_days_271_444,provider raw physical unit,16610,227,0,0,227,0.013666465984346779,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,mode_heat,final_days_271_444,provider raw physical unit,16610,4,0,0,4,0.00024081878386514148,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE1,mode_cool,final_days_271_444,provider raw physical unit,16610,4,0,0,4,0.00024081878386514148,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,room_5_living_110_AT,full_raw,Celsius,42483,462,0,0,462,0.010874938210578349,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,wea_Tair_out,full_raw,Celsius,42483,0,0,0,0,0.0,7571,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,wea_IbeamHor,full_raw,provider raw physical unit,42483,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,wea_IdiffHor,full_raw,provider raw physical unit,42483,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,room_5_living_ihs,full_raw,provider raw physical unit,42483,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,hp_elP,full_raw,provider raw physical unit,42483,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,hp_rps,full_raw,provider raw physical unit,42483,8,0,0,8,0.00018831061836499304,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,dist_Tflow_store_ufh,full_raw,Celsius,42483,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,dist_Vol,full_raw,provider raw physical unit,42483,870,0,0,870,0.020478779747192994,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,mode_heat,full_raw,provider raw physical unit,42483,8,0,0,8,0.00018831061836499304,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,mode_cool,full_raw,provider raw physical unit,42483,8,0,0,8,0.00018831061836499304,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,room_5_living_110_AT,source_days_1_120,Celsius,11473,131,0,0,131,0.01141811208925303,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,wea_Tair_out,source_days_1_120,Celsius,11473,0,0,0,0,0.0,1498,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,wea_IbeamHor,source_days_1_120,provider raw physical unit,11473,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,wea_IdiffHor,source_days_1_120,provider raw physical unit,11473,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,room_5_living_ihs,source_days_1_120,provider raw physical unit,11473,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,hp_elP,source_days_1_120,provider raw physical unit,11473,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,hp_rps,source_days_1_120,provider raw physical unit,11473,4,0,0,4,0.0003486446439466574,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,dist_Tflow_store_ufh,source_days_1_120,Celsius,11473,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,dist_Vol,source_days_1_120,provider raw physical unit,11473,539,0,0,539,0.04697986577181208,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,mode_heat,source_days_1_120,provider raw physical unit,11473,4,0,0,4,0.0003486446439466574,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,mode_cool,source_days_1_120,provider raw physical unit,11473,4,0,0,4,0.0003486446439466574,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,room_5_living_110_AT,final_days_271_444,Celsius,16610,316,0,0,316,0.01902468392534618,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,wea_Tair_out,final_days_271_444,Celsius,16610,0,0,0,0,0.0,6027,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,wea_IbeamHor,final_days_271_444,provider raw physical unit,16610,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,wea_IdiffHor,final_days_271_444,provider raw physical unit,16610,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,room_5_living_ihs,final_days_271_444,provider raw physical unit,16610,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,hp_elP,final_days_271_444,provider raw physical unit,16610,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,hp_rps,final_days_271_444,provider raw physical unit,16610,4,0,0,4,0.00024081878386514148,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,dist_Tflow_store_ufh,final_days_271_444,Celsius,16610,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,dist_Vol,final_days_271_444,provider raw physical unit,16610,316,0,0,316,0.01902468392534618,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,mode_heat,final_days_271_444,provider raw physical unit,16610,4,0,0,4,0.00024081878386514148,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+thermbuild,BSE2,mode_cool,final_days_271_444,provider raw physical unit,16610,4,0,0,4,0.00024081878386514148,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,Appliances,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,lights,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,T1,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,RH_1,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,T2,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,RH_2,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,T3,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,RH_3,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,T4,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,RH_4,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,T5,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,RH_5,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,T6,full_raw,provider raw unit,19735,0,0,0,0,0.0,1360,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,RH_6,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,T7,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,RH_7,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,T8,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,RH_8,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,T9,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,RH_9,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,T_out,full_raw,provider raw unit,19735,0,0,0,0,0.0,1154,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,Press_mm_hg,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,RH_out,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,Windspeed,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,Visibility,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,Tdewpoint,full_raw,provider raw unit,19735,0,0,0,0,0.0,3237,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,rv1,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation
+uci,single_home,rv2,full_raw,provider raw unit,19735,0,0,0,0,0.0,0,"Quality flag; cause unknown, not a ground-truth fault",raw rows before deduplication/CPU filtering/imputation

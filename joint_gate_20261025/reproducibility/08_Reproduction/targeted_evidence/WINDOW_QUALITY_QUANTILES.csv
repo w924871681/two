@@ -1,0 +1,13 @@
+﻿domain,role,metric,windows,assets,denominator,q0,q25,q50,q75,q95,q100
+alibaba,update,invalid_field_fraction,960,40,Per original role window; raw rows before filtering/fill,0.1666666666666666,0.1666666666666666,0.1666666666666666,0.1666666666666666,0.1666666666666666,0.1766666666666666
+alibaba,update,any_invalid_row_fraction,960,40,Per original role window; raw rows before filtering/fill,1.0,1.0,1.0,1.0,1.0,1.0
+alibaba,update,missing_target,960,40,Per original role window; raw rows before filtering/fill,0.0,0.0,0.0,0.0,0.0,0.0
+alibaba,verification,invalid_field_fraction,960,40,Per original role window; raw rows before filtering/fill,0.1666666666666666,0.1666666666666666,0.1666666666666666,0.1666666666666666,0.1666666666666666,0.1743055555555555
+alibaba,verification,any_invalid_row_fraction,960,40,Per original role window; raw rows before filtering/fill,1.0,1.0,1.0,1.0,1.0,1.0
+alibaba,verification,missing_target,960,40,Per original role window; raw rows before filtering/fill,0.0,0.0,0.0,0.0,0.0,0.0
+thermbuild,update,invalid_field_fraction,78,2,Per original role window; raw rows before filtering/fill,0.0,0.0,0.0,0.0,0.0,0.0075757575757575
+thermbuild,update,any_invalid_row_fraction,78,2,Per original role window; raw rows before filtering/fill,0.0,0.0,0.0,0.0,0.0,0.0208333333333333
+thermbuild,update,missing_target,78,2,Per original role window; raw rows before filtering/fill,0.0,0.0,0.0,0.0,0.0,4.0
+thermbuild,verification,invalid_field_fraction,78,2,Per original role window; raw rows before filtering/fill,0.0,0.0,0.0,0.0,0.0,0.0056818181818181
+thermbuild,verification,any_invalid_row_fraction,78,2,Per original role window; raw rows before filtering/fill,0.0,0.0,0.0,0.0,0.0,0.0208333333333333
+thermbuild,verification,missing_target,78,2,Per original role window; raw rows before filtering/fill,0.0,0.0,0.0,0.0,0.0,0.0

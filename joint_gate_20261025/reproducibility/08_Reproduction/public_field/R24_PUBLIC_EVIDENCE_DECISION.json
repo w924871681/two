@@ -1,0 +1,62 @@
+{
+  "status": "PUBLIC_FIELD_DATA_OBTAINED_PARTIAL_CONTEXT_NOT_SITE_CALIBRATION",
+  "datasets": [
+    {
+      "file": "auditorium_scientific_data.csv",
+      "sha256": "acfcd58d1dff5b76f64bbe716e824c4592f83a5cbfc7e6c8b77fe050bd414d3b",
+      "released_rows": 113375,
+      "assets": 13,
+      "timestamp_min": "2022-01-01 00:00:00",
+      "timestamp_max": "2022-12-31 23:00:00",
+      "timestamp_parse_failures": 0,
+      "duplicate_asset_timestamp_rows": 0,
+      "temperature_fault_label_rows": 2138,
+      "temperature_label_row_percent": 1.8857772877618522,
+      "unit": "Percent of released curated hourly rows; not fault events or artificial corrupted rows",
+      "independent_physical_temperature_reference": false,
+      "calibrates_original_alpha_or_bias": false
+    },
+    {
+      "file": "hosptial_scientific_data.csv",
+      "sha256": "66feab7fe66d77ca1c632315a61a7a93412ff00dc2fb0cd9b2485394cecca9f7",
+      "released_rows": 66048,
+      "assets": 8,
+      "timestamp_min": "2023-01-01 00:00:00",
+      "timestamp_max": "2023-12-21 23:00:00",
+      "timestamp_parse_failures": 0,
+      "duplicate_asset_timestamp_rows": 184,
+      "temperature_fault_label_rows": 8844,
+      "temperature_label_row_percent": 13.390261627906977,
+      "unit": "Percent of released curated hourly rows; not fault events or artificial corrupted rows",
+      "independent_physical_temperature_reference": false,
+      "calibrates_original_alpha_or_bias": false
+    },
+    {
+      "file": "office_scientific_data.csv",
+      "sha256": "7dfe5660c6d5b0db388e01a59956a3ce40136d42c7a1d2038bfc6a7ea2a80203",
+      "released_rows": 175532,
+      "assets": 20,
+      "timestamp_min": "2023-12-01 00:00:00",
+      "timestamp_max": "2024-11-30 23:00:00",
+      "timestamp_parse_failures": 0,
+      "duplicate_asset_timestamp_rows": 0,
+      "temperature_fault_label_rows": 8030,
+      "temperature_label_row_percent": 4.57466444864754,
+      "unit": "Percent of released curated hourly rows; not fault events or artificial corrupted rows",
+      "independent_physical_temperature_reference": false,
+      "calibrates_original_alpha_or_bias": false
+    }
+  ],
+  "RTU_inventory": {
+    "experimental": "Real experimental facility +/-2 and +/-4 C sensor-bias cases; imposed one day, not spontaneous field faults",
+    "field": "Compressor controls and refrigerant-undercharge cases, not a monitoring-corruption calibration set"
+  },
+  "A5": "NO_NEW_SCIENTIFIC_CONDITION: no independently justified mapping with authenticated Service truth; no optimizer steps",
+  "limits": [
+    "No original-site fault/calibration log supplied",
+    "Operational labels do not quantify additive measurement error against a calibrated independent truth",
+    "Provider-curated hourly record proportions are not deployment incidence",
+    "Duplicate timestamps and version-specific date ranges retained/reported",
+    "No parameter changed and no label counts used to tune gate or stress settings"
+  ]
+}

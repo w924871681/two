@@ -1,0 +1,52 @@
+{
+  "status": "FINAL_MODULAR_VECTOR_FIG2_SCIENTIFIC_DATA_FROZEN",
+  "fig1": "Unchanged supplied original PDF",
+  "fig2": "Native modular vector reconstruction from final confirmed scientific logic",
+  "current_figure2": "07_Figure_Source/fig2_redesign/",
+  "width_mm": 165.1,
+  "height_mm": 109.361,
+  "raster_image_objects": 0,
+  "publication_tiff_dpi": 1200,
+  "tool": {
+    "client_version": "0.163.0-alpha.11",
+    "model": "gpt-6.1-sol",
+    "turn_timestamp": "2026-10-25T08:54:44.246Z",
+    "provider": "OpenAI",
+    "tool": "Codex",
+    "renderer": "Matplotlib 3.10.0",
+    "new_training_steps": 0
+  },
+  "experimental_figures_3_to_8": "Unchanged frozen CSV-based plots",
+  "historical_superseded_record": {
+    "status": "ACADEMIC_FINAL_TYPOGRAPHY_ONLY_DATA_FROZEN",
+    "fig1": "Original supplied PDF unchanged; moved into Introduction, full text width",
+    "fig2": "Original final generated master unchanged; enlarged to full text width in Methods",
+    "final_display_width_mm": 165.1,
+    "native_image_pixels": [
+      1774,
+      887
+    ],
+    "effective_display_dpi": 272.9230769230769,
+    "note": "Layout enlargement only; no artificial resampling or claim of higher native resolution",
+    "figure_heights_in": [
+      4.0,
+      3.3,
+      2.0,
+      2.8,
+      3.85,
+      4.4
+    ],
+    "minimum_plot_font_pt": 8,
+    "no_new_training": true,
+    "current_layout_change": "Fig7 canvas compacted vertically at unchanged font size; caption shortened and moved before interpretation",
+    "current_change": "Black Arial text at minimum8pt; input rows, numeric endpoints and chart structures unchanged",
+    "fig2_model_version": "Not retained in recoverable generation record; author confirmation required",
+    "current_figure2": {
+      "format": "Native vector code, PDF and SVG; direct 1200 dpi TIFF export",
+      "provenance": "07_Figure_Source/fig2_vector/",
+      "historical_raster_replaced": true,
+      "no_new_scientific_data": true
+    }
+  },
+  "new_training_steps": 0
+}

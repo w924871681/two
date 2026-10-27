@@ -1,0 +1,63 @@
+{
+  "status": "PASS_READONLY_PAIRED_FIELD_PROFILE",
+  "optimizer_steps": 0,
+  "sensor_rows": 751303,
+  "ratified_reference_rows": 58615,
+  "systems": 55,
+  "system_products": 124,
+  "cities": [
+    "London",
+    "Manchester",
+    "York"
+  ],
+  "versions": [
+    {
+      "version": "cal1",
+      "system_products": 46,
+      "products_with_pairs": 43,
+      "paired_sensor_hours": 249481,
+      "signed_median_min_ppb": -28.51080014308294,
+      "signed_median_max_ppb": 15.221783371766408,
+      "median_abs_error_min_ppb": 1.1829248885313661,
+      "median_abs_error_max_ppb": 28.51080014308294,
+      "p95_abs_error_min_ppb": 4.308214258711148,
+      "p95_abs_error_max_ppb": 60.516463766098006
+    },
+    {
+      "version": "cal2",
+      "system_products": 29,
+      "products_with_pairs": 28,
+      "paired_sensor_hours": 192606,
+      "signed_median_min_ppb": -34.54906981786092,
+      "signed_median_max_ppb": 14.670233396689095,
+      "median_abs_error_min_ppb": 1.8424111286799114,
+      "median_abs_error_max_ppb": 34.54906981786092,
+      "p95_abs_error_min_ppb": 6.3387061583995825,
+      "p95_abs_error_max_ppb": 70.1810976000627
+    },
+    {
+      "version": "out-of-box",
+      "system_products": 49,
+      "products_with_pairs": 48,
+      "paired_sensor_hours": 149229,
+      "signed_median_min_ppb": -10.533788341283799,
+      "signed_median_max_ppb": 15.382669671376547,
+      "median_abs_error_min_ppb": 1.3288077701079217,
+      "median_abs_error_max_ppb": 16.275767227013908,
+      "p95_abs_error_min_ppb": 3.8628432744352867,
+      "p95_abs_error_max_ppb": 33.42278655032317
+    }
+  ],
+  "paired_sensor_hours": 591316,
+  "zero_pair_system_products": 5,
+  "flagged_finite_pairs_retained": 5373,
+  "units": "NO2 ppb, sensor minus co-located Ratified reference; reference has finite uncertainty",
+  "not_fault_rate": true,
+  "not_target_DT_site_calibration": true,
+  "not_independent_replicates": "Hours within device and product versions sharing device/reference are dependent; no inferential confidence interval or pooling as independent trials",
+  "availability_boundary": "All observed first-to-last hourly slots per system/product, including absent rows and explicit missing measurements; deployment gaps/maintenance are not distinguished from faults",
+  "input_sha256": {
+    "QUANT_NO2_ALL_PRODUCTS.csv": "75f38bc1570b77242bb7c78dedda7f1471f85c790b343700b0b616d69c3834b1",
+    "QUANT_NO2_RATIFIED_REFERENCE.csv": "de7ab296024d18c7bab7a6ce360910aee7d6900570ec4b6d81c0535624ad4977"
+  }
+}

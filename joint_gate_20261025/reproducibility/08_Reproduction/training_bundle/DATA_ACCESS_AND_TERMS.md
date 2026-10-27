@@ -1,0 +1,7 @@
+# Rights, access and scope
+
+This mixed attachment is not blanket-relicensed. Original authors retain their code/derived-result rights; their final submission approval remains required. Original journal templates remain for this journal's manuscript compilation.
+
+Submitted model inputs/checkpoints are from the authors' synthetic benchmark. No Alibaba, UCI or ThermBuild processed input/checkpoint bytes are included in this submitted training subset. External acquisition/recipe descriptions and aggregate research results are supplied separately. Alibaba provider terms permit research/study but do not assert an unrestricted open redistribution license; the full external research assets remain locally indexed. UCI official record: https://archive.ics.uci.edu/dataset/374/appliances+energy+prediction (CC BY4.0). ThermBuild record: https://doi.org/10.24406/fordatis/445 (retained attribution CC BY-SA4.0); no ThermBuild derivative arrays are redistributed here.
+
+The public AHU descriptive files retain Wang2025 attribution and dataset DOI10.6084/m9.figshare.27147678.v3, CC BY4.0. QUANT NO2 descriptive subsets retain Diez/Lacy/Urquiza/Edwards2024 attribution and DOI10.5281/zenodo.10775692: dataset metadata CC BY4.0; the underlying source descriptions retain UK Open Government Licence v3.0. Those per-source notices accompany the files and are not replaced by the paper's license. Processed subsets, pair selection and descriptions of modifications are recorded in the accompanying receipts/readmes. No public repository upload is authorized or claimed.

@@ -1,0 +1,194 @@
+[
+  {
+    "arm": "ALWAYS_FT",
+    "center": 62000,
+    "old_done_sha256": "c20001adb367b191d5dd0c6a9520c49ca673d77b6ef3e21a222f76736e9f97d9",
+    "old_path": "science/Smoke/62000/7311/clean/ALWAYS_FT",
+    "seed": 7311,
+    "stream": "clean"
+  },
+  {
+    "arm": "ER",
+    "center": 62000,
+    "old_done_sha256": "39c1c9cb93d13f802e37b91fc7e49c8127b3daa0dbc58fbbde60754bc241bb4b",
+    "old_path": "science/Smoke/62000/7311/clean/ER",
+    "seed": 7311,
+    "stream": "clean"
+  },
+  {
+    "arm": "EWC",
+    "center": 62000,
+    "old_done_sha256": "230f143b6819aced7518e12dcacd5b031eeba49f98b5afb9d39a75ed680ade16",
+    "old_path": "science/Smoke/62000/7311/clean/EWC",
+    "seed": 7311,
+    "stream": "clean"
+  },
+  {
+    "arm": "FROZEN",
+    "center": 62000,
+    "old_done_sha256": "c82ab536e67cda52c25076c53d50a5078e8c73dd7643ee88586bef3bb880c7fb",
+    "old_path": "science/Smoke/62000/7311/clean/FROZEN",
+    "seed": 7311,
+    "stream": "clean"
+  },
+  {
+    "arm": "HUBER_FT",
+    "center": 62000,
+    "old_done_sha256": "c9ec479a000cc35247ee19d14516effced4309ed979cc2a1fe11d914f0754714",
+    "old_path": "science/Smoke/62000/7311/clean/HUBER_FT",
+    "seed": 7311,
+    "stream": "clean"
+  },
+  {
+    "arm": "VALIDATION_COMMIT",
+    "center": 62000,
+    "old_done_sha256": "6de7b1a3a58950d06afab7a2412d25533e9913b36e445a3be59ee2bc24df2d31",
+    "old_path": "science/Smoke/62000/7311/clean/VALIDATION_COMMIT",
+    "seed": 7311,
+    "stream": "clean"
+  },
+  {
+    "arm": "ALWAYS_FT",
+    "center": 62000,
+    "old_done_sha256": "b4995ef45afc35a598cbb1342a8595dd79006a7dedfb6bdc930b502de4e3e9c0",
+    "old_path": "science/Smoke/62000/7312/clean/ALWAYS_FT",
+    "seed": 7312,
+    "stream": "clean"
+  },
+  {
+    "arm": "ER",
+    "center": 62000,
+    "old_done_sha256": "8d4df79d11edece3ad0065597c51bf02af2e72bc2d71354ce16042eda16400d0",
+    "old_path": "science/Smoke/62000/7312/clean/ER",
+    "seed": 7312,
+    "stream": "clean"
+  },
+  {
+    "arm": "EWC",
+    "center": 62000,
+    "old_done_sha256": "62797493b76a8de40af62fb8eb2e83e38426a1ed7545b8af2ceb1c94af67719d",
+    "old_path": "science/Smoke/62000/7312/clean/EWC",
+    "seed": 7312,
+    "stream": "clean"
+  },
+  {
+    "arm": "FROZEN",
+    "center": 62000,
+    "old_done_sha256": "e3555ae667d90715f3f7063a2b880ddb117d14b184be1666df9369ae308a4ee2",
+    "old_path": "science/Smoke/62000/7312/clean/FROZEN",
+    "seed": 7312,
+    "stream": "clean"
+  },
+  {
+    "arm": "HUBER_FT",
+    "center": 62000,
+    "old_done_sha256": "5be7e0e17fb0783b6c041d03d983bc19c0ca91c9af9bb3a39ce906ed69c22e50",
+    "old_path": "science/Smoke/62000/7312/clean/HUBER_FT",
+    "seed": 7312,
+    "stream": "clean"
+  },
+  {
+    "arm": "VALIDATION_COMMIT",
+    "center": 62000,
+    "old_done_sha256": "f15d497cbc17eeb6fa52f3840e2480e1f34c3d00f02c3f5ce14dbc6a578f1733",
+    "old_path": "science/Smoke/62000/7312/clean/VALIDATION_COMMIT",
+    "seed": 7312,
+    "stream": "clean"
+  },
+  {
+    "arm": "ALWAYS_FT",
+    "center": 62004,
+    "old_done_sha256": "a59791e15c9082869be665a61c27c6bbff7972ec4464e4cbdcff75c3002aabc8",
+    "old_path": "science/Smoke/62004/7311/clean/ALWAYS_FT",
+    "seed": 7311,
+    "stream": "clean"
+  },
+  {
+    "arm": "ER",
+    "center": 62004,
+    "old_done_sha256": "089968542f8a471b1ab3d5c5eeb0cfe0c6f75a9458edbf4656dbd8971c95a709",
+    "old_path": "science/Smoke/62004/7311/clean/ER",
+    "seed": 7311,
+    "stream": "clean"
+  },
+  {
+    "arm": "EWC",
+    "center": 62004,
+    "old_done_sha256": "01df568fcb08d005168df0e277ee65d33634f95964e346d0cebec4dbc56df58b",
+    "old_path": "science/Smoke/62004/7311/clean/EWC",
+    "seed": 7311,
+    "stream": "clean"
+  },
+  {
+    "arm": "FROZEN",
+    "center": 62004,
+    "old_done_sha256": "c66f9541c86fd40292960e62b993a45d9d7fd1d9ac5223f3364e85a8d7bb41d1",
+    "old_path": "science/Smoke/62004/7311/clean/FROZEN",
+    "seed": 7311,
+    "stream": "clean"
+  },
+  {
+    "arm": "HUBER_FT",
+    "center": 62004,
+    "old_done_sha256": "8b47ba8fa65464d9cffe1bcfdf0670efcbbff9b10f5b68586238a8ac61a7dd5d",
+    "old_path": "science/Smoke/62004/7311/clean/HUBER_FT",
+    "seed": 7311,
+    "stream": "clean"
+  },
+  {
+    "arm": "VALIDATION_COMMIT",
+    "center": 62004,
+    "old_done_sha256": "bcc3083ce435b2678eae34b2ad2e501e541854de1632f7fd19b76c4c75e3963e",
+    "old_path": "science/Smoke/62004/7311/clean/VALIDATION_COMMIT",
+    "seed": 7311,
+    "stream": "clean"
+  },
+  {
+    "arm": "ALWAYS_FT",
+    "center": 62004,
+    "old_done_sha256": "e5ba08f59d04f2e85110d47e03b0ecd64a5775229b8967ea2de5d0f7ef178aea",
+    "old_path": "science/Smoke/62004/7312/clean/ALWAYS_FT",
+    "seed": 7312,
+    "stream": "clean"
+  },
+  {
+    "arm": "ER",
+    "center": 62004,
+    "old_done_sha256": "ea79cc59aab944dd7d22183f0c1e1f4939ef933ce39e9cf726b1b12b798db372",
+    "old_path": "science/Smoke/62004/7312/clean/ER",
+    "seed": 7312,
+    "stream": "clean"
+  },
+  {
+    "arm": "EWC",
+    "center": 62004,
+    "old_done_sha256": "ed3a78421181ebba64e57944fd7e2adcf53594fe6a836d8c25dd4aa20bec981c",
+    "old_path": "science/Smoke/62004/7312/clean/EWC",
+    "seed": 7312,
+    "stream": "clean"
+  },
+  {
+    "arm": "FROZEN",
+    "center": 62004,
+    "old_done_sha256": "dd350c1e0d47690aeaacff7811afcfa9406815e0c64fe6c46418a782abbf0291",
+    "old_path": "science/Smoke/62004/7312/clean/FROZEN",
+    "seed": 7312,
+    "stream": "clean"
+  },
+  {
+    "arm": "HUBER_FT",
+    "center": 62004,
+    "old_done_sha256": "5ba356492bd46f49bc2a71d24872f2ef0c46ddb648ec82d1dd578c5c1862f958",
+    "old_path": "science/Smoke/62004/7312/clean/HUBER_FT",
+    "seed": 7312,
+    "stream": "clean"
+  },
+  {
+    "arm": "VALIDATION_COMMIT",
+    "center": 62004,
+    "old_done_sha256": "a7ec8c194ee6268d1e2245d246c1b995d5d8fb737358d1b04f0ec54960ac1639",
+    "old_path": "science/Smoke/62004/7312/clean/VALIDATION_COMMIT",
+    "seed": 7312,
+    "stream": "clean"
+  }
+]

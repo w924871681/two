@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "count": 18,
+  "rows": [
+    {
+      "architecture": "GRU",
+      "horizon": 1,
+      "seed": 7311,
+      "sha256": "f73b2cad3da6f0ad52933f3b28178398be69826b6d3ca72bf8f00c9634aa3910",
+      "bytes": 24545
+    },
+    {
+      "architecture": "GRU",
+      "horizon": 1,
+      "seed": 7312,
+      "sha256": "612ad31a48730be1d39cfb8ad2bd4d1dda30737aa5684b406b4b5f7ae523e95f",
+      "bytes": 24545
+    },
+    {
+      "architecture": "GRU",
+      "horizon": 1,
+      "seed": 7313,
+      "sha256": "1931de4da79554dde9a398c02d34025670a4086c8d384a9afd496dbe0de0413b",
+      "bytes": 24545
+    },
+    {
+      "architecture": "GRU",
+      "horizon": 4,
+      "seed": 7311,
+      "sha256": "cf68e7981c864b3d5a6806ba84ab63d0b8e361674f25b6693b6299f29a0044f4",
+      "bytes": 24929
+    },
+    {
+      "architecture": "GRU",
+      "horizon": 4,
+      "seed": 7312,
+      "sha256": "91e089d4bb41f519276bbfafd8c67f1582041d4c66395f62464425b9f6dd46d1",
+      "bytes": 24929
+    },
+    {
+      "architecture": "GRU",
+      "horizon": 4,
+      "seed": 7313,
+      "sha256": "d5eb428c767f086c07c86779670c76b5f0b0bc63784d2a57550e0d54e26118ea",
+      "bytes": 24929
+    },
+    {
+      "architecture": "MLP",
+      "horizon": 1,
+      "seed": 7311,
+      "sha256": "6220cade629e82292d3f7b20498be5ea33e21c1504475b292172fe0136c43f75",
+      "bytes": 592616
+    },
+    {
+      "architecture": "MLP",
+      "horizon": 1,
+      "seed": 7312,
+      "sha256": "1c712cce0cba3e2719e895282b583f81cb91306efcfdffc3935293955820b76e",
+      "bytes": 592616
+    },
+    {
+      "architecture": "MLP",
+      "horizon": 1,
+      "seed": 7313,
+      "sha256": "648ee259bc295a4910472167500e6979408f941d0ec7e42e8c67f2899ed5dcc5",
+      "bytes": 592616
+    },
+    {
+      "architecture": "MLP",
+      "horizon": 4,
+      "seed": 7311,
+      "sha256": "9b874cb2d8d5e628072684cf5cc36f04039610928f383eb5e30143e1c4708d2b",
+      "bytes": 593384
+    },
+    {
+      "architecture": "MLP",
+      "horizon": 4,
+      "seed": 7312,
+      "sha256": "317656b34eeebd130b0e5b9cc464893f50861cb37a39dd93cf492444b333b3af",
+      "bytes": 593384
+    },
+    {
+      "architecture": "MLP",
+      "horizon": 4,
+      "seed": 7313,
+      "sha256": "af8a911b8cfe112bf31dbceb61d95b2c082a7bfd6da8de270a3ef0634b25a192",
+      "bytes": 593384
+    },
+    {
+      "architecture": "TCN",
+      "horizon": 1,
+      "seed": 7311,
+      "sha256": "f2dafa9e529412f1d030fe968b36eb59bd2ee9896adf58832a9940a53b230d04",
+      "bytes": 24758
+    },
+    {
+      "architecture": "TCN",
+      "horizon": 1,
+      "seed": 7312,
+      "sha256": "d05ee5bdb2c0e39251f8c3b644c876d1b8258bc301167e9c04ad001ea67a72ba",
+      "bytes": 24758
+    },
+    {
+      "architecture": "TCN",
+      "horizon": 1,
+      "seed": 7313,
+      "sha256": "09b6fc8d4a9012848bb033480edb6e678fe7f8c237429991d977aef6e87c7f4f",
+      "bytes": 24758
+    },
+    {
+      "architecture": "TCN",
+      "horizon": 4,
+      "seed": 7311,
+      "sha256": "5e9258150d7d07edb562d0663b97bd21a43272788fb46fc901806338347cb715",
+      "bytes": 25142
+    },
+    {
+      "architecture": "TCN",
+      "horizon": 4,
+      "seed": 7312,
+      "sha256": "21b0a4790f6a15edb99064507bc502b83e394ab8f4155e6b3bece33202f76206",
+      "bytes": 25142
+    },
+    {
+      "architecture": "TCN",
+      "horizon": 4,
+      "seed": 7313,
+      "sha256": "a12af5ba05c4d35394367b8ad7c76efbc22f2ec67b05e6083a41abe79bdaecc5",
+      "bytes": 25142
+    }
+  ],
+  "kind": "byte identity to historical authenticated provenance; forward shape separately pending"
+}

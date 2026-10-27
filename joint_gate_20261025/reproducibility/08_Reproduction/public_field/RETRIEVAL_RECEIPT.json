@@ -1,0 +1,22 @@
+[
+  {
+    "file": "RTU_INVENTORY_20220901.pdf",
+    "url": "https://fdddata.lbl.gov/data/Simulated_LBNL_FDD_Data_Sets_RTU/LBNL_FDD_Data_Sets_RTU.pdf",
+    "http_status": 200,
+    "bytes": 1643253,
+    "sha256": "6c9c173462467bc7662c60807d0879de11d66c1483f16d90b716b964fbd35457"
+  },
+  {
+    "file": "WANG2025_FIELD_AHU.html",
+    "url": "https://www.nature.com/articles/s41597-025-05825-9",
+    "status": "UNAVAILABLE",
+    "error": "HTTPSConnectionPool(host='idp.nature.com', port=443): Max retries exceeded with url: /authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41597-025-05825-9 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))"
+  },
+  {
+    "file": "WANG_FIGSHARE_v3.json",
+    "url": "https://api.figshare.com/v2/articles/27147678/versions/3",
+    "http_status": 200,
+    "bytes": 4302,
+    "sha256": "106355905e27692d35852d8f5510d74e229e7b2f6a2efe842e655376c288390e"
+  }
+]

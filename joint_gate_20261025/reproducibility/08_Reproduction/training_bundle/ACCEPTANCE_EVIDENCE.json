@@ -1,0 +1,18 @@
+{
+  "status": "PASS_EXACT_STAGE_SPECIFIC_ENVIRONMENT_REPRODUCTION",
+  "source_new_file_sha256": "f73b2cad3da6f0ad52933f3b28178398be69826b6d3ca72bf8f00c9634aa3910",
+  "source_original_file_sha256": "f73b2cad3da6f0ad52933f3b28178398be69826b6d3ca72bf8f00c9634aa3910",
+  "M0_state_exact": true,
+  "stages": 24,
+  "model_state_comparisons": 72,
+  "state_hash_mismatches": 0,
+  "commit_mismatches": 0,
+  "max_absolute_mse_difference": 0.0,
+  "absolute_tolerance": 1e-07,
+  "new_authorized_optimizer_steps": 15400,
+  "prior_protocol_budget_charge": 37843,
+  "lifetime_attempt_charge": 53243,
+  "full_matrix_rerun": false,
+  "original_receipt_sha256": "eae3c39996266e4232cf9299b95a7f42fcb21030fc3a26b7867af1752c1ce77f",
+  "new_packaging_optimizer_steps": 0
+}

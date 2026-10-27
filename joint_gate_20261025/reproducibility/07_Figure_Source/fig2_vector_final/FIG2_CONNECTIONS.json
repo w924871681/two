@@ -1,0 +1,1360 @@
+{
+  "nodes": {
+    "parent_header": {
+      "rect": [
+        8,
+        222,
+        135,
+        48
+      ]
+    },
+    "maintenance_data": {
+      "rect": [
+        149,
+        222,
+        155,
+        48
+      ]
+    },
+    "update_header": {
+      "rect": [
+        155,
+        227,
+        67,
+        24
+      ]
+    },
+    "verification_header": {
+      "rect": [
+        231,
+        227,
+        67,
+        24
+      ]
+    },
+    "legend": {
+      "rect": [
+        310,
+        222,
+        150,
+        48
+      ]
+    },
+    "parent": {
+      "rect": [
+        16,
+        155,
+        55,
+        36
+      ]
+    },
+    "update": {
+      "rect": [
+        79,
+        155,
+        55,
+        36
+      ]
+    },
+    "adaptation": {
+      "rect": [
+        38,
+        119,
+        79,
+        26
+      ]
+    },
+    "candidate": {
+      "rect": [
+        38,
+        76,
+        79,
+        28
+      ]
+    },
+    "verification": {
+      "rect": [
+        159,
+        182,
+        137,
+        14
+      ]
+    },
+    "loss_evaluation": {
+      "rect": [
+        159,
+        136,
+        137,
+        38
+      ]
+    },
+    "loss_samples": {
+      "rect": [
+        159,
+        115,
+        137,
+        14
+      ]
+    },
+    "mean": {
+      "rect": [
+        159,
+        63,
+        65,
+        40
+      ]
+    },
+    "rank": {
+      "rect": [
+        231,
+        63,
+        65,
+        40
+      ]
+    },
+    "evidence_tuple": {
+      "point": [
+        227.5,
+        59
+      ]
+    },
+    "score": {
+      "rect": [
+        319,
+        156,
+        132,
+        32
+      ]
+    },
+    "decision": {
+      "polygon": [
+        [
+          385,
+          147
+        ],
+        [
+          451,
+          129
+        ],
+        [
+          385,
+          111
+        ],
+        [
+          319,
+          129
+        ]
+      ]
+    },
+    "commit": {
+      "rect": [
+        316,
+        80,
+        62,
+        20
+      ]
+    },
+    "retain": {
+      "rect": [
+        392,
+        80,
+        63,
+        20
+      ]
+    },
+    "deployed": {
+      "rect": [
+        343,
+        57,
+        87,
+        14
+      ]
+    },
+    "audit_strip": {
+      "rect": [
+        8,
+        12,
+        452,
+        36
+      ]
+    },
+    "service": {
+      "rect": [
+        17,
+        17,
+        97,
+        21
+      ]
+    },
+    "audit": {
+      "rect": [
+        129,
+        17,
+        110,
+        21
+      ]
+    },
+    "audit_metrics": {
+      "rect": [
+        254,
+        17,
+        197,
+        21
+      ]
+    }
+  },
+  "edges": [
+    {
+      "source": "parent_header",
+      "target": "parent",
+      "time_role": "current",
+      "points": [
+        [
+          43,
+          222
+        ],
+        [
+          43,
+          218
+        ],
+        [
+          10,
+          218
+        ],
+        [
+          10,
+          174
+        ],
+        [
+          16,
+          174
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "update_header",
+      "target": "update",
+      "time_role": "current",
+      "points": [
+        [
+          188,
+          227
+        ],
+        [
+          188,
+          218
+        ],
+        [
+          141,
+          218
+        ],
+        [
+          141,
+          181
+        ],
+        [
+          134,
+          181
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "parent",
+      "target": "adaptation",
+      "time_role": "current",
+      "points": [
+        [
+          43.5,
+          155
+        ],
+        [
+          43.5,
+          150
+        ],
+        [
+          77.5,
+          150
+        ],
+        [
+          77.5,
+          145
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "update",
+      "target": "adaptation",
+      "time_role": "current",
+      "points": [
+        [
+          106.5,
+          155
+        ],
+        [
+          106.5,
+          150
+        ],
+        [
+          77.5,
+          150
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "adaptation",
+      "target": "candidate",
+      "time_role": "current",
+      "points": [
+        [
+          77.5,
+          119
+        ],
+        [
+          77.5,
+          104
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "verification_header",
+      "target": "verification",
+      "time_role": "current",
+      "points": [
+        [
+          266,
+          227
+        ],
+        [
+          302,
+          227
+        ],
+        [
+          302,
+          189
+        ],
+        [
+          296,
+          189
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "parent",
+      "target": "loss_evaluation",
+      "time_role": "current",
+      "points": [
+        [
+          43.5,
+          191
+        ],
+        [
+          43.5,
+          196
+        ],
+        [
+          147,
+          196
+        ],
+        [
+          147,
+          160
+        ],
+        [
+          159,
+          160
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "candidate",
+      "target": "loss_evaluation",
+      "time_role": "current",
+      "points": [
+        [
+          117,
+          90
+        ],
+        [
+          147,
+          90
+        ],
+        [
+          147,
+          146
+        ],
+        [
+          159,
+          146
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "verification",
+      "target": "loss_evaluation",
+      "time_role": "current",
+      "points": [
+        [
+          227.5,
+          182
+        ],
+        [
+          227.5,
+          174
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "loss_evaluation",
+      "target": "loss_samples",
+      "time_role": "current",
+      "points": [
+        [
+          227.5,
+          136
+        ],
+        [
+          227.5,
+          129
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "loss_samples",
+      "target": "mean",
+      "time_role": "current",
+      "points": [
+        [
+          227.5,
+          115
+        ],
+        [
+          227.5,
+          109
+        ],
+        [
+          191.5,
+          109
+        ],
+        [
+          191.5,
+          103
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "loss_samples",
+      "target": "rank",
+      "time_role": "current",
+      "points": [
+        [
+          227.5,
+          109
+        ],
+        [
+          263.5,
+          109
+        ],
+        [
+          263.5,
+          103
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "mean",
+      "target": "evidence_tuple",
+      "time_role": "current",
+      "points": [
+        [
+          191.5,
+          63
+        ],
+        [
+          191.5,
+          59
+        ],
+        [
+          227.5,
+          59
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "rank",
+      "target": "evidence_tuple",
+      "time_role": "current",
+      "points": [
+        [
+          263.5,
+          63
+        ],
+        [
+          263.5,
+          59
+        ],
+        [
+          227.5,
+          59
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "evidence_tuple",
+      "target": "score",
+      "time_role": "current",
+      "points": [
+        [
+          227.5,
+          59
+        ],
+        [
+          306,
+          59
+        ],
+        [
+          306,
+          191
+        ],
+        [
+          385,
+          191
+        ],
+        [
+          385,
+          188
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "score",
+      "target": "decision",
+      "time_role": "current",
+      "points": [
+        [
+          385,
+          156
+        ],
+        [
+          385,
+          147
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "decision",
+      "target": "commit",
+      "time_role": "current",
+      "points": [
+        [
+          319,
+          129
+        ],
+        [
+          314,
+          129
+        ],
+        [
+          314,
+          103
+        ],
+        [
+          347,
+          103
+        ],
+        [
+          347,
+          100
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "decision",
+      "target": "retain",
+      "time_role": "current",
+      "points": [
+        [
+          451,
+          129
+        ],
+        [
+          456,
+          129
+        ],
+        [
+          456,
+          103
+        ],
+        [
+          424,
+          103
+        ],
+        [
+          424,
+          100
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "commit",
+      "target": "deployed",
+      "time_role": "current",
+      "points": [
+        [
+          347,
+          80
+        ],
+        [
+          347,
+          76
+        ],
+        [
+          369,
+          76
+        ],
+        [
+          369,
+          71
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "retain",
+      "target": "deployed",
+      "time_role": "current",
+      "points": [
+        [
+          424,
+          80
+        ],
+        [
+          424,
+          76
+        ],
+        [
+          410,
+          76
+        ],
+        [
+          410,
+          71
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "deployed",
+      "target": "service",
+      "time_role": "future_after_seal",
+      "points": [
+        [
+          386,
+          57
+        ],
+        [
+          386,
+          52
+        ],
+        [
+          65,
+          52
+        ],
+        [
+          65,
+          38
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "service",
+      "target": "audit",
+      "time_role": "retrospective",
+      "points": [
+        [
+          114,
+          27.5
+        ],
+        [
+          129,
+          27.5
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "audit",
+      "target": "audit_metrics",
+      "time_role": "retrospective",
+      "points": [
+        [
+          239,
+          27.5
+        ],
+        [
+          254,
+          27.5
+        ]
+      ],
+      "dashed": false
+    },
+    {
+      "source": "deployed",
+      "target": "parent_header",
+      "time_role": "next_stage",
+      "points": [
+        [
+          430,
+          64
+        ],
+        [
+          465,
+          64
+        ],
+        [
+          465,
+          6
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          240
+        ],
+        [
+          8,
+          240
+        ]
+      ],
+      "dashed": true
+    }
+  ],
+  "labels": [
+    {
+      "text": "Deployed parent",
+      "fontsize_pt": 9.4,
+      "bounds_pt": [
+        38.60000000000001,
+        255.52812499999996,
+        73.8,
+        8.943749999999994
+      ]
+    },
+    {
+      "text": "Current state",
+      "fontsize_pt": 8.1,
+      "bounds_pt": [
+        64.60000000000001,
+        240.39999999999998,
+        46.79999999999997,
+        7.199999999999989
+      ]
+    },
+    {
+      "text": "$f_{t-1}$",
+      "fontsize_pt": 10.0,
+      "bounds_pt": [
+        80.40335949707031,
+        225.8265625,
+        15.193281005859376,
+        12.346875000000011
+      ]
+    },
+    {
+      "text": "Maintenance data",
+      "fontsize_pt": 9.4,
+      "bounds_pt": [
+        186.9,
+        255.67999999999998,
+        79.19999999999996,
+        8.640000000000015
+      ]
+    },
+    {
+      "text": "Update $U_t$",
+      "fontsize_pt": 8.1,
+      "bounds_pt": [
+        169.77098022460936,
+        239.110315625,
+        37.45803955078125,
+        11.779368750000003
+      ]
+    },
+    {
+      "text": "Verification $V_t$",
+      "fontsize_pt": 8.1,
+      "bounds_pt": [
+        239.02436401367186,
+        239.110315625,
+        50.95127197265623,
+        11.779368750000003
+      ]
+    },
+    {
+      "text": "Model states (legend)",
+      "fontsize_pt": 9.0,
+      "bounds_pt": [
+        339.055,
+        255.52812499999996,
+        91.88999999999993,
+        8.943749999999994
+      ]
+    },
+    {
+      "text": "Parent",
+      "fontsize_pt": 8.0,
+      "bounds_pt": [
+        322.58,
+        233.39999999999998,
+        24.839999999999975,
+        7.199999999999989
+      ]
+    },
+    {
+      "text": "$f_{t-1}$",
+      "fontsize_pt": 8.5,
+      "bounds_pt": [
+        328.4193867675781,
+        221.910578125,
+        13.161226464843764,
+        11.178843750000027
+      ]
+    },
+    {
+      "text": "Candidate",
+      "fontsize_pt": 8.0,
+      "bounds_pt": [
+        365.65,
+        233.39999999999998,
+        38.69999999999999,
+        7.199999999999989
+      ]
+    },
+    {
+      "text": "$\\widetilde f_t$",
+      "fontsize_pt": 8.5,
+      "bounds_pt": [
+        381.674700390625,
+        220.74370312500002,
+        6.65059921874996,
+        13.51259374999995
+      ]
+    },
+    {
+      "text": "Deployed",
+      "fontsize_pt": 8.0,
+      "bounds_pt": [
+        416.955,
+        233.39999999999998,
+        36.089999999999975,
+        7.199999999999989
+      ]
+    },
+    {
+      "text": "$f_t$",
+      "fontsize_pt": 8.5,
+      "bounds_pt": [
+        432.1430548095703,
+        221.910578125,
+        5.713890380859368,
+        11.178843750000027
+      ]
+    },
+    {
+      "text": "1",
+      "fontsize_pt": 9.3,
+      "bounds_pt": [
+        15.434999999999999,
+        199.67999999999998,
+        5.129999999999999,
+        8.640000000000015
+      ]
+    },
+    {
+      "text": "Candidate adaptation",
+      "fontsize_pt": 8.5,
+      "bounds_pt": [
+        40.300000000000004,
+        200.371875,
+        86.39999999999998,
+        7.256249999999994
+      ]
+    },
+    {
+      "text": "2",
+      "fontsize_pt": 9.3,
+      "bounds_pt": [
+        158.435,
+        199.67999999999998,
+        5.1299999999999955,
+        8.640000000000015
+      ]
+    },
+    {
+      "text": "Current verification",
+      "fontsize_pt": 8.5,
+      "bounds_pt": [
+        196.07999999999998,
+        200.39999999999998,
+        78.83999999999997,
+        7.200000000000017
+      ]
+    },
+    {
+      "text": "3",
+      "fontsize_pt": 9.3,
+      "bounds_pt": [
+        317.435,
+        199.67999999999998,
+        5.1299999999999955,
+        8.640000000000015
+      ]
+    },
+    {
+      "text": "Joint Gate & deployment",
+      "fontsize_pt": 8.5,
+      "bounds_pt": [
+        342.825,
+        200.371875,
+        100.34999999999997,
+        7.256249999999994
+      ]
+    },
+    {
+      "text": "Parent",
+      "fontsize_pt": 8.4,
+      "bounds_pt": [
+        30.494999999999997,
+        179.39999999999998,
+        26.009999999999998,
+        7.199999999999989
+      ]
+    },
+    {
+      "text": "$f_{t-1}$",
+      "fontsize_pt": 9.0,
+      "bounds_pt": [
+        46.078569335937495,
+        162.97590624999998,
+        13.842861328124997,
+        12.048187500000012
+      ]
+    },
+    {
+      "text": "Update",
+      "fontsize_pt": 8.4,
+      "bounds_pt": [
+        92.325,
+        178.371875,
+        28.349999999999994,
+        7.256250000000023
+      ]
+    },
+    {
+      "text": "$U_t$",
+      "fontsize_pt": 10.0,
+      "bounds_pt": [
+        101.04421691894531,
+        161.8265625,
+        10.911566162109366,
+        12.346875000000011
+      ]
+    },
+    {
+      "text": "Copy + 50-step",
+      "fontsize_pt": 8.5,
+      "bounds_pt": [
+        47.08,
+        132.371875,
+        60.84,
+        7.256249999999994
+      ]
+    },
+    {
+      "text": "SGD",
+      "fontsize_pt": 8.5,
+      "bounds_pt": [
+        68.22999999999999,
+        121.4,
+        18.540000000000006,
+        7.199999999999989
+      ]
+    },
+    {
+      "text": "Candidate",
+      "fontsize_pt": 8.3,
+      "bounds_pt": [
+        70.88499999999999,
+        93.39999999999999,
+        40.230000000000004,
+        7.199999999999989
+      ]
+    },
+    {
+      "text": "$\\widetilde f_t$",
+      "fontsize_pt": 10.0,
+      "bounds_pt": [
+        87.22288281249999,
+        76.5434375,
+        7.554234375000007,
+        14.913125000000008
+      ]
+    },
+    {
+      "text": "Current Verification $V_t$",
+      "fontsize_pt": 8.3,
+      "bounds_pt": [
+        183.20126281738283,
+        183.080446875,
+        88.59747436523435,
+        11.839106249999986
+      ]
+    },
+    {
+      "text": "Loss evaluation on the same $V_t$",
+      "fontsize_pt": 8.0,
+      "bounds_pt": [
+        167.41800170898438,
+        159.12524999999997,
+        120.16399658203125,
+        11.749500000000012
+      ]
+    },
+    {
+      "text": "$f_{t-1}$",
+      "fontsize_pt": 9.0,
+      "bounds_pt": [
+        190.0785693359375,
+        141.97590624999998,
+        13.842861328124997,
+        12.048187500000012
+      ]
+    },
+    {
+      "text": "$\\widetilde f_t$",
+      "fontsize_pt": 9.0,
+      "bounds_pt": [
+        268.52409453125,
+        140.77215624999997,
+        6.9518109374999995,
+        14.45568750000001
+      ]
+    },
+    {
+      "text": "Loss samples  $\\ell^{P},\\ \\ell^{Q}$",
+      "fontsize_pt": 8.4,
+      "bounds_pt": [
+        188.19636301692503,
+        114.8968625,
+        78.60727396614993,
+        14.206274999999977
+      ]
+    },
+    {
+      "text": "Mean $(d_t,s_t)$",
+      "fontsize_pt": 8.1,
+      "bounds_pt": [
+        168.69139492187497,
+        91.47031562499998,
+        45.617210156249996,
+        11.059368750000004
+      ]
+    },
+    {
+      "text": "Rank/MWU $(p_t)$",
+      "fontsize_pt": 8.0,
+      "bounds_pt": [
+        235.07581427001952,
+        91.48525,
+        56.84837145996096,
+        11.029499999999999
+      ]
+    },
+    {
+      "text": "$P$",
+      "fontsize_pt": 8.0,
+      "bounds_pt": [
+        175.48999999999998,
+        63.68,
+        7.02000000000001,
+        8.639999999999993
+      ]
+    },
+    {
+      "text": "$Q$",
+      "fontsize_pt": 8.0,
+      "bounds_pt": [
+        194.18625,
+        63.488749999999996,
+        7.627499999999998,
+        9.022499999999994
+      ]
+    },
+    {
+      "text": "$P$",
+      "fontsize_pt": 8.0,
+      "bounds_pt": [
+        246.49,
+        63.68,
+        7.019999999999982,
+        8.639999999999993
+      ]
+    },
+    {
+      "text": "$Q$",
+      "fontsize_pt": 8.0,
+      "bounds_pt": [
+        266.18625,
+        63.488749999999996,
+        7.627499999999998,
+        9.022499999999994
+      ]
+    },
+    {
+      "text": "Joint score",
+      "fontsize_pt": 8.7,
+      "bounds_pt": [
+        361.78,
+        176.67999999999998,
+        46.44,
+        8.640000000000015
+      ]
+    },
+    {
+      "text": "$J_t=d_t+\\lambda s_t(p_t-0.2)$",
+      "fontsize_pt": 9.1,
+      "bounds_pt": [
+        346.29117314453123,
+        160.960971875,
+        77.41765371093749,
+        12.078056249999975
+      ]
+    },
+    {
+      "text": "$d_t<0$ AND",
+      "fontsize_pt": 8.5,
+      "bounds_pt": [
+        364.6980516967773,
+        129.910578125,
+        40.603896606445346,
+        11.17884374999997
+      ]
+    },
+    {
+      "text": "$J_t\\leq-\\delta\\ ?$",
+      "fontsize_pt": 9.1,
+      "bounds_pt": [
+        366.6245087929016,
+        116.96097187499998,
+        36.750982414196756,
+        12.078056250000003
+      ]
+    },
+    {
+      "text": "Commit",
+      "fontsize_pt": 8.2,
+      "bounds_pt": [
+        339.60999999999996,
+        90.39999999999999,
+        30.78000000000003,
+        7.200000000000003
+      ]
+    },
+    {
+      "text": "$\\widetilde f_t$",
+      "fontsize_pt": 8.5,
+      "bounds_pt": [
+        351.67470039062493,
+        77.243703125,
+        6.650599218750017,
+        13.512593749999994
+      ]
+    },
+    {
+      "text": "Retain",
+      "fontsize_pt": 8.2,
+      "bounds_pt": [
+        418.49,
+        90.39999999999999,
+        25.019999999999982,
+        7.200000000000003
+      ]
+    },
+    {
+      "text": "$f_{t-1}$",
+      "fontsize_pt": 8.5,
+      "bounds_pt": [
+        424.4193867675781,
+        78.410578125,
+        13.161226464843764,
+        11.178843749999999
+      ]
+    },
+    {
+      "text": "YES",
+      "fontsize_pt": 8.0,
+      "bounds_pt": [
+        328.08,
+        104.4,
+        15.840000000000032,
+        7.199999999999989
+      ]
+    },
+    {
+      "text": "NO",
+      "fontsize_pt": 8.0,
+      "bounds_pt": [
+        426.87999999999994,
+        104.4,
+        12.240000000000009,
+        7.199999999999989
+      ]
+    },
+    {
+      "text": "Next state $f_t$",
+      "fontsize_pt": 8.3,
+      "bounds_pt": [
+        373.2125012207031,
+        58.080446875,
+        47.574997558593736,
+        11.839106249999993
+      ]
+    },
+    {
+      "text": "Future Service and retrospective audit",
+      "fontsize_pt": 8.5,
+      "bounds_pt": [
+        156.24,
+        39.371874999999996,
+        155.51999999999998,
+        7.256250000000001
+      ]
+    },
+    {
+      "text": "Future Service",
+      "fontsize_pt": 8.0,
+      "bounds_pt": [
+        52.145,
+        28.4,
+        55.71,
+        7.199999999999996
+      ]
+    },
+    {
+      "text": "$S_t$",
+      "fontsize_pt": 8.7,
+      "bounds_pt": [
+        75.40390258789063,
+        16.020709375,
+        9.192194824218745,
+        11.958581249999998
+      ]
+    },
+    {
+      "text": "Retrospective audit",
+      "fontsize_pt": 8.1,
+      "bounds_pt": [
+        146.56,
+        28.377499999999998,
+        74.88,
+        7.244999999999997
+      ]
+    },
+    {
+      "text": "Sealed P/Q/action IDs",
+      "fontsize_pt": 8.0,
+      "bounds_pt": [
+        144.67000000000002,
+        18.4,
+        78.65999999999997,
+        7.199999999999999
+      ]
+    },
+    {
+      "text": "Lifecycle",
+      "fontsize_pt": 8.0,
+      "bounds_pt": [
+        271.765,
+        28.4,
+        34.46999999999997,
+        7.199999999999996
+      ]
+    },
+    {
+      "text": "MSE",
+      "fontsize_pt": 8.0,
+      "bounds_pt": [
+        280.45,
+        18.4,
+        17.099999999999966,
+        7.199999999999999
+      ]
+    },
+    {
+      "text": "Harmful",
+      "fontsize_pt": 8.0,
+      "bounds_pt": [
+        339.87999999999994,
+        28.4,
+        30.240000000000066,
+        7.199999999999996
+      ]
+    },
+    {
+      "text": "commitment",
+      "fontsize_pt": 8.0,
+      "bounds_pt": [
+        331.195,
+        18.4,
+        47.610000000000014,
+        7.199999999999999
+      ]
+    },
+    {
+      "text": "Downside",
+      "fontsize_pt": 8.0,
+      "bounds_pt": [
+        401.05499999999995,
+        23.400000000000002,
+        37.889999999999986,
+        7.199999999999996
+      ]
+    },
+    {
+      "text": "Next maintenance stage $(t+1)$",
+      "fontsize_pt": 8.0,
+      "bounds_pt": [
+        179.52426672363282,
+        0.6000000000000003,
+        108.95146655273436,
+        10.799999999999999
+      ]
+    }
+  ],
+  "loss_roles": {
+    "mean": "paired differences of losses in the same current windows",
+    "rank": "one-sided MWU comparing two loss samples; not a paired-difference test"
+  },
+  "sealed_ids": "parent P, candidate Q and deployment action are sealed before Service access",
+  "matured_data": "only protocol-eligible matured data may enter a later Update; no Service-to-current-gate edge"
+}

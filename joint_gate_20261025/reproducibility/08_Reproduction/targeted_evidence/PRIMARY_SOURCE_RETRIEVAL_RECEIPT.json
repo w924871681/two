@@ -1,0 +1,48 @@
+[
+  {
+    "name": "alibaba_schema",
+    "url": "https://raw.githubusercontent.com/alibaba/clusterdata/master/cluster-trace-v2018/schema.txt",
+    "at": "2026-10-24T20:00:30.289171+08:00",
+    "status": "RETRIEVED",
+    "path": "alibaba_schema.txt",
+    "sha256": "731763f9570c555cce6e27bab66fc6cf2aa19ea98ee9607063845bd37bb5af2e",
+    "bytes": 8125,
+    "http": 200
+  },
+  {
+    "name": "alibaba_trace_doc",
+    "url": "https://raw.githubusercontent.com/alibaba/clusterdata/master/cluster-trace-v2018/trace_2018.md",
+    "at": "2026-10-24T20:00:33.179667+08:00",
+    "status": "RETRIEVED",
+    "path": "alibaba_trace_doc.txt",
+    "sha256": "daea8423c65cd24995500fcb6da103b1d4dec505f7b13ff2f6975caae0ede2fc",
+    "bytes": 6527,
+    "http": 200
+  },
+  {
+    "name": "tsp_authors",
+    "url": "https://www.techscience.com/ndetail/authors",
+    "at": "2026-10-24T20:00:37.359973+08:00",
+    "status": "RETRIEVED",
+    "path": "tsp_authors.html",
+    "sha256": "312e1df0bd2edce7cf9a146e101e2aed28293a8d11c5d75ddc22a2c0d437e947",
+    "bytes": 111124,
+    "http": 200
+  },
+  {
+    "name": "lbnl_data",
+    "url": "https://faultdetection.lbl.gov/data/",
+    "status": "UNAVAILABLE",
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://faultdetection.lbl.gov/data/')"
+  },
+  {
+    "name": "granderson2023",
+    "url": "https://eta-publications.lbl.gov/sites/default/files/a_labeled_dataset_for_building_hvac_systems.pdf",
+    "at": "2026-10-24T20:02:17.330987+08:00",
+    "status": "RETRIEVED",
+    "path": "granderson2023.pdf",
+    "sha256": "8c70a9bec95ef56d56a557dd8e90ef3499650e80f1e9a3ce2becd3f8571f76fd",
+    "bytes": 2010365,
+    "http": 200
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "ram_reserve_bytes": 1610612736,
+  "ram_reserve_gib": 1.5,
+  "authorization_zh": "worker准入可以降低为1.5g",
+  "scope": "engineering worker admission and RAM reserve only",
+  "training_replay": false,
+  "scientific_gates_unchanged": true
+}

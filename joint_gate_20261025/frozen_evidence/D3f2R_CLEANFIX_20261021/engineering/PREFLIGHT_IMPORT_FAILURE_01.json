@@ -1,0 +1,8 @@
+{
+  "stage": "PyTorch import before freeze",
+  "error": "FileNotFoundError: No usable temporary directory; write guard rejected default temp roots outside isolated workspace",
+  "new_scientific_data": false,
+  "optimizer_steps": 0,
+  "at_unix": 1792565946.158351,
+  "repair": "Process-local TMP/TEMP/tempfile.tempdir confined to isolated process/tmp"
+}

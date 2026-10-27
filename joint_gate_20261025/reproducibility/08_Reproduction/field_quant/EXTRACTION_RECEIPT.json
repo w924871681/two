@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "sensor_rows_scanned": 6541178,
+  "selected_sensor_rows": 751303,
+  "selected_reference_rows": 58615,
+  "selection": "NO2 all released products/systems; Ratified reference only",
+  "original_sha256": {
+    "QUANT_SensorSystems_hourly.csv": "a8fa398aacd7bb5c5c320df6675a8dccb146d4e44d0c6f392b4d5acf76fc4d1f",
+    "QUANT_Reference_hourly.csv": "079a686e4c01193415429bf7a6fde22b6911014af308200d8c2068fac7390585"
+  },
+  "derivative_sha256": {
+    "QUANT_NO2_ALL_PRODUCTS.csv": "75f38bc1570b77242bb7c78dedda7f1471f85c790b343700b0b616d69c3834b1",
+    "QUANT_NO2_RATIFIED_REFERENCE.csv": "de7ab296024d18c7bab7a6ce360910aee7d6900570ec4b6d81c0535624ad4977"
+  },
+  "provider_row": "1-based data row, excluding header and blank lines",
+  "optimizer_steps": 0
+}

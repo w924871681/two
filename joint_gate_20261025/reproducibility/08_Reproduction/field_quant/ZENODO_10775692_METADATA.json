@@ -1,0 +1,147 @@
+{
+  "created": "2024-03-04T22:35:38.677429+00:00",
+  "modified": "2024-03-06T12:29:46.999179+00:00",
+  "id": 10775692,
+  "conceptrecid": "10775691",
+  "doi": "10.5281/zenodo.10775692",
+  "conceptdoi": "10.5281/zenodo.10775691",
+  "doi_url": "https://doi.org/10.5281/zenodo.10775692",
+  "metadata": {
+    "title": "QUANT: A Three-Year, Multi-City Air Quality Dataset of Commercial Air Sensors and Reference Data for Performance Evaluation",
+    "doi": "10.5281/zenodo.10775692",
+    "publication_date": "2024-03-02",
+    "description": "<p>The QUANT dataset embodies a thorough initiative to assess the performance of commercial air quality sensors relative to reference measurements over three years (December 2019 to October 2022), across three UK urban sites: London, Manchester, and York. This collection showcases a wide spectrum of meteorological and ambient conditions, offering a rich dataset for detailed analysis. As a pivotal component of the UK Research and Innovation Clean Air programme, QUANT's structured methodology scrutinized 49 sensor systems from 14 manufacturers. The project unfolded in two phases: the Main QUANT phase, dedicated to the prolonged evaluation of selected sensor devices, and the Wider Participation Study, which extended an invitation to commercial entities for an equitable evaluation. This dataset integrates hourly records from (i) reference monitors at each site, (ii) QUANT sensor data, and (iii) specially deployed duplicate reference instruments, essential for delving into sensor performance subtleties and calibration accuracy.&nbsp; It encompasses measurements of gases (NO, NO2, O3), particulate matter (PM1, PM2.5, PM10), and critical meteorological parameters (humidity, temperature, atmospheric pressure). Comprising data files with both sensor and reference information, alongside metadata files that delineate locations, deployment dates, and details of sensors and reference instruments, this dataset provides a holistic resource for air quality monitoring and evaluative studies.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Diez, Sebastian",
+        "affiliation": "Universidad del Desarrollo",
+        "orcid": "0000-0001-9659-0356"
+      },
+      {
+        "name": "Lacy, Stuart",
+        "affiliation": "University of York",
+        "orcid": "0000-0002-8570-7528"
+      },
+      {
+        "name": "Pete, Edwards",
+        "affiliation": "University of York",
+        "orcid": "0000-0002-1076-6793"
+      },
+      {
+        "name": "Read, Katie",
+        "affiliation": "University of York",
+        "orcid": "0000-0002-4044-455X"
+      },
+      {
+        "name": "Josefina, Urquiza",
+        "affiliation": "Universidad Tecnológica Nacional",
+        "orcid": "0009-0005-8910-2576"
+      }
+    ],
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "10775691"
+          }
+        }
+      ]
+    },
+    "notes": "<p><strong>Acknowledgments</strong></p>\n<p>This work was supported by the UKRI Strategic Priorities Fund Clean Air program (NERC NE/T00195X/1), with support from Defra. We extend our gratitude to the MAQS team (NERC NE/T001984/1, NE/T001917/1), Dr Michael Flynn, Dr Nicholas Marsden and Dr Thomas Bannan at the MAQS for their great help and assistance with regulatory-grade instruments data collection and support in maintenance tasks during QUANT. We would also like to thank the LAQS team (NERC NE/T001909/1) Dr Max Priestman, Dr Stefan Gillott and Dr David Green (Imperial College London) for granting access, support in maintenance tasks and sharing the data from the London site. The authors wish to acknowledge Dr Katie Read and the Atmospheric Measurement and Observation Facility (AMOF), a Natural Environment Research Council (UKRI-NERC) funded facility, for providing the duplicate references (a Thermo 49i and a 2B Technologies 202 for ozone, and two Teledyne T200U for NOx) used in this study and for their expertise on its deployment. Our efforts were greatly facilitated by Andrew Gillah, Jordan Walters, Liz Bates, and Michael Golightly from the City of York Council, whose support was crucial in granting site access and monitoring instrument status. Further appreciation is directed towards Chris Anthony, Killian Murphy, Steve Andrews, and Jenny Hudson-Bell from WACL for their invaluable help and support throughout the project. Lastly, we thank Stuart Murray and Chris Rhodes from the Department of Chemistry Workshop for their indispensable technical assistance and advice.</p>"
+  },
+  "title": "QUANT: A Three-Year, Multi-City Air Quality Dataset of Commercial Air Sensors and Reference Data for Performance Evaluation",
+  "links": {
+    "self": "https://zenodo.org/api/records/10775692",
+    "self_html": "https://zenodo.org/records/10775692",
+    "preview_html": "https://zenodo.org/records/10775692?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.10775692",
+    "self_doi": "https://doi.org/10.5281/zenodo.10775692",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10775692",
+    "reserve_doi": "https://zenodo.org/api/records/10775692/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/10775691",
+    "parent_html": "https://zenodo.org/records/10775691",
+    "parent_doi": "https://doi.org/10.5281/zenodo.10775691",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10775691",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10775692/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10775692/sequence/default",
+    "files": "https://zenodo.org/api/records/10775692/files",
+    "media_files": "https://zenodo.org/api/records/10775692/media-files",
+    "latest": "https://zenodo.org/api/records/10775692/versions/latest",
+    "latest_html": "https://zenodo.org/records/10775692/latest",
+    "versions": "https://zenodo.org/api/records/10775692/versions",
+    "draft": "https://zenodo.org/api/records/10775692/draft",
+    "access_links": "https://zenodo.org/api/records/10775692/access/links",
+    "access_grants": "https://zenodo.org/api/records/10775692/access/grants",
+    "access_users": "https://zenodo.org/api/records/10775692/access/users",
+    "access_request": "https://zenodo.org/api/records/10775692/access/request",
+    "access": "https://zenodo.org/api/records/10775692/access",
+    "communities": "https://zenodo.org/api/records/10775692/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/10775692/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/10775692/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/10775692/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/10775692/quota-increase",
+    "requests": "https://zenodo.org/api/records/10775692/requests"
+  },
+  "updated": "2024-03-06T12:29:46.999179+00:00",
+  "recid": "10775692",
+  "revision": 10,
+  "files": [
+    {
+      "id": "5a1fec49-65cb-40bf-a1eb-ed085597ce65",
+      "key": "QUANT_DuplicateRef_hourly.csv",
+      "size": 1434199,
+      "checksum": "md5:95a7adc5e12f6b67f92baadb9a18cb2a",
+      "links": {
+        "self": "https://zenodo.org/api/records/10775692/files/QUANT_DuplicateRef_hourly.csv/content"
+      }
+    },
+    {
+      "id": "aa18b49e-723f-4007-b6ba-51fa4bfeb555",
+      "key": "QUANT_SensorSystems_hourly.csv",
+      "size": 476864853,
+      "checksum": "md5:7f8665948c58014f4dde1122d5f438e6",
+      "links": {
+        "self": "https://zenodo.org/api/records/10775692/files/QUANT_SensorSystems_hourly.csv/content"
+      }
+    },
+    {
+      "id": "30d0fac2-ed9a-4a1b-a04e-dc3942021d57",
+      "key": "QUANT_Reference_hourly.csv",
+      "size": 26658532,
+      "checksum": "md5:51df9e9632f21e5a8fcbed11662cab45",
+      "links": {
+        "self": "https://zenodo.org/api/records/10775692/files/QUANT_Reference_hourly.csv/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "286994"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 1335,
+    "unique_downloads": 894,
+    "views": 543,
+    "unique_views": 511,
+    "version_downloads": 1335,
+    "version_unique_downloads": 894,
+    "version_unique_views": 511,
+    "version_views": 543
+  },
+  "state": "done",
+  "submitted": true
+}

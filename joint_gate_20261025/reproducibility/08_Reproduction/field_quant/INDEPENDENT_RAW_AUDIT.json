@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "implementation": "stdlib csv raw-source pairing independent of pandas derivative/extraction; NumPy quantiles",
+  "raw_sensor_rows_scanned": 6541178,
+  "NO2_rows": 751303,
+  "reference_keys": 58615,
+  "system_products_checked": 124,
+  "finite_pairs": 591316,
+  "max_quantile_absolute_difference_ppb": 7.105427357601002e-15,
+  "audit_numerical_tolerance_ppb": 1e-10,
+  "optimizer_steps": 0
+}

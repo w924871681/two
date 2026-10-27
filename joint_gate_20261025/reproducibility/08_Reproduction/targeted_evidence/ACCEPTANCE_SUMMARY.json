@@ -1,0 +1,16 @@
+{
+  "status": "PASS_BOUNDED_REPRODUCTION_ACCEPTANCE",
+  "cases": 19,
+  "Main_methods": 12,
+  "stages": 472,
+  "successful_optimizer_steps": 22400,
+  "all_attempted_steps": 22443,
+  "failed_attempt_charge": 41,
+  "full_matrix_rerun": false,
+  "original_project_reads_in_training_children": 0,
+  "max_absolute_mse_difference": 0.0,
+  "state_hash_mismatches": 0,
+  "commit_mismatches": 0,
+  "limits": "Finite engineering acceptance, no new scientific confirmation; full PATH_B and all matrix not rerun",
+  "minimal_source_entry_steps": 2
+}

@@ -1,0 +1,13 @@
+{
+  "status": "SKIPPED_A5_CONDITIONS_NOT_ALL_MET",
+  "optimizer_steps": 0,
+  "new_centers_generated": 0,
+  "all_conditions_satisfied": false,
+  "reason": "The observed input quality structure is already retained in E3/E4 processed masks. Retained thermal maintenance windows have maximum4-sample missing episodes, matching the existing1h dropout stress. Long thermal raw gaps occur outside admissible retained maintenance windows or include missing reference targets; transporting them into workload channels would require additional unvalidated domain/clock assumptions. Raw gaps and field unavailability cannot be relabelled as bias or replay incidence.",
+  "alibaba": "Native permanently/unavailable channels and sporadic disk markers are already present and masked in E3; they do not identify a new independently mapped fault condition",
+  "thermal": "Full-raw target gaps up to many hours documented, but no new matched exposure distribution beyond retained-window protocol has been established",
+  "no_mse_read_for_decision": true,
+  "current_faults_not_retuned": true,
+  "criteria_source": "TASKBOOK A5 requires all four conditions; avoid repeating existing stresses",
+  "raw_receipt_sha256": "b2a948ef7aba076e38ef9f10c1dbcd34a99c3ae76b1801cfc4e7874dc1a7d874"
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "file": "E0_MAIN_TABLES/RESULTS_BY_ARM.csv",
+    "sha256": "fa865e866b595f4f4ee81d54be2c4a2d3baffb37cb390baaa863dc1e1b763ea6",
+    "rows": 12
+  },
+  {
+    "file": "E1/METHOD_STREAM.csv",
+    "sha256": "f2c45fdcb714329dd546df19454b8bbd70d24fa6f40e5f04f3499e66eea1a4ca",
+    "rows": 72
+  },
+  {
+    "file": "E0_MAIN_TABLES/BENIGN_REGIME_ACTIVITY_RECALL.csv",
+    "sha256": "5d633da77e129461873dec896d440b90954462d71b0b40a6e93f6d906c7d52a6",
+    "rows": 144
+  },
+  {
+    "file": "E0_MAIN_TABLES/PAIRED_MSE_ALL_BASELINES.csv",
+    "sha256": "db8beb77b6b189368f97a41a67d5e8e04f407367adc19029ad66ad7c689b7e84",
+    "rows": 11
+  },
+  {
+    "file": "E0_MAIN_TABLES/SAME_STATE_DISAGREEMENT_SUMMARY.csv",
+    "sha256": "d6f7777fca999214e738af491b64e815a1403670c2168001241be9e65a99b3d8",
+    "rows": 6
+  },
+  {
+    "file": "E0_MAIN_TABLES/DEVCAL_JOINT_RESULTS_BY_ARM.csv",
+    "sha256": "dde9b7ed18c0bee15e3b14e9a004e32c91e438f6a51bd36e4e86ebb3eafc9c56",
+    "rows": 16
+  },
+  {
+    "file": "E2_GRU_H1/PAIRED_ALL_BASELINES.csv",
+    "sha256": "526313052671ca8b64cf19c96f397d582d5456f326b242e23ea3f9dafd7be05d",
+    "rows": 75
+  },
+  {
+    "file": "E2_GRU_H1/METHOD_STREAM.csv",
+    "sha256": "acb29c99ee78ec392584532147e700076cdaad761fe3e3c57a0fd6c5fc07be36",
+    "rows": 12
+  },
+  {
+    "file": "E2_GRU_H4/PAIRED_ALL_BASELINES.csv",
+    "sha256": "bb9835449e10bfc776d2de4f17c91fa855b001cc3e8d772a90b0c52b1398b677",
+    "rows": 75
+  },
+  {
+    "file": "E2_GRU_H4/METHOD_STREAM.csv",
+    "sha256": "a63a03f946d3c8cf82b18ee03442c4bc49e03a4bdbd4d353d6d2c374004fb555",
+    "rows": 12
+  },
+  {
+    "file": "E2_MLP_H1/PAIRED_ALL_BASELINES.csv",
+    "sha256": "1d2895e1e245ec1e9089a2d4240dca990a5ec1d3d0cc12a5fbc5817dab93c650",
+    "rows": 75
+  },
+  {
+    "file": "E2_MLP_H1/METHOD_STREAM.csv",
+    "sha256": "37f095dfda2c37574c2d46c8f5f43b5794a3a9a967c5198351c3c57af8eb5132",
+    "rows": 12
+  },
+  {
+    "file": "E2_MLP_H4/PAIRED_ALL_BASELINES.csv",
+    "sha256": "bc1f456f2621f4e380522ef8d357de6000ecd146896abcd427eb2ba15ec863b7",
+    "rows": 75
+  },
+  {
+    "file": "E2_MLP_H4/METHOD_STREAM.csv",
+    "sha256": "f13254b9022ff6435e8b3ec0c8c601fe5c1b6f6e3f3e854e3397db3d11d2a5f5",
+    "rows": 12
+  },
+  {
+    "file": "E2_TCN_H1/PAIRED_ALL_BASELINES.csv",
+    "sha256": "9d53ae116524ddbe638bc167cd10506f24283f020245f445f79e5ff4a14e1461",
+    "rows": 75
+  },
+  {
+    "file": "E2_TCN_H1/METHOD_STREAM.csv",
+    "sha256": "87ab302eca346842b2b7d535ed4b864960a394e02fadbe71c7433cdcb97e4f44",
+    "rows": 12
+  },
+  {
+    "file": "E2_TCN_H4/PAIRED_ALL_BASELINES.csv",
+    "sha256": "b98e86cd7b0881c5c525bd628870acc7c2fa0c6622ae739850b4f05b4a61164a",
+    "rows": 75
+  },
+  {
+    "file": "E2_TCN_H4/METHOD_STREAM.csv",
+    "sha256": "2f99dadcf9701350856eb6c772a1f9130c76114e277309eb1d03bbec5ef7fb9e",
+    "rows": 12
+  },
+  {
+    "file": "E3/METHOD_STREAM.csv",
+    "sha256": "802f8041faa97c5295aac8c18f25ab8168eb618f112f2e3cbc5986f5191e4172",
+    "rows": 24
+  }
+]

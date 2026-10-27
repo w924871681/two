@@ -1,0 +1,13 @@
+{
+  "controlled_optimizer":"SGD",
+  "learning_rate":0.01,
+  "updates_per_stage":50,
+  "batch_size":64,
+  "gradient_clip":1.0,
+  "huber_note":"Huber delta is fixed at 0.1; no heldout tuning",
+  "EWC":{"lambda_development_grid":[10,200,1000],"gamma":0.9,"fisher":"per-example unit-variance Gaussian empirical diagonal, 32 warmup/update examples","extra_fisher_backwards":"counted separately from 50 optimizer steps"},
+  "ER":{"sampling":"uniform current plus raw stored past update windows","eviction":"whole oldest segment","byte_budget":"approximately match full proposed historical raw block storage; actual bytes reported"},
+  "CLeaR-Predictor":{"status":"method_level_framework_adaptation","threshold_factors":[0.75,1.5],"novelty_capacities":[64,128],"ewc_lambda":200,"update":"stage-batched novelty trigger, train novelty with online EWC, empty both buffers, threshold reset from training MSE","differences":"no autoencoder; 50 optimizer steps per triggered stage; stage-batched arrival; explicit name distinguishes from original experimental implementation","source":"https://arxiv.org/html/2101.00926v3"},
+  "MER-Reg-2026":{"status":"implementation_unavailable_or_nonfaithful","reason":"Full MDN + adaptive target partitioning + XuILVQ prototype-rehearsal implementation has not been reproduced and validated. No proxy reported under this name.","source":"https://arxiv.org/html/2602.09720v1"},
+  "OracleCommit":{"status":"offline_diagnostic_only","ranking":"excluded"}
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "R2.4 read-only external evidence follow-up; not a new RAVM training experiment",
+  "source": "10.5281/zenodo.10775692 version 1",
+  "selection_before_analysis": "All released NO2 sensor systems and all released product versions, all three cities and full time range; pair only with the provider-designated ratified reference where unambiguous",
+  "reason": "NO2 has a documented co-located regulatory reference and daily zero/span checks; this gives paired field measurement discrepancies rather than operational-state fault labels",
+  "metrics": "Exact units, finite pair counts, reference coverage, signed error median and absolute-error median/95th percentile per sensor system/product version. No fitted calibrator, no invented fault classifier, no rate chosen to match 5/10/20 percent",
+  "no_transfer_claim": "Air-quality ppb discrepancies do not calibrate utilization/temperature perturbations, injected fractions, replay prevalence or one-hour incident duration in target DT sites",
+  "missingness": "Any hourly gap duration is an availability description within observed bounds, not a causal failure label; hourly aggregation cannot resolve sub-hour events",
+  "frozen_science": "No Main/E0-E5 parameters, outcomes, centers, seeds, weights or source-to-lifecycle acceptance changed",
+  "optimizer_steps_authorized": 0
+}

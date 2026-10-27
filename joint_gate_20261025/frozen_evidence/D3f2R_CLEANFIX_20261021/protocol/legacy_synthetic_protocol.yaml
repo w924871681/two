@@ -1,0 +1,22 @@
+{
+  "data_seed": 7311,
+  "model_seeds": [7311,7312,7313],
+  "observations": 17000,
+  "stages": 24,
+  "warmup_observations": 800,
+  "initial_verification_observations": 200,
+  "stage_update_observations": 400,
+  "stage_verification_observations": 240,
+  "stage_service_observations": 400,
+  "input_length": 96,
+  "main_horizon": 1,
+  "secondary_horizon": 4,
+  "backbone": "GRU-32 one layer, linear output",
+  "features": "12 observations concatenated with 12 observation masks",
+  "source_pretraining": {"centers":20,"segment":[0,1000],"epochs":50,"optimizer":"Adam","learning_rate":0.001,"batch_size":64},
+  "warmup": {"updates":50,"optimizer":"SGD","learning_rate":0.01,"clip_norm":1.0},
+  "drift": {"base_generator_random_drift_probability":0,"abrupt_onset_stage":9,"logit_shift":0.8,"gradual_width_stages":8,"recurring_transition_stages":[7,13,19],"metric_mapping":"same shift multiplied by inherited metric gains with inherited lags; seasonal/AR/bursts/missingness retained"},
+  "recovery_reference": "Exploratory only: per-center-stage minimum observed clean service MSE among Frozen, Always-FT, ER and OracleCommit; recovery requires two consecutive stages within 5% of this reference. Not a proven attainable optimum.",
+  "tail_definitions": {"worst10":"largest ceil(0.1*N) center-stage service MSE values after seed averaging","cvar90":"largest ceil(0.1*C) center lifecycle MSE values after seed averaging"},
+  "bootstrap": {"replicates":4000,"seed":2904,"unit":"center","seed_handling":"average within center-stage before resampling centers"}
+}

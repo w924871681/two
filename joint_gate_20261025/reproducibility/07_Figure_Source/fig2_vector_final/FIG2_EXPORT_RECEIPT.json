@@ -1,0 +1,30 @@
+{
+  "status": "EXPORTED_PENDING_ACTUAL_VISUAL_REVIEW",
+  "width_pt": 468,
+  "height_pt": 278,
+  "width_mm": 165.1,
+  "height_mm": 98.07222222222222,
+  "font_min_pt": 8.0,
+  "native_image_objects": 0,
+  "vector_drawings": 317,
+  "text_characters": 664,
+  "label_count": 60,
+  "edges": 24,
+  "tiff_pixels": [
+    7800,
+    4634
+  ],
+  "tiff_dpi": 1200,
+  "tiff_mode": "RGB",
+  "python": "3.13.5",
+  "matplotlib": "3.10.0",
+  "all_labels_in_canvas": true,
+  "no_raster_input": true,
+  "new_training_steps": 0,
+  "files": {
+    "fig2_joint_gate_final.pdf": "f39d31aaeb251516bc937ad092fba02d6611ee6a66186977ebbeafeff61227f9",
+    "fig2_joint_gate_final.svg": "4d131a55eb775e0f6f3a5f84fd3c114092ccd14deb1b563af68d9266f0b4f807",
+    "fig2_joint_gate_final.tiff": "b4a41fea3027c96bd1e16ba6efd4beca60ea24127dcbc054a1846751e615ee5f",
+    "draw_fig2.py": "820a65cf75b9f55ad896477ea52e282edc2b2e0c12b6ce704e2830a89639cf90"
+  }
+}

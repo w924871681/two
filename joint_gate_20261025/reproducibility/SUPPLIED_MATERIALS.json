@@ -1,0 +1,37 @@
+{
+  "status": "PREPARED_FOR_AUTHOR_SUBMISSION_NOT_UPLOADED",
+  "aggregate_reconstruction": "Main/E0-E5 supplied CSVs and relative-path entry",
+  "synthetic_PATH_A_case_count": 16,
+  "synthetic_groups": [
+    "Main",
+    "E2_GRU_H4",
+    "E2_MLP_H1",
+    "E2_TCN_H4",
+    "E5_COST_R1"
+  ],
+  "synthetic_PATH_B": "One previously matching full source-to-lifecycle path; assets and explicit reader commands supplied; not retrained now",
+  "excluded_external_input_checkpoint_domains": [
+    "Alibaba",
+    "UCI",
+    "ThermBuild"
+  ],
+  "external_result_aggregates_and_recipe_descriptions": "included; not a claim that external training arrays are supplied",
+  "field_profiles": [
+    "Wang2025 AHU released files",
+    "QUANT v1 NO2 all-product subset and Ratified reference"
+  ],
+  "raw_large_archives": "not included",
+  "original_full_private_receipts": "local archive only",
+  "public_repository_or_upload": "none",
+  "new_optimizer_steps": 0,
+  "visual_final_plotting": "07_Figure_Source/redraw_figures.py; sealed CSV inputs unchanged, no training",
+  "current_figure2": "07_Figure_Source/fig2_redesign/",
+  "current_main_cited_references": 30,
+  "current_manuscript_pages": {
+    "Clean": 19,
+    "Tracked": 34,
+    "Rebuttal": 6,
+    "Supplement": 15
+  },
+  "final_submission_repair": "Figures/references only; all scientific execution assets unchanged"
+}

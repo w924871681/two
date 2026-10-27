@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-24T23:14:00.349318+08:00",
+  "dataset_doi": "10.6084/m9.figshare.27147678.v3",
+  "version": 3,
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "inclusion": "All three provider CSVs; no outcome/performance selection",
+  "inputs": [
+    {
+      "name": "office_scientific_data.csv",
+      "size": 15414979,
+      "download_url": "https://ndownloader.figshare.com/files/53483432",
+      "computed_md5": "646799c043c8d0455d507cea223d370f"
+    },
+    {
+      "name": "hosptial_scientific_data.csv",
+      "size": 5621617,
+      "download_url": "https://ndownloader.figshare.com/files/53483435",
+      "computed_md5": "3be98fc565727053878c205de03ffb4f"
+    },
+    {
+      "name": "auditorium_scientific_data.csv",
+      "size": 9147313,
+      "download_url": "https://ndownloader.figshare.com/files/53483438",
+      "computed_md5": "044c9faf5d99d7621edd7fb05850dfd0"
+    }
+  ],
+  "statistics": [
+    "all rows/columns and label counts",
+    "timestamp/asset identifiers availability",
+    "numeric missingness of released files"
+  ],
+  "unsupported": [
+    "Do not infer physical measurement bias from an operational fault label",
+    "No population fault-event incidence from curated/repeated hourly states",
+    "No episode duration without asset/time ordering",
+    "No reconstruction of missing rows removed by provider"
+  ],
+  "optimizer_steps": 0,
+  "A5_not_triggered_by_label_frequencies": true
+}

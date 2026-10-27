@@ -1,0 +1,17 @@
+arm,case_id,center,group,optimizer_step_budget,purpose,seed,stages,stream
+JOINT__l3__m0,E2_GRU_H4__JOINT__l3__m0,64100,E2_GRU_H4,1200,"Engineering reproduction acceptance, not new scientific confirmation",7311,24,mixed
+JOINT__l3__m0,E2_MLP_H1__JOINT__l3__m0,64100,E2_MLP_H1,1200,"Engineering reproduction acceptance, not new scientific confirmation",7311,24,mixed
+JOINT__l3__m0,E2_TCN_H4__JOINT__l3__m0,64100,E2_TCN_H4,1200,"Engineering reproduction acceptance, not new scientific confirmation",7311,24,mixed
+JOINT__l3__m0,E5_COST_R1__JOINT__l3__m0,63000,E5_COST_R1,1200,"Engineering reproduction acceptance, not new scientific confirmation",7311,24,clean
+ALWAYS_FT,Main__ALWAYS_FT,63000,Main,1200,"Engineering reproduction acceptance, not new scientific confirmation",7311,24,mixed
+DUAL_MEAN__g12,Main__DUAL_MEAN__g12,63000,Main,1200,"Engineering reproduction acceptance, not new scientific confirmation",7311,24,mixed
+ER,Main__ER,63000,Main,1200,"Engineering reproduction acceptance, not new scientific confirmation",7311,24,mixed
+EWC,Main__EWC,63000,Main,1200,"Engineering reproduction acceptance, not new scientific confirmation",7311,24,mixed
+FROZEN,Main__FROZEN,63000,Main,0,"Engineering reproduction acceptance, not new scientific confirmation",7311,24,mixed
+HUBER_FT,Main__HUBER_FT,63000,Main,1200,"Engineering reproduction acceptance, not new scientific confirmation",7311,24,mixed
+JOINT__l3__m0,Main__JOINT__l3__m0,63000,Main,1200,"Engineering reproduction acceptance, not new scientific confirmation",7311,24,mixed
+MWU_MEAN__g04,Main__MWU_MEAN__g04,63000,Main,1200,"Engineering reproduction acceptance, not new scientific confirmation",7311,24,mixed
+RAVM_D2B_V02,Main__RAVM_D2B_V02,63000,Main,1200,"Engineering reproduction acceptance, not new scientific confirmation",7311,24,mixed
+RAVM_ORIGINAL,Main__RAVM_ORIGINAL,63000,Main,1200,"Engineering reproduction acceptance, not new scientific confirmation",7311,24,mixed
+RECENT_MEAN__g12,Main__RECENT_MEAN__g12,63000,Main,1200,"Engineering reproduction acceptance, not new scientific confirmation",7311,24,mixed
+VALIDATION_COMMIT,Main__VALIDATION_COMMIT,63000,Main,1200,"Engineering reproduction acceptance, not new scientific confirmation",7311,24,mixed

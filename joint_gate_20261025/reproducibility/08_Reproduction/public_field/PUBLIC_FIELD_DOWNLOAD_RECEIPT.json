@@ -1,0 +1,40 @@
+{
+  "status": "PASS_PROVIDER_MD5_AND_SIZE",
+  "doi": "10.6084/m9.figshare.27147678.v3",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "files": [
+    {
+      "file": "office_scientific_data.csv",
+      "bytes": 15414979,
+      "md5": "646799c043c8d0455d507cea223d370f",
+      "sha256": "7dfe5660c6d5b0db388e01a59956a3ce40136d42c7a1d2038bfc6a7ea2a80203",
+      "url": "https://ndownloader.figshare.com/files/53483432"
+    },
+    {
+      "file": "hosptial_scientific_data.csv",
+      "bytes": 5621617,
+      "md5": "3be98fc565727053878c205de03ffb4f",
+      "sha256": "66feab7fe66d77ca1c632315a61a7a93412ff00dc2fb0cd9b2485394cecca9f7",
+      "url": "https://ndownloader.figshare.com/files/53483435"
+    },
+    {
+      "file": "auditorium_scientific_data.csv",
+      "bytes": 9147313,
+      "md5": "044c9faf5d99d7621edd7fb05850dfd0",
+      "sha256": "acfcd58d1dff5b76f64bbe716e824c4592f83a5cbfc7e6c8b77fe050bd414d3b",
+      "url": "https://ndownloader.figshare.com/files/53483438"
+    },
+    {
+      "file": "FDD_processing.ipynb",
+      "bytes": 506853,
+      "md5": "c8d6415b7aaca0d93ecaf66937082193",
+      "sha256": "c0788f09fbc460a512bdd2d1e5e87845d3341e99f26457c4805109387224cef7",
+      "url": "https://ndownloader.figshare.com/files/53483891"
+    }
+  ],
+  "no_model_training": true
+}

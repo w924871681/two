@@ -1,0 +1,183 @@
+{
+  "schema": "ravm-thermal-round2-proposed-v1",
+  "status": "LOCKED_BEFORE_CALIBRATION_AND_FINAL",
+  "buildings": [
+    "BSE1",
+    "BSE2"
+  ],
+  "physical_building_count": 2,
+  "one_shared_laboratory_site": true,
+  "seeds": [
+    7311,
+    7312,
+    7313
+  ],
+  "dataset_doi": "10.24406/fordatis/445",
+  "license": "CC BY-SA 4.0",
+  "target": "room_5_living_110_AT",
+  "target_unit": "Celsius",
+  "target_main_file_height_inconsistent": true,
+  "source_days": [
+    1,
+    120
+  ],
+  "development_reference_days": [
+    121,
+    180
+  ],
+  "calibration_days": [
+    181,
+    270
+  ],
+  "final_days": [
+    271,
+    444
+  ],
+  "normalization": "each building source days1-120 only; observed-value mean/population SD; constant-feature SD=1",
+  "missing_inputs": "causal past carry maximum4 samples then standardized0; observation masks retained",
+  "missing_targets": "never imputed; windows with nonfinite target omitted equally for all arms",
+  "raw_time": "ordinal only; main.TIME=temperature.TIME-1; quarterhour phase inferred from complete day groups; no UTC claim",
+  "L": 96,
+  "H": 1,
+  "warmup": 800,
+  "initial_history": 200,
+  "update": 192,
+  "verification": 192,
+  "service": 192,
+  "stage_stride": 384,
+  "minimum_update_and_service_origins": 48,
+  "minimum_origins_per_verification_block": 8,
+  "coverage_exclusions_before_model_outcomes": true,
+  "initial_history_failure": "declare building/pool unavailable; no scan to alternate start",
+  "source_training_steps": 1000,
+  "stage_and_warmup_steps": 50,
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "batch_size": 64,
+  "gradient_clip": 1.0,
+  "methods": [
+    "RecentMean",
+    "RecentMedian",
+    "DualMean",
+    "RAVM",
+    "CumulativeMean",
+    "MWUMean"
+  ],
+  "scales": [
+    0.0,
+    0.001,
+    0.002,
+    0.003,
+    0.005,
+    0.0075,
+    0.01,
+    0.015,
+    0.02,
+    0.03,
+    0.04,
+    0.05,
+    0.075,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "fixed_ravm_kappa_recent": 0.0,
+  "fixed_ravm_kappa_history": 0.5,
+  "history_capacity": 12,
+  "delta_ret": 0.0,
+  "reference": "equal-building, equal-seed development Frozen lifecycle MSE after causal 800-row warmup",
+  "risk_frequency": 0.05,
+  "risk_downside_scale": 0.01,
+  "risk_constraints": "separately each of the3 condition streams, equal-building and equal-seed means",
+  "conditions": [
+    "unmodified",
+    "offset_2C_1h",
+    "dropout_1h"
+  ],
+  "fault_episode": "one uniformly located contiguous4-sample (1h) episode in each192-row update/verification role",
+  "offset_celsius": 2.0,
+  "fault_cadence_interpretation": "controlled chosen stress cadence, not inferred field prevalence",
+  "service_reference_policy": "unmodified observed physical temperature references; baseline acquisition gaps persist; no truth guarantee",
+  "selection": [
+    "lowest equal-condition/equal-building/equal-seed lifecycle MSE",
+    "lowest worst-condition downside",
+    "highest equal-condition beneficial-commit recall",
+    "manifest order"
+  ],
+  "none_feasible": "retain all for that method",
+  "final_no_reselection": true,
+  "uncertainty": "two real laboratory houses, same location; report per-building seed means, no population bootstrap CI",
+  "old_single_home_negative_result_preserved": true,
+  "disclaimer": "No positive outcome or broader DT/control-safety guarantee is promised.",
+  "locked_utc": "2026-10-13T04:14:02.725772+00:00",
+  "development_frozen_lifecycle_reference": 0.8014526564952438,
+  "epsilon": 0.008014526564952438,
+  "rho": 0.05,
+  "code_sha256": "cea92b3a61177c5d51efa1ef18dfd757ed3c0e23c29d9e304a745ceb764a6f28",
+  "gate_graph_sha256": "f9dabec4a339005d1f4c0ec8748fb88c1bb8d1b5743e9dfc63e8c5c7fea22442",
+  "data_inventory_sha256": "06c7546772eb21a63482bc1239f5d877b5d8c75cf2ff32301d0cdfabcfed1c53",
+  "source_provenance": [
+    {
+      "building": "BSE1",
+      "seed": 7311,
+      "source_state_hash": "d102f95c5aeb0bdb67dad4b6af669469e9b9d1e10cb0c742b6d0ccfd15d0e714",
+      "checkpoint_sha256": "3b912edc42860d4b559f71c3885b46e6bb7ae0fda7510c8b24cfd016b1489676",
+      "source_segment_hash": "2a2153a792d37fb7c515f067d64d1e85f6d3b8a1e83834e564b4153886ae31be",
+      "source_training_origins": 11069
+    },
+    {
+      "building": "BSE1",
+      "seed": 7312,
+      "source_state_hash": "6c2c4f1bb56b43ac293547ba7ea2c7354e5a65bda183294a352ebe79ac370dcb",
+      "checkpoint_sha256": "b25f4c7e2c211aa44904bc1f64ee93f8de5b120e5f28cb5c0195f15db369fe29",
+      "source_segment_hash": "2a2153a792d37fb7c515f067d64d1e85f6d3b8a1e83834e564b4153886ae31be",
+      "source_training_origins": 11069
+    },
+    {
+      "building": "BSE1",
+      "seed": 7313,
+      "source_state_hash": "188cd642b4bbad045e087687ccc7c8a09caa781885b64c6e5d1886cd7a3683be",
+      "checkpoint_sha256": "1871cfe8497602a2ab3b5a82ee373ec934f77de4a00282d3c1f3170853ccd178",
+      "source_segment_hash": "2a2153a792d37fb7c515f067d64d1e85f6d3b8a1e83834e564b4153886ae31be",
+      "source_training_origins": 11069
+    },
+    {
+      "building": "BSE2",
+      "seed": 7311,
+      "source_state_hash": "69f960c4b97815890ff1daa83b1b20a48da199a290241de79bfc860aef4216c2",
+      "checkpoint_sha256": "0d9b3f19f692dc1fa491a8103f9eb85c79dc07220df230290f1d8bc8d74d5e28",
+      "source_segment_hash": "b60a265677764a578e0d5784f89116225a9e1da4801a31ba114b4b4851ba55b1",
+      "source_training_origins": 11246
+    },
+    {
+      "building": "BSE2",
+      "seed": 7312,
+      "source_state_hash": "5ef2af0c12aaa1f8057a1da9f33efe1fbe8972bc3e6735b14d04812fd16db303",
+      "checkpoint_sha256": "eb46e2f3c925fafa85d6c11276bafb07c46f6d221a5ef5a42c07bfb73b18adbf",
+      "source_segment_hash": "b60a265677764a578e0d5784f89116225a9e1da4801a31ba114b4b4851ba55b1",
+      "source_training_origins": 11246
+    },
+    {
+      "building": "BSE2",
+      "seed": 7313,
+      "source_state_hash": "356955b9fba51df8015cfd59354cbea68fa756e2681ab0f290be5814e58d8c51",
+      "checkpoint_sha256": "37db98d901b328adbd0984650e71eb5bf534e5c177674eaf63ccb8f26ac6da9a",
+      "source_segment_hash": "b60a265677764a578e0d5784f89116225a9e1da4801a31ba114b4b4851ba55b1",
+      "source_training_origins": 11246
+    }
+  ],
+  "dependency_sha256": {
+    "core/engine.py": "b143046aac84e62ab098c5cb5f1666dafe4fe24419ea8b164acdf2c8cbee23a6",
+    "core/freeze.py": "e1222302fbd43dfc5a206a2ee9718febb35a73daf1f10214ef2d67b2ad987122",
+    "core/joint_dag.py": "9020dc8cced08766c0bb02e5103578e3da958d02c2f504f793e4d3ebda76374a",
+    "core/models.py": "b38b29b74ff4191add5e8c48e9d916529afb67f801830c68e290f07deacfa656",
+    "core/protocol.py": "48254f026a096767271ef784e5ed22f8b24ab3369bf3614a8e23c80b626eff15",
+    "core/statistics.py": "e8ef1e2963c60e8b3102d48e19472d902f2666b5c5a5b204a5cd1c6dcbe7a415",
+    "core/status.py": "2e2bf8e4b4394575aa6e020ed9785f641fa83f60649ae575521c14fe3e37669a",
+    "core/v2_engine.py": "f27d0abb6fabb50453cb4e04684b8e7b5f99d27aca7ae1f1755990640f3ce024",
+    "core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vendor/main_cfg.py": "fea128a2649301017a2a8ad6cab3db30392e180c2f3aa1216e9a83fefcd5d005",
+    "vendor/sim.py": "930fa8ebe34a442d53af16a054955580f2d0c41ef2514a3cfd125b0e6905883d",
+    "vendor/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

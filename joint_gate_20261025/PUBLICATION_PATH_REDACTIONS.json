@@ -1,0 +1,23 @@
+[
+  {
+    "file": "frozen_evidence/RAVM_JOINT_CMC_COVERAGE_20261022/bootstrap.py",
+    "change": "Replace machine-specific Windows account name in historic path with LOCAL_USER",
+    "original_sha256": "636abf68092c841e6e631dbb6fd0571a8ed6894eda055af2e928a108f0c6dca1",
+    "published_sha256": "930d5dff8aae45ebdf62bc0b1f615d502cc0022d1f56e9ab4b98eaf05d216769",
+    "scientific_content_changed": false
+  },
+  {
+    "file": "frozen_evidence/RAVM_JOINT_CMC_COVERAGE_20261022/model_store.py",
+    "change": "Replace machine-specific Windows account name in historic path with LOCAL_USER",
+    "original_sha256": "ab8edc4a727bd2f1cf36c4626b9166fc0d23998ee885c38aa5fff6fc1e6e5cab",
+    "published_sha256": "040fe6dae0a0be801ac9099cdb409ea4d6c1b58c41dcad7550ca033995bad921",
+    "scientific_content_changed": false
+  },
+  {
+    "file": "frozen_evidence/D3f2R_CLEANFIX_20261021/INPUT_PACKAGE_IDENTITY.json",
+    "change": "Replace machine-specific Windows account name in historic path with LOCAL_USER",
+    "original_sha256": "f1412a6c5fe835344413577a59358006c897d8d6397e12f90549d77e02b7cab2",
+    "published_sha256": "0574e67f601531fbce79d3d8c9dee339c0b1bdcf5d063746629f3ebf8b96af07",
+    "scientific_content_changed": false
+  }
+]
