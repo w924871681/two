@@ -1,0 +1,281 @@
+{
+  "scope": "Bounded preflight; no optimizer steps or full rerun",
+  "environment": "CPU-only, Python 3.13.5, PyTorch 2.13.0+cu126",
+  "published_16_groups": {
+    "status": "PASS_INPUTS_IMPORTS_ROLES_FAULTS_AND_FORWARD_ONLY",
+    "groups": [
+      {
+        "actual_runner_reached_training_boundary": [
+          "JOINT__l3__m0",
+          "ALWAYS_FT"
+        ],
+        "fault_calls": 36,
+        "fault_sampling": "First center, first/last stage, every stream and both maintenance roles",
+        "forward_shape": [
+          2,
+          1
+        ],
+        "group": "E1",
+        "role_segments": 1152,
+        "source_and_initial_weights": "HASH_AND_STATE_CHECKED"
+      },
+      {
+        "actual_runner_reached_training_boundary": [
+          "JOINT__l3__m0",
+          "ALWAYS_FT"
+        ],
+        "fault_calls": 8,
+        "fault_sampling": "First center, first/last stage, every stream and both maintenance roles",
+        "forward_shape": [
+          2,
+          1
+        ],
+        "group": "E2_GRU_H1",
+        "role_segments": 1152,
+        "source_and_initial_weights": "HASH_AND_STATE_CHECKED"
+      },
+      {
+        "actual_runner_reached_training_boundary": [
+          "JOINT__l3__m0",
+          "ALWAYS_FT"
+        ],
+        "fault_calls": 8,
+        "fault_sampling": "First center, first/last stage, every stream and both maintenance roles",
+        "forward_shape": [
+          2,
+          4
+        ],
+        "group": "E2_GRU_H4",
+        "role_segments": 1152,
+        "source_and_initial_weights": "HASH_AND_STATE_CHECKED"
+      },
+      {
+        "actual_runner_reached_training_boundary": [
+          "JOINT__l3__m0",
+          "ALWAYS_FT"
+        ],
+        "fault_calls": 8,
+        "fault_sampling": "First center, first/last stage, every stream and both maintenance roles",
+        "forward_shape": [
+          2,
+          1
+        ],
+        "group": "E2_MLP_H1",
+        "role_segments": 1152,
+        "source_and_initial_weights": "HASH_AND_STATE_CHECKED"
+      },
+      {
+        "actual_runner_reached_training_boundary": [
+          "JOINT__l3__m0",
+          "ALWAYS_FT"
+        ],
+        "fault_calls": 8,
+        "fault_sampling": "First center, first/last stage, every stream and both maintenance roles",
+        "forward_shape": [
+          2,
+          4
+        ],
+        "group": "E2_MLP_H4",
+        "role_segments": 1152,
+        "source_and_initial_weights": "HASH_AND_STATE_CHECKED"
+      },
+      {
+        "actual_runner_reached_training_boundary": [
+          "JOINT__l3__m0",
+          "ALWAYS_FT"
+        ],
+        "fault_calls": 8,
+        "fault_sampling": "First center, first/last stage, every stream and both maintenance roles",
+        "forward_shape": [
+          2,
+          1
+        ],
+        "group": "E2_TCN_H1",
+        "role_segments": 1152,
+        "source_and_initial_weights": "HASH_AND_STATE_CHECKED"
+      },
+      {
+        "actual_runner_reached_training_boundary": [
+          "JOINT__l3__m0",
+          "ALWAYS_FT"
+        ],
+        "fault_calls": 8,
+        "fault_sampling": "First center, first/last stage, every stream and both maintenance roles",
+        "forward_shape": [
+          2,
+          4
+        ],
+        "group": "E2_TCN_H4",
+        "role_segments": 1152,
+        "source_and_initial_weights": "HASH_AND_STATE_CHECKED"
+      },
+      {
+        "actual_runner_reached_training_boundary": [
+          "JOINT__l3__m0",
+          "ALWAYS_FT"
+        ],
+        "fault_calls": 12,
+        "fault_sampling": "First center, first/last stage, every stream and both maintenance roles",
+        "forward_shape": [
+          2,
+          1
+        ],
+        "group": "E4_thermbuild_BSE1",
+        "role_segments": 80,
+        "source_and_initial_weights": "HASH_AND_STATE_CHECKED"
+      },
+      {
+        "actual_runner_reached_training_boundary": [
+          "JOINT__l3__m0",
+          "ALWAYS_FT"
+        ],
+        "fault_calls": 12,
+        "fault_sampling": "First center, first/last stage, every stream and both maintenance roles",
+        "forward_shape": [
+          2,
+          1
+        ],
+        "group": "E4_thermbuild_BSE2",
+        "role_segments": 76,
+        "source_and_initial_weights": "HASH_AND_STATE_CHECKED"
+      },
+      {
+        "actual_runner_reached_training_boundary": [
+          "JOINT__l3__m0",
+          "ALWAYS_FT"
+        ],
+        "fault_calls": 16,
+        "fault_sampling": "First center, first/last stage, every stream and both maintenance roles",
+        "forward_shape": [
+          2,
+          1
+        ],
+        "group": "E4_uci_T1",
+        "role_segments": 48,
+        "source_and_initial_weights": "HASH_AND_STATE_CHECKED"
+      },
+      {
+        "actual_runner_reached_training_boundary": [
+          "JOINT__l3__m0",
+          "ALWAYS_FT"
+        ],
+        "fault_calls": 16,
+        "fault_sampling": "First center, first/last stage, every stream and both maintenance roles",
+        "forward_shape": [
+          2,
+          1
+        ],
+        "group": "E4_uci_T2",
+        "role_segments": 48,
+        "source_and_initial_weights": "HASH_AND_STATE_CHECKED"
+      },
+      {
+        "actual_runner_reached_training_boundary": [
+          "JOINT__l3__m0",
+          "ALWAYS_FT"
+        ],
+        "fault_calls": 16,
+        "fault_sampling": "First center, first/last stage, every stream and both maintenance roles",
+        "forward_shape": [
+          2,
+          1
+        ],
+        "group": "E4_uci_T3",
+        "role_segments": 48,
+        "source_and_initial_weights": "HASH_AND_STATE_CHECKED"
+      },
+      {
+        "actual_runner_reached_training_boundary": [
+          "JOINT__l3__m0",
+          "ALWAYS_FT"
+        ],
+        "fault_calls": 4,
+        "fault_sampling": "First center, first/last stage, every stream and both maintenance roles",
+        "forward_shape": [
+          2,
+          1
+        ],
+        "group": "E5_COST_R1",
+        "role_segments": 48,
+        "source_and_initial_weights": "HASH_AND_STATE_CHECKED"
+      },
+      {
+        "actual_runner_reached_training_boundary": [
+          "JOINT__l3__m0",
+          "ALWAYS_FT"
+        ],
+        "fault_calls": 4,
+        "fault_sampling": "First center, first/last stage, every stream and both maintenance roles",
+        "forward_shape": [
+          2,
+          1
+        ],
+        "group": "E5_COST_R2",
+        "role_segments": 48,
+        "source_and_initial_weights": "HASH_AND_STATE_CHECKED"
+      },
+      {
+        "actual_runner_reached_training_boundary": [
+          "JOINT__l3__m0",
+          "ALWAYS_FT"
+        ],
+        "fault_calls": 4,
+        "fault_sampling": "First center, first/last stage, every stream and both maintenance roles",
+        "forward_shape": [
+          2,
+          1
+        ],
+        "group": "E5_COST_R3",
+        "role_segments": 48,
+        "source_and_initial_weights": "HASH_AND_STATE_CHECKED"
+      },
+      {
+        "actual_runner_reached_training_boundary": [
+          "JOINT__l3__m0",
+          "ALWAYS_FT"
+        ],
+        "fault_calls": 12,
+        "fault_sampling": "First center, first/last stage, every stream and both maintenance roles",
+        "forward_shape": [
+          2,
+          1
+        ],
+        "group": "Main",
+        "role_segments": 1536,
+        "source_and_initial_weights": "HASH_AND_STATE_CHECKED"
+      }
+    ],
+    "weight_loads": 660,
+    "optimizer_steps": 0,
+    "full_training_executed": false,
+    "training_equivalence_claim": false,
+    "full_lifecycle_launcher_test": "NOT_RUN_NO_NEW_TRAINING_AUTHORIZED",
+    "boundary": "Supplied frozen source/M0 and preprocessed Final inputs. Upstream source fitting and development selection are documented, not independently rerun."
+  },
+  "local_only_E3_not_distributed": {
+    "status": "PASS_INPUTS_IMPORTS_ROLES_FAULTS_AND_FORWARD_ONLY",
+    "groups": [
+      {
+        "actual_runner_reached_training_boundary": [
+          "JOINT__l3__m0",
+          "ALWAYS_FT"
+        ],
+        "fault_calls": 8,
+        "fault_sampling": "First center, first/last stage, every stream and both maintenance roles",
+        "forward_shape": [
+          2,
+          1
+        ],
+        "group": "E3",
+        "role_segments": 1920,
+        "source_and_initial_weights": "HASH_AND_STATE_CHECKED"
+      }
+    ],
+    "weight_loads": 123,
+    "optimizer_steps": 0,
+    "full_training_executed": false,
+    "training_equivalence_claim": false,
+    "full_lifecycle_launcher_test": "NOT_RUN_NO_NEW_TRAINING_AUTHORIZED",
+    "boundary": "Supplied frozen source/M0 and preprocessed Final inputs. Upstream source fitting and development selection are documented, not independently rerun."
+  }
+}

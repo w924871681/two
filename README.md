@@ -2,6 +2,8 @@
 
 > **Current Joint Gate revision (25 October 2026):** [Manuscript, experiments, figures, and reproducibility artifacts](joint_gate_20261025/README.md). The material below documents the earlier version.
 
+> **Reproduction extension (27 October 2026):** [Frozen inputs and instructions for 16 groups](joint_gate_20261025/reproduction_extension_20261027/README.md); E3 has a documented third-party access limitation.
+
 This repository accompanies the second RAVM-DT paper. It publishes the original implementation, frozen configurations, completed experimental outputs, manuscript, and figure sources. The release packages existing research artifacts; no models were retrained for publication.
 
 本仓库对应第二篇 RAVM-DT 论文，公开原始实现、冻结配置、已完成的实验输出、论文及图表源文件。本次发布整理已有成果，没有重新训练或重新生成实验轨迹。
